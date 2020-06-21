@@ -32,3 +32,7 @@ end
 # Performance-booster for watching directories on Windows
 gem "wdm", "~> 0.1.1", :platforms => [:mingw, :x64_mingw, :mswin]
 
+# Troubleshoot (by Nanddeep)
+# Issue# 1: Error runing "bundle exec jekyll serve --livereload". cannot load such file -- 2.7/rubyeventmachine
+# gem uninstall eventmachine
+# gem install eventmachine --platform=ruby
