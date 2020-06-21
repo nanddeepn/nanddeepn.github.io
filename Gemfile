@@ -10,7 +10,8 @@ source "https://rubygems.org"
 # Happy Jekylling!
 # gem "jekyll", "~> 4.1.0"
 # This is the default theme for new Jekyll sites. You may change this to anything you like.
-gem "minima", "~> 2.5"
+# gem "minimal-mistakes-jekyll", "~> 2.5"
+gem "minimal-mistakes-jekyll"
 # If you want to use GitHub Pages, remove the "gem "jekyll"" above and uncomment the line below. 
 # To upgrade, run below:
 # bundle update
@@ -36,3 +37,10 @@ gem "wdm", "~> 0.1.1", :platforms => [:mingw, :x64_mingw, :mswin]
 # Issue# 1: Error runing "bundle exec jekyll serve --livereload". cannot load such file -- 2.7/rubyeventmachine
 # gem uninstall eventmachine
 # gem install eventmachine --platform=ruby
+
+# Findings (by Nanddeep)
+# Finding# 1: Create theme
+# bundle exec jekyll build
+
+# Finding# 2: Open theme folder
+# bundle info --path minima
