@@ -28,7 +28,7 @@ twitter_username: NanddeepNachan
 github_username:  nanddeepn
 
 # Build settings
-theme: minimal-mistakes-jekyll
+theme: minima
 plugins:
   - jekyll-feed
 
