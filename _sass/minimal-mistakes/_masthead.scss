@@ -92,3 +92,23 @@
     font-weight: 700;
   }
 }
+
+.site-maintitle {
+  font-family: 'Droid Serif', sans-serif;
+  font-size: 36px;
+  margin-top: 20px;
+  margin-bottom: 10px;
+  line-height: 1.7;
+}
+
+.site-maindescription {
+  font-family: 'Droid Serif', sans-serif;
+  font-size: 15px;
+  line-height: 0px !important;
+  margin-bottom: 20px !important;
+}
+
+.site-maintitle a, p.site-maindescription, .main-navigation ul li.current-menu-item a {
+  color: #FF5722;
+  text-decoration: none;
+}
