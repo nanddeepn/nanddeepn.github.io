@@ -138,6 +138,15 @@ nav.header-nav {
   border-bottom: 1px dashed #ccc;
 }
 
+.container {
+  font-family: 'Droid Serif', sans-serif;
+  padding-right: 15px;
+  padding-left: 15px;
+  margin-right: auto;
+  margin-left: auto;
+  max-width: 95% !important;
+}
+
 @media (min-width: 1000px) {
   .container {
     width: 100%;
