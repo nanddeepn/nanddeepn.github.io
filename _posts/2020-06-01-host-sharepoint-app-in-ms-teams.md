@@ -122,3 +122,5 @@ We can create a standalone and static app inside MS Teams that links to the Shar
 
 - Create a SharePoint intranet in Teams ([aka.ms/sharepoint-app-in-teams](http://aka.ms/sharepoint-app-in-teams))
 - Admin settings for apps in Microsoft Teams ([aka.ms/ManageAppsInTeams](http://aka.ms/ManageAppsInTeams))
+
+[![HitCount](http://hits.dwyl.com/nanddeepn/nanddeepngithubio/posts/2020-06-01-host-sharepoint-app-in-ms-teams/.svg)](http://hits.dwyl.com/nanddeepn/nanddeepngithubio/posts/2020-06-01-host-sharepoint-app-in-ms-teams/)
