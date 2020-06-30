@@ -19,6 +19,8 @@ tags:
 last_modified_at: 2020-06-18T00:00:00-00:00
 ---
 
+[![HitCount](http://hits.dwyl.com/nanddeepn/nanddeepngithubio/posts/2020-06-18-facial-recognition-in-sharepoint/.svg)](http://hits.dwyl.com/nanddeepn/nanddeepngithubio/posts/2020-06-18-facial-recognition-in-sharepoint/)
+
 ## Overview
 
 Face API is an AI service that analyses faces in images. Face API is one of the useful offerings of MS Azure Cognitive Services. The Face API perceives faces and attributes in an image. It recognizes the range of facial expressions like happiness, contempt, neutrality, and fear; and recognition and grouping of similar faces in images.
@@ -200,5 +202,3 @@ The Face API can be useful in the below scenarios:
 
 - Face recognition ([https://azure.microsoft.com/en-in/services/cognitive-services/face/](https://azure.microsoft.com/en-in/services/cognitive-services/face/))
 - Face API Pricing ([https://azure.microsoft.com/en-in/pricing/details/cognitive-services/face-api/](https://azure.microsoft.com/en-in/pricing/details/cognitive-services/face-api/))
-
-[![HitCount](http://hits.dwyl.com/nanddeepn/nanddeepngithubio/posts/2020-06-18-facial-recognition-in-sharepoint/.svg)](http://hits.dwyl.com/nanddeepn/nanddeepngithubio/posts/2020-06-18-facial-recognition-in-sharepoint/)
