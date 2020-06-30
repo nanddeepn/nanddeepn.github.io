@@ -200,3 +200,5 @@ The Face API can be useful in the below scenarios:
 
 - Face recognition ([https://azure.microsoft.com/en-in/services/cognitive-services/face/](https://azure.microsoft.com/en-in/services/cognitive-services/face/))
 - Face API Pricing ([https://azure.microsoft.com/en-in/pricing/details/cognitive-services/face-api/](https://azure.microsoft.com/en-in/pricing/details/cognitive-services/face-api/))
+
+[![HitCount](http://hits.dwyl.com/nanddeepn/nanddeepn.github.io/edit/master/_posts/2020-06-18-facial-recognition-in-sharepoint.md)
