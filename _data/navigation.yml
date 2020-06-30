@@ -6,3 +6,18 @@ main:
     url: /categories/  
   - title: "About"
     url: /about-me/
+
+# Primary menu links
+primarymenu:
+  - title: "Home"
+    url: /about-me/
+  - title: "Blog"
+    url: /about-me/
+  - title: "Videos"
+    url: /about-me/
+  - title: "Publications"
+    url: /about-me/
+  - title: "Public Speaking"
+    url: /about-me/
+  - title: "Community Contributions"
+    url: /about-me/

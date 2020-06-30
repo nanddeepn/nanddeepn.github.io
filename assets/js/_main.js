@@ -15,6 +15,14 @@ $(document).ready(function() {
     })
   );
 
+  jQuery(window).on('scroll', function() {
+    if ($(this).scrollTop() > 100) {
+        $('.primary_menu').addClass("affix");
+    } else {
+        $('.primary_menu').removeClass("affix");
+    }
+  });
+
   // FitVids init
   $("#main").fitVids();
 
