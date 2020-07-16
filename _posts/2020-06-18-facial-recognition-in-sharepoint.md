@@ -39,7 +39,7 @@ Let us start by building our first building block in MS Azure Cognitive Services
 
 **Create a Face API**
 
-1. Fill in the details to create the Face API.
+5. Fill in the details to create the Face API.
 
 ![](/media/2020-06-18-facial-recognition-in-sharepoint/02.png)
 
@@ -51,12 +51,12 @@ The parameters are as follows:
 - **Pricing tier:** Select tier as per features you want to use. More details at [https://azure.microsoft.com/en-us/pricing/details/cognitive-services/face-api/](https://azure.microsoft.com/en-us/pricing/details/cognitive-services/face-api/)
 - **Resource group:** Select an existing or create a new resource group.
 
-1. Click **Create**.
-2. Once the deployment finishes, the Face API resource will be available to use.
+6. Click **Create**.
+7. Once the deployment finishes, the Face API resource will be available to use.
 
 ![](/media/2020-06-18-facial-recognition-in-sharepoint/03.png)
 
-1. Note down the API Key and endpoint to authenticate your applications and start sending calls to the service.
+8. Note down the API Key and endpoint to authenticate your applications and start sending calls to the service.
 
 ## Test the Face API
 
@@ -78,8 +78,8 @@ We will use the API Console to quickly try the API without writing any code.
 
 ![](/media/2020-06-18-facial-recognition-in-sharepoint/06.png)
 
-1. Click **Send**.
-2. The response will be shown as follows:
+4. Click **Send**.
+5. The response will be shown as follows:
 
 ![](/media/2020-06-18-facial-recognition-in-sharepoint/07.png)
 
@@ -99,25 +99,25 @@ Follow the below steps to set up Power Automate flow:
 
 ![](/media/2020-06-18-facial-recognition-in-sharepoint/09.png)
 
-1. Select a template “When a new file is added in SharePoint, complete a custom”.
+2. Select a template “When a new file is added in SharePoint, complete a custom”.
 
 ![](/media/2020-06-18-facial-recognition-in-sharepoint/10.png)
 
-1. Verify your connection to SharePoint.
+3. Verify your connection to SharePoint.
 
 ![](/media/2020-06-18-facial-recognition-in-sharepoint/11.png)
 
-1. Click **Continue**.
-2. Add an activity “Face API”, select action “Detect faces (preview)”.
+4. Click **Continue**.
+5. Add an activity “Face API”, select action “Detect faces (preview)”.
 
 ![](/media/2020-06-18-facial-recognition-in-sharepoint/12.png)
 
-1. Specify the Connection Name, API Key, and Site URL from MS Azure Face API service.
+6. Specify the Connection Name, API Key, and Site URL from MS Azure Face API service.
 
 ![](/media/2020-06-18-facial-recognition-in-sharepoint/13.png)
 
-1. Click **Create**.
-2. Specify the **Image Url** as **Link to item**.
+7. Click **Create**.
+8. Specify the **Image Url** as **Link to item**.
 
 ![](/media/2020-06-18-facial-recognition-in-sharepoint/14.png)
 
@@ -141,12 +141,12 @@ We will create a storage account inside MS Azure to temporarily hold the image u
 
 ![](/media/2020-06-18-facial-recognition-in-sharepoint/16.png)
 
-1. Click **Create**.
-2. Once the storage account is ready, create the container inside it.
+4. Click **Create**.
+5. Once the storage account is ready, create the container inside it.
 
 ![](/media/2020-06-18-facial-recognition-in-sharepoint/17.png)
 
-1. Click **Create**.
+6. Click **Create**.
 
 ## Return to Flow
 
@@ -156,23 +156,23 @@ Now let’s use this container as temporary storage for uploaded images to the S
 
 ![](/media/2020-06-18-facial-recognition-in-sharepoint/18.png)
 
-1. Add an activity “Azure Blob Storage”, select action “Create blob”.
+2. Add an activity “Azure Blob Storage”, select action “Create blob”.
 
 ![](/media/2020-06-18-facial-recognition-in-sharepoint/19.png)
 
-1. Specify the connection name, Storage account name, and Storage account access key from MS Azure.
+3. Specify the connection name, Storage account name, and Storage account access key from MS Azure.
 
 ![](/media/2020-06-18-facial-recognition-in-sharepoint/20.png)
 
-1. In the Create blob, specify container name as folder path, file name as Blob name, and file content as the Blob content.
+4. In the Create blob, specify container name as folder path, file name as Blob name, and file content as the Blob content.
 
 ![](/media/2020-06-18-facial-recognition-in-sharepoint/21.png)
 
-1. Add an action “Detect faces (Preview)”. Compose the Image Url as the URL of the storage account + Path to the uploaded file.
+5. Add an action “Detect faces (Preview)”. Compose the Image Url as the URL of the storage account + Path to the uploaded file.
 
 ![](/media/2020-06-18-facial-recognition-in-sharepoint/22.png)
 
-1. Add an action “Update file properties”.
+6. Add an action “Update file properties”.
 
 ![](/media/2020-06-18-facial-recognition-in-sharepoint/23.png)
 
