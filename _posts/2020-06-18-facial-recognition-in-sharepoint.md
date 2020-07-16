@@ -3,9 +3,9 @@ title: "Embed facial recognition into SharePoint"
 date: "2020-06-18"
 share: true
 header:
-  overlay_image: media/2020-06-18-facial-recognition-in-sharepoint/24.png
+  image: media/2020-06-18-facial-recognition-in-sharepoint/24.png
+  teaser: media/2020-06-18-facial-recognition-in-sharepoint/24.png
 #   caption: "Photo credit: [**Google**](http://www.google.com)"
-#   teaser: media/2020-06-18-facial-recognition-in-sharepoint/24.png
 #   actions:
 #     - label: "Click to see full image"
 #       url: "media/2020-06-18-facial-recognition-in-sharepoint/24.png"
