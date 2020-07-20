@@ -1,6 +1,20 @@
 ---
 title: "Azure Cognitive Services Computer Vision API to analyze images for SharePoint Online"
 date: "2020-04-23"
+share: true
+header:
+  image: media/2020-04-23-computer-vision-api-to-analyze-images/21.png
+  teaser: media/2020-04-23-computer-vision-api-to-analyze-images/21.png
+categories:
+  - AI
+  - Computer Vision API
+  - SharePoint
+  - Azure Cognitive Services
+  - Power Automate
+tags:
+  - "2020"
+  - April 2020
+last_modified_at: 2020-04-23T00:00:00-00:00
 ---
 
 ## Overview
@@ -11,12 +25,12 @@ As we upload images to SharePoint, we should be able to analyze them and attach 
 
 As of today, SharePoint Online does not support this functionality out of the box. However, we can leverage the below components to develop a low code / no-code solution.
 
-1. **Azure Cognitive service:** Computer Vision API: This helps to identify the image content, classify the image, and categorize it.
+1. **Azure Cognitive Service (Computer Vision API):** This helps to identify the image content, classify the image, and categorize it.
 2. **Power Automate (MS Flow):** This helps to integrate Computer Vision API for analyzing images uploaded to SharePoint.
 
 The high-level implementation will be as follows:
 
-![](https://nanddeepnachanblogs.com/wp-content/uploads/2020/04/word-image-3.png)
+![](/media/2020-04-23-computer-vision-api-to-analyze-images/01.png)
 
 ## Set up Computer Vision API
 
@@ -29,28 +43,27 @@ Let us start by building our first building block in MS Azure Cognitive Services
 3. Select **AI + Machine Learning**
 4. Select **Computer Vision**.
 
-![](https://nanddeepnachanblogs.com/wp-content/uploads/2020/04/word-image-4.png)
+![](/media/2020-04-23-computer-vision-api-to-analyze-images/02.png)
 
 **Create a Computer Vision**
 
 1. Fill in the details to create the computer vision.
 
-![](https://nanddeepnachanblogs.com/wp-content/uploads/2020/04/word-image-5.png)
+    ![](/media/2020-04-23-computer-vision-api-to-analyze-images/03.png)
 
-The parameters are as follows:
+    The parameters are as follows:
+    - **Name:** Unique name of computer vision.
+    - **Subscription:** Select Azure subscription to create the computer vision service under it.
+    - **Location:** The location to host computer vision service.
+    - **Pricing tier:** Select tier as per features you want to use. More details at [https://azure.microsoft.com/en-us/pricing/details/cognitive-services/computer-vision/](https://azure.microsoft.com/en-us/pricing/details/cognitive-services/computer-vision/)
+    - **Resource group:** Select an existing or create a new resource group.
 
-- **Name:** Unique name of computer vision.
-- **Subscription:** Select Azure subscription to create the computer vision service under it.
-- **Location:** The location to host computer vision service.
-- **Pricing tier:** Select tier as per features you want to use. More details at [https://azure.microsoft.com/en-us/pricing/details/cognitive-services/computer-vision/](https://azure.microsoft.com/en-us/pricing/details/cognitive-services/computer-vision/)
-- **Resource group:** Select an existing or create a new resource group.
+2. Click **Create**.
+3. Once the deployment finishes, the computer vision resource will be available to use.
 
-1. Click **Create**.
-2. Once the deployment finishes, the computer vision resource will be available to use.
+    ![](/media/2020-04-23-computer-vision-api-to-analyze-images/04.png)
 
-![](https://nanddeepnachanblogs.com/wp-content/uploads/2020/04/word-image-6.png)
-
-1. Note down the API Key and endpoint to authenticate your applications and start sending calls to the service.
+4. Note down the API Key and endpoint to authenticate your applications and start sending calls to the service.
 
 ## Test the Computer Vision
 
@@ -59,26 +72,27 @@ We will use the API Console to quickly try the API without writing any code.
 1. Click **API Console** under step 2 from the above image.
 2. Select the testing console in the region where you created your resource.
 
-![](https://nanddeepnachanblogs.com/wp-content/uploads/2020/04/word-image-7.png)
+    ![](/media/2020-04-23-computer-vision-api-to-analyze-images/05.png)
 
-1. The selection of the region will form the request URL.
-2. Specify the host and query parameters.
+3. The selection of the region will form the request URL.
+4. Specify the host and query parameters.
 
-![](https://nanddeepnachanblogs.com/wp-content/uploads/2020/04/word-image-8.png)
+    ![](/media/2020-04-23-computer-vision-api-to-analyze-images/06.png)
 
-1. Specify the API key in Headers.
-2. In the request body, provide the URL to the image.
+5. Specify the API key in Headers.
+6. In the request body, provide the URL to the image.
 
-![](https://nanddeepnachanblogs.com/wp-content/uploads/2020/04/word-image-9.png)
+    ![](/media/2020-04-23-computer-vision-api-to-analyze-images/07.png)
 
-1. The HTTP request will be composed as follows.
-2. Click Send.
+7. The HTTP request will be composed as follows.
+8. Click **Send**.
 
-![](https://nanddeepnachanblogs.com/wp-content/uploads/2020/04/word-image-10.png)
+    ![](/media/2020-04-23-computer-vision-api-to-analyze-images/08.png)
 
-1. The response will be shown as follows:
+9. The response will be shown as follows:
 
-![](https://nanddeepnachanblogs.com/wp-content/uploads/2020/04/word-image-11.png)
+![](/media/2020-04-23-computer-vision-api-to-analyze-images/09.png)
+
 
 ## Set up Power Automate Flow.
 
@@ -89,37 +103,38 @@ Follow the below steps to set up Power Automate flow:
 1. Open Power Automate portal.
 2. Create an **Automated flow**.
 
-![](https://nanddeepnachanblogs.com/wp-content/uploads/2020/04/word-image-12.png)
+    ![](/media/2020-04-23-computer-vision-api-to-analyze-images/10.png)
 
-1. Name the flow.
-2. Choose the flow’s trigger as “When a file is created in a folder”.
+3. Name the flow.
+4. Choose the flow’s trigger as “When a file is created in a folder”.
 
-![](https://nanddeepnachanblogs.com/wp-content/uploads/2020/04/word-image-13.png)
+    ![](/media/2020-04-23-computer-vision-api-to-analyze-images/11.png)
 
-1. Click **Create**.
-2. Specify the site address and folder Id.
+5. Click **Create**.
+6. Specify the site address and folder Id.
 
-![](https://nanddeepnachanblogs.com/wp-content/uploads/2020/04/word-image-14.png)
+    ![](/media/2020-04-23-computer-vision-api-to-analyze-images/12.png)
 
-1. Click “+ New step”.
-2. Find the connector “Computer Vision API”.
-3. Select action as “Analyze Image (preview)”.
+7. Click **+ New step**.
+8. Find the connector **Computer Vision API**.
+9. Select action as **Analyze Image (preview)**.
 
-![](https://nanddeepnachanblogs.com/wp-content/uploads/2020/04/word-image-15.png)
+    ![](/media/2020-04-23-computer-vision-api-to-analyze-images/13.png)
 
-1. Configure the “Computer Vision API” connection.
-2. Specify the name for the connection, cognitive services account key and endpoint.
+10. Configure the **Computer Vision API** connection.
+11. Specify the name for the connection, cognitive services account key and endpoint.
 
-![](https://nanddeepnachanblogs.com/wp-content/uploads/2020/04/word-image-16.png)
+    ![](/media/2020-04-23-computer-vision-api-to-analyze-images/14.png)
 
-1. Click **Create**.
-2. Specify the image source and content to analyze the image.
+12. Click **Create**.
+13. Specify the image source and content to analyze the image.
 
-![](https://nanddeepnachanblogs.com/wp-content/uploads/2020/04/word-image-17.png)
+    ![](/media/2020-04-23-computer-vision-api-to-analyze-images/15.png)
 
-1. Upload an image in the SharePoint library. The flow will run and we will have an output like below:
+14. Upload an image in the SharePoint library. The flow will run and we will have an output like below:
 
-![](https://nanddeepnachanblogs.com/wp-content/uploads/2020/04/word-image-18.png)
+![](/media/2020-04-23-computer-vision-api-to-analyze-images/16.png)
+
 
 ## Update Metadata to SharePoint
 
@@ -127,33 +142,35 @@ We will have to parse the response and store the metadata to SharePoint.
 
 1. Add an action "Send an HTTP request to SharePoint" to get to the file to update the properties.
 
-![](https://nanddeepnachanblogs.com/wp-content/uploads/2020/04/word-image-19.png)
+    ![](/media/2020-04-23-computer-vision-api-to-analyze-images/17.png)
 
-- Site address: Specify SharePoint site url
-- Method: Get
-- Uri: /\_api/web/getFileByServerRelativeUrl('File Path')?$select=ListItemAllFields/ID&$expand=ListItemAllFields
-- Headers: key: accept, value: application/json | key: content-type, value: application/json
+    - Site address: Specify SharePoint site url
+    - Method: Get
+    - Uri: /\_api/web/getFileByServerRelativeUrl('File Path')?$select=ListItemAllFields/ID&$expand=ListItemAllFields
+    - Headers: key: accept, value: application/json | key: content-type, value: application/json
 
-1. Run the flow and get the Body from the output of "Send an HTTP request to SharePoint".
+2. Run the flow and get the Body from the output of "Send an HTTP request to SharePoint".
 
-![](https://nanddeepnachanblogs.com/wp-content/uploads/2020/04/word-image-20.png)
+    ![](/media/2020-04-23-computer-vision-api-to-analyze-images/18.png)
 
-1. Add an action “Parse JSON”. Specify the content as Body.
-2. Generate the schema from a sample of previous runs.
+3. Add an action **Parse JSON**. Specify the content as Body.
+4. Generate the schema from a sample of previous runs.
 
-![](https://nanddeepnachanblogs.com/wp-content/uploads/2020/04/word-image-21.png)
+    ![](/media/2020-04-23-computer-vision-api-to-analyze-images/19.png)
 
-1. Add an action “Update file properties”.
+5. Add an action **Update file properties**.
 
-![](https://nanddeepnachanblogs.com/wp-content/uploads/2020/04/word-image-22.png)
+![](/media/2020-04-23-computer-vision-api-to-analyze-images/20.png)
 
 Update our custom “Cognitive Tags” field with tags using the expression: join(body('Analyze\_Image')?\['description'\]?\['tags'\],',')
+
 
 ## Test the Solution
 
 In the SharePoint library, upload an image. This will trigger a flow. A flow will call Computer Vision API for analyzing images uploaded to SharePoint. The flow will then update the returned metadata to the SharePoint column inside the library.
 
-![](https://nanddeepnachanblogs.com/wp-content/uploads/2020/04/word-image-23.png)
+![](/media/2020-04-23-computer-vision-api-to-analyze-images/21.png)
+
 
 ## Summary
 
