@@ -1,6 +1,17 @@
 ---
 title: "Reusable PnP React control: TreeView"
 date: "2020-05-21"
+share: true
+categories:
+  - SharePoint
+  - SharePoint Framework
+header:
+  image: media/2020-05-21-pnp-control-treeview/03.png
+  teaser: media/2020-05-21-pnp-control-treeview/03.png
+tags:
+  - "2020"
+  - May 2020
+last_modified_at: 2020-05-21T00:00:00-00:00
 ---
 
 ## Overview
@@ -14,7 +25,7 @@ During this article, we will explore the TreeView control implementation, how to
 ## The Implementation
 
 The solution structure of this control is as follows:
-
+```
 treeView
 |–– ITreeItem.ts
 |–– TreeView.tsx
@@ -22,6 +33,7 @@ treeView
 |–– TreeItemActionsControl.tsx
 |–– ButtonTreeItemAction.tsx
 |–– DropdownTreeItemAction.tsx
+```
 
 Now, let us explore these important components of the solution:
 
@@ -52,56 +64,50 @@ Renders the context menu as Dropdown action for TreeItem component, when treeIte
 ## Set up SPFx Solution
 
 1. Open a command prompt. Create a directory for the SPFx solution.
+    `md spfx-react-treeview-control`
 
-md spfx-react-treeview-control
+2. Navigate to the above created directory.
+    `cd spfx-react-treeview-control`
 
-1. Navigate to the above created directory.
+3. Run the Yeoman SharePoint Generator to create the solution.
+    `yo @microsoft/sharepoint`
 
-cd spfx-react-treeview-control
+4. Yeoman generator will present you with the wizard by asking questions about the solution to be created.
+    ![](/media/2020-05-21-pnp-control-treeview/01.png)
 
-1. Run the Yeoman SharePoint Generator to create the solution.
+    When prompted:
+    - Accept the default **spfx-react-treeview-control** as your solution name, and then select Enter.
+    - Select **SharePoint Online only (latest)**, and then select Enter.
+    - Select **Use the current folder** as the location for the files.
+    - Select **N** to allow the solution to be deployed to all sites immediately.
+    - Select **N** on the question if the solution contains unique permissions.
+    - Select **WebPart** as the client-side component type to be created.
+    - Name the web part as **TreeViewDemo**.
+    - Provide the description as **Using TreeView control in SPFx Solution**.
+    - Select the framework to use as **React**.
 
-yo @microsoft/sharepoint
+5. Yeoman generator will perform the scaffolding process to generate the solution. The scaffolding process will take a significant amount of time.
+6. Once the scaffolding process is completed, on the command prompt type below command to open the solution in the code editor of your choice.
 
-1. Yeoman generator will present you with the wizard by asking questions about the solution to be created.
+`code .`
 
-![](https://nanddeepnachanblogs.com/wp-content/uploads/2020/05/word-image-44.png)
-
-When prompted:
-
-- Accept the default **spfx-react-treeview-control** as your solution name, and then select Enter.
-- Select **SharePoint Online only (latest)**, and then select Enter.
-- Select **Use the current folder** as the location for the files.
-- Select **N** to allow the solution to be deployed to all sites immediately.
-- Select **N** on the question if the solution contains unique permissions.
-- Select **WebPart** as the client-side component type to be created.
-- Name the web part as **TreeViewDemo**.
-- Provide the description as **Using TreeView control in SPFx Solution**.
-- Select the framework to use as **React**.
-
-1. Yeoman generator will perform the scaffolding process to generate the solution. The scaffolding process will take a significant amount of time.
-2. Once the scaffolding process is completed, on the command prompt type below command to open the solution in the code editor of your choice.
-
-code .
-
-NPM Package
+## NPM Package
 
 **@pnp/spfx-controls-react** ([https://sharepoint.github.io/sp-dev-fx-controls-react/](https://sharepoint.github.io/sp-dev-fx-controls-react/))
 
 On the command prompt, run below command to include the npm package.
 
-npm install @pnp/spfx-controls-react --save
+`npm install @pnp/spfx-controls-react --save`
 
-Using TreeView control in SPFx Solution
+## Using TreeView control in SPFx Solution
 
 1. Open the React component file at “src\\webparts\\treeViewDemo\\components\\TreeViewDemo.tsx”
 2. Add below imports.
+    `import { TreeView, ITreeItem, TreeViewSelectionMode, TreeItemActionsDisplayMode } from "@pnp/spfx-controls-react/lib/TreeView";`
 
-import { TreeView, ITreeItem, TreeViewSelectionMode, TreeItemActionsDisplayMode } from "@pnp/spfx-controls-react/lib/TreeView";
-
-1. Let us use some dummy data to render TreeView. In real world scenarios, this can come from SharePoint list or any other data source.
-
-private treeItems = \[
+3. Let us use some dummy data to render TreeView. In real world scenarios, this can come from SharePoint list or any other data source.
+    ```typescript
+    private treeItems = [
     {
       key: "R1",
       label: "Root",
@@ -109,7 +115,7 @@ private treeItems = \[
       iconProps: {
         iconName: 'SkypeCheck'
       },
-      actions: \[{
+      actions: [{
         title: "Get item",
         iconProps: {
           iconName: 'Warning',
@@ -121,18 +127,18 @@ private treeItems = \[
         actionCallback: async (treeItem: ITreeItem) => {
           console.log(treeItem);
         }
-      }\],
-      children: \[
+      }],
+      children: [
         {
           key: "1",
           label: "Parent 1",
           selectable: false,
-          children: \[
+          children: [
             {
               key: "3",
               label: "Child 1",
               subLabel: "This is a sub label for node",
-              actions: \[{
+              actions: [{
                 title: "Share",
                 iconProps: {
                   iconName: 'Share'
@@ -141,12 +147,12 @@ private treeItems = \[
                 actionCallback: async (treeItem: ITreeItem) => {
                   console.log(treeItem);
                 }
-              }\],
-              children: \[
+              }],
+              children: [
                 {
                   key: "gc1",
                   label: "Grand Child 1",
-                  actions: \[{
+                  actions: [{
                     title: "Get Grand Child item",
                     iconProps: {
                       iconName: 'Mail'
@@ -155,9 +161,9 @@ private treeItems = \[
                     actionCallback: async (treeItem: ITreeItem) => {
                       console.log(treeItem);
                     }
-                  }\]
+                  }]
                 }
-              \]
+              ]
             },
             {
               key: "4",
@@ -166,7 +172,7 @@ private treeItems = \[
                 iconName: 'SkypeCheck'
               }
             }
-          \]
+          ]
         },
         {
           key: "2",
@@ -182,71 +188,75 @@ private treeItems = \[
           label: "Parent 4",
           selectable: true
         }
-      \]
+      ]
     },
     {
       key: "R2",
       label: "Root 2",
-      children: \[
+      children: [
         {
           key: "8",
           label: "Parent 5"
         }
-      \]
-    }
-  \];
+      ]
+    }];
+  ```
 
-1. Use the TreeView control in the render method as follows.
+4. Use the TreeView control in the render method as follows.
+    ```typescript
+    public render(): React.ReactElement<ITreeViewDemoProps> {
+      return (
+        <div className={styles.treeViewDemo}>
+          <div className={styles.container}>
+            <div className={styles.row}>
+              <div className={styles.column}>
+                <span className={styles.title}>Tree View PnP Control</span>
 
-public render(): React.ReactElement<ITreeViewDemoProps> {
-    return (
-      <div className={styles.treeViewDemo}>
-        <div className={styles.container}>
-          <div className={styles.row}>
-            <div className={styles.column}>
-              <span className={styles.title}>Tree View PnP Control</span>
-
-              <TreeView
-                items={this.treeItems}
-                defaultExpanded={false}
-                selectionMode={TreeViewSelectionMode.Multiple}
-                selectChildrenIfParentSelected={true}
-                showCheckboxes={true}
-                treeItemActionsDisplayMode={TreeItemActionsDisplayMode.ContextualMenu}
-                defaultSelectedKeys={\['R2', '6'\]}
-                onExpandCollapse={this.onExpandCollapseTree}
-                onSelect={this.onItemSelected}
-                onRenderItem={this.renderCustomTreeItem} />
-                
+                <TreeView
+                  items={this.treeItems}
+                  defaultExpanded={false}
+                  selectionMode={TreeViewSelectionMode.Multiple}
+                  selectChildrenIfParentSelected={true}
+                  showCheckboxes={true}
+                  treeItemActionsDisplayMode={TreeItemActionsDisplayMode.ContextualMenu}
+                  defaultSelectedKeys={\['R2', '6'\]}
+                  onExpandCollapse={this.onExpandCollapseTree}
+                  onSelect={this.onItemSelected}
+                  onRenderItem={this.renderCustomTreeItem} />
+                  
+              </div>
             </div>
           </div>
         </div>
-      </div>
-    );
-  }
+      );
+    }
+    ```
 
-Use the TreeView control in the render method as follows.
+    Use the TreeView control in the render method as follows.
 
-1. Implement **onExpandCollapse** to get the expanded and collapsed tree item.
+5. Implement **onExpandCollapse** to get the expanded and collapsed tree item.
+    ```typescript
+    private onExpandCollapseTree(item: ITreeItem, isExpanded: boolean) {
+      console.log((isExpanded ? "item expanded: " : "item collapsed: ") + item.label);
+    }
+    ```
 
-private onExpandCollapseTree(item: ITreeItem, isExpanded: boolean) {
-  console.log((isExpanded ? "item expanded: " : "item collapsed: ") + item.label);
-}
+    ![](/media/2020-05-21-pnp-control-treeview/02.png)
 
-![](https://nanddeepnachanblogs.com/wp-content/uploads/2020/05/word-image-45.png)
-
-1. Implement **onSelect** to get the selected tree item.
-
+6. Implement **onSelect** to get the selected tree item.
+```typescript
 private onItemSelected(items: ITreeItem\[\]) {
   console.log("items selected: " + items.length);
 }
+```
 
-![](https://nanddeepnachanblogs.com/wp-content/uploads/2020/05/word-image-46.png)
+![](/media/2020-05-21-pnp-control-treeview/03.png)
 
-**Custom Rendering**
+
+### Custom Rendering
 
 You can fully customize how tree items are rendered by providing the onRenderItem callback function and returning whatever JSX.Element you want.
-
+```typescript
 <TreeView
      items={this.treeItems}
      defaultExpanded={false}
@@ -258,9 +268,10 @@ You can fully customize how tree items are rendered by providing the onRenderIte
      onExpandCollapse={this.onExpandCollapseTree}
      onSelect={this.onItemSelected}
      onRenderItem={this.renderCustomTreeItem} />
+```
 
 Implement the **onRenderItem** as below:
-
+```typescript
 private renderCustomTreeItem(item: ITreeItem): JSX.Element {
   return (
     <span>
@@ -272,8 +283,9 @@ private renderCustomTreeItem(item: ITreeItem): JSX.Element {
     </span>
   );
 }
+```
 
-**Selection Modes**
+### Selection Modes
 
 The selection mode can be set by using property TreeViewSelectionMode. The possible values are Single, Multiple, None.
 

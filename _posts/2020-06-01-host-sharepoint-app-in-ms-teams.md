@@ -5,6 +5,9 @@ share: true
 categories:
   - MS Teams
   - SharePoint
+header:
+  image: media/2020-06-01-host-sharepoint-app-in-ms-teams/02.png
+  teaser: media/2020-06-01-host-sharepoint-app-in-ms-teams/02.png
 tags:
   - "2020"
   - June 2020
@@ -23,21 +26,10 @@ Before we begin, we will need below parameters handy:
 
 Consider using the SharePoint modern site. (E.g. [https://contoso.sharepoint.com/sites/SPDemo](https://contoso.sharepoint.com/sites/SPDemo))
 
-**Placeholder**
-
-**Example**
-
-{{siteUrl}}
-
-[https://contoso.sharepoint.com/sites/SPDemo](https://contoso.sharepoint.com/sites/SPDemo)
-
-{{sitePath}}
-
-/sites/SPDemo
-
-{{subdomain}}
-
-contoso
+**Placeholder**|**Example**
+`{ { siteUrl } }`|[https://contoso.sharepoint.com/sites/SPDemo](https://contoso.sharepoint.com/sites/SPDemo)
+`{ { sitePath } }`|/sites/SPDemo
+`{ { subdomain } }`|contoso
 
 ## Set up App Studio to create SharePoint App
 
@@ -45,11 +37,11 @@ Follow these steps to download App Studio from the App Store, if you do not have
 
 1. Open MS Teams desktop client.
 2. Click **Apps** from the left menu.
-3. Search and click “**App Studio**”.
+3. Search and click **App Studio**.
 
-![](/media/2020-06-01-host-sharepoint-app-in-ms-teams/01.png)
+    ![](/media/2020-06-01-host-sharepoint-app-in-ms-teams/01.png)
 
-4. Click **Add**.
+4.    Click **Add**.
 
 ![](/media/2020-06-01-host-sharepoint-app-in-ms-teams/02.png)
 
@@ -61,44 +53,44 @@ We will create a new app using App Studio to host SharePoint App.
 2. Click **Manifest editor**.
 3. Click **Create a new app**.
 
-![](/media/2020-06-01-host-sharepoint-app-in-ms-teams/03.png)
+    ![](/media/2020-06-01-host-sharepoint-app-in-ms-teams/03.png)
 
 4. Fill in the **App details**.
 5. Specify **App names** and **Descriptions**.
 
-![](/media/2020-06-01-host-sharepoint-app-in-ms-teams/04.png)
+    ![](/media/2020-06-01-host-sharepoint-app-in-ms-teams/04.png)
 
 6. Specify **Developer information** and **App URLs**.
 
-![](/media/2020-06-01-host-sharepoint-app-in-ms-teams/05.png)
+    ![](/media/2020-06-01-host-sharepoint-app-in-ms-teams/05.png)
 
 7. Under **Capabilities**, click **Tabs**.
 8. Under the **Personal tab**, click **Add**.
 
-![](/media/2020-06-01-host-sharepoint-app-in-ms-teams/06.png)
+    ![](/media/2020-06-01-host-sharepoint-app-in-ms-teams/06.png)
 
 9. Specify the parameters. Follow below format:
 
-- contentUrl: {{siteUrl}}/\_layouts/15/teamslogon.aspx?SPFX=true&dest={{sitePath}}
-- websiteUrl: {{siteUrl}}
+    - contentUrl: `{ { siteUrl } }/\_layouts/15/teamslogon.aspx?SPFX=true&dest={ { sitePath } }`
+    - websiteUrl: `{ { siteUrl } }`
 
-![](/media/2020-06-01-host-sharepoint-app-in-ms-teams/07.png)
+    ![](/media/2020-06-01-host-sharepoint-app-in-ms-teams/07.png)
 
 10. Click **Save**.
 11. Under **Finish**, click **Domains and permissions**.
 12. Add your SharePoint online domain name.
 13. Click **Add**.
 
-![](/media/2020-06-01-host-sharepoint-app-in-ms-teams/08.png)
+    ![](/media/2020-06-01-host-sharepoint-app-in-ms-teams/08.png)
 
 14. Add AAD App ID to set up a single sign-on (SSO). Specify AAD application ID as **00000003-0000-0ff1-ce00-000000000000** and Resource Url as **{{subdomain}}.sharepoint.com**
 
-![](/media/2020-06-01-host-sharepoint-app-in-ms-teams/09.png)
+    ![](/media/2020-06-01-host-sharepoint-app-in-ms-teams/09.png)
 
 15. Under **Finish**, click **Test and distribute**. Make sure no errors are displayed.
 16. Click **Install**.
 
-![](/media/2020-06-01-host-sharepoint-app-in-ms-teams/10.png)
+    ![](/media/2020-06-01-host-sharepoint-app-in-ms-teams/10.png)
 
 ## Test Personal App
 
@@ -120,7 +112,7 @@ Enable the sideloading of the app by following the below steps.
 4. On the **Upload custom apps**.
 5. Click **Save**.
 
-![](/media/2020-06-01-host-sharepoint-app-in-ms-teams/12.png)
+    ![](/media/2020-06-01-host-sharepoint-app-in-ms-teams/12.png)
 
 ## Summary
 

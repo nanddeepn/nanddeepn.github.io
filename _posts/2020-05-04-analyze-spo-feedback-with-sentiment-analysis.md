@@ -1,6 +1,19 @@
 ---
 title: "Analyze User Feedback in SharePoint Online with Sentiment Analysis API and Power Automate"
 date: "2020-05-04"
+share: true
+categories:
+  - AI
+  - Sentiment Analysis API
+  - SharePoint
+  - Azure Cognitive Services
+header:
+  image: media/2020-05-04-analyze-spo-feedback-with-sentiment-analysis/17.png
+  teaser: media/2020-05-04-analyze-spo-feedback-with-sentiment-analysis/17.png
+tags:
+  - "2020"
+  - May 2020
+last_modified_at: 2020-05-04T00:00:00-00:00
 ---
 
 ## Overview
@@ -20,28 +33,28 @@ Let us start by building our first building block in MS Azure Cognitive Services
 3. Select **AI + Machine Learning**
 4. Select **Text Analytics**.
 
-![](https://nanddeepnachanblogs.com/wp-content/uploads/2020/05/word-image.png)
+![](/media/2020-05-04-analyze-spo-feedback-with-sentiment-analysis/01.png)
 
 **Create a Text Analytics**
 
 1. Fill in the details to create the Text analytics API.
 
-![](https://nanddeepnachanblogs.com/wp-content/uploads/2020/05/word-image-1.png)
+    ![](/media/2020-05-04-analyze-spo-feedback-with-sentiment-analysis/02.png)
 
-The parameters are as follows:
+    The parameters are as follows:
 
-- **Name:** Unique name of Text analytics API.
-- **Subscription:** Select Azure subscription to create Text analytics under it.
-- **Location:** The location to host Text analytics API.
-- **Pricing tier:** Select tier as per features you want to use. More details at [https://azure.microsoft.com/en-us/pricing/details/cognitive-services/text-analytics/](https://azure.microsoft.com/en-us/pricing/details/cognitive-services/text-analytics/)
-- **Resource group:** Select an existing or create a new resource group.
+    - **Name:** Unique name of Text analytics API.
+    - **Subscription:** Select Azure subscription to create Text analytics under it.
+    - **Location:** The location to host Text analytics API.
+    - **Pricing tier:** Select tier as per features you want to use. More details at [https://azure.microsoft.com/en-us/pricing/details/cognitive-services/text-analytics/](https://azure.microsoft.com/en-us/pricing/details/cognitive-services/text-analytics/)
+    - **Resource group:** Select an existing or create a new resource group.
 
-1. Click **Create**.
-2. Once the deployment finishes, the Text analytics resource will be available to use.
+2. Click **Create**.
+3. Once the deployment finishes, the Text analytics resource will be available to use.
 
-![](https://nanddeepnachanblogs.com/wp-content/uploads/2020/05/word-image-2.png)
+    ![](/media/2020-05-04-analyze-spo-feedback-with-sentiment-analysis/03.png)
 
-1. Note down the API Key and endpoint to authenticate your applications and start sending calls to the service.
+4. Note down the API Key and endpoint to authenticate your applications and start sending calls to the service.
 
 ## Test the Computer Vision
 
@@ -51,28 +64,30 @@ We will use the API Console to quickly try the API without writing any code.
 2. Click **API Console (V2)**.
 3. Select the testing console in the region where you created your resource.
 
-![](https://nanddeepnachanblogs.com/wp-content/uploads/2020/05/word-image-3.png)
+    ![](/media/2020-05-04-analyze-spo-feedback-with-sentiment-analysis/04.png)
 
-1. The selection of the region will form the request URL.
-2. Specify the resource name and query parameters.
-3. Specify the API key in Headers.
+4. The selection of the region will form the request URL.
+5. Specify the resource name and query parameters.
+6. Specify the API key in Headers.
 
-![](https://nanddeepnachanblogs.com/wp-content/uploads/2020/05/word-image-4.png)
+    ![](/media/2020-05-04-analyze-spo-feedback-with-sentiment-analysis/05.png)
 
-1. In the request body, provide the custom text to analyze or use the default one.
+7. In the request body, provide the custom text to analyze or use the default one.
 
-![](https://nanddeepnachanblogs.com/wp-content/uploads/2020/05/word-image-5.png)
+    ![](/media/2020-05-04-analyze-spo-feedback-with-sentiment-analysis/06.png)
 
-1. Click **Send**.
-2. The response will be shown as follows:
+8. Click **Send**.
+9. The response will be shown as follows:
 
-![](https://nanddeepnachanblogs.com/wp-content/uploads/2020/05/word-image-6.png)
+![](/media/2020-05-04-analyze-spo-feedback-with-sentiment-analysis/07.png)
+
 
 ## Set up SharePoint list
 
-Create a SharePoint list with below schema
+Create a SharePoint list with below schema:
 
-![](https://nanddeepnachanblogs.com/wp-content/uploads/2020/05/word-image-7.png)
+![](/media/2020-05-04-analyze-spo-feedback-with-sentiment-analysis/08.png)
+
 
 ## Set up Power Automate Flow
 
@@ -82,43 +97,43 @@ Follow the below steps to set up Power Automate flow:
 
 1. On the SharePoint list, click **Automate** > **Power Automate** > **Create a flow**.
 
-![](https://nanddeepnachanblogs.com/wp-content/uploads/2020/05/word-image-8.png)
+    ![](/media/2020-05-04-analyze-spo-feedback-with-sentiment-analysis/09.png)
 
-1. Select a template “When a new item is added in SharePoint, complete a custom”.
+2. Select a template "When a new item is added in SharePoint, complete a custom".
 
-![](https://nanddeepnachanblogs.com/wp-content/uploads/2020/05/word-image-9.png)
+    ![](/media/2020-05-04-analyze-spo-feedback-with-sentiment-analysis/10.png)
 
-1. Verify your connection to SharePoint.
+3. Verify your connection to SharePoint.
 
-![](https://nanddeepnachanblogs.com/wp-content/uploads/2020/05/word-image-10.png)
+    ![](/media/2020-05-04-analyze-spo-feedback-with-sentiment-analysis/11.png)
 
-1. Click **Continue**.
-2. Add an activity “Text Analytics”, select action “Detect Sentiment”.
+4. Click **Continue**.
+5. Add an activity “Text Analytics”, select action “Detect Sentiment”.
 
-![](https://nanddeepnachanblogs.com/wp-content/uploads/2020/05/word-image-11.png)
+    ![](/media/2020-05-04-analyze-spo-feedback-with-sentiment-analysis/12.png)
 
-1. Specify the connection name, Key from Azure and Azure endpoint.
+6. Specify the connection name, Key from Azure and Azure endpoint.
 
-![](https://nanddeepnachanblogs.com/wp-content/uploads/2020/05/word-image-12.png)
+    ![](/media/2020-05-04-analyze-spo-feedback-with-sentiment-analysis/13.png)
 
-1. Click **Create**.
-2. Specify the SharePoint list column Feedback as Text. Optionally specify the language of feedback.
+7. Click **Create**.
+8. Specify the SharePoint list column Feedback as Text. Optionally specify the language of feedback.
 
-![](https://nanddeepnachanblogs.com/wp-content/uploads/2020/05/word-image-13.png)
+    ![](/media/2020-05-04-analyze-spo-feedback-with-sentiment-analysis/14.png)
 
-1. Add an entry to the SharePoint list. This will trigger a flow. The OUTPUTS section will show the Score from Text Analytics API.
+9. Add an entry to the SharePoint list. This will trigger a flow. The OUTPUTS section will show the Score from Text Analytics API.
 
-![](https://nanddeepnachanblogs.com/wp-content/uploads/2020/05/word-image-14.png)
+    ![](/media/2020-05-04-analyze-spo-feedback-with-sentiment-analysis/15.png)
 
-1. Add an activity Update item available under the SharePoint category.
+10. Add an activity Update item available under the SharePoint category.
 
-![](https://nanddeepnachanblogs.com/wp-content/uploads/2020/05/word-image-15.png)
+![](/media/2020-05-04-analyze-spo-feedback-with-sentiment-analysis/16.png)
 
 ## Test the Solution
 
 In the SharePoint library, add a new item as user feedback. This will trigger a flow. A flow will call Sentiment analysis API for analyzing the feedback submitted to SharePoint. The flow will then update the returned metadata to the SharePoint column inside the list with a sentiment score.
 
-![](https://nanddeepnachanblogs.com/wp-content/uploads/2020/05/word-image-16.png)
+![](/media/2020-05-04-analyze-spo-feedback-with-sentiment-analysis/17.png)
 
 ## Use Cases
 
