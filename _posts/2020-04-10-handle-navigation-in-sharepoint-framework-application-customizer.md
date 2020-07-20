@@ -1,6 +1,17 @@
 ---
 title: "Handle Navigation in SharePoint Framework Application Customizer"
 date: "2020-04-10"
+share: true
+categories:
+  - SharePoint
+  - SharePoint Framework
+header:
+  image: media/2020-04-10-handle-navigation-in-sharepoint-framework-application-customizer/02.gif
+  teaser: media/2020-04-10-handle-navigation-in-sharepoint-framework-application-customizer/02.gif
+tags:
+  - "2020"
+  - April 2020
+last_modified_at: 2020-04-10T00:00:00-00:00
 ---
 
 ## Overview
@@ -13,7 +24,9 @@ In this article, we will have a look at the issue and possible options to overco
 
 On the command prompt, run the Yeoman SharePoint Generator to create the solution.
 
+`
 yo @microsoft/sharepoint
+`
 
 Create an application customizer with below options:
 
@@ -29,9 +42,10 @@ Create an application customizer with below options:
 
 ### Implement React Component
 
-We will create React component to display the page url on application customizer. Follow below steps to add component called “Header.tsx”.
+We will create React component to display the page url on application customizer. Follow below steps to add component called "Header.tsx".
 
-import \* as React from 'react';
+```typescript
+import * as React from 'react';
 import styles from './Header.module.scss';
 import { ApplicationCustomizerContext } from "@microsoft/sp-application-base";
 
@@ -60,33 +74,35 @@ export class Header extends React.Component<IHeaderProps, {}> {
         );
     }
 }
+```
 
-Load React Component inside application customizer
+### Load React Component inside application customizer
 
-Update the application customizer at “src\\extensions\\handleNavigation\\HandleNavigationApplicationCustomizer.ts” to load the React component.
+Update the application customizer at "src\extensions\handleNavigation\HandleNavigationApplicationCustomizer.ts" to load the React component.
 
 Add below imports:
 
-import \* as React from 'react';
-import \* as ReactDom from 'react-dom';
+```typescript
+import * as React from 'react';
+import * as ReactDom from 'react-dom';
 import { override } from '@microsoft/decorators';
 import { Log } from '@microsoft/sp-core-library';
 import { BaseApplicationCustomizer, PlaceholderContent, PlaceholderName } from '@microsoft/sp-application-base';
-import \* as strings from 'HandleNavigationApplicationCustomizerStrings';
+import * as strings from 'HandleNavigationApplicationCustomizerStrings';
 import { IHeaderProps, Header } from './components/header';
+```
 
-Update the class “HandleNavigationApplicationCustomizer” to load the React component.
+Update the class "HandleNavigationApplicationCustomizer" to load the React component.
 
+```typescript
 export default class HandleNavigationApplicationCustomizer
   extends BaseApplicationCustomizer<IHandleNavigationApplicationCustomizerProperties> {
   private static headerPlaceholder: PlaceholderContent;
 
   @override
   public onInit(): Promise<void> {
-    Log.info(LOG\_SOURCE, \`Initialized ${strings.Title}\`);
-
+    Log.info(LOG_SOURCE, `Initialized ${strings.Title}`);
     this.render();
-
     return Promise.resolve();
   }
 
@@ -107,13 +123,13 @@ export default class HandleNavigationApplicationCustomizer
       this.loadReactComponent();
     }
     else {
-      console.log(\`The following placeholder names are available\`, this.context.placeholderProvider.placeholderNames);
+      console.log(`The following placeholder names are available`, this.context.placeholderProvider.placeholderNames);
     }
   }
 
-  /\*\*
-   \* Start the React rendering of your components
-   \*/
+  \**
+  \* Start the React rendering of your components
+  \*
   private loadReactComponent() {
     if (HandleNavigationApplicationCustomizer.headerPlaceholder && HandleNavigationApplicationCustomizer.headerPlaceholder.domElement) {
       const element: React.ReactElement<IHeaderProps> = React.createElement(Header, {
@@ -128,44 +144,49 @@ export default class HandleNavigationApplicationCustomizer
     }
   }
 }
+```
 
-Deploy an Application Customizer to SharePoint
+### Deploy an Application Customizer to SharePoint
 
 Deploy the application customizer to SharePoint site by following below steps:
 
 On the command prompt, execute below commands:
 
 1. Generate bundles in the dist folder.
+    `
+    gulp bundle --ship
+    `
 
-gulp bundle --ship
+2. Generate .sppkg file to be deployed in the SharePoint app catalog.
+    `
+    gulp package-solution --ship
+    `
 
-1. Generate .sppkg file to be deployed in the SharePoint app catalog.
+3. Deploy the application customizer app to the SharePoint site.
 
-gulp package-solution --ship
-
-1. Deploy the application customizer app to the SharePoint site.
 
 ## The Navigation Issue
 
 To understand the issue with navigation lets generate below scenario:
 
 1. Create few pages in SharePoint site.
-2. Add “Quick links” web parts on each page with links to other pages.
+2. Add "Quick links" web parts on each page with links to other pages.
 3. Click on the links and observe the url in application customizer.
 4. The URL does not change when we navigate through pages.
 
-![](https://nanddeepnachanblogs.com/wp-content/uploads/2020/04/01-navigation-issue.gif)
+![](/media/2020-04-10-handle-navigation-in-sharepoint-framework-application-customizer/01.gif)
 
 The reason is, component inside application customizer does not get an update as the page loads partially.
 
-## The Solution (_navigatedEvent)_
+## The Solution (navigatedEvent)
 
 As a workaround, we can add _navigatedEvent_ listener inside onInit function which will re-render our component every time we navigate to another page.
 
 This event is fired when the application's top-level page context navigates to a new page.
 
+```typescript
 public onInit(): Promise<void> {
-  Log.info(LOG\_SOURCE, \`Initialized ${strings.Title}\`);
+  Log.info(LOG_SOURCE, `Initialized ${strings.Title}`);
 
   this.context.application.navigatedEvent.add(this, () => {
     this.loadReactComponent();
@@ -175,8 +196,10 @@ public onInit(): Promise<void> {
 
   return Promise.resolve();
 }
+```
 
-![](https://nanddeepnachanblogs.com/wp-content/uploads/2020/04/02-navigation-resolution.gif)
+![](/media/2020-04-10-handle-navigation-in-sharepoint-framework-application-customizer/02.gif)
+
 
 ## Summary
 
