@@ -1,6 +1,17 @@
 ---
 title: "SharePoint Framework: Passing data between React components"
 date: "2020-03-30"
+share: true
+categories:
+  - SharePoint
+  - SharePoint Framework
+header:
+  image: media/common/SPFXandReact.png
+  teaser: media/common/SPFXandReact.png
+tags:
+  - "2020"
+  - March 2020
+last_modified_at: 2020-03-30T00:00:00-00:00
 ---
 
 ## Overview
@@ -15,15 +26,17 @@ The SharePoint Framework solution involves multiple React components, each one w
 
 The simple graphical representation is as follows:
 
+```
 SPFx App
 |–– Parent Component
     |–– Child Component 1
     |–– Child Component 2
+```
 
 The code representation for Parent Component is as follows:
 
+```typescript
 class ParentComponent extends React.Component {
-
     state = { parentMessage : "Hello World" }
  
     render() {        
@@ -35,6 +48,7 @@ class ParentComponent extends React.Component {
         );
     }
 }
+```
 
 In the above example, we want to pass the data from Parent to Child component which is inside Parent state. The data is being passed as properties on child components. The simplest option to pass the data from “Parent Component” to “Child Component” is by using props (React properties) defined on child components.
 
@@ -42,6 +56,7 @@ Please note state is one way to pass data to another component. However, it is n
 
 The implementation of the Child component will be as follows:
 
+```typescript
 class Child2 extends React.Component {
     render() {        
         return (
@@ -51,6 +66,7 @@ class Child2 extends React.Component {
         );
     }
 }
+```
 
 In the child component, we are defining a property to accept the data from the parent component.
 
@@ -65,6 +81,7 @@ Follow the below steps to implement the callback.
 
 The parent component will look like as below:
 
+```typescript
 class Parent extends React.Component {
      state = { message: "" }
 
@@ -80,9 +97,11 @@ class Parent extends React.Component {
             </div>
      )}
 }
+```
 
 In the child component, send the data back to parent using callback function.
 
+```typescript
 class Child1 extends React.Component{
     sendData = () => {
          this.props.parentCallback("Hey Popsie, How’s it going?");
@@ -92,8 +111,9 @@ class Child1 extends React.Component{
         // Call function sendData to send data from child component to Parent component.
     }
 };
+```
 
-Summary
+## Summary
 
 Passing data between React components involves scenarios including passing of data from parent to child, from child to parent, and between siblings. In this article, we explored a common scenario in SharePoint Framework development, i.e. passing data between parent to child and vice-a-versa.
 
