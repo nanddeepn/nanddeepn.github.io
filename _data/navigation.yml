@@ -10,14 +10,12 @@ main:
 # Primary menu links
 primarymenu:
   - title: "Home"
-    url: /about-me/
-  - title: "Blog"
-    url: /about-me/
+    url: /
   - title: "Videos"
-    url: /about-me/
+    url: /videos/
   - title: "Publications"
-    url: /about-me/
+    url: /publications/
   - title: "Public Speaking"
-    url: /about-me/
+    url: /public-speaking/
   - title: "Community Contributions"
-    url: /about-me/
+    url: /community-contributions/
