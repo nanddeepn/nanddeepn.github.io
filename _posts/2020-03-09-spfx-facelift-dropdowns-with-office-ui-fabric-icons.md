@@ -1,6 +1,18 @@
 ---
 title: "SharePoint Framework - Facelift your dropdowns with Office UI Fabric Icons"
 date: "2020-03-09"
+share: true
+categories:
+  - SharePoint
+  - SharePoint Framework
+  - Office UI Fabric
+header:
+  image: media/2020-03-09-spfx-facelift-dropdowns-with-office-ui-fabric-icons/02.png
+  teaser: media/2020-03-09-spfx-facelift-dropdowns-with-office-ui-fabric-icons/02.png
+tags:
+  - "2020"
+  - March 2020
+last_modified_at: 2020-03-09T00:00:00-00:00
 ---
 
 ## Overview
@@ -8,6 +20,7 @@ date: "2020-03-09"
 Out of various controls being used on any data capturing forms, Dropdown is one of the commonly used. It allows users to choose a value from predefined list. By default, dropdowns appeals users with list of options to read, analyze and select. It would be great, if we can help visualize users with an icon representing the selection option. This will help users to visualize and understand the options better.
 
 In this article, we will explore the capabilities provided by Office UI Fabric dropdown control and how we can extend it to facelift our dropdowns to make them more appealing.
+
 
 ## Office Fabric Dropdown Control
 
@@ -17,9 +30,10 @@ Most of Ul Fabric icons comes with inverse, fill, reversed, or solid styling whi
 
 Bus icons offers Bus and BusSolid variations as below:
 
-![](https://nanddeepnachanblogs.com/wp-content/uploads/2020/03/word-image-417.png)
+![](/media/2020-03-09-spfx-facelift-dropdowns-with-office-ui-fabric-icons/01.png)
 
 We can effectively use these variations of inverse, fill, reversed, or solid styling to facelift our dropdown controls.
+
 
 ## Facelift Dropdowns
 
@@ -27,15 +41,20 @@ We will use the Dropdown control from Office UI Fabric controls.
 
 Add below imports:
 
+```typescript
 import { Dropdown, IDropdownOption, IDropdownProps } from 'office-ui-fabric-react/lib/Dropdown';
 import { Icon } from 'office-ui-fabric-react/lib/Icon';
+```
 
 Define an array to hold custom choice of colors.
 
-private dropdownOptions: { key: string, text: string, data: any }\[\] = \[\];
+```typescript
+private dropdownOptions: { key: string, text: string, data: any }[] = [];
+```
 
 Inside constructor, add few colors to our array.
 
+```typescript
 public constructor(props) {  
     super(props);  
   
@@ -69,9 +88,11 @@ public constructor(props) {
       data: { icon: 'CircleShapeSolid', colorName: "#ffa500" }  
     });  
   }
+```
 
 Use the Dropdown control inside render method and provide above array as an options to render inside dropdown:
 
+```typescript
 <Dropdown  
   label="Color"  
   onChange={this.onSelectionChanged}  
@@ -80,31 +101,20 @@ Use the Dropdown control inside render method and provide above array as an opti
   onRenderCaretDown={this.onRenderCaretDown}  
   options={this.dropdownOptions}  
 />
+```
 
 We will make use of below dropdown events.
 
-**Event**
+**Event**|**Description**
+onChange|Callback issued when the selected option changes.
+onRenderTitle|Optional custom renderer for selected option displayed in input.
+onRenderOption|Optional custom renderer for option in dropdown.
+onRenderCaretDown|Optional custom renderer for chevron icon.
 
-**Description**
-
-onChange
-
-Callback issued when the selected option changes.
-
-onRenderTitle
-
-Optional custom renderer for selected option displayed in input.
-
-onRenderOption
-
-Optional custom renderer for option in dropdown.
-
-onRenderCaretDown
-
-Optional custom renderer for chevron icon.
 
 Implement onRenderOption event to uplift our dropdown by showing colored icon next to dropdown option.
 
+```typescript
 private onRenderOption(option: IDropdownOption): JSX.Element {  
   return (  
     <div>  
@@ -115,9 +125,12 @@ private onRenderOption(option: IDropdownOption): JSX.Element {
     </div>  
   );  
 }
+```
+
 
 Implement onRenderTitle event to show the selected option with colored icon.
 
+```typescript
 private onRenderTitle(options: IDropdownOption\[\]): JSX.Element {  
   const option = options\[0\];  
   
@@ -130,24 +143,33 @@ private onRenderTitle(options: IDropdownOption\[\]): JSX.Element {
     </div>  
   );  
 }
+```
+
 
 Implement onRenderCaretDown event to implement custom renderer for chevron icon.
 
+```typescript
 private onRenderCaretDown(props: IDropdownProps): JSX.Element{  
     return <Icon iconName="CirclePlus" />;  
 }
+```
+
 
 Implement onSelectionChanged event to get the selected option and process further.
 
+```typescript
 private onSelectionChanged(ev: React.FormEvent<HTMLDivElement>, item: IDropdownOption): void {  
   console.log(item.key.toString() + ": " + item.text);  
 }
+```
 
-Uplift Dropdown in action
+
+## Uplift Dropdown in action
 
 The dropdown when added to any web part displays the color next to the dropdown option and make it appealing for the users to visualize the options better.
 
-![](https://nanddeepnachanblogs.com/wp-content/uploads/2020/03/word-image-418.png)
+![](/media/2020-03-09-spfx-facelift-dropdowns-with-office-ui-fabric-icons/02.png)
+
 
 ## Practical Examples
 
@@ -157,6 +179,7 @@ Here are some other examples built on same theme.
 
 The below example will help to visualize commuting modes better:
 
+```typescript
 // Commuting modes  
 this.dropdownOptions.push({  
   key: "Running",  
@@ -199,15 +222,18 @@ this.dropdownOptions.push({
   text: "Car",  
   data: { icon: "ParkingMirroredSolid", colorName: "#7e8509" } 
 });
+```
 
 The dropdown will present the options as below:
 
-![](https://nanddeepnachanblogs.com/wp-content/uploads/2020/03/word-image-419.png)
+![](/media/2020-03-09-spfx-facelift-dropdowns-with-office-ui-fabric-icons/03.png)
+
 
 **Example 2: Office 365 Apps**
 
 The below example will help to visualize Office 365 apps better:
 
+```typescript
 // Office 365 Apps  
 this.dropdownOptions.push({  
   key: "SharePoint",  
@@ -262,10 +288,12 @@ this.dropdownOptions.push({
   text: "Power Automate",  
   data: { icon: "MicrosoftFlowLogo", colorName: "#0077ff" }  
 });
+```
 
 The dropdown will present the options as below:
 
-![](https://nanddeepnachanblogs.com/wp-content/uploads/2020/03/word-image-420.png)
+![](/media/2020-03-09-spfx-facelift-dropdowns-with-office-ui-fabric-icons/04.png)
+
 
 ## Summary
 
