@@ -35,16 +35,12 @@ Dear Azure, Azure Weekends|[Automate Building, Testing and Deploying SharePoint 
 Global M365 Developer Bootcamp, Hyderabad|[Continuous integration and delivery pipelines for SPFx Solutions with Azure DevOps](https://www.eventbrite.com/e/global-microsoft-365-developer-bootcamp-2019-hyderabad-tickets-67444740033)|23 November, 2019|Hyderabad, India
 SPS Ahmedabad|[Explore Library components in SPFx](https://www.spsevents.org/event/ahmedabad2019/sessions/)|16 November, 2019|Ahmedabad, India
 C# Corner Pune DevCon19|[DevOps for Office 365](https://www.c-sharpcorner.com/events/c-sharp-corner-pune-devcon19)|24 August, 2019|Pune, India
-SPS Pune|[DevOps with SharePoint Framework (SPFx)](http://www.spsevents.org/city/Pune/Pune2019/sessions)|29-Jun-2019|Pune, India
-C# Corner Pune Chapter Meet|[SharePoint & Office 365 for Digital Transformation](https://www.c-sharpcorner.com/events/using-sharepoint-office-365-for-digital-transformation-getting-started-with-conversational-ai)|25-May-2019|Pune, India
-C# Corner Annual Conference 2019|[Building Powerful Intranets with Office 365](https://www.c-sharpcorner.com/article/c-sharp-corner-annual-conference-2019-official-recap/)|24-Apr-2019|Delhi, India
-Webinar|[Bring Cloud Closer with SharePoint 2019](https://www.c-sharpcorner.com/events/bring-cloud-closer-with-sharepoint-2019)|20-Mar-2019|Online
-Webinar|[Journey to Modern SharePoint](https://www.c-sharpcorner.com/events/journey-to-modern-sharepoint)|16-Feb-2019
-Webinar|[SharePoint Framework development with React](https://www.c-sharpcorner.com/events/sharepoint-framework-development-with-react)|21-Dec-2018|Online
-Webinar|[Getting Started with SharePoint Framework (SPFx)](https://www.c-sharpcorner.com/events/getting-started-with-sharepoint-framework-spfx)|08-Sep-2018|Online
-C# Corner Pune Chapter Meet|[SharePoint Site Provisioning](https://www.c-sharpcorner.com/events/learn-sharepoint-office-365-azure-for-developers-and-azure-bot-service)|28-Jul-2018|Pune, India
-Webinar|[Modern Sites in SharePoint](https://www.c-sharpcorner.com/events/modern-sites-in-sharepoint)|09-Jun-2018|Online
-
-
-
-
+SPS Pune|[DevOps with SharePoint Framework (SPFx)](http://www.spsevents.org/city/Pune/Pune2019/sessions)|29 June, 2019|Pune, India
+C# Corner Pune Chapter Meet|[SharePoint & Office 365 for Digital Transformation](https://www.c-sharpcorner.com/events/using-sharepoint-office-365-for-digital-transformation-getting-started-with-conversational-ai)|25 May, 2019|Pune, India
+C# Corner Annual Conference 2019|[Building Powerful Intranets with Office 365](https://www.c-sharpcorner.com/article/c-sharp-corner-annual-conference-2019-official-recap/)|24 April, 2019|Delhi, India
+Webinar|[Bring Cloud Closer with SharePoint 2019](https://www.c-sharpcorner.com/events/bring-cloud-closer-with-sharepoint-2019)|20 March, 2019|Online
+Webinar|[Journey to Modern SharePoint](https://www.c-sharpcorner.com/events/journey-to-modern-sharepoint)|16 February, 2019|Online
+Webinar|[SharePoint Framework development with React](https://www.c-sharpcorner.com/events/sharepoint-framework-development-with-react)|21 December, 2018|Online
+Webinar|[Getting Started with SharePoint Framework (SPFx)](https://www.c-sharpcorner.com/events/getting-started-with-sharepoint-framework-spfx)|08 September, 2018|Online
+C# Corner Pune Chapter Meet|[SharePoint Site Provisioning](https://www.c-sharpcorner.com/events/learn-sharepoint-office-365-azure-for-developers-and-azure-bot-service)|28 July, 2018|Pune, India
+Webinar|[Modern Sites in SharePoint](https://www.c-sharpcorner.com/events/modern-sites-in-sharepoint)|09 June, 2018|Online
