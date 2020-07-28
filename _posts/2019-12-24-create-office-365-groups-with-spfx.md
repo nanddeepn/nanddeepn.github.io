@@ -1,6 +1,18 @@
 ---
 title: "Create Office 365 Groups with SPFx"
 date: "2019-12-24"
+share: true
+categories:
+  - MS Graph
+  - Power Automate
+  - Power Platform
+header:
+  image: media/2019-12-24-create-office-365-groups-with-spfx/04.png
+  teaser: media/2019-12-24-create-office-365-groups-with-spfx/04.png
+tags:
+  - "2019"
+  - December 2019
+last_modified_at: 2020-12-24T00:00:00-00:00
 ---
 
 ## Overview
@@ -9,34 +21,46 @@ MS Graph APIs offers wide range of capabilities. It can be effectively used to c
 
 During this article, we will develop a practical scenario to create Office 365 groups using MS Graph.
 
+
 ## Develop SPFx Web Part
 
 1. Open a command prompt. Create a directory for SPFx solution.
 
-md spfx-create-o365-groups
+    ```
+    md spfx-create-o365-groups
+    ```
 
-1. Navigate to the above created directory.
+2. Navigate to the above created directory.
 
-cd spfx-create-o365-groups
+    ```
+    cd spfx-create-o365-groups
+    ```
 
-1. Run the Yeoman SharePoint Generator to create the solution.
+3. Run the Yeoman SharePoint generator to create the solution.
 
-yo @microsoft/sharepoint
+    ```
+    yo @microsoft/sharepoint
+    ```
 
-1. Yeoman generator will present you with the wizard by asking questions about the solution to be created.
+4. Yeoman generator will present you with the wizard by asking questions about the solution to be created.
 
-![](https://nanddeepnachanblogs.com/wp-content/uploads/2020/03/word-image-469.png)
+    ![](/media/2019-12-24-create-office-365-groups-with-spfx/01.png)
 
-1. Yeoman generator will perform scaffolding process to generate the solution. The scaffolding process will take a significant amount of time.
-2. Once the scaffolding process is completed, lock down the version of project dependencies by running below command.
+5. Yeoman generator will perform scaffolding process to generate the solution. The scaffolding process will take a significant amount of time.
+6. Once the scaffolding process is completed, lock down the version of project dependencies by running below command.
 
-npm shrinkwrap
+    ```
+    npm shrinkwrap
+    ```
 
-1. On the command prompt type below command to open the solution in the code editor of your choice.
+7. On the command prompt type below command to open the solution in the code editor of your choice.
 
-code .
+    ```
+    code .
+    ```
 
-NPM Packages Dependency
+
+## NPM Packages Dependency
 
 **Microsoft Graph TypeScript types**
 
@@ -44,26 +68,34 @@ The typings will help in providing IntelliSense while writing the code.
 
 On the command prompt, run below command to include the npm package.
 
+```
 npm install @microsoft/microsoft-graph-types --save-dev
+```
 
 **@pnp/spfx-controls-react** ([https://sharepoint.github.io/sp-dev-fx-controls-react/](https://sharepoint.github.io/sp-dev-fx-controls-react/))
 
 On the command prompt, run below command to include the npm package.
 
+```
 npm install @pnp/spfx-controls-react --save
+```
 
 **@pnp/sp** ([https://www.npmjs.com/package/@pnp/sp](https://www.npmjs.com/package/@pnp/sp))
 
 On the command prompt, run below command.
 
+```
 npm i @pnp/logging @pnp/common @pnp/odata @pnp/sp --save
+```
 
-Set Permission Scopes
+
+## Set Permission Scopes
 
 To consume MS Graph or any third-party REST APIs, the permissions need to be explicitly set in the solution manifest.
 
-Open “config\\package-solution.json” and add below permission scope.
+Open "config\\package-solution.json" and add below permission scope:
 
+```json
 {  
   "$schema": "https://developer.microsoft.com/json-schemas/spfx-build/package-solution.schema.json",  
   "solution": {  
@@ -72,7 +104,7 @@ Open “config\\package-solution.json” and add below permission scope.
     "version": "1.0.0.0",  
     "includeClientSideAssets": true,  
     "isDomainIsolated": false,  
-    "webApiPermissionRequests": \[  
+    "webApiPermissionRequests": [  
       {  
         "resource": "Microsoft Graph",  
         "scope": "Group.Read.All"  
@@ -93,245 +125,270 @@ Open “config\\package-solution.json” and add below permission scope.
         "resource": "Microsoft Graph",  
         "scope": "Directory.AccessAsUser.All"  
       }  
-    \]  
+    ]  
   },  
   "paths": {  
     "zippedPackage": "solution/spfx-create-o365-groups.sppkg"  
   }  
 }
+```
 
-Define State
+
+## Define State
 
 Define a state to represent O365 group creation information.
 
-1. Add a file IO365GroupCreationState.ts file under folder “src\\webparts\\o365GroupCreation\\components\\IO365GroupCreationState.ts”.
+Add a file IO365GroupCreationState.ts file under folder "src\webparts\o365GroupCreation\components\IO365GroupCreationState.ts".
 
+```typescript
 import { MessageBarType } from 'office-ui-fabric-react';  
   
 export interface IO365GroupCreationState {  
     name: string;  
     description: string;  
     visibility: string;  
-    owners: string\[\];  
-    members: string\[\];  
+    owners: string[];  
+    members: string[];  
     showMessageBar: boolean;  
     messageType?: MessageBarType;  
     message?: string;  
 }
+```
 
-Implement O365 Groups Service
+
+## Implement O365 Groups Service
 
 Implement service to perform operations against O365 groups.
 
 1. Under src, create a folder named "services".
 2. Add a file O365GroupService.ts file under it.
 
-import { MSGraphClient } from "@microsoft/sp-http";  
-import { WebPartContext } from "@microsoft/sp-webpart-base";  
-import { Group } from "@microsoft/microsoft-graph-types";  
-  
-export class O365GroupService {  
-    public context: WebPartContext;  
-  
-    public setup(context: WebPartContext): void {  
-        this.context = context;  
-    }  
-  
-    public createGroup(groupName: string, groupDescription: string, groupVisibility: string, groupOwners: string\[\], groupMembers: string\[\]): Promise<void> {  
-        return new Promise<void>((resolve, reject) => {  
-            try {  
-  
-                const groupRequest: Group = {  
-                    displayName: groupName,  
-                    description: groupDescription,  
-                    groupTypes: \[  
-                        "Unified"  
-                    \],  
-                    mailEnabled: true,  
-                    mailNickname: groupName.replace(/\\s/g, ""),  
-                    securityEnabled: false,  
-                    visibility: groupVisibility  
-                };  
-  
-                if (groupOwners && groupOwners.length) {  
-                    groupRequest\['owners@odata.bind'\] = groupOwners.map(owner => {  
-                        return \`https://graph.microsoft.com/v1.0/users/${owner}\`;  
-                    });  
+    ```typescript
+    import { MSGraphClient } from "@microsoft/sp-http";  
+    import { WebPartContext } from "@microsoft/sp-webpart-base";  
+    import { Group } from "@microsoft/microsoft-graph-types";  
+      
+    export class O365GroupService {  
+        public context: WebPartContext;  
+      
+        public setup(context: WebPartContext): void {  
+            this.context = context;  
+        }  
+      
+        public createGroup(groupName: string, groupDescription: string, groupVisibility: string, groupOwners: string[], groupMembers: string[]): Promise<void> {  
+            return new Promise<void>((resolve, reject) => {  
+                try {  
+      
+                    const groupRequest: Group = {  
+                        displayName: groupName,  
+                        description: groupDescription,  
+                        groupTypes: [  
+                            "Unified"  
+                        ],  
+                        mailEnabled: true,  
+                        mailNickname: groupName.replace(/\s/g, ""),  
+                        securityEnabled: false,  
+                        visibility: groupVisibility  
+                    };  
+      
+                    if (groupOwners && groupOwners.length) {  
+                        groupRequest['owners@odata.bind'] = groupOwners.map(owner => {  
+                            return `https://graph.microsoft.com/v1.0/users/${owner}`;  
+                        });  
+                    }  
+      
+                    if (groupMembers && groupMembers.length) {  
+                        groupRequest['members@odata.bind'] = groupMembers.map(member => {  
+                            return `https://graph.microsoft.com/v1.0/users/${member}`;  
+                        });  
+                    }  
+      
+                    this.context.msGraphClientFactory  
+                        .getClient()  
+                        .then((client: MSGraphClient) => {  
+                            client  
+                                .api("/groups")  
+                                .post(groupRequest)  
+                                .then((groupResponse) => {  
+                                    console.log(groupResponse);  
+                                    resolve();  
+                                });  
+                        });  
+                } catch (error) {  
+                    console.error(error);  
                 }  
-  
-                if (groupMembers && groupMembers.length) {  
-                    groupRequest\['members@odata.bind'\] = groupMembers.map(member => {  
-                        return \`https://graph.microsoft.com/v1.0/users/${member}\`;  
-                    });  
-                }  
-  
-                this.context.msGraphClientFactory  
-                    .getClient()  
-                    .then((client: MSGraphClient) => {  
-                        client  
-                            .api("/groups")  
-                            .post(groupRequest)  
-                            .then((groupResponse) => {  
-                                console.log(groupResponse);  
-                                resolve();  
-                            });  
-                    });  
-            } catch (error) {  
-                console.error(error);  
-            }  
-        });  
+            });  
+        }  
     }  
-}  
-  
-const GroupService = new O365GroupService();  
-export default GroupService;
+      
+    const GroupService = new O365GroupService();  
+    export default GroupService;
+    ```
 
-1. Under services folder, add a file index.ts.
+3. Under services folder, add a file index.ts.
 
-export \* from './O365GroupService';
+```typescript
+export * from './O365GroupService';
+```
 
-Consume service from web part
 
-1. Open web part file at “src\\webparts\\o365GroupCreation\\O365GroupCreationWebPart.ts”
+## Consume service from web part
+
+1. Open web part file at "src\\webparts\\o365GroupCreation\\O365GroupCreationWebPart.ts"
 2. Import the service.
 
-import O365GroupService from '../../services/O365GroupService';
+    ```typescript
+    import O365GroupService from '../../services/O365GroupService';
+    ```
 
-1. Implement onInit() method to set up the service.
+3. Implement onInit() method to set up the service.
 
+```typescript
 protected onInit(): Promise<void> {  
   return super.onInit().then(() => {  
     O365GroupService.setup(this.context);  
   });  
 }
+```
 
-Pass the context from web part to React Component
+
+## Pass the context from web part to React Component
 
 We will have to pass the SharePoint context from our web part to the React component.
 
-1. Open React component properties at “src\\webparts\\o365GroupCreation\\components\\IO365GroupCreationProps.ts”
+1. Open React component properties at "src\\webparts\\o365GroupCreation\\components\\IO365GroupCreationProps.ts"
 2. Add the below properties.
 
+```typescript
 import { WebPartContext } from '@microsoft/sp-webpart-base';  
   
 export interface IO365GroupCreationProps {  
   description: string;  
   context: WebPartContext;  
 }
+```
 
-Implement the NewGroup React Component
+
+## Implement the NewGroup React Component
 
 1. Open the React component at src\\webparts\\o365GroupCreation\\components\\O365GroupCreation.tsx
 2. Add below imports.
 
-import { TextField } from 'office-ui-fabric-react/lib/TextField';  
-import { Label } from 'office-ui-fabric-react/lib/Label';  
-import { ChoiceGroup, IChoiceGroupOption } from 'office-ui-fabric-react/lib/ChoiceGroup';  
-import { PeoplePicker, PrincipalType, IPeoplePickerUserItem } from "@pnp/spfx-controls-react/lib/PeoplePicker";  
-import { MessageBar, MessageBarType, IStackProps, Stack } from 'office-ui-fabric-react';  
-import { autobind } from 'office-ui-fabric-react';  
-import O365GroupService from '../../../services/O365GroupService';
+    ```typescript
+    import { TextField } from 'office-ui-fabric-react/lib/TextField';  
+    import { Label } from 'office-ui-fabric-react/lib/Label';  
+    import { ChoiceGroup, IChoiceGroupOption } from 'office-ui-fabric-react/lib/ChoiceGroup';  
+    import { PeoplePicker, PrincipalType, IPeoplePickerUserItem } from "@pnp/spfx-controls-react/lib/PeoplePicker";  
+    import { MessageBar, MessageBarType, IStackProps, Stack } from 'office-ui-fabric-react';  
+    import { autobind } from 'office-ui-fabric-react';  
+    import O365GroupService from '../../../services/O365GroupService';
+    ```
 
-1. Use the React state.
+3. Use the React state.
 
-import { IO365GroupCreationState } from './IO365GroupCreationState';  
-  
-export default class O365GroupCreation extends React.Component<IO365GroupCreationProps, IO365GroupCreationState> {  
-  constructor(props: IO365GroupCreationProps) {  
-    super(props);  
-  
-    this.state = {  
-      name: '',  
-      description: '',  
-      visibility: 'Public',  
-      owners: \[\],  
-      members: \[\],  
-      showMessageBar: false  
-    };  
-  }  
-.  
-.  
-.  
-}
+    ```typescript
+    import { IO365GroupCreationState } from './IO365GroupCreationState';  
+      
+    export default class O365GroupCreation extends React.Component<IO365GroupCreationProps, IO365GroupCreationState> {  
+      constructor(props: IO365GroupCreationProps) {  
+        super(props);  
+      
+        this.state = {  
+          name: '',  
+          description: '',  
+          visibility: 'Public',  
+          owners: [],  
+          members: [],  
+          showMessageBar: false  
+        };  
+      }  
+      .  
+      .  
+      .  
+    }
+    ```
 
-1. Implement render method to add the UI controls.
+4. Implement render method to add the UI controls.
 
-public render(): React.ReactElement<IO365GroupCreationProps> {  
-  return (  
-    <div className={styles.container}>  
-      <div className={styles.row}>  
-        {  
-          this.state.showMessageBar  
-            ?  
+    ```typescript
+    public render(): React.ReactElement<IO365GroupCreationProps> {  
+      return (  
+        <div className={styles.container}>  
+          <div className={styles.row}>  
+            {  
+              this.state.showMessageBar  
+                ?  
+                <div className="form-group">  
+                  <Stack {...verticalStackProps}>  
+                    <MessageBar messageBarType={this.state.messageType}>{this.state.message}</MessageBar>  
+                  </Stack>  
+                </div>  
+                :  
+                null  
+            }  
+      
             <div className="form-group">  
-              <Stack {...verticalStackProps}>  
-                <MessageBar messageBarType={this.state.messageType}>{this.state.message}</MessageBar>  
-              </Stack>  
+              <TextField label="Name" required onChanged={this.onchangedName} />  
             </div>  
-            :  
-            null  
-        }  
-  
-        <div className="form-group">  
-          <TextField label="Name" required onChanged={this.onchangedName} />  
+      
+            <div className="form-group">  
+              <TextField label="Description" required multiline rows={3} onChanged={this.onchangedDescription} />  
+            </div>  
+      
+            <div className="form-group">  
+              <Label required={true}>Visibility</Label>  
+              <ChoiceGroup  
+                defaultSelectedKey="Public"  
+                options={[  
+                  {  
+                    key: 'Public',  
+                    text: 'Public - Anyone can see group content'  
+                  },  
+                  {  
+                    key: 'Private',  
+                    text: 'Private - Only members can see group content'  
+                  }  
+                ]}  
+                onChange={this.onChangeVisibility}  
+              />  
+            </div>  
+      
+            <div className="form-group">  
+              <PeoplePicker  
+                context={this.props.context}  
+                titleText="Owners"  
+                personSelectionLimit={3}  
+                showHiddenInUI={false}  
+                principalTypes={[PrincipalType.User]}  
+                selectedItems={this._getPeoplePickerOwners}  
+                isRequired={true} />  
+            </div>  
+      
+            <div className="form-group">  
+              <PeoplePicker  
+                context={this.props.context}  
+                titleText="Members"  
+                personSelectionLimit={3}  
+                showHiddenInUI={false}  
+                principalTypes={[PrincipalType.User]}  
+                selectedItems={this._getPeoplePickerMembers}  
+                isRequired={true} />  
+            </div>  
+      
+            <div className={`${styles.buttonRow} form-group`}>  
+              <button type="button" className="btn btn-primary" onClick={this.createNewGroup}>Submit</button>  
+            </div>  
+          </div>  
         </div>  
-  
-        <div className="form-group">  
-          <TextField label="Description" required multiline rows={3} onChanged={this.onchangedDescription} />  
-        </div>  
-  
-        <div className="form-group">  
-          <Label required={true}>Visibility</Label>  
-          <ChoiceGroup  
-            defaultSelectedKey="Public"  
-            options={\[  
-              {  
-                key: 'Public',  
-                text: 'Public - Anyone can see group content'  
-              },  
-              {  
-                key: 'Private',  
-                text: 'Private - Only members can see group content'  
-              }  
-            \]}  
-            onChange={this.onChangeVisibility}  
-          />  
-        </div>  
-  
-        <div className="form-group">  
-          <PeoplePicker  
-            context={this.props.context}  
-            titleText="Owners"  
-            personSelectionLimit={3}  
-            showHiddenInUI={false}  
-            principalTypes={\[PrincipalType.User\]}  
-            selectedItems={this.\_getPeoplePickerOwners}  
-            isRequired={true} />  
-        </div>  
-  
-        <div className="form-group">  
-          <PeoplePicker  
-            context={this.props.context}  
-            titleText="Members"  
-            personSelectionLimit={3}  
-            showHiddenInUI={false}  
-            principalTypes={\[PrincipalType.User\]}  
-            selectedItems={this.\_getPeoplePickerMembers}  
-            isRequired={true} />  
-        </div>  
-  
-        <div className={\`${styles.buttonRow} form-group\`}>  
-          <button type="button" className="btn btn-primary" onClick={this.createNewGroup}>Submit</button>  
-        </div>  
-      </div>  
-    </div>  
-  );  
-}
+      );  
+    }
+    ```
 
-1. Implement the event handlers for UI controls.
+5. Implement the event handlers for UI controls.
 
+```typescript
 @autobind  
-private \_getPeoplePickerOwners(items: IPeoplePickerUserItem\[\]) {  
+private _getPeoplePickerOwners(items: IPeoplePickerUserItem[]) {  
   this.setState(() => {  
     return {  
       ...this.state,  
@@ -341,7 +398,7 @@ private \_getPeoplePickerOwners(items: IPeoplePickerUserItem\[\]) {
 }  
   
 @autobind  
-private \_getPeoplePickerMembers(items: IPeoplePickerUserItem\[\]) {  
+private _getPeoplePickerMembers(items: IPeoplePickerUserItem[]) {  
   this.setState(() => {  
     return {  
       ...this.state,  
@@ -383,8 +440,10 @@ private createNewGroup(): void {
     });  
   }  
 }
+```
 
-Deploy the SPFx Package to SharePoint App Catalog
+
+## Deploy the SPFx Package to SharePoint App Catalog
 
 Follow below steps to deploy the SPFx package (.sppkg) to SharePoint app catalog.
 
@@ -392,55 +451,63 @@ Follow below steps to deploy the SPFx package (.sppkg) to SharePoint app catalog
 
 On the command prompt, type the below command.
 
+```
 gulp bundle --ship
+```
 
 **Prepare the package**
 
 On the command prompt, type the below command.
 
+```
 gulp package-solution --ship
+```
 
-The .sppkg package will be available inside “sharepoint\\solution” folder.
+The .sppkg package will be available inside "sharepoint\solution" folder.
 
 **Upload package to app catalog**
 
 1. Open SharePoint app catalog site.
 2. Upload the package to app catalog.
 
-![](https://nanddeepnachanblogs.com/wp-content/uploads/2020/03/word-image-470.png)
+    ![](/media/2019-12-24-create-office-365-groups-with-spfx/02.png)
 
-1. Click Deploy.
+3. Click "Deploy".
+
 
 ## API Management
 
 After deploying the web part, follow the below steps to approve API requests.
 
-1. Open SharePoint Admin Center ([https://\[tenant\]-admin.sharepoint.com](https://[tenant]-admin.sharepoint.com)).
-2. From left navigation, click “API Management”.
+1. Open SharePoint Admin Center https://[tenant]-admin.sharepoint.com.
+2. From left navigation, click "API Management".
 3. Approve the pending requests.
 
-![](https://nanddeepnachanblogs.com/wp-content/uploads/2020/03/word-image-471.png)
+![](/media/2019-12-24-create-office-365-groups-with-spfx/03.png)
+
 
 ## Test the WebPart
 
-1. On the command prompt, type “gulp serve”.
+1. On the command prompt, type "gulp serve".
 2. Open SharePoint site.
-3. Navigate to /\_layouts/15/workbench.aspx
+3. Navigate to /_layouts/15/workbench.aspx
 4. Locate and add the webpart (named O365GroupCreation) to page.
 5. Fill in the group information.
-6. Click Submit.
+6. Click "Submit".
 
-![](https://nanddeepnachanblogs.com/wp-content/uploads/2020/03/word-image-472.png)
+![](/media/2019-12-24-create-office-365-groups-with-spfx/04.png)
+
 
 ## Troubleshoot
 
-The page generates an alert “To view the information on this page, you need to verify your identity”, to resolve this add below urls to trusted site in browser.
+The page generates an alert "To view the information on this page, you need to verify your identity", to resolve this add below urls to trusted site in browser.
 
 - https://graph.microsoft.com
 - https://.office365.com
 - https://.microsoftonline.com
 - https://.sharepoint.com
 - https://.outlook.com
+
 
 ## Summary
 
