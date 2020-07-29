@@ -5,6 +5,7 @@ share: true
 categories:
   - SharePoint
   - SharePoint Framework
+  - MS Graph
 header:
   image: media/2019-11-04-isolated-web-parts-in-spfx/01.png
   teaser: media/2019-11-04-isolated-web-parts-in-spfx/01.png

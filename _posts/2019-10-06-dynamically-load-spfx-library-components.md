@@ -1,6 +1,17 @@
 ---
 title: "Dynamically Load SPFx Library Components"
 date: "2019-10-06"
+share: true
+categories:
+  - SharePoint
+  - SharePoint Framework
+header:
+  image: media/2019-10-06-dynamically-load-spfx-library-components/03.png
+  teaser: media/2019-10-06-dynamically-load-spfx-library-components/03.png
+tags:
+  - "2019"
+  - October 2019
+last_modified_at: 2019-10-06T00:00:00-00:00
 ---
 
 ## Overview
@@ -8,6 +19,7 @@ date: "2019-10-06"
 Library components are generally available with SPFx v1.9.1 release. The library component helps to build independently versioned and deployed code. It then can be consumed by various SPFx web parts or extensions.
 
 In this article, we will explore how to dynamically load the library component and the benefits of dynamic loading.
+
 
 ## Why load the Library component dynamically?
 
@@ -18,96 +30,119 @@ Here are a couple of points to set the stage.
 
 Importing the library component dynamically in the SPFx solution helps to handle above situations gracefully.
 
+
 ## Implement Library Component
 
 Follow the below steps to create a library component named spfx-library.
 
 1. Run the Yeoman SharePoint Generator to create the solution.
 
-yo @microsoft/sharepoint
+    ```
+    yo @microsoft/sharepoint
+    ```
 
-1. Yeoman generator will present you with the wizard by asking questions about the solution to be created.
+2. Yeoman generator will present you with the wizard by asking questions about the solution to be created.
 
-![](https://nanddeepnachanblogs.com/wp-content/uploads/2020/03/word-image-514.png)
+    ![](/media/2019-10-06-dynamically-load-spfx-library-components/01.png)
 
-1. To avoid localhost port conflicts on gulp serve, open config\\serve.json and set the port to any number other than default port 4321. For more information - [SharePoint Library Components – Simultaneous Parallel Development](http://warner.digital/sharepoint-library-components-simultaneous-parallel-development/)
+3. To avoid localhost port conflicts on gulp serve, open config\\serve.json and set the port to any number other than default port 4321. For more information - [SharePoint Library Components – Simultaneous Parallel Development](http://warner.digital/sharepoint-library-components-simultaneous-parallel-development/)
 
-{  
-  "$schema": "https://developer.microsoft.com/json-schemas/core-build/serve.schema.json",  
-  "port": 4322,  
-  "https": true  
-}
+    ```json
+    {  
+      "$schema": "https://developer.microsoft.com/json-schemas/core-build/serve.schema.json",  
+      "port": 4322,  
+      "https": true  
+    }
+    ```
 
-1. On the command prompt, type below command to create a local npm link to the library.
+4. On the command prompt, type below command to create a local npm link to the library.
 
-npm link
+    ```
+    npm link
+    ```
 
-1. To run the library component (without opening a browser).
+5. To run the library component (without opening a browser).
 
-gulp serve --nobrowser
+    ```
+    gulp serve --nobrowser
+    ```
 
-Implement Consumer Web Part
 
-Let’s implement a web part named spfx-library-consumer to consume the above library component.
+## Implement Consumer Web Part
+
+Let's implement a web part named spfx-library-consumer to consume the above library component.
 
 1. Run the Yeoman SharePoint Generator to create the solution.
 
-yo @microsoft/sharepoint
+    ```
+    yo @microsoft/sharepoint
+    ```
 
-1. Yeoman generator will present you with the wizard by asking questions about the solution to be created.
+2. Yeoman generator will present you with the wizard by asking questions about the solution to be created.
 
-![](https://nanddeepnachanblogs.com/wp-content/uploads/2020/03/word-image-515.png)
+    ![](/media/2019-10-06-dynamically-load-spfx-library-components/02.png)
 
-1. In the command prompt, symlink a library component by running below command.
+3. On the command prompt, symlink a library component by running below command.
 
-npm link spfx-library
+    ```
+    npm link spfx-library
+    ```
 
-1. Type below command to open the solution in the code editor of your choice.
+4. Type below command to open the solution in the code editor of your choice.
 
-code .
+    ```
+    code .
+    ```
 
-1. Open file src\\webparts\\libraryConsumer\\components\\LibraryConsumer.tsx.
-2. Import the library component.
+5. Open file "src\webparts\libraryConsumer\components\LibraryConsumer.tsx".
+6. Import the library component.
 
-import \* as myLibrary from 'spfx-library';
+    ```typescript
+    import * as myLibrary from 'spfx-library';
+    ```
 
-1. Refer library inside render method.
+7. Refer library inside render method.
 
-public render(): React.ReactElement<ILibraryConsumerProps> {  
-  const myInstance = new myLibrary.CommonLibraryLibrary();  
-  
-  return (  
-    <div className={ styles.libraryConsumer }>  
-      <div className={ styles.container }>  
-        <div className={ styles.row }>  
-          <div className={ styles.column }>  
-            <span className={ styles.title }>Welcome to SharePoint!</span>  
-            <p className={ styles.subTitle }>Customize SharePoint experiences using Web Parts.</p>  
-            <p>My library: {myInstance.name()}</p>  
-            <p className={ styles.description }>{escape(this.props.description)}</p>  
-            <a href="https://aka.ms/spfx" className={ styles.button }>  
-              <span className={ styles.label }>Learn more</span>  
-            </a>  
+    ```typescript
+    public render(): React.ReactElement<ILibraryConsumerProps> {  
+      const myInstance = new myLibrary.CommonLibraryLibrary();  
+      
+      return (  
+        <div className={ styles.libraryConsumer }>  
+          <div className={ styles.container }>  
+            <div className={ styles.row }>  
+              <div className={ styles.column }>  
+                <span className={ styles.title }>Welcome to SharePoint!</span>  
+                <p className={ styles.subTitle }>Customize SharePoint experiences using Web Parts.</p>  
+                <p>My library: {myInstance.name()}</p>  
+                <p className={ styles.description }>{escape(this.props.description)}</p>  
+                <a href="https://aka.ms/spfx" className={ styles.button }>  
+                  <span className={ styles.label }>Learn more</span>  
+                </a>  
+              </div>  
+            </div>  
           </div>  
         </div>  
-      </div>  
-    </div>  
-  );  
-}
+      );  
+    }
+    ```
 
-1. On the command prompt, run the web part solution by executing the below command.
+8. On the command prompt, run the web part solution by executing the below command.
 
-gulp serve
+    ```
+    gulp serve
+    ```
 
-1. The web part should consume the methods from the library component.
+9. The web part should consume the methods from the library component.
 
-![](https://nanddeepnachanblogs.com/wp-content/uploads/2020/03/word-image-516.png)
+    ![](/media/2019-10-06-dynamically-load-spfx-library-components/03.png)
 
-1. Open developer dashboard (F12) in the browser to see how the components are loaded.
+10. Open developer dashboard (F12) in the browser to see how the components are loaded.
 
-![](https://nanddeepnachanblogs.com/wp-content/uploads/2020/03/word-image-517.png)
+![](/media/2019-10-06-dynamically-load-spfx-library-components/04.png)
 
 This shows the library component is loaded by default.
+
 
 ## Load the Library Dynamically
 
@@ -117,29 +152,24 @@ Let us analyze our library loading on the calling component.
 
 Analyze the original import statement (as below).
 
-import \* as myLibrary from 'spfx-library';
+```typescript
+import * as myLibrary from 'spfx-library';
+```
 
 Let us try to be very specific about what we need from the library component. The CommonLibraryLibrary class contains the methods in library component. The above import statement will reduce to below.
 
+```typescript
 import CommonLibraryLibrary from 'spfx-library';
+```
 
 The old friend - webpackChunkName is helpful here, which will make sure anything in that tsx/ts file will be wrapped up in its own .js file, loaded when this line of code executes.
 
-const dynamicLibImport = await import(  
-      /\* webpackChunkName: 'CommonLibraryLibrary' \*/  
-      'spfx-library'  
-);  
-  
-const myInstance = new dynamicLibImport.CommonLibraryLibrary();  
-alert(myInstance.name());
-
-The entire code for the web part component looks as below:
-
-import \* as React from 'react';  
+```typescript
+import * as React from 'react';  
 import styles from './LibraryConsumer.module.scss';  
 import { ILibraryConsumerProps } from './ILibraryConsumerProps';  
 import { escape } from '@microsoft/sp-lodash-subset';  
-// import \* as myLibrary from 'spfx-library';  
+// import * as myLibrary from 'spfx-library';  
   
 // Import Button component    
 import { IButtonProps, DefaultButton } from 'office-ui-fabric-react/lib/Button';  
@@ -156,14 +186,14 @@ export default class LibraryConsumer extends React.Component<ILibraryConsumerPro
             <div className={ styles.column }>  
               <span className={ styles.title }>Welcome to SharePoint!</span>  
               <p className={ styles.subTitle }>Customize SharePoint experiences using Web Parts.</p>  
-              {/\* <p>My library: {myInstance.name()}</p> \*/}  
+              {/* <p>My library: {myInstance.name()}</p> */}  
               <p className={ styles.description }>{escape(this.props.description)}</p>                
   
               <DefaultButton    
                   data-automation-id="search"    
-                  target="\_blank"    
+                  target="_blank"    
                   title="Search"    
-                  onClick={this.\_loadLibrary}    
+                  onClick={this._loadLibrary}    
                   >    
                   Load Library Component    
               </DefaultButton>  
@@ -175,9 +205,9 @@ export default class LibraryConsumer extends React.Component<ILibraryConsumerPro
   }  
   
   @autobind  
-  private async \_loadLibrary() {  
+  private async _loadLibrary() {  
     const dynamicLibImport = await import(  
-      /\* webpackChunkName: 'CommonLibraryLibrary' \*/  
+      /* webpackChunkName: 'CommonLibraryLibrary' */  
       'spfx-library'  
     );  
   
@@ -185,20 +215,23 @@ export default class LibraryConsumer extends React.Component<ILibraryConsumerPro
     alert(myInstance.name());  
   }  
 }
+```
 
-Test the library component dynamic loading
 
-1. On the command prompt, type “gulp serve” to run the web part.
+## Test the library component dynamic loading
+
+1. On the command prompt, type "gulp serve" to run the web part.
 2. In the browser, open the developer dashboard (F12) to observe the component loading.
 
-![](https://nanddeepnachanblogs.com/wp-content/uploads/2020/03/word-image-518.png)
+    ![](/media/2019-10-06-dynamically-load-spfx-library-components/05.png)
 
-1. The page will not load the library component on the initial load.
-2. Click the button “Load Library Component”. Observe the developer dashboard.
+3. The page will not load the library component on the initial load.
+4. Click the button "Load Library Component". Observe the developer dashboard.
 
-![](https://nanddeepnachanblogs.com/wp-content/uploads/2020/03/word-image-519.png)
+    ![](/media/2019-10-06-dynamically-load-spfx-library-components/06.png)
 
-1. On the click of a button, the library component loads dynamically and executes the lines of code.
+5. On the click of a button, the library component loads dynamically and executes the lines of code.
+
 
 ## Summary
 
