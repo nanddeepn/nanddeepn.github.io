@@ -11,9 +11,18 @@ toc: true
 ## Upcoming events
 I’ll be speaking at the following events.
 
+**Event**|**Topic**|**When**|**Where**
+Microsoft 365 Saturday, Gurgaon|[Developing SharePoint Framework Solutions for the Enterprise](https://www.spsevents.org/event/gurgaon2020/sessions/)|29 August, 2020|Online
+Teams Day Online 2|[Collaborate on Microsoft Teams with Power Platform](https://modernworkplacesummits.com/)|30 September, 2020|Online
+Global Microsoft 365 Developer Bootcamp, Chennai|[Change Notifications and Track Changes with Microsoft Graph](https://www.meetup.com/XMonkeys360/events/271978500/)|10 October, 2020|Online
+
+
 ## Past events
 
 **Event**|**Topic**|**When**|**Where**
+Webinar|[Microsoft Inspire Updates for Office 365 & Power Platform](https://www.meetup.com/Microsoft-365-and-Power-Platform-User-group-India/events/272119991/)|05 August, 2020|Online
+Global 2020 Summer AI/ML Fest|[Using AI to classify SharePoint Content with Cognitive and Sentiment analysis](https://sessionize.com/view/lr72q3pl/GridSmart?format=Embed_Styled_Html&isDark=False)|31 July, 2020|Online
+Microsoft Power Platform Webinar Series|[Introduction to Power Platform](https://www.meetup.com/m365ahmedabad/events/271823451/)|31 July, 2020|Online
 Lightup Virtual Conference|[Using AI To Classify Sharepoint Content With Cognitive And Sentiment Analysis](https://www.2020twenty.net/lightup/#agenda)|14 July, 2020|Online
 MS Teams Webinar Series|[Microsoft Teams and Power Platform better together](https://www.meetup.com/Microsoft-365-and-Power-Platform-User-group-India/events/271651051/)|11 July, 2020|Online
 Office 365 and Power Platform - Monthly updates briefing|[SharePoint updates (June 2020)](https://www.meetup.com/Microsoft-365-and-Power-Platform-User-group-India/events/271479390/)|04 July, 2020|Online
