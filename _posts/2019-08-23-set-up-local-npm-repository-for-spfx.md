@@ -10,7 +10,7 @@ header:
   teaser: media/2019-08-23-set-up-local-npm-repository-for-spfx/01.png
 tags:
   - "2019"
-  - Aug 2019
+  - August 2019
 last_modified_at: 2019-08-23T00:00:00-00:00
 ---
 

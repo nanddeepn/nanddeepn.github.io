@@ -10,7 +10,7 @@ header:
   teaser: media/2019-08-30-govern-third-party-service-and-spfx-web-parts-availability-on-sharepoint-online/01.png
 tags:
   - "2019"
-  - Aug 2019
+  - August 2019
 last_modified_at: 2019-08-30T00:00:00-00:00
 ---
 
