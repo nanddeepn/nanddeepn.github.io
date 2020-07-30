@@ -4,6 +4,7 @@ date: "2019-09-21"
 share: true
 categories:
   - MS Teams
+  - Bot
 header:
   image: media/2019-09-21-host-bot-in-azure-for-ms-teams/06.png
   teaser: media/2019-09-21-host-bot-in-azure-for-ms-teams/06.png
