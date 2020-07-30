@@ -3,7 +3,8 @@ title: "Govern Third-Party Service and SPFx Web Parts Availability on SharePoint
 date: "2019-08-30"
 share: true
 categories:
-  - MS Teams
+  - SharePoint
+  - SharePoint Framework
 header:
   image: media/2019-08-30-govern-third-party-service-and-spfx-web-parts-availability-on-sharepoint-online/01.png
   teaser: media/2019-08-30-govern-third-party-service-and-spfx-web-parts-availability-on-sharepoint-online/01.png
