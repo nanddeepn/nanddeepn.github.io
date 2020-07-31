@@ -1,6 +1,6 @@
 ---
 title: "SPFx Unit Testing with Azure DevOps"
-date: "2019-07-24",
+date: "2019-07-24"
 share: true
 categories:
   - SharePoint
