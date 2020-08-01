@@ -3,8 +3,7 @@ title: "Configure Multi-Factor Authentication (MFA) for Office 365"
 date: "2019-06-19"
 share: true
 categories:
-  - SharePoint
-  - SharePoint Framework
+  - Office 365
 header:
   image: media/2019-06-19-configure-multi-factor-authentication-for-office-365/05.png
   teaser: media/2019-06-19-configure-multi-factor-authentication-for-office-365/05.png
