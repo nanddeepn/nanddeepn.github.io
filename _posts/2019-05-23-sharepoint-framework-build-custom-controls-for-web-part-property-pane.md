@@ -1,6 +1,17 @@
 ---
 title: "SharePoint Framework – Build Custom Controls for Web Part Property Pane"
 date: "2019-05-23"
+share: true
+categories:
+  - SharePoint
+  - SharePoint Framework
+header:
+  image: media/2019-05-23-sharepoint-framework-build-custom-controls-for-web-part-property-pane/04.png
+  teaser: media/2019-05-23-sharepoint-framework-build-custom-controls-for-web-part-property-pane/04.png
+tags:
+  - "2019"
+  - May 2019
+last_modified_at: 2019-05-23T00:00:00-00:00
 ---
 
 ## Overview
@@ -9,151 +20,178 @@ SharePoint Framework web parts support various predefined typed objects (e.g. te
 
 In this article, we will build custom controls for property pane and develop list dropdown selection property pane.
 
+
 ## Create SPFx Solution
 
 1. Open command prompt. Create a directory for SPFx solution.
 
-md spfx-customcontrol-propertypane
+    ```
+    md spfx-customcontrol-propertypane
+    ```
 
-1. Navigate to above created directory.
+2. Navigate to above created directory.
 
-cd spfx-customcontrol-propertypane
+    ```
+    cd spfx-customcontrol-propertypane
+    ```
 
-1. Run Yeoman SharePoint Generator to create the solution.
+3. Run Yeoman SharePoint Generator to create the solution.
 
-yo @microsoft/sharepoint
+    ```
+    yo @microsoft/sharepoint
+    ```
 
-1. Yeoman generator will present you with the wizard by asking questions about the solution to be created.
+4. Yeoman generator will present you with the wizard by asking questions about the solution to be created.
 
-![](https://nanddeepnachanblogs.com/wp-content/uploads/2020/03/word-image-381.png)
+    ![](/media/2019-05-23-sharepoint-framework-build-custom-controls-for-web-part-property-pane/01.png)
 
-- **Solution Name:** Hit enter to have default name (spfx-customcontrol-propertypane in this case) or type in any other name for your solution.
-    - Selected choice: Hit enter
-- **Target for component:** Here we can select the target environment where we are planning to deploy the client webpart i.e. SharePoint Online or SharePoint OnPremise (SharePoint 2016 or 2019 onwards).
-    - Selected choice: SharePoint Online only (latest)
-- **Place of files:** We may choose to use the same folder or create a subfolder for our solution.
-    - Selected choice: Use the current folder
-- **Deployment option:** Selecting Y will allow the app to deployed instantly to all sites and will be accessible everywhere.
-    - Selected choice: Y
-- **Permissions to access web APIs:** Choose if the components in the solution require permissions to access web APIs that are unique and not shared with other components in the tenant.
-    - Selected choice: N (solution contains unique permissions)
-- **Type of client-side component to create:** We can choose to create client side webpart or an extension.
-    - Selected choice: WebPart
-- **Web Part Name:** Hit enter to select the default name or type in any other name.
-    - Selected choice: CustomPropertyPaneDemo
-- **Web part description:** Hit enter to select the default description or type in any other value.
-    - Selected choice: Hit enter
-- **Framework to use:** Select any JavaScript framework to develop the component. Available choices are (No JavaScript Framework, React, and Knockout)
-    - Selected choice: React
+    - **Solution Name:** Hit enter to have default name (spfx-customcontrol-propertypane in this case) or type in any other name for your solution.
+        - Selected choice: Hit enter
+    - **Target for component:** Here we can select the target environment where we are planning to deploy the client webpart i.e. SharePoint Online or SharePoint OnPremise (SharePoint 2016 or 2019 onwards).
+        - Selected choice: SharePoint Online only (latest)
+    - **Place of files:** We may choose to use the same folder or create a subfolder for our solution.
+        - Selected choice: Use the current folder
+    - **Deployment option:** Selecting Y will allow the app to deployed instantly to all sites and will be accessible everywhere.
+        - Selected choice: Y
+    - **Permissions to access web APIs:** Choose if the components in the solution require permissions to access web APIs that are unique and not shared with other components in the tenant.
+        - Selected choice: N (solution contains unique permissions)
+    - **Type of client-side component to create:** We can choose to create client side webpart or an extension.
+        - Selected choice: WebPart
+    - **Web Part Name:** Hit enter to select the default name or type in any other name.
+        - Selected choice: CustomPropertyPaneDemo
+    - **Web part description:** Hit enter to select the default description or type in any other value.
+        - Selected choice: Hit enter
+    - **Framework to use:** Select any JavaScript framework to develop the component. Available choices are (No JavaScript Framework, React, and Knockout)
+        - Selected choice: React
 
-1. Once the scaffolding is completed, lock down the version of project dependencies by running below command.
+5. Once the scaffolding is completed, lock down the version of project dependencies by running below command.
 
-npm shrinkwrap
+    ```
+    npm shrinkwrap
+    ```
 
-1. On the command prompt, type below command to open the solution in code editor of your choice.
+6. On the command prompt, type below command to open the solution in code editor of your choice.
 
-code .
+    ```
+    code .
+    ```
 
-Define Web Part Property
+
+## Define Web Part Property
 
 We are building a custom control to display the lists from current SharePoint site. We will define a web part property for storing the user selected list from web part property pane.
 
-1. Open CustomPropertyPaneDemoWebPart.manifest.json under “\\src\\webparts\\customPropertyPaneDemo” folder.
+1. Open CustomPropertyPaneDemoWebPart.manifest.json under "\src\webparts\customPropertyPaneDemo" folder.
 2. Rename default description property to listName.
 
-![](https://nanddeepnachanblogs.com/wp-content/uploads/2020/03/word-image-382.png)
+    ![](/media/2019-05-23-sharepoint-framework-build-custom-controls-for-web-part-property-pane/02.png)
 
-1. Open “src\\webparts\\customPropertyPaneDemo\\components\\ICustomPropertyPaneDemoProps.ts” and update it to use listName property.
+3. Open "src\webparts\customPropertyPaneDemo\components\ICustomPropertyPaneDemoProps.ts" and update it to use listName property.
 
-export interface ICustomPropertyPaneDemoProps {    
-  listName: string;    
-}
+    ```typescript
+    export interface ICustomPropertyPaneDemoProps {    
+      listName: string;    
+    }
+    ```
 
-1. In the “\\src\\webparts\\customPropertyPaneDemo\\CustomPropertyPaneDemoWebPart.ts”, update render method to use listName property.
+4. In the "\src\webparts\customPropertyPaneDemo\CustomPropertyPaneDemoWebPart.ts", update render method to use listName property.
 
-public render(): void {    
-    const element: React.ReactElement<ICustomPropertyPaneDemoProps> = React.createElement(    
-      CustomPropertyPaneDemo,    
-      {    
-        listName: this.properties.listName    
-      }    
-    );    
-    
-    ReactDom.render(element, this.domElement);    
-  }
+    ```typescript
+    public render(): void {    
+        const element: React.ReactElement<ICustomPropertyPaneDemoProps> = React.createElement(    
+          CustomPropertyPaneDemo,    
+          {    
+            listName: this.properties.listName    
+          }    
+        );    
+        
+        ReactDom.render(element, this.domElement);    
+    }
+    ```
 
-1. Update getPropertyPaneConfiguration method.
+5. Update getPropertyPaneConfiguration method.
 
-protected getPropertyPaneConfiguration(): IPropertyPaneConfiguration {    
-    return {    
-      pages: \[    
-        {    
-          header: {    
-            description: strings.PropertyPaneDescription    
-          },    
-          groups: \[    
+    ```typescript
+    protected getPropertyPaneConfiguration(): IPropertyPaneConfiguration {    
+        return {    
+          pages: [    
             {    
-              groupName: strings.BasicGroupName,    
-              groupFields: \[    
-                PropertyPaneTextField('listName', {    
-                  label: strings.ListFieldLabel    
-                })    
-              \]    
+              header: {    
+                description: strings.PropertyPaneDescription    
+              },    
+              groups: [    
+                {    
+                  groupName: strings.BasicGroupName,    
+                  groupFields: [    
+                    PropertyPaneTextField('listName', {    
+                      label: strings.ListFieldLabel    
+                    })    
+                  ]    
+                }    
+              ]    
             }    
-          \]    
-        }    
-      \]    
-    };    
-  }
+          ]    
+        };    
+      }
+    ```
 
-1. Update the interface at “src\\webparts\\customPropertyPaneDemo\\loc\\mystrings.d.ts”
+6. Update the interface at "src\webparts\customPropertyPaneDemo\loc\mystrings.d.ts".
 
-declare interface ICustomPropertyPaneDemoWebPartStrings {    
-  PropertyPaneDescription: string;    
-  BasicGroupName: string;    
-  ListFieldLabel: string;    
-}
+    ```typescript
+    declare interface ICustomPropertyPaneDemoWebPartStrings {    
+      PropertyPaneDescription: string;    
+      BasicGroupName: string;    
+      ListFieldLabel: string;    
+    }
+    ```
 
-1. In the “src\\webparts\\customPropertyPaneDemo\\loc\\en-us.js”, update definition as below.
+7. In the "src\webparts\customPropertyPaneDemo\loc\en-us.js", update definition as below.
 
-define(\[\], function() {    
-  return {    
-    "PropertyPaneDescription": "Description",    
-    "BasicGroupName": "Group Name",    
-    "ListFieldLabel": "List"    
-  }    
-});
+    ```typescript
+    define([], function() {    
+      return {    
+        "PropertyPaneDescription": "Description",    
+        "BasicGroupName": "Group Name",    
+        "ListFieldLabel": "List"    
+      }    
+    });
+    ```
 
-1. In the “src\\webparts\\customPropertyPaneDemo\\components\\CustomPropertyPaneDemo.tsx” update render method to use listName property field.
+8. In the "src\webparts\customPropertyPaneDemo\components\CustomPropertyPaneDemo.tsx" update render method to use listName property field.
 
-public render(): React.ReactElement<ICustomPropertyPaneDemoProps> {    
-    return (    
-      <div className={ styles.customPropertyPaneDemo }>    
-        <div className={ styles.container }>    
-          <div className={ styles.row }>    
-            <div className={ styles.column }>    
-              <span className={ styles.title }>Welcome to SharePoint!</span>    
-              <p className={ styles.subTitle }>Customize SharePoint experiences using Web Parts.</p>    
-              <p className={ styles.description }>{escape(this.props.listName)}</p>    
-              <a href="https://aka.ms/spfx" className={ styles.button }>    
-                <span className={ styles.label }>Learn more</span>    
-              </a>    
+    ```typescript
+    public render(): React.ReactElement<ICustomPropertyPaneDemoProps> {    
+      return (    
+        <div className={ styles.customPropertyPaneDemo }>    
+          <div className={ styles.container }>    
+            <div className={ styles.row }>    
+              <div className={ styles.column }>    
+                <span className={ styles.title }>Welcome to SharePoint!</span>    
+                <p className={ styles.subTitle }>Customize SharePoint experiences using Web Parts.</p>    
+                <p className={ styles.description }>{escape(this.props.listName)}</p>    
+                <a href="https://aka.ms/spfx" className={ styles.button }>    
+                  <span className={ styles.label }>Learn more</span>    
+                </a>    
+              </div>    
             </div>    
           </div>    
         </div>    
-      </div>    
-    );    
-  }
+      );    
+    }
+    ```
 
-1. Update props at “src\\webparts\\customPropertyPaneDemo\\components\\ICustomPropertyPaneDemoProps.ts”
+9. Update props at "src\webparts\customPropertyPaneDemo\components\ICustomPropertyPaneDemoProps.ts".
 
-export interface ICustomPropertyPaneDemoProps {    
-  listName: string;    
-}
+    ```typescript
+    export interface ICustomPropertyPaneDemoProps {    
+      listName: string;    
+    }
+    ```
 
-1. On the command prompt, type “gulp server” to see the new web part property in action.
+10. On the command prompt, type ```gulp serve``` to see the new web part property in action.
 
-![](https://nanddeepnachanblogs.com/wp-content/uploads/2020/03/word-image-383.png)
+![](/media/2019-05-23-sharepoint-framework-build-custom-controls-for-web-part-property-pane/03.png)
+
 
 ## Add Dropdown Property Pane Control
 
@@ -161,18 +199,20 @@ Let us implement a drop down for showing lists from SharePoint site.
 
 **Define React Props for dropdown**
 
-Under “src\\webparts\\customPropertyPaneDemo\\components”, add a file IListDropdownProps.ts
+Under "src\webparts\customPropertyPaneDemo\components", add a file IListDropdownProps.ts
 
+```typescript
 import { IDropdownOption } from 'office-ui-fabric-react/lib/components/Dropdown';    
     
 export interface IListDropdownProps {    
   label: string;    
-  loadOptions: () => Promise<IDropdownOption\[\]>;    
+  loadOptions: () => Promise<IDropdownOption[]>;    
   onChanged: (option: IDropdownOption, index?: number) => void;    
   selectedKey: string | number;    
   disabled: boolean;    
   stateKey: string;    
 }
+```
 
 The above class defines properties for React component being used on web part property pane.
 
@@ -183,17 +223,20 @@ The above class defines properties for React component being used on web part pr
 - disabled: specifies if dropdown is disabled or not.
 - stateKey: forces React component to re-render.
 
+
 **Define React State for dropdown**
 
-Under “src\\webparts\\customPropertyPaneDemo\\components”, add a file IListDropdownState.ts
+Under "src\webparts\customPropertyPaneDemo\components", add a file IListDropdownState.ts
 
+```typescript
 import { IDropdownOption } from 'office-ui-fabric-react/lib/components/Dropdown';    
     
 export interface IListDropdownState {    
   loading: boolean;    
-  options: IDropdownOption\[\];    
+  options: IDropdownOption[];    
   error: string;    
 }
+```
 
 The above interface defines state for React component.
 
@@ -201,11 +244,13 @@ The above interface defines state for React component.
 - options: holds all available dropdown option.
 - error: defines any error occurred.
 
+
 **Define DropDown React Component**
 
-Under “src\\webparts\\customPropertyPaneDemo\\components”, add a file ListDropdown.tsx
+Under "src\webparts\customPropertyPaneDemo\components", add a file ListDropdown.tsx
 
-import \* as React from 'react';  
+```typescript
+import * as React from 'react';  
 import { Dropdown, IDropdownOption } from 'office-ui-fabric-react/lib/components/Dropdown';  
 import { Spinner } from 'office-ui-fabric-react/lib/components/Spinner';  
 import { IListDropdownProps } from './IListDropdownProps';  
@@ -244,7 +289,7 @@ export default class ListDropdown extends React.Component<IListDropdownProps, IL
     });  
   
     this.props.loadOptions()  
-      .then((options: IDropdownOption\[\]): void => {  
+      .then((options: IDropdownOption[]): void => {  
         this.setState({  
           loading: false,  
           error: undefined,  
@@ -279,7 +324,7 @@ export default class ListDropdown extends React.Component<IListDropdownProps, IL
   private onChanged(option: IDropdownOption, index?: number): void {  
     this.selectedKey = option.key;  
     // reset previously selected options  
-    const options: IDropdownOption\[\] = this.state.options;  
+    const options: IDropdownOption[] = this.state.options;  
     options.forEach((o: IDropdownOption): void => {  
       if (o.key !== option.key) {  
         o.selected = false;  
@@ -294,24 +339,28 @@ export default class ListDropdown extends React.Component<IListDropdownProps, IL
     }  
   }  
 }
+```
 
 ListDropdown class represents React component to render dropdown property pane control.
 
 The component loads available options by calling loadOptions method. Once options are loaded, component state is updated to show the options. The dropdown is rendered using Office UI fabric React dropdown component.
 
+
 ## Add List Dropdown to Property Pane Control
 
-To define public properties for dropdown property pane control, add IPropertyPaneDropdownProps.ts file under “src\\webparts\\customPropertyPaneDemo\\components” folder.
+To define public properties for dropdown property pane control, add IPropertyPaneDropdownProps.ts file under "src\webparts\customPropertyPaneDemo\components" folder.
 
+```typescript
 import { IDropdownOption } from 'office-ui-fabric-react/lib/components/Dropdown';  
   
 export interface IPropertyPaneDropdownProps {  
   label: string;  
-  loadOptions: () => Promise<IDropdownOption\[\]>;  
+  loadOptions: () => Promise<IDropdownOption[]>;  
   onPropertyChange: (propertyPath: string, newValue: any) => void;  
   selectedKey: string | number;  
   disabled?: boolean;  
 }
+```
 
 In the above interface:
 
@@ -321,24 +370,29 @@ In the above interface:
 - selectKey: specified selected value.
 - disabled: specifies if dropdown is disabled or not.
 
+
 **Define internal properties for dropdown property pane control**
 
-Create new file IPropertyPaneDropdownInternalProps.ts under “src\\webparts\\customPropertyPaneDemo\\components\\” folder.
+Create new file IPropertyPaneDropdownInternalProps.ts under "src\webparts\customPropertyPaneDemo\components\" folder.
 
+```typescript
 import { IPropertyPaneCustomFieldProps } from '@microsoft/sp-webpart-base';  
 import { IPropertyPaneDropdownProps } from './IPropertyPaneDropdownProps';  
   
 export interface IPropertyPaneDropdownInternalProps extends IPropertyPaneDropdownProps, IPropertyPaneCustomFieldProps {  
 }
+```
 
 This interface does not define any new properties, however it combines the properties from previously defined IPropertyPaneDropdownProps interface and standard SharePoint Framework IPropertyPaneCustomFieldProps interface for custom control to run correctly.
 
+
 **Define dropdown property pane control**
 
-Create new file “PropertyPaneDropdown.ts” under “src\\webparts\\customPropertyPaneDemo\\components\\” folder.
+Create new file "PropertyPaneDropdown.ts" under "src\webparts\customPropertyPaneDemo\components\" folder.
 
-import \* as React from 'react';  
-import \* as ReactDom from 'react-dom';  
+```typescript
+import * as React from 'react';  
+import * as ReactDom from 'react-dom';  
 import {  
   IPropertyPaneField,  
   PropertyPaneFieldType  
@@ -397,8 +451,10 @@ export class PropertyPaneDropdown implements IPropertyPaneField<IPropertyPaneDro
     this.properties.onPropertyChange(this.targetProperty, option.key);  
   }  
 }
+```
 
 The above class implements standard SharePoint Framework IPropertyPaneField interface.
+
 
 ## Use Dropdown Property Pane Control in Web Part
 
@@ -406,43 +462,53 @@ The above class implements standard SharePoint Framework IPropertyPaneField inte
 
 Define an interface that represents SharePoint list.
 
-Create a new file IListInfo.ts under “src\\webparts\\customPropertyPaneDemo” folder.
+Create a new file IListInfo.ts under "src\webparts\customPropertyPaneDemo" folder.
 
+```typescript
 export interface IListInfo {  
     Id: string;  
     Title: string;  
 }
+```
 
-**Reference Dropdown Property Pane in WebPart**
 
-In the webpart file src\\webparts\\customPropertyPaneDemo\\CustomPropertyPaneDemoWebPart.ts, import PropertyPaneDropdown class.
+**Reference Dropdown Property Pane in Web Part**
 
+In the webpart file "src\webparts\customPropertyPaneDemo\CustomPropertyPaneDemoWebPart.ts", import PropertyPaneDropdown class.
+
+```typescript
 import { PropertyPaneDropdown } from './components/PropertyPaneDropdown';
+```
 
 Add reference to interface and helper functions to work with web part properties.
 
+```typescript
 import { IDropdownOption } from 'office-ui-fabric-react/lib/components/Dropdown';  
 import { update, get } from '@microsoft/sp-lodash-subset';
+```
 
 Add method to load available lists. For the sake of simplicity, we are using mock data here.
 
-private loadLists(): Promise<IDropdownOption\[\]> {  
-    return new Promise<IDropdownOption\[\]>((resolve: (options: IDropdownOption\[\]) => void, reject: (error: any) => void) => {  
-      setTimeout(() => {  
-        resolve(\[{  
-          key: 'sharedDocuments',  
-          text: 'Shared Documents'  
-        },  
-          {  
-            key: 'myDocuments',  
-            text: 'My Documents'  
-          }\]);  
-      }, 2000);  
-    });  
-  }
+```typescript
+private loadLists(): Promise<IDropdownOption[]> {  
+  return new Promise<IDropdownOption[]>((resolve: (options: IDropdownOption[]) => void, reject: (error: any) => void) => {  
+    setTimeout(() => {  
+      resolve([{  
+        key: 'sharedDocuments',  
+        text: 'Shared Documents'  
+      },  
+        {  
+          key: 'myDocuments',  
+          text: 'My Documents'  
+        }]);  
+    }, 2000);  
+  });  
+}
+```
 
 Add method to handle property dropdown value change.
 
+```typescript
 private onListChange(propertyPath: string, newValue: any): void {  
   const oldValue: any = get(this.properties, propertyPath);  
   // store new value in web part properties  
@@ -450,39 +516,44 @@ private onListChange(propertyPath: string, newValue: any): void {
   // refresh web part  
   this.render();  
 }
+```
 
 Update getPropertyPaneConfiguration method to use dropdown property pane control to render the listName web part property.
 
+```typescript
 protected getPropertyPaneConfiguration(): IPropertyPaneConfiguration {  
   return {  
-    pages: \[  
+    pages: [  
       {  
         header: {  
           description: strings.PropertyPaneDescription  
         },  
-        groups: \[  
+        groups: [  
           {  
             groupName: strings.BasicGroupName,  
-            groupFields: \[  
+            groupFields: [  
               new PropertyPaneDropdown('listName', {  
                 label: strings.ListFieldLabel,  
                 loadOptions: this.loadLists.bind(this),  
                 onPropertyChange: this.onListChange.bind(this),  
                 selectedKey: this.properties.listName  
               })  
-            \]  
+            ]  
           }  
-        \]  
+        ]  
       }  
-    \]  
+    ]  
   };  
 }
+```
 
-Test the Custom Property Pane
 
-On the command prompt, type “gulp serve”. Add the webpart and verify the property pane.
+## Test the Custom Property Pane
 
-![](https://nanddeepnachanblogs.com/wp-content/uploads/2020/03/word-image-384.png)
+On the command prompt, type ```gulp serve```. Add the webpart and verify the property pane.
+
+![](/media/2019-05-23-sharepoint-framework-build-custom-controls-for-web-part-property-pane/04.png)
+
 
 ## Summary
 
