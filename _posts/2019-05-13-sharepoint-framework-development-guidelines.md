@@ -1,6 +1,17 @@
 ---
 title: "SharePoint Framework Development Guidelines"
 date: "2019-05-13"
+share: true
+categories:
+  - SharePoint
+  - SharePoint Framework
+header:
+  image: media/common/SPFx-2.png
+  teaser: media/common/SPFx-2.png
+tags:
+  - "2019"
+  - May 2019
+last_modified_at: 2019-05-13T00:00:00-00:00
 ---
 
 ## Overview
@@ -13,47 +24,62 @@ There is a sufficient information available on internet about SPFx for best prac
 
 In this article, we will stick to the basics and revise few guidelines for SPFx development that will help to build better SPFx solutions.
 
+
 ## Upgrade to latest SPFx version
 
 SharePoint Framework is evolving continuously based on user feedbacks, fixes and improvements. As a result, Microsoft releases newer versions of SPFx regularly. It is important to stay updated with latest SPFx version. It is always not an easy task as it involves upgrade of each web part, extension, libraries, and components to newer version and test out the entire solution for unit and integration part.
 
 Use below command to view the version of SPFx Yeoman being used.
 
+```
 npm -g ls @microsoft/generator-spfx --depth=0
+```
 
-Upgrade the outdated packages
+
+## Upgrade the outdated packages
 
 While creating a new SPFx solution, Yeoman generator fetches latest version of npm packages to create client-side project. The existing npm packages could be outdated in the future as there will be a new versions of npm packages are available.
 
 Use below command to view the list of outdated npm packages.
 
+```
 npm outdated
+```
 
 This command will list down all the packages that needs upgrade along with information of current version installed in your project and latest available version.
 
 For each package you want to update, run below command.
 
+```
 npm install package-name@newversion --save
+```
 
-Test Cases
+
+## Test Cases
 
 As we try to be in sync with latest npm packages, this also silently says that nothing should break after the updates. This situation demands for having unit and integration test cases in place. The test cases can be implemented using Jest.
 
+
 ## npm shrinkwrap
 
-Locking down the package dependency is very important to ensure the same code works for all. The SPFx code is distributed without node\_modules folder, because it can be built later using “npm install” command. If the npm packages are not locked down then “npm install” downloads the latest version of npm packages. This may break any dependent packages.
+Locking down the package dependency is very important to ensure the same code works for all. The SPFx code is distributed without ```node_modules``` folder, because it can be built later using ```npm install``` command. If the npm packages are not locked down then ```npm install``` downloads the latest version of npm packages. This may break any dependent packages.
 
-To lock down the npm packages, use below command.
+To lock down the npm package versions, use below command.
 
+```
 npm shrinkwrap
+```
+
 
 ## Use Office UI Fabric Controls
 
 SharePoint and UI developers have utilized bootstrap for developing nice user interfaces in the past. However, Microsoft has provided Office UI Fabric for SharePoint Framework. Office UI Fabric is an official front-end framework to build experiences in Office 365. It helps to develop robust and consistent design across SharePoint modern experiences.
 
+
 ## App Package Deployment
 
 SPFx app packages can be deployed at tenant level, which makes the app available all across the tenant. Which is a good idea. However, if for some reason you are using a single Office 365 tenant for all development, UAT and production purpose (e.g. different site collections for each environment) then this will not be a viable option. In such cases consider using app catalog at site collection level.
+
 
 ## Performance Optimization
 
@@ -65,17 +91,20 @@ Optimize the performance of SPFx solution by following best practices. Below few
 - Allow files to be cached by proxies.
 - Minimize HTTPS calls and data size transferred.
 
+
 ## PnP Samples
 
 SharePoint PnP (Patterns and Practices) has various samples created around common business scenarios. Before building web parts, extensions or property pane controls first verify if they are readily available in PnP samples.
 
-- PnP client side web part samples ([https://github.com/SharePoint/sp-dev-fx-webparts](https://github.com/SharePoint/sp-dev-fx-webparts))
-- PnP SPFx extensions samples ([https://github.com/SharePoint/sp-dev-fx-extensions](https://github.com/SharePoint/sp-dev-fx-extensions))
-- PnP reusable property pane controls ([https://sharepoint.github.io/sp-dev-fx-property-controls/](https://sharepoint.github.io/sp-dev-fx-property-controls/))
+- [PnP client side web part samples](https://github.com/SharePoint/sp-dev-fx-webparts)
+- [PnP SPFx extensions samples](https://github.com/SharePoint/sp-dev-fx-extensions)
+- [PnP reusable property pane controls](https://sharepoint.github.io/sp-dev-fx-property-controls/)
+
 
 ## DevOps
 
 Implement CI (Continuous integration) / CD (Continuous deployment) to verify every change rigorously. Continuous Integration (CI) is the process of automating the build and testing of code when a developer commits changes to source control. Continuous Deployment (CD) takes a package from the build and deploys it to a designated environment.
+
 
 ## Summary
 
