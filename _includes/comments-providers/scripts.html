@@ -4,6 +4,8 @@
     {% include /comments-providers/disqus.html %}
   {% when "discourse" %}
     {% include /comments-providers/discourse.html %}
+  {% when "google" %}
+    {% include /comments-providers/google_plus.html %}
   {% when "facebook" %}
     {% include /comments-providers/facebook.html %}
   {% when "staticman" %}
