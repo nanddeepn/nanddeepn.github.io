@@ -8,6 +8,7 @@
       <h4 class="page__comments-title">{{ comments_label }}</h4>
       <section id="disqus_thread"></section>
     {% when "google" %}
+      <h4 class="page__comments-title">{{ comments_label }}</h4>
       <section class="g-comments" data-href="{{site.url}}{{page.url}}" data-width="642" data-first_party_property="BLOGGER" data-view_type="FILTERED_POSTMOD"></section>
     {% when "facebook" %}
       <h4 class="page__comments-title">{{ comments_label }}</h4>
