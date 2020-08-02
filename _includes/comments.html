@@ -155,5 +155,15 @@
       <section id="utterances-comments"></section>
     {% when "custom" %}
       <section id="custom-comments"></section>
+    {% when "google" %}
+    <script src="https://apis.google.com/js/plusone.js"></script>
+    <section id="google-comments">
+      <div class="g-comments"
+          data-href="{{site.baseurl}}{{page.url}}"
+          data-width="642"
+          data-first_party_property="BLOGGER"
+          data-view_type="FILTERED_POSTMOD">
+      </div>
+    </section>
   {% endcase %}
 </div>
