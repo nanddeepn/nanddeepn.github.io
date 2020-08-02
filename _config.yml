@@ -22,7 +22,7 @@ title_separator          : "-"
 subtitle                 : # site tagline that appears below site title in masthead
 name                     : "Nanddeep Nachan Blogs"
 description              : "Welcome to my blog"
-url                      : "https://nanddeepn.github.io/"
+url                      : "https://nanddeepn.github.io"
 baseurl                  : # the subpath of your site, e.g. "/blog"
 repository               : # GitHub username/repo-name e.g. "mmistakes/minimal-mistakes"
 teaser                   : "/assets/images/unsplash-image-1.jpg" # path of fallback teaser image, e.g. "/assets/images/500x300.png"
