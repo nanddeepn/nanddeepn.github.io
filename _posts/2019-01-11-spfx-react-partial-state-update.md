@@ -5,7 +5,6 @@ share: true
 categories:
   - SharePoint
   - SharePoint Framework
-  - Google API
 header:
   image: media/2019-01-11-spfx-react-partial-state-update/02.png
   teaser: media/2019-01-11-spfx-react-partial-state-update/02.png
