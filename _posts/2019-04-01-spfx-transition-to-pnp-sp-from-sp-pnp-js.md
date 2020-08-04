@@ -5,7 +5,6 @@ share: true
 categories:
   - SharePoint
   - SharePoint Framework
-  - DevOps
 header:
   image: media/2019-04-01-spfx-transition-to-pnp-sp-from-sp-pnp-js/03.png
   teaser: media/2019-04-02-debug-sharepoint-framework-solutions-with-visual-studio-code/03.png

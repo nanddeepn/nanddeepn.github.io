@@ -5,7 +5,6 @@ share: true
 categories:
   - SharePoint
   - SharePoint Framework
-  - DevOps
 header:
   image: media/2019-03-31-spfx-build-ms-teams-tab/10.png
   teaser: media/2019-03-31-spfx-build-ms-teams-tab/10.png

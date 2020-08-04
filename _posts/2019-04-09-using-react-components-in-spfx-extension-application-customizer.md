@@ -5,7 +5,6 @@ share: true
 categories:
   - SharePoint
   - SharePoint Framework
-  - DevOps
 header:
   image: media/2019-04-09-using-react-components-in-spfx-extension-application-customizer/02.png
   teaser: media/2019-04-09-using-react-components-in-spfx-extension-application-customizer/02.png
