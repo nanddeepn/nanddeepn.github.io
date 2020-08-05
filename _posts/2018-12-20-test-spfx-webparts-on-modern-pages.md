@@ -34,7 +34,7 @@ Local workbench is html based page which mimics SharePoint UI. It starts after r
 
 **SharePoint workbench**
 
-SharePoint workbench can be accessed from SharePoint site by navigating to “/\_layouts/15/workbench.aspx”. The gulp can be run with command “gulp serve --nobrowser”
+SharePoint workbench can be accessed from SharePoint site by navigating to "/_layouts/15/workbench.aspx”. The gulp can be run with command ```gulp serve --nobrowser```
 
 ![](/media/2018-12-20-test-spfx-webparts-on-modern-pages/02.png)
 
