@@ -1,6 +1,17 @@
 ---
 title: "SharePoint Framework – Call Azure Function"
 date: "2018-11-11"
+share: true
+categories:
+  - SharePoint
+  - SharePoint Framework
+header:
+  image: media/2018-11-11-spfx-call-azure-function/10.png
+  teaser: media/2018-11-11-spfx-call-azure-function/10.png
+tags:
+  - "2018"
+  - November 2018
+last_modified_at: 2018-11-11T00:00:00-00:00
 ---
 
 ## Overview
@@ -9,41 +20,43 @@ SharePoint Framework client web parts are used to develop visual components in m
 
 In this article, we will explore how to create a simple Azure Function and consume it in the SharePoint Framework client web part.
 
+
 ## Azure Function
 
 Azure functions are serverless computing. It is an event driven, compute on demand experience. Follow below steps to create an Azure function
 
-1. Open Azure Portal [https://portal.azure.com](https://portal.azure.com)
-2. Click Create Resource
-3. Under Compute, select Function App
+1. Open Azure Portal [https://portal.azure.com](https://portal.azure.com).
+2. Click **Create Resource**.
+3. Under **Compute**, select **Function App**.
 
-![](https://nanddeepnachanblogs.com/wp-content/uploads/2020/03/word-image-250.png)
+    ![](/media/2018-11-11-spfx-call-azure-function/01.png)
 
-1. Fill in the information to create the Function App
+4. Fill in the information to create the Function App.
 
-![](https://nanddeepnachanblogs.com/wp-content/uploads/2020/03/word-image-251.png)
+    ![](/media/2018-11-11-spfx-call-azure-function/02.png)
 
-1. Click Create
-2. Once the Azure function is ready, click Functions > New function
+5. Click **Create**.
+6. Once the Azure function is ready, click **Functions** > **New function**.
 
-![](https://nanddeepnachanblogs.com/wp-content/uploads/2020/03/word-image-252.png)
+    ![](/media/2018-11-11-spfx-call-azure-function/03.png)
 
-1. Select HTTP trigger
+7. Select **HTTP trigger**.
 
-![](https://nanddeepnachanblogs.com/wp-content/uploads/2020/03/word-image-253.png)
+    ![](/media/2018-11-11-spfx-call-azure-function/04.png)
 
-1. Type in function name, select Authorization level
-2. Click Create
-3. Click Run to test the Azure function
+8. Type in function name, select Authorization level.
+9. Click **Create**.
+10. Click **Run** to test the Azure function.
 
-![](https://nanddeepnachanblogs.com/wp-content/uploads/2020/03/word-image-254.png)
+    ![](/media/2018-11-11-spfx-call-azure-function/05.png)
 
-1. Verify that for provided input, Azure function is returning expected output. Also, the status code is 200 OK.
-2. Click “Get function URL”
+11. Verify that for provided input, Azure function is returning expected output. Also, the status code is 200 OK.
+12. Click **Get function URL**.
 
-![](https://nanddeepnachanblogs.com/wp-content/uploads/2020/03/word-image-255.png)
+    ![](/media/2018-11-11-spfx-call-azure-function/06.png)
 
-1. Copy the function url.
+13. Copy the function URL.
+
 
 ## Enable CORS on Azure Function
 
@@ -51,141 +64,162 @@ The Azure functions are hosted in MS Azure and they run in different domain than
 
 Follow below steps to enable CORS on Azure function:
 
-1. Click Platform features
-2. Under API, click CORS
+1. Click **Platform features**.
+2. Under **API**, click **CORS**.
 
-![](https://nanddeepnachanblogs.com/wp-content/uploads/2020/03/word-image-256.png)
+    ![](/media/2018-11-11-spfx-call-azure-function/07.png)
 
-1. Specify the Office 365 tenant domain url and SharePoint local workbench url
+3. Specify the Office 365 tenant domain url and SharePoint local workbench url.
 
-![](https://nanddeepnachanblogs.com/wp-content/uploads/2020/03/word-image-257.png)
+    ![](/media/2018-11-11-spfx-call-azure-function/08.png)
 
-1. Click Save.
+4. Click **Save**.
+
 
 ## Develop SharePoint Framework Web Part
 
 1. Open command prompt. Create a directory for SPFx solution.
 
-md spfx-call-azure-function
+    ```
+    md spfx-call-azure-function
+    ```
 
-1. Navigate to above created directory.
+2. Navigate to above created directory.
 
-cd spfx-call-azure-function
+    ```
+    cd spfx-call-azure-function
+    ```
 
-1. Run Yeoman SharePoint Generator to create the solution.
+3. Run Yeoman SharePoint Generator to create the solution.
 
-yo @microsoft/sharepoint
+    ```
+    yo @microsoft/sharepoint
+    ```
 
-1. Yeoman generator will present you with the wizard by asking questions about the solution to be created.
+4. Yeoman generator will present you with the wizard by asking questions about the solution to be created.
 
-![](https://nanddeepnachanblogs.com/wp-content/uploads/2020/03/word-image-258.png)
+    ![](/media/2018-11-11-spfx-call-azure-function/09.png)
 
-- **Solution Name:** Hit enter to have default name (spfx-call-azure-function in this case) or type in any other name for your solution.
-    - Selected choice: Hit enter
-- **Target for component:** Here we can select the target environment where we are planning to deploy the client webpart i.e. SharePoint Online or SharePoint OnPremise (SharePoint 2016 onwards).
-    - Selected choice: SharePoint Online only (latest)
-- **Place of files:** We may choose to use the same folder or create a subfolder for our solution.
-    - Selected choice: Same folder
-- **Deployment option:** Selecting Y will allow the app to deployed instantly to all sites and will be accessible everywhere.
-    - Selected choice: N (install on each site explicitly)
-- **Type of client-side component to create:** We can choose to create client side webpart or an extension. Choose webpart option.
-    - Selected choice: WebPart
-- **Web part name:** Hit enter to select the default name or type in any other name.
-    - Selected choice: AzureFunctionWebPart
-- **Web part description:** Hit enter to select the default description or type in any other value.
-    - Selected choice: Call Azure Function from SPFx
-- **Framework to use:** Select any JavaScript framework to develop the component. Available choices are (No JavaScript Framework, React, and Knockout)
-    - Selected choice: No JavaScript Framework
+    - **Solution Name:** Hit enter to have default name (spfx-call-azure-function in this case) or type in any other name for your solution.
+        - Selected choice: Hit enter
+    - **Target for component:** Here we can select the target environment where we are planning to deploy the client webpart i.e. SharePoint Online or SharePoint OnPremise (SharePoint 2016 onwards).
+        - Selected choice: SharePoint Online only (latest)
+    - **Place of files:** We may choose to use the same folder or create a subfolder for our solution.
+        - Selected choice: Same folder
+    - **Deployment option:** Selecting Y will allow the app to deployed instantly to all sites and will be accessible everywhere.
+        - Selected choice: N (install on each site explicitly)
+    - **Type of client-side component to create:** We can choose to create client side webpart or an extension. Choose webpart option.
+        - Selected choice: WebPart
+    - **Web part name:** Hit enter to select the default name or type in any other name.
+        - Selected choice: AzureFunctionWebPart
+    - **Web part description:** Hit enter to select the default description or type in any other value.
+        - Selected choice: Call Azure Function from SPFx
+    - **Framework to use:** Select any JavaScript framework to develop the component. Available choices are (No JavaScript Framework, React, and Knockout)
+        - Selected choice: No JavaScript Framework
 
-1. Yeoman generator will perform scaffolding process to generate the solution. The scaffolding process will take significant amount of time.
-2. Once the scaffolding process is completed, lock down the version of project dependencies by running below command.
+5. Yeoman generator will perform scaffolding process to generate the solution. The scaffolding process will take significant amount of time.
+6. Once the scaffolding process is completed, lock down the version of project dependencies by running below command.
 
-npm shrinkwrap
+    ```
+    npm shrinkwrap
+    ```
 
-1. On the command prompt type below command to open the solution in code editor of your choice.
+7. On the command prompt type below command to open the solution in code editor of your choice.
 
-code .
+    ```
+    code .
+    ```
 
-Code the webpart
 
-1. Open AzureFunctionWebPartWebPart.ts under. “\\src\\webparts\\azureFunctionWebPart\\” folder
+## Code the web part
+
+1. Open AzureFunctionWebPartWebPart.ts under "\src\webparts\azureFunctionWebPart\" folder.
 2. Add below imports.
 
-import { HttpClient, SPHttpClient, HttpClientConfiguration, HttpClientResponse, ODataVersion, IHttpClientConfiguration, IHttpClientOptions, ISPHttpClientOptions } from '@microsoft/sp-http';
+    ```typescript
+    import { HttpClient, SPHttpClient, HttpClientConfiguration, HttpClientResponse, ODataVersion, IHttpClientConfiguration, IHttpClientOptions, ISPHttpClientOptions } from '@microsoft/sp-http';
+    ```
 
-1. Implement method callAzureFunction as below:
+3. Implement method _callAzureFunction_ as below:
 
-export default class AzureFunctionWebPartWebPart extends BaseClientSideWebPart<IAzureFunctionWebPartWebPartProps> {    
-protected functionUrl: string = "https://spfxcaller.azurewebsites.net/api/HttpTrigger";    
-protected callAzureFunction(): void {    
-      const requestHeaders: Headers = new Headers();    
-      requestHeaders.append("Content-type", "text/plain");    
-      requestHeaders.append("Cache-Control", "no-cache");    
-    
-      var siteUrl: string = this.context.pageContext.web.absoluteUrl;    
-      var userName: string = (<HTMLInputElement>document.getElementById("txtUserName")).value;    
-        console.log(\`SiteUrl: '${siteUrl}', UserName: '${userName}'\`);    
-        const postOptions: IHttpClientOptions = {    
-        headers: requestHeaders,    
-        body: \`{ name: '${userName}' }\`    
-      };    
-        let responseText: string = "";    
-      let resultMsg: HTMLElement = document.getElementById("responseContainer");    
-        this.context.httpClient.post(this.functionUrl, HttpClient.configurations.v1, postOptions).then((response: HttpClientResponse) => {    
-         response.json().then((responseJSON: IData) => {    
-            //responseText = JSON.stringify(responseJSON);    
-            if (response.ok) {    
-                resultMsg.style.color = "white";    
-            } else {    
-                resultMsg.style.color = "red";    
-            }    
-    
-            resultMsg.innerText = responseJSON.name;    
-          })    
-          .catch ((response: any) => {    
-            let errMsg: string = \`WARNING - error when calling URL ${this.functionUrl}. Error = ${response.message}\`;    
-            resultMsg.style.color = "red";    
-            console.log(errMsg);    
-            resultMsg.innerText = errMsg;    
-          });    
-      });    
-  }
+    ```typescript
+    export default class AzureFunctionWebPartWebPart extends BaseClientSideWebPart<IAzureFunctionWebPartWebPartProps> {    
+      protected functionUrl: string = "https://spfxcaller.azurewebsites.net/api/HttpTrigger";
+      
+      protected callAzureFunction(): void {    
+        const requestHeaders: Headers = new Headers();    
+        requestHeaders.append("Content-type", "text/plain");    
+        requestHeaders.append("Cache-Control", "no-cache");    
+      
+        var siteUrl: string = this.context.pageContext.web.absoluteUrl;    
+        var userName: string = (<HTMLInputElement>document.getElementById("txtUserName")).value;    
+          console.log(`SiteUrl: '${siteUrl}', UserName: '${userName}'`);    
+          const postOptions: IHttpClientOptions = {    
+          headers: requestHeaders,    
+          body: `{ name: '${userName}' }`    
+        };    
+          let responseText: string = "";    
+        let resultMsg: HTMLElement = document.getElementById("responseContainer");    
+          this.context.httpClient.post(this.functionUrl, HttpClient.configurations.v1, postOptions).then((response: HttpClientResponse) => {    
+            response.json().then((responseJSON: IData) => {    
+              //responseText = JSON.stringify(responseJSON);    
+              if (response.ok) {    
+                  resultMsg.style.color = "white";    
+              } else {    
+                  resultMsg.style.color = "red";    
+              }    
+      
+              resultMsg.innerText = responseJSON.name;    
+            })    
+            .catch ((response: any) => {    
+              let errMsg: string = `WARNING - error when calling URL ${this.functionUrl}. Error = ${response.message}`;    
+              resultMsg.style.color = "red";    
+              console.log(errMsg);    
+              resultMsg.innerText = errMsg;    
+            });    
+        });    
+    }
+    ```
 
-1. Update render() method as below:
+4. Update render() method as below:
 
-public render(): void {    
-    this.domElement.innerHTML = \`    
-      <div class="${ styles.azureFunctionWebPart }">    
-        <div class="${ styles.container }">    
-          <div class="${ styles.row }">    
-            <div class="${ styles.column }">    
-              <span class="${ styles.title }">Call Azure Function</span>    
-              <p class="${ styles.subTitle }">Customize SharePoint experiences using Web Parts.</p>    
-                  
-              <div class="${styles.row}">    
-                <span class="ms-font-l ms-fontColor-white ${styles.label}">User name:</span>    
-                <input type="text" id="txtUserName"></input>    
+    ```typescript
+    public render(): void {    
+      this.domElement.innerHTML = `    
+        <div class="${ styles.azureFunctionWebPart }">    
+          <div class="${ styles.container }">    
+            <div class="${ styles.row }">    
+              <div class="${ styles.column }">    
+                <span class="${ styles.title }">Call Azure Function</span>    
+                <p class="${ styles.subTitle }">Customize SharePoint experiences using Web Parts.</p>    
+                    
+                <div class="${styles.row}">    
+                  <span class="ms-font-l ms-fontColor-white ${styles.label}">User name:</span>    
+                  <input type="text" id="txtUserName"></input>    
+                </div>    
+      
+                <button id="btnCallAzureFunction" class="${styles.button}">Say Hello!</button>    
+                <div id="responseContainer" class="${styles.label}"></div>    
+      
               </div>    
-    
-              <button id="btnCallAzureFunction" class="${styles.button}">Say Hello!</button>    
-              <div id="responseContainer" class="${styles.label}"></div>    
-    
             </div>    
           </div>    
-        </div>    
-      </div>\`;    
-    
-      document.getElementById("btnCallAzureFunction").onclick = this.callAzureFunction.bind(this);    
-  }
+        </div>`;    
+      
+        document.getElementById("btnCallAzureFunction").onclick = this.callAzureFunction.bind(this);    
+    }
+    ```
 
-Test the WebPart
 
-1. On the command prompt, type “gulp serve”
-2. Open SharePoint site
-3. Navigate to /\_layouts/15/workbench.aspx
+## Test the WebPart
+
+1. On the command prompt, type ```gulp serve```.
+2. Open SharePoint site.
+3. Navigate to /_layouts/15/workbench.aspx
 4. Add the webpart to page.
 
-## ![](https://nanddeepnachanblogs.com/wp-content/uploads/2018/11/SharePoint-Framework-Call-Azure-Function10.png)
+    ![](/media/2018-11-11-spfx-call-azure-function/10.png)
+
 
 ## Summary
 

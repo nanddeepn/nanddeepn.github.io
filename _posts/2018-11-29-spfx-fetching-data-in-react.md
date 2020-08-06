@@ -1,6 +1,17 @@
 ---
 title: "SharePoint Framework - Fetching Data in React"
 date: "2018-11-29"
+share: true
+categories:
+  - SharePoint
+  - SharePoint Framework
+header:
+  image: media/common/SPFXandReact.png
+  teaser: media/common/SPFXandReact.png
+tags:
+  - "2018"
+  - November 2018
+last_modified_at: 2018-11-29T00:00:00-00:00
 ---
 
 ## Overview
@@ -9,11 +20,13 @@ React JS is commonly used to develop solutions in SharePoint Framework. It is a 
 
 In this article, we will explore all possible options to fetch data from React component and pros cons of each option.
 
+
 ## Render Method of React Component
 
 Each React component has Render method. The obvious thought is to have fetch mechanism inside Render method. However, it is not a good place to fetch the data the reason being that it causes the state change. Also, it is not advisable to perform any asynchronous calling in Render method.
 
 The commonly used options are componentWillMount and componentDidMount.
+
 
 ## componentWillMount
 
@@ -23,6 +36,7 @@ We neither can pause Render method until componentWillMount finishes, nor we can
 
 Let us take an example of fetching data from service.
 
+```typescript
 class Employee extends Component {  
   componentWillMount() {  
     dataService.get('/mydata').then(result => {  
@@ -40,21 +54,25 @@ class Employee extends Component {
     );  
   }  
 }
+```
 
 In this example, componentWillMount is calling the dataService asynchronously which will result empty data for first occurrence.
 
 To handle this situation, we can set the initial state in the constructor.
 
+```typescript
 constructor(props) {  
     super(props);  
   
      this.state = {  
-        items: \[\]  
+        items: []  
     };  
 }
+```
 
 We can also check for empty data in Render method.
 
+```typescript
 render() {  
   return (  
     <ul>  
@@ -62,10 +80,12 @@ render() {
         <li key={item.id}>{item.name}</li>  
       )}  
     </ul>  
-  );  
+  );
 }
+```
 
 componentWillMount is now deprecated, so it is not good idea of still keep using this method.
+
 
 ## componentDidMount
 
@@ -78,11 +98,14 @@ componentDidMount will always be called on client after first render when it has
 
 componentDidMount can be used to setup long running processes that can fetch data from SharePoint or any external service on a periodic basis.
 
+```typescript
 componentDidMount() {  
   this.interval = setInterval(this.fetchMyDaya, 3600000);  
 }
+```
 
-Summary
+
+## Summary
 
 While developing SharePoint Framework webpart with React, it is recommended to use componentDidMount over any other place. Try avoid using componentWillMount as it is deprecated. Render method is not a good place for fetching the data as it causes the state change.
 
