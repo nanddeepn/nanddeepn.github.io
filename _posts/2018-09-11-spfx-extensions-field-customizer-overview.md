@@ -224,16 +224,16 @@ The SharePoint local workbench now cannot be used to test the field customizer a
 
     ```typescript
     public onRenderCell(event: IFieldCustomizerCellEventParameters): void {    
-        // Use this method to perform your custom cell rendering.    
-        event.domElement.classList.add(styles.cell);    
-        event.domElement.innerHTML = `    
-                <div class='${styles.PercentFieldCustomizer}'>    
-                    <div class='${styles.full}'>    
-                    <div style='width: ${event.fieldValue}px; background:#0094ff; color:#ffffff'>    
-                          ${event.fieldValue}    
-                    </div>    
-                    </div>    
-                </div>`;    
+      // Use this method to perform your custom cell rendering.    
+      event.domElement.classList.add(styles.cell);    
+      event.domElement.innerHTML = `    
+              <div class='${styles.PercentFieldCustomizer}'>    
+                <div class='${styles.full}'>    
+                  <div style='width: ${event.fieldValue}px; background:#0094ff; color:#ffffff'>    
+                    ${event.fieldValue}    
+                  </div>    
+                </div>
+              </div>`;    
     }
     ```
 
