@@ -1,6 +1,17 @@
 ---
 title: "SharePoint Framework – Implementing Separation of concerns (SoC)"
 date: "2018-10-24"
+share: true
+categories:
+  - SharePoint
+  - SharePoint Framework
+header:
+  image: media/2018-10-22-spfx-implementing-soc/01.png
+  teaser: media/2018-10-22-spfx-implementing-soc/01.png
+tags:
+  - "2018"
+  - October 2018
+last_modified_at: 2018-10-22T00:00:00-00:00
 ---
 
 ## Overview
@@ -9,13 +20,14 @@ SharePoint Framework client web parts are developed using TypeScript and any sup
 
 In this article, we will explore how we can implement Separation of Concerns (SoC) principle in a SharePoint Framework solution.
 
+
 ## Separation of Concerns (SoC) Overview
 
 Separation of Concerns is a design principle for separating our program (or solution) into distinct section. Where in each section addresses a separate concern.
 
 A code is split into sections with each responsible for its own functionality (e.g. business logic, presentation logic, user interface, etc.).
 
-![](https://nanddeepnachanblogs.com/wp-content/uploads/2020/03/word-image-239.png)
+![](/media/2018-10-22-spfx-implementing-soc/01.png)
 
 Each section is independent and does not need to know internals of other section. They only need to know how to communicate with each other by passing certain information and get the desired result.
 
@@ -27,32 +39,39 @@ Advantages:
 
 In SPFx solution, we can refer each section as a Service.
 
+
 ## Build SoC Scenario
 
-In this article, we will reuse React Based OrgChart implemented in the [previous article](https://nanddeepnachanblogs.com/2018/10/spfx-react-based-orgchart/). Download the source code from previous article to get started with implementing SoC.
+In this article, we will reuse React Based OrgChart implemented in the [previous article](/posts/2018-10-14-spfx-react-based-orgchart/). Download the source code from previous article to get started with implementing SoC.
 
-The React component OrgChartViewer.tsx at \\src\\webparts\\orgChartViewer\\components\\ has all the data access, business and presentation logic. We will start implementing by services to develop an independent sections.
+The React component OrgChartViewer.tsx at "\src\webparts\orgChartViewer\components\" has all the data access, business and presentation logic. We will start implementing by services to develop an independent sections.
+
 
 **An OrgChartService class**
 
-1. Under src, create a folder services
-2. Add a file OrgChartService.ts file under it
+1. Under src, create a folder **services**.
+2. Add a file OrgChartService.ts file under it.
 
-![](https://nanddeepnachanblogs.com/wp-content/uploads/2020/03/word-image-240.png)
+    ![](/media/2018-10-22-spfx-implementing-soc/02.png)
 
-1. We will move all data related methods from UI to this service class.
-2. Also declare public interface of the service.
+3. We will move all data related methods from UI to this service class.
+4. Also declare public interface of the service.
+
 
 _IDataService.ts_
 
+```typescript
 import { IOrgChartItem, ChartItem } from './IOrgChartItem';  
   
 export interface IDataService {  
     getOrgChartInfo: (listName?: string) => Promise<any>;  
 }
+```
+
 
 _OrgChartService.ts_
 
+```typescript
 import { ServiceScope, ServiceKey } from "@microsoft/sp-core-library";  
 import { IOrgChartItem, ChartItem } from './IOrgChartItem';  
 import { IDataService } from './IDataService';  
@@ -61,31 +80,31 @@ import { PageContext } from '@microsoft/sp-page-context';
   
 export class OrgChartService implements IDataService {  
     public static readonly serviceKey: ServiceKey<IDataService> = ServiceKey.create<IDataService>('orgChart:data-service', OrgChartService);  
-    private \_spHttpClient: SPHttpClient;  
-    private \_pageContext: PageContext;  
-    private \_currentWebUrl: string;  
+    private _spHttpClient: SPHttpClient;  
+    private _pageContext: PageContext;  
+    private _currentWebUrl: string;  
   
     constructor(serviceScope: ServiceScope) {  
         serviceScope.whenFinished(() => {  
             // Configure the required dependencies  
-            this.\_spHttpClient = serviceScope.consume(SPHttpClient.serviceKey);  
-            this.\_pageContext = serviceScope.consume(PageContext.serviceKey);  
-            this.\_currentWebUrl = this.\_pageContext.web.absoluteUrl;  
+            this._spHttpClient = serviceScope.consume(SPHttpClient.serviceKey);  
+            this._pageContext = serviceScope.consume(PageContext.serviceKey);  
+            this._currentWebUrl = this._pageContext.web.absoluteUrl;  
         });  
     }  
   
-    public getOrgChartInfo(listName?: string): Promise<IOrgChartItem\[\]> {  
-      return new Promise<IOrgChartItem\[\]>((resolve: (itemId: IOrgChartItem\[\]) => void, reject: (error: any) => void): void => {  
+    public getOrgChartInfo(listName?: string): Promise<IOrgChartItem[]> {  
+      return new Promise<IOrgChartItem[]>((resolve: (itemId: IOrgChartItem[]) => void, reject: (error: any) => void): void => {  
         this.readOrgChartItems(listName)  
-          .then((orgChartItems: IOrgChartItem\[\]): void => {  
+          .then((orgChartItems: IOrgChartItem[]): void => {  
             resolve(this.processOrgChartItems(orgChartItems));  
           });  
       });  
     }  
   
-    private readOrgChartItems(listName: string): Promise<IOrgChartItem\[\]> {  
-      return new Promise<IOrgChartItem\[\]>((resolve: (itemId: IOrgChartItem\[\]) => void, reject: (error: any) => void): void => {  
-        this.\_spHttpClient.get(\`${this.\_currentWebUrl}/\_api/web/lists/getbytitle('${listName}')/items?$select=Title,Id,URL,Parent/Id,Parent/Title&$expand=Parent/Id&$orderby=Parent/Id asc\`,  
+    private readOrgChartItems(listName: string): Promise<IOrgChartItem[]> {  
+      return new Promise<IOrgChartItem[]>((resolve: (itemId: IOrgChartItem[]) => void, reject: (error: any) => void): void => {  
+        this._spHttpClient.get(`${this._currentWebUrl}/_api/web/lists/getbytitle('${listName}')/items?$select=Title,Id,URL,Parent/Id,Parent/Title&$expand=Parent/Id&$orderby=Parent/Id asc`,  
         SPHttpClient.configurations.v1,  
         {  
           headers: {  
@@ -93,10 +112,10 @@ export class OrgChartService implements IDataService {
             'odata-version': ''  
           }  
         })  
-        .then((response: SPHttpClientResponse): Promise<{ value: IOrgChartItem\[\] }> => {  
+        .then((response: SPHttpClientResponse): Promise<{ value: IOrgChartItem[] }> => {  
           return response.json();  
         })  
-        .then((response: { value: IOrgChartItem\[\] }): void => {  
+        .then((response: { value: IOrgChartItem[] }): void => {  
           resolve(response.value);  
         }, (error: any): void => {  
           reject(error);  
@@ -104,21 +123,23 @@ export class OrgChartService implements IDataService {
       });      
     }  
       
-    private processOrgChartItems(orgChartItems: IOrgChartItem\[\]): any {  
-        let orgChartNodes: Array<ChartItem> = \[\];  
+    private processOrgChartItems(orgChartItems: IOrgChartItem[]): any {  
+        let orgChartNodes: Array<ChartItem> = [];  
   
         var count: number;  
         for (count = 0; count < orgChartItems.length; count++) {  
-            orgChartNodes.push(new ChartItem(orgChartItems\[count\].Id, orgChartItems\[count\].Title, orgChartItems\[count\].Url, orgChartItems\[count\].Parent ? orgChartItems\[count\].Parent.Id : undefined));  
+            orgChartNodes.push(new ChartItem(orgChartItems[count].Id, orgChartItems[count].Title, orgChartItems[count].Url, orgChartItems[count].Parent ? orgChartItems[count].Parent.Id : undefined));  
         }  
   
         var arrayToTree: any = require('array-to-tree');  
         var orgChartHierarchyNodes: any = arrayToTree(orgChartNodes);  
-        var output: any = JSON.stringify(orgChartHierarchyNodes\[0\]);  
+        var output: any = JSON.stringify(orgChartHierarchyNodes[0]);  
   
         return JSON.parse(output);  
     }  
-}  
+}
+```
+
 
 **What is ServiceKey and ServiceScope?**
 
@@ -126,16 +147,20 @@ These classes allows to implement dependency injection. Instead of passing refer
 
 The below line of code declares the service key:
 
+```typescript
 public static readonly serviceKey: ServiceKey<IOrgChartItem> = ServiceKey.create<IOrgChartItem>('orgChart:data-service', OrgChartService);
+```
 
 The key will help to identify service within the scope. To ensure default implementation always exists, it is better to always call consume() inside a callback from serviceScope.whenFinished().
+
 
 ## Implement Mock Data Service
 
 When the web part is running on local SharePoint workbench, mock data service can provide the mock data to web part.
 
-Add MockDataService.ts file under “\\src\\services” folder.
+Add MockDataService.ts file under "\src\services" folder.
 
+```typescript
 import { ServiceScope, ServiceKey } from "@microsoft/sp-core-library";  
 import { IDataService } from './IDataService';  
   
@@ -151,39 +176,39 @@ export class MockDataService implements IDataService {
             id: 1,  
             title: "ROOT",  
             url: {Description: "Microsoft", Url: "http://www.microsoft.com"},  
-            children:\[  
+            children:[  
               {  
                 id: 2,  
                 title: "Parent 1",  
                 url: null,  
-                parent\_id: 1,  
-                children:\[  
-                  { id: 3, title: "Child 11", parent\_id: 2, url: null },  
-                  { id: 5, title: "Child 12", parent\_id: 2, url: null },  
-                  { id: 6, title: "Child 13", parent\_id: 2, url: null }  
-                \]  
+                parent_id: 1,  
+                children:[  
+                  { id: 3, title: "Child 11", parent_id: 2, url: null },  
+                  { id: 5, title: "Child 12", parent_id: 2, url: null },  
+                  { id: 6, title: "Child 13", parent_id: 2, url: null }  
+                ]  
               },  
               {  
                 id: 7,  
                 title: "Parent 2",  
                 url: null,  
-                parent\_id: 1,  
-                children:\[  
-                  { id: 8, title: "Child 21", parent\_id: 7, url: null },  
-                  { id: 9, title: "Child 22", parent\_id: 7, url: null }  
-                \]  
+                parent_id: 1,  
+                children:[  
+                  { id: 8, title: "Child 21", parent_id: 7, url: null },  
+                  { id: 9, title: "Child 22", parent_id: 7, url: null }  
+                ]  
               },  
               {  
                 id: 10,  
                 title: "Parent 3",  
                 url: null,  
-                parent\_id: 1,  
-                children:\[  
-                  { id: 11, title: "Child 31", parent\_id: 10, url: null },  
-                  { id: 12, title: "Child 32", parent\_id: 10, url: null }  
-                \]  
+                parent_id: 1,  
+                children:[  
+                  { id: 11, title: "Child 31", parent_id: 10, url: null },  
+                  { id: 12, title: "Child 32", parent_id: 10, url: null }  
+                ]  
               }  
-            \]  
+            ]  
           };  
       
         return new Promise<any>((resolve, reject) => {  
@@ -191,13 +216,16 @@ export class MockDataService implements IDataService {
         });  
       }  
 }  
+```
+
 
 ## Update WebPart class to consume Service
 
-1. Open web part class OrgChartViewer.tsx under “\\src\\webparts\\orgChartViewer\\components\\”
+1. Open web part class OrgChartViewer.tsx under "\src\webparts\orgChartViewer\components\".
 2. Update the class to consume the implemented service.
 
-import \* as React from 'react';  
+```typescript
+import * as React from 'react';  
 import styles from './OrgChartViewer.module.scss';  
 import { IOrgChartViewerProps } from './IOrgChartViewerProps';  
 import { IOrgChartViewerState } from './IOrgChartViewerState';  
@@ -218,7 +246,7 @@ export default class OrgChartViewer extends React.Component<IOrgChartViewerProps
     super(props);  
   
     this.state = {  
-      orgChartItems: \[\]  
+      orgChartItems: []  
     };  
   
     let serviceScope: ServiceScope = this.props.serviceScope;  
@@ -282,26 +310,29 @@ export default class OrgChartViewer extends React.Component<IOrgChartViewerProps
     }      
   }    
 }
+```
 
-Test the WebPart
 
-1. On the command prompt, type “gulp serve”
-2. Open SharePoint site
-3. Navigate to /\_layouts/15/workbench.aspx
+## Test the WebPart
+
+1. On the command prompt, type ```gulp serve```.
+2. Open SharePoint site.
+3. Navigate to /_layouts/15/workbench.aspx
 4. Add the webpart to page.
-5. Edit the webpart and add list name (i.e. OrgChart) to web part property
+5. Edit the webpart and add list name (i.e. OrgChart) to web part property.
 
-![](https://nanddeepnachanblogs.com/wp-content/uploads/2020/03/word-image-241.png)
+    ![](/media/2018-10-22-spfx-implementing-soc/03.png)
 
-1. The web part should display the data from SharePoint list in an organization chart
+6. The web part should display the data from SharePoint list in an organization chart
 
-![](https://nanddeepnachanblogs.com/wp-content/uploads/2020/03/word-image-242.png)
+    ![](/media/2018-10-22-spfx-implementing-soc/04.png)
 
-1. Click on the nodes with url to see test the page navigation.
-2. Open Local SharePoint workbench ([https://localhost:4321/temp/workbench.html](https://localhost:4321/temp/workbench.html))
-3. Add the webpart to page.
+7. Click on the nodes with url to see test the page navigation.
+8. Open Local SharePoint workbench ([https://localhost:4321/temp/workbench.html](https://localhost:4321/temp/workbench.html))
+9. Add the webpart to page.
 
-![](https://nanddeepnachanblogs.com/wp-content/uploads/2020/03/word-image-243.png)
+    ![](/media/2018-10-22-spfx-implementing-soc/05.png)
+
 
 ## Summary
 
