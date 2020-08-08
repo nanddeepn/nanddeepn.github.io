@@ -23,6 +23,12 @@ layout: default
     {% if page.date %}<meta itemprop="datePublished" content="{{ page.date | date: "%B %d, %Y" }}">{% endif %}
     {% if page.last_modified_at %}<meta itemprop="dateModified" content="{{ page.last_modified_at | date: "%B %d, %Y" }}">{% endif %}
 
+    {% if page.header.image contains "://" %}
+      {% capture img_path %}{{ page.header.image }}{% endcapture %}
+    {% else %}
+      {% capture img_path %}{{ page.header.image | relative_url }}{% endcapture %}
+    {% endif %}
+
     <div class="page__inner-wrap">
       {% unless page.header.overlay_color or page.header.overlay_image %}
         <header>
@@ -34,6 +40,7 @@ layout: default
       {% endunless %}
 
       <section class="page__content" itemprop="text">
+        <img src="{{ img_path }}" alt="{{ image_description }}" class="page__hero-image">
         {% if page.toc %}
           <aside class="sidebar__right {% if page.toc_sticky %}sticky{% endif %}">
             <nav class="toc">
