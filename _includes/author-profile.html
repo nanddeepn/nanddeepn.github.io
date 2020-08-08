@@ -34,7 +34,7 @@
     {% endif %}
     {% if author.bio %}
       <div class="author__bio" itemprop="description">
-        {{ author.bio | markdownify }}
+        <p>{{ author.bio }}</p>
       </div>
     {% endif %}
     <figure>
