@@ -85,11 +85,13 @@ We will use the API Console to quickly try the API without writing any code.
 
     ![](/media/2020-06-18-facial-recognition-in-sharepoint/07.png)
 
+
 ## Set up SharePoint Library
 
 Create a SharePoint library with below schema:
 
-    ![](/media/2020-06-18-facial-recognition-in-sharepoint/08.png)
+![](/media/2020-06-18-facial-recognition-in-sharepoint/08.png)
+
 
 ## Set up Power Automate Flow
 
