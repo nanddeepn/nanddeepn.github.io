@@ -10,7 +10,7 @@
   -webkit-animation-delay: 0.15s;
   animation-delay: 0.15s;
   z-index: 20;
-  background-color: #ff5722;
+  background-color: $custom-text-color;
 
   &__inner-wrap {
     @include clearfix;
@@ -115,7 +115,7 @@
 .site-maintitle a,
 p.site-maindescription,
 .main-navigation ul li.current-menu-item a {
-  color: #ff5722;
+  color: $custom-text-color;
   text-decoration: none;
 }
 
@@ -319,7 +319,7 @@ nav.header-nav {
 .header-nav .menu a:focus,
 .header-nav .menu a:active {
   text-decoration: none;
-  color: #FF5722;
+  color: $custom-text-color;
 }
 /*nav-style-dark*/
 .header-nav.nav-style-dark {

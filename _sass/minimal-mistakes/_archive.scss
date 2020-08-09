@@ -30,7 +30,7 @@
   a {
     position: relative;
     z-index: 10;
-    color: #FF5722;
+    color: $custom-text-color;
     font-size: 18px;
     text-decoration: none;
   }
@@ -241,7 +241,7 @@
 
   .archive__item-teaser {
     height: 100px;
-    
+
     @include breakpoint($small) {
       max-height: 200px;
     }
