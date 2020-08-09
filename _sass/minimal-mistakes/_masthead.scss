@@ -59,6 +59,10 @@
   font-size: $type-size-8;
 }
 
+.masthead__inner-wrap{
+  padding: 0.6em 1em;
+}
+
 .masthead__menu {
   float: left;
   margin-left: 0;
@@ -315,6 +319,7 @@ nav.header-nav {
 .header-nav .menu a:focus,
 .header-nav .menu a:active {
   text-decoration: none;
+  color: #FF5722;
 }
 /*nav-style-dark*/
 .header-nav.nav-style-dark {
