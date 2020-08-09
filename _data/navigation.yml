@@ -6,6 +6,8 @@ main:
     url: /categories/  
   - title: "About"
     url: /about-me/
+  - title: "Contact"
+    url: /contact-me/
 
 # Primary menu links
 primarymenu:

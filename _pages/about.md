@@ -27,9 +27,9 @@ Organizer and frequent speaker at various industry seminars, conferences, and co
 
  
 
-#About this site
+## About this site
 A nice place to collaborate on cloud technologies including SharePoint, Office 365, Power Platform, and MS Azure. Some things you can expect by subscribing to this channel are latest technology updates and of course other helpful content.
 
 Enjoy your time here!
 
-Nanddeep Nachan
+**Nanddeep Nachan**
