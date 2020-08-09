@@ -1,5 +1,5 @@
 ---
-title: Recent posts
+title: Home
 layout: collection
 permalink: //
 collection: posts
