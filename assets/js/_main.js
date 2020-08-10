@@ -53,6 +53,11 @@ $(document).ready(function() {
     $(".author__urls-wrapper button").toggleClass("open");
   });
 
+  // Toggle main menu
+  $("#menu-buttonPrimary").click(function(){
+    $("#primary-menu").toggle();
+  });
+
   // Close search screen with Esc key
   $(document).keyup(function(e) {
     if (e.keyCode === 27) {

@@ -7,7 +7,7 @@
    ========================================================================== */
 
 .sidebar {
-  width: calc(350px - 1em);
+  // width: calc(350px - 1em);
 	background: #fff;
   box-shadow: 2px -2px 7px #ccc;
   margin-top: 20px;
@@ -149,7 +149,7 @@
   display: table-cell;
   vertical-align: top;
   padding-left: 15px;
-  padding-right: 25px;
+  padding-right: 0px;
   line-height: 1;
 
   @include breakpoint($large) {
@@ -191,7 +191,7 @@
 
 .author__urls-wrapper {
   position: relative;
-  display: table-cell;
+  // display: table-cell;
   vertical-align: middle;
   font-family: $sans-serif;
   z-index: 10;
