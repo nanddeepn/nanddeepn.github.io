@@ -20,6 +20,7 @@
     z-index: 10;
     -webkit-transform: translate3d(0, 0, 0);
     transform: translate3d(0, 0, 0);
+    max-height: 230px;
   }
 
   @include breakpoint($large) {
@@ -125,6 +126,7 @@
   vertical-align: top;
   width: auto;
   height: auto;
+  text-align: center;
 
   @include breakpoint($large) {
     display: block;

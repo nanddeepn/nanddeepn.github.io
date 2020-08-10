@@ -103,6 +103,10 @@
   margin-top: 20px;
   margin-bottom: 10px;
   line-height: 1.7;
+
+  @include breakpoint(max-width $large) {
+    font-size: 30px;
+  }
 }
 
 .site-maindescription {
