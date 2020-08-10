@@ -1,6 +1,17 @@
 ---
 title: "SharePoint Framework - Provision SharePoint Assets"
 date: "2018-08-21"
+share: true
+categories:
+  - SharePoint
+  - SharePoint Framework
+header:
+  image: media/2018-08-21-spfx-provision-sharepoint-assets/06.png
+  teaser: media/2018-08-21-spfx-provision-sharepoint-assets/06.png
+tags:
+  - "2018"
+  - August 2018
+last_modified_at: 2018-08-21T00:00:00-00:00
 ---
 
 ## Overview
@@ -11,9 +22,11 @@ Similarly, SharePoint Framework (SPFx) client side web parts do interact with th
 
 In this article, we will explore how we can package together the SharePoint assets needed for SPFx web parts.
 
+
 ## SharePoint Assets
 
 SharePoint assets is a generic term referred to basic building blocks of SharePoint that constitutes fields, content types, list instances.
+
 
 **Fields (Site Columns):**
 
@@ -21,6 +34,7 @@ A field is metadata that describes property or attribute of object we want to re
 
 Below is an example of field representing number:
 
+```xml
 <Field ID="{060E50AC-E9C1-4D3C-B1F9-DE0BCAC300F6}"  
            Name="SPFxAmount"  
            DisplayName="Amount"  
@@ -29,11 +43,14 @@ Below is an example of field representing number:
            Min="0"  
            Required="FALSE"  
            Group="SPFx Columns" />
+```
+
 
 **Content types**
 
 Content type is reusable collection of site columns. Below is an example of content type that uses site column:
 
+```xml
 <ContentType ID="0x010042D0C1C200A14B6887742B6344675C8B"   
            Name="Cost Center"   
            Group="SPFx Content Types"   
@@ -42,11 +59,14 @@ Content type is reusable collection of site columns. Below is an example of cont
            <FieldRef ID="{060E50AC-E9C1-4D3C-B1F9-DE0BCAC300F6}" />   
        </FieldRefs>  
 </ContentType>
+```
+
 
 **List instance**
 
 List instance is pre-defined SharePoint list with well-known identifier. We can add, update, and delete items from list.
 
+```xml
 <ListInstance   
            FeatureId="00bfea71-de22-43b2-a848-c05709900100"  
            Title="SPFx List"   
@@ -54,11 +74,14 @@ List instance is pre-defined SharePoint list with well-known identifier. We can 
            TemplateType="100"  
            Url="Lists/SPFxList">  
 </ListInstance>
+```
+
 
 **List instance with custom schema**
 
 We can create our own schema to define fields, content types, and views for list instance. Use CustomSchema attribute in ListInstance element to reference custom schema.
 
+```xml
 <ListInstance   
            CustomSchema="schema.xml"  
            FeatureId="00bfea71-de22-43b2-a848-c05709900100"  
@@ -67,63 +90,73 @@ We can create our own schema to define fields, content types, and views for list
            TemplateType="100"  
            Url="Lists/SPFxList">  
 </ListInstance>
+```
 
- 
 
-Create SPFx Solution
+## Create SPFx Solution
 
 1. Open command prompt. Create a directory for SPFx solution.
 
-md spfx-provisionspassets
+    ```
+    md spfx-provisionspassets
+    ```
 
-1. Navigate to above created directory.
+2. Navigate to above created directory.
 
-cd spfx-provisionspassets
+    ```
+    cd spfx-provisionspassets
+    ```
 
-1. Run Yeoman SharePoint Generator to create the solution.
+3. Run Yeoman SharePoint Generator to create the solution.
 
-yo @microsoft/sharepoint
+    ```
+    yo @microsoft/sharepoint
+    ```
 
-1. Yeoman generator will present you with the wizard by asking questions about the solution to be created.
+4. Yeoman generator will present you with the wizard by asking questions about the solution to be created.
 
-![](https://nanddeepnachanblogs.com/wp-content/uploads/2020/03/word-image-174.png)
+    ![](/media/2018-08-21-spfx-provision-sharepoint-assets/01.png)
 
-- **Solution Name:** Hit enter to have default name (spfx-provisionspassets in this case) or type in any other name for your solution.
-    - Selected choice: Hit enter
-- **Target for component:** Here we can select the target environment where we are planning to deploy the client webpart i.e. SharePoint Online or SharePoint OnPremise (SharePoint 2016 onwards).
-    - Selected choice: SharePoint Online only (latest)
-- **Place of files:** We may choose to use the same folder or create a subfolder for our solution.
-    - Selected choice: Same folder
-- **Deployment option:** Selecting Y will allow the app to deployed instantly to all sites and will be accessible everywhere.
-    - Selected choice: N (install on each site explicitly)
-- **Type of client-side component to create:** We can choose to create client side webpart or an extension. Choose webpart option.
-    - Selected choice: WebPart
-- **Web part name:** Hit enter to select the default name or type in any other name.
-    - Selected choice: ProvisionSPAssets
-- **Web part description:** Hit enter to select the default description or type in any other value.
-    - Selected choice: Provision SharePoint Assets with SPFx
-- **Framework to use:** Select any JavaScript framework to develop the component. Available choices are (No JavaScript Framework, React, and Knockout)
-    - Selected choice: No JavaScript Framework
+    - **Solution Name:** Hit enter to have default name (spfx-provisionspassets in this case) or type in any other name for your solution.
+        - Selected choice: Hit enter
+    - **Target for component:** Here we can select the target environment where we are planning to deploy the client webpart i.e. SharePoint Online or SharePoint OnPremise (SharePoint 2016 onwards).
+        - Selected choice: SharePoint Online only (latest)
+    - **Place of files:** We may choose to use the same folder or create a subfolder for our solution.
+        - Selected choice: Same folder
+    - **Deployment option:** Selecting Y will allow the app to deployed instantly to all sites and will be accessible everywhere.
+        - Selected choice: N (install on each site explicitly)
+    - **Type of client-side component to create:** We can choose to create client side webpart or an extension. Choose webpart option.
+        - Selected choice: WebPart
+    - **Web part name:** Hit enter to select the default name or type in any other name.
+        - Selected choice: ProvisionSPAssets
+    - **Web part description:** Hit enter to select the default description or type in any other value.
+        - Selected choice: Provision SharePoint Assets with SPFx
+    - **Framework to use:** Select any JavaScript framework to develop the component. Available choices are (No JavaScript Framework, React, and Knockout)
+        - Selected choice: No JavaScript Framework
 
-1. Yeoman generator will perform scaffolding process to generate the solution. The scaffolding process will take significant amount of time.
-2. Once the scaffolding process is completed, lock down the version of project dependencies by running below command.
+5. Yeoman generator will perform scaffolding process to generate the solution. The scaffolding process will take significant amount of time.
+6. Once the scaffolding process is completed, lock down the version of project dependencies by running below command.
 
-npm shrinkwrap
+    ```
+    npm shrinkwrap
+    ```
 
-1. On the command prompt type below command to open the solution in code editor of your choice.
+7. On the command prompt type below command to open the solution in code editor of your choice.
 
-code .
+    ```
+    code .
+    ```
 
- 
 
-Add SharePoint Assets to Solution
+## Add SharePoint Assets to Solution
 
-1. Create a folder hierarchy as sharepoint\\assets
+1. Create a folder hierarchy as "sharepoint\assets".
 
-![](https://nanddeepnachanblogs.com/wp-content/uploads/2020/03/word-image-175.png)
+    ![](/media/2018-08-21-spfx-provision-sharepoint-assets/02.png)
 
-1. Add a file elements.xml under sharepoint\\assets folder.
+2. Add a file elements.xml under "sharepoint\assets" folder.
 
+```xml
 <?xml version="1.0" encoding="utf-8"?>  
 <Elements xmlns="http://schemas.microsoft.com/sharepoint/">  
   
@@ -172,13 +205,16 @@ Add SharePoint Assets to Solution
    </ListInstance>  
   
 </Elements>
+```
 
 We are provisioning 2 fields, content type and list instance with custom schema. FeatureId in the ListInstance represents the ID of feature which contains list definition. The featureId mentioned in the xml represents the ID for custom list definition.
+
 
 ## Custom Schema
 
 Add schema.xml file as our custom schema.
 
+```xml
 <List xmlns:ows="Microsoft SharePoint" Title="Basic List" EnableContentTypes="TRUE" FolderCreation="FALSE" Direction="$Resources:Direction;" Url="Lists/Basic List" BaseType="0" xmlns="http://schemas.microsoft.com/sharepoint/">  
  <MetaData>  
    <ContentTypes>  
@@ -186,7 +222,7 @@ Add schema.xml file as our custom schema.
    </ContentTypes>  
    <Fields></Fields>  
    <Views>  
-     <View BaseViewID="1" Type="HTML" WebPartZoneID="Main" DisplayName="$Resources:core,objectiv\_schema\_mwsidcamlidC24;" DefaultView="TRUE" MobileView="TRUE" MobileDefaultView="TRUE" SetupPath="pages\\viewpage.aspx" ImageUrl="/\_layouts/images/generic.png" Url="AllItems.aspx">  
+     <View BaseViewID="1" Type="HTML" WebPartZoneID="Main" DisplayName="$Resources:core,objectiv_schema_mwsidcamlidC24;" DefaultView="TRUE" MobileView="TRUE" MobileDefaultView="TRUE" SetupPath="pages\viewpage.aspx" ImageUrl="/_layouts/images/generic.png" Url="AllItems.aspx">  
        <XslLink Default="TRUE">main.xsl</XslLink>  
        <JSLink>clienttemplates.js</JSLink>  
        <RowLimit Paged="TRUE">30</RowLimit>  
@@ -204,22 +240,23 @@ Add schema.xml file as our custom schema.
      </View>  
    </Views>  
    <Forms>  
-     <Form Type="DisplayForm" Url="DispForm.aspx" SetupPath="pages\\form.aspx" WebPartZoneID="Main" />  
-     <Form Type="EditForm" Url="EditForm.aspx" SetupPath="pages\\form.aspx" WebPartZoneID="Main" />  
-     <Form Type="NewForm" Url="NewForm.aspx" SetupPath="pages\\form.aspx" WebPartZoneID="Main" />  
+     <Form Type="DisplayForm" Url="DispForm.aspx" SetupPath="pages\form.aspx" WebPartZoneID="Main" />  
+     <Form Type="EditForm" Url="EditForm.aspx" SetupPath="pages\form.aspx" WebPartZoneID="Main" />  
+     <Form Type="NewForm" Url="NewForm.aspx" SetupPath="pages\form.aspx" WebPartZoneID="Main" />  
    </Forms>  
  </MetaData>  
 </List>
+```
 
- 
 
-Package Assets as part of Solution
+## Package Assets as part of Solution
 
 We have created the assets and custom schema. We need to package these files as part of solution.
 
 1. Open package-solution.json file under config folder.
 2. Include feature framework definition for solution package.
 
+```json
 {  
   "$schema": "https://developer.microsoft.com/json-schemas/spfx-build/package-solution.schema.json",  
   "solution": {  
@@ -227,59 +264,64 @@ We have created the assets and custom schema. We need to package these files as 
     "id": "ea551656-9f74-4107-b049-e296e475932d",  
     "version": "1.0.0.0",  
     "includeClientSideAssets": true,  
-    "features": \[{  
+    "features": [{  
       "title": "asset-deployment-webpart-client-side-solution",  
       "description": "asset-deployment-webpart-client-side-solution",  
       "id": "523fe887-ced5-4036-b564-8dad5c6c6e24",     // Specify unique GUID  
       "version": "1.0.0.0",  
       "assets": {  
-        "elementManifests": \[  
+        "elementManifests": [  
           "elements.xml"  
-        \],  
-        "elementFiles":\[  
+        ],  
+        "elementFiles":[  
           "schema.xml"  
-        \]  
+        ]  
       }  
-    }\]  
+    }]  
   },  
   "paths": {  
     "zippedPackage": "solution/spfx-provisionspassets.sppkg"  
   }  
 }
+```
 
 Specify unique GUID for feature ID.
-
  
 
 ## Deploy and Test
 
 1. Package your client-side solution by running below command.
 
-gulp bundle
+    ```
+    gulp bundle
+    ```
 
-1. Create solution package by running below command.
+2. Create solution package by running below command.
 
-gulp package-solution
+    ```
+    gulp package-solution
+    ```
 
-This command will create package (.sppkg) inside sharepoint/solution folder.
+    This command will create package (.sppkg) inside sharepoint/solution folder.
 
-1. Deploy the package to app catalog
+3. Deploy the package to app catalog
 
-![](https://nanddeepnachanblogs.com/wp-content/uploads/2020/03/word-image-176.png)
+    ![](/media/2018-08-21-spfx-provision-sharepoint-assets/03.png)
 
-1. Click Deploy.
-2. Open SharePoint site, click “Add an app”.
-3. Install the app.
+4. Click **Deploy**.
+5. Open SharePoint site, click **Add an app**.
+6. Install the app.
 
-![](https://nanddeepnachanblogs.com/wp-content/uploads/2020/03/word-image-177.png)
+    ![](/media/2018-08-21-spfx-provision-sharepoint-assets/04.png)
 
-1. When installation finishes, refresh the page. The site should have “SPFx List” provisioned.
+7. When installation finishes, refresh the page. The site should have “SPFx List” provisioned.
 
-![](https://nanddeepnachanblogs.com/wp-content/uploads/2020/03/word-image-178.png)
+    ![](/media/2018-08-21-spfx-provision-sharepoint-assets/05.png)
 
-1. Open "SPFx List", it should have our content type with site columns inside it.
+8. Open **SPFx List**, it should have our content type with site columns inside it.
 
-![](https://nanddeepnachanblogs.com/wp-content/uploads/2020/03/word-image-179.png)
+    ![](/media/2018-08-21-spfx-provision-sharepoint-assets/06.png)
+
 
 ## Summary
 
