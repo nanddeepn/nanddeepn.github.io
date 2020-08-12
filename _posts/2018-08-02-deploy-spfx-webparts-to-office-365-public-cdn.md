@@ -1,6 +1,17 @@
 ---
 title: "SharePoint Framework - Deploy SPFx WebParts to Office 365 Public CDN"
 date: "2018-08-02"
+share: true
+categories:
+  - SharePoint
+  - SharePoint Framework
+header:
+  image: media/2018-08-02-deploy-spfx-webparts-to-office-365-public-cdn/09.png
+  teaser: media/2018-08-02-deploy-spfx-webparts-to-office-365-public-cdn/09.png
+tags:
+  - "2018"
+  - August 2018
+last_modified_at: 2018-08-02T00:00:00-00:00
 ---
 
 ## Overview
@@ -9,11 +20,12 @@ Please read through my previous article Develop First Client Side Web Part ) to 
 
 Below are the more common followed deployment approaches
 
-1. [Azure CDN](https://nanddeepnachanblogs.com/contact/)
-2. Office 365 Public CDN (This article)
-3. [SharePoint Library in your tenant](https://nanddeepnachanblogs.com/2018/08/deploy-spfx-webparts-to-sharepoint-library/)
+1. Office 365 Public CDN (This article)
+2. [Azure CDN](/posts/2018-07-28-sharepoint-framework-deploy-spfx-webparts-to-azure-cdn/)
+3. [SharePoint Library in your tenant](/posts/2018-08-01-deploy-spfx-webparts-to-sharepoint-library/)
 
 In this article, we will explore how SPFx webparts can be deployed to office 365 CDN.
+
 
 ## Configure CDN in Office 365 Tenant
 
@@ -25,135 +37,165 @@ To configure the CDN in Office 365 follow below steps:
 2. Open the SharePoint Online Management Shell.
 3. Connect to SharePoint Online tenant using below cmdlet.
 
-Connect-SPOService -Url https://\[tenant\]-admin.sharepoint.com
+    ```
+    Connect-SPOService -Url https://[tenant]-admin.sharepoint.com
+    ```
 
-Replace \[tenant\] with your actual tenant name.
+    Replace ```[tenant]``` with your O365 tenant name.
 
-1. Run below set of commands to review the existing Office 365 public CDN settings on your tenant.
+4. Run below set of commands to review the existing Office 365 public CDN settings on your tenant.
 
-Get-SPOTenantCdnEnabled -CdnType Public
+    ```
+    Get-SPOTenantCdnEnabled -CdnType Public
+    ```
 
-This command will return the status of CDN. True if CDN is enabled, false otherwise.
+    This command will return the status of CDN. True if CDN is enabled, false otherwise.
 
-![](https://nanddeepnachanblogs.com/wp-content/uploads/2020/03/word-image-60.png)
+    ![](/media/2018-08-02-deploy-spfx-webparts-to-office-365-public-cdn/01.png)
 
-Get-SPOTenantCdnOrigins -CdnType Public
+    ```
+    Get-SPOTenantCdnOrigins -CdnType Public
+    ```
 
-![](https://nanddeepnachanblogs.com/wp-content/uploads/2020/03/word-image-61.png)
+    ![](/media/2018-08-02-deploy-spfx-webparts-to-office-365-public-cdn/02.png)
 
-This command will return the location of already configured CDN origins. The urls are relative. On first instance, it will not return any values as CDN is not yet setup.
+    This command will return the location of already configured CDN origins. The urls are relative. On first instance, it will not return any values as CDN is not yet setup.
 
-Get-SPOTenantCdnPolicies -CdnType Public
+    ```
+    Get-SPOTenantCdnPolicies -CdnType Public
+    ```
 
-![](https://nanddeepnachanblogs.com/wp-content/uploads/2020/03/word-image-62.png)
+    ![](/media/2018-08-02-deploy-spfx-webparts-to-office-365-public-cdn/03.png)
 
-This command will return the policy settings for CDN
+    This command will return the policy settings for CDN
 
-1. Run below command to enable the CDN.
+5. Run below command to enable the CDN.
 
-Set-SPOTenantCdnEnabled -CdnType Public
+    ```
+    Set-SPOTenantCdnEnabled -CdnType Public
+    ```
 
-![](https://nanddeepnachanblogs.com/wp-content/uploads/2020/03/word-image-63.png)
+    ![](/media/2018-08-02-deploy-spfx-webparts-to-office-365-public-cdn/04.png)
 
-After enabling the CDN, \*/CLIENTSIDEASSETS origin is by default added as valid origin. By default allowed file extensions are: CSS, EOT, GIF, ICO, JPEG, JPG, JS, MAP, PNG, SVG, TTF, and WOFF.
+    After enabling the CDN, \*/CLIENTSIDEASSETS origin is by default added as valid origin. By default allowed file extensions are: CSS, EOT, GIF, ICO, JPEG, JPG, JS, MAP, PNG, SVG, TTF, and WOFF.
 
-The configuration takes up to 15 to 20 minutes.
+    The configuration takes up to 15 to 20 minutes.
 
-1. To check the current status of CDN end points, run below command.
+6. To check the current status of CDN end points, run below command.
 
-Get-SPOTenantCdnOrigins -CdnType Public
+    ```
+    Get-SPOTenantCdnOrigins -CdnType Public
+    ```
 
-![](https://nanddeepnachanblogs.com/wp-content/uploads/2020/03/word-image-64.png)
+    ![](/media/2018-08-02-deploy-spfx-webparts-to-office-365-public-cdn/05.png)
 
-The origin will be listed without (configuration pending) status when it is ready. Please be patient for 15 to 20 minutes until it is ready.
+    The origin will be listed without (configuration pending) status when it is ready. Please be patient for 15 to 20 minutes until it is ready.
 
-Once CDN origin is ready, the output will be as below.
+    Once CDN origin is ready, the output will be as below.
 
-![](https://nanddeepnachanblogs.com/wp-content/uploads/2020/03/word-image-65.png)
+    ![](/media/2018-08-02-deploy-spfx-webparts-to-office-365-public-cdn/06.png)
+
 
 ## Setup New Office 365 CDN in Tenant
 
 Follow below steps to setup new CDN location
 
-1. Open SharePoint site (e.g. https://\[tenant\].sharepoint.com/sites/\[site-collection-name\].
+1. Open SharePoint site (e.g. https://[tenant].sharepoint.com/sites/[site-collection-name].
 2. Create a document library (e.g. CDN).
 3. Run below command in SharePoint Online Management Shell.
 
-Add-SPOTenantCdnOrigin -CdnType Public -OriginUrl sites/\[site-collection-name\]/ \[document-library\]
+    ```
+    Add-SPOTenantCdnOrigin -CdnType Public -OriginUrl sites/[site-collection-name]/[document-library]
+    ```
 
-The OriginUrl is a relative url. New CDN origin configuration will again take 15 to 20 minutes.
+    The OriginUrl is a relative url. New CDN origin configuration will again take 15 to 20 minutes.
 
-1. Run Get-SPOTenantCdnOrigins to check the status.
+4. Run Get-SPOTenantCdnOrigins to check the status.
 
-![](https://nanddeepnachanblogs.com/wp-content/uploads/2020/03/word-image-66.png)
+    ![](/media/2018-08-02-deploy-spfx-webparts-to-office-365-public-cdn/07.png)
 
-1. Create a folder in document library preferably with name of SPFx web part (e.g. O365CDNDeploy).
-2. To get the path of CDN type below url in browser.
+5. Create a folder in document library preferably with name of SPFx web part (e.g. O365CDNDeploy).
+6. To get the path of CDN type below url in browser.
 
-https://\[tenant\].sharepoint.com/\_vti\_bin/publiccdn.ashx/url?itemurl=https:// \[tenant\].sharepoint.com/sites/\[site-collection-name\]/\[document-library\]/\[folder\]
+    ```
+    https://[tenant].sharepoint.com/_vti_bin/publiccdn.ashx/url?itemurl=https://[tenant].sharepoint.com/sites/[site-collection-name]/[document-library]/[folder]
+    ```
 
-Configure SPFx Solution for Azure CDN
+
+## Configure SPFx Solution for Azure CDN
 
 **Update package details**
 
 1. Open command prompt.
 2. In the command prompt, navigate to SPFx solution folder.
-3. Type “code .” to open the solution in code editor of your choice.
+3. Type ```code .``` to open the solution in code editor of your choice.
 4. Open package-solution.json file from config folder. This file takes care of solution packaging.
 5. Set includeClientSideAssets value as false. The client side assets will not be packaged inside final package (sppkg file) because these will be hosted on external Office 365 public CDN.
 
-![](https://nanddeepnachanblogs.com/wp-content/uploads/2020/03/word-image-67.png)
+    ![](/media/2018-08-02-deploy-spfx-webparts-to-office-365-public-cdn/08.png)
+
 
 **Update CDN Path**
 
 1. Open write-manifests.json from config folder.
 2. Update CDN base path as Office 365 CDN end point.
 
-https://publiccdn.sharepointonline.com/\[tenant\]/sites/\[site-collection-name\]/\[document-library\]/\[folder\]
+    ```
+    https://publiccdn.sharepointonline.com/\[tenant\]/sites/\[site-collection-name\]/\[document-library\]/\[folder\]
+    ```
 
-![](https://nanddeepnachanblogs.com/wp-content/uploads/2020/03/word-image-68.png)
+    ![](/media/2018-08-02-deploy-spfx-webparts-to-office-365-public-cdn/09.png)
+
 
 **Prepare the package**
 
 In the command prompt, type the below command.
 
+```
 gulp bundle --ship
+```
 
-This will minify the required assets to upload to CDN. The ship switch denotes distribution. The minified assets are located at “temp\\deploy” folder.
+This will minify the required assets to upload to CDN. The ship switch denotes distribution. The minified assets are located at "temp\deploy" folder.
 
-Upload the files from “temp\\deploy” folder to CDN location (SharePoint document library setup as CDN)
+Upload the files from "temp\deploy" folder to CDN location (SharePoint document library setup as CDN).
 
-![](https://nanddeepnachanblogs.com/wp-content/uploads/2020/03/word-image-69.png)
+![](/media/2018-08-02-deploy-spfx-webparts-to-office-365-public-cdn/10.png)
+
 
 **Deploy Package to SharePoint**
 
 In the command prompt, type the below command.
 
+```
 gulp package-solution --ship
+```
 
-This will create the solution package (sppkg) in sharepoint\\solution folder.
+This will create the solution package (sppkg) in sharepoint\solution folder.
+
 
 **Upload package to app catalog**
 
-1. Open the SharePoint app catalog site
-2. Upload the solution package (sppkg) from sharepoint\\solution folder to app catalog
-3. Make sure the url is pointing to Office 365 CDN
+1. Open the SharePoint app catalog site.
+2. Upload the solution package (sppkg) from sharepoint\solution folder to app catalog.
+3. Make sure the url is pointing to Office 365 CDN.
 
-![](https://nanddeepnachanblogs.com/wp-content/uploads/2020/03/word-image-70.png)
+    ![](/media/2018-08-02-deploy-spfx-webparts-to-office-365-public-cdn/11.png)
 
-1. Click Deploy.
+4. Click Deploy.
+
 
 ## Test the web part
 
-1. Open any SharePoint site in your tenant
-2. Add the App to your site from “Add an App” menu
-3. Edit any page and add the webpart
+1. Open any SharePoint site in your tenant.
+2. Add the App to your site from **Add an App** menu.
+3. Edit any page and add the web part.
 
-![](https://nanddeepnachanblogs.com/wp-content/uploads/2020/03/word-image-71.png)
+    ![](/media/2018-08-02-deploy-spfx-webparts-to-office-365-public-cdn/12.png)
 
-1. Click F12 to open developer toolbar. Confirm that it is served from Office 365 Public CDN
+4. Click F12 to open developer toolbar. Confirm that it is served from Office 365 Public CDN.
 
-![](https://nanddeepnachanblogs.com/wp-content/uploads/2020/03/word-image-72.png)
+    ![](/media/2018-08-02-deploy-spfx-webparts-to-office-365-public-cdn/13.png)
+
 
 ## Summary
 
