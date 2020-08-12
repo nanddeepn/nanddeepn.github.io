@@ -1,6 +1,17 @@
 ---
 title: "SharePoint Framework - Integrating JQuery with SPFx WebParts"
 date: "2018-08-03"
+share: true
+categories:
+  - SharePoint
+  - SharePoint Framework
+header:
+  image: media/2018-08-03-integrating-jquery-with-spfx-webparts/11.png
+  teaser: media/2018-08-03-integrating-jquery-with-spfx-webparts/11.png
+tags:
+  - "2018"
+  - August 2018
+last_modified_at: 2018-08-03T00:00:00-00:00
 ---
 
 ## Overview
@@ -9,40 +20,48 @@ SharePoint Framework Client side webparts are developed using JavaScript framewo
 
 In this article, we will explore how to integrate JQuery with SPFx web parts.
 
+
 ## Create SPFx Solution
 
 1. Create a directory for SPFx solution.
 
-md spfx-jqueryintegration
+    ```
+    md spfx-jqueryintegration
+    ```
 
-1. Navigate to above created directory.
+2. Navigate to above created directory.
 
-cd spfx-jqueryintegration
+    ```
+    cd spfx-jqueryintegration
+    ```
 
-1. Run Yeoman SharePoint Generator to create the solution.
+3. Run Yeoman SharePoint Generator to create the solution.
 
-yo @microsoft/sharepoint
+    ```
+    yo @microsoft/sharepoint
+    ```
 
-1. Yeoman generator will present you with the wizard by asking questions about the solution to be created.
+4. Yeoman generator will present you with the wizard by asking questions about the solution to be created.
 
-![](https://nanddeepnachanblogs.com/wp-content/uploads/2020/03/word-image-73.png)
+    ![](/media/2018-08-03-integrating-jquery-with-spfx-webparts/01.png)
 
-- **Solution Name:** Hit enter to have default name (spfx-jqueryintegration in this case) or type in any other name for your solution.
-    - Selected choice: Hit enter
-- **Target for component:** Here we can select the target environment where we are planning to deploy the client webpart i.e. SharePoint Online or SharePoint OnPremise (SharePoint 2016 onwards).
-    - Selected choice: SharePoint Online only (latest)
-- **Place of files:** We may choose to use the same folder or create a subfolder for our solution.
-    - Selected choice: Same folder
-- **Deployment option:** Selecting Y will allow the app to deployed instantly to all sites and will be accessible everywhere.
-    - Selected choice: N (install on each site explicitly)
-- **Type of client-side component to create:** We can choose to create client side webpart or an extension. Choose webpart option.
-    - Selected choice: WebPart
-- **Web part name:** Hit enter to select the default name or type in any other name.
-    - Selected choice: SPFxJqueryIntegration
-- **Web part description:** Hit enter to select the default description or type in any other value.
-    - Selected choice: Hit enter (default description)
-- **Framework to use:** Select any JavaScript framework to develop the component. Available choices are (No JavaScript Framework, React, and Knockout)
-    - Selected choice: No JavaScript Framework. We will integrate JQuery to this solution.
+    - **Solution Name:** Hit enter to have default name (spfx-jqueryintegration in this case) or type in any other name for your solution.
+        - Selected choice: Hit enter
+    - **Target for component:** Here we can select the target environment where we are planning to deploy the client webpart i.e. SharePoint Online or SharePoint OnPremise (SharePoint 2016 onwards).
+        - Selected choice: SharePoint Online only (latest)
+    - **Place of files:** We may choose to use the same folder or create a subfolder for our solution.
+        - Selected choice: Same folder
+    - **Deployment option:** Selecting Y will allow the app to deployed instantly to all sites and will be accessible everywhere.
+        - Selected choice: N (install on each site explicitly)
+    - **Type of client-side component to create:** We can choose to create client side webpart or an extension. Choose webpart option.
+        - Selected choice: WebPart
+    - **Web part name:** Hit enter to select the default name or type in any other name.
+        - Selected choice: SPFxJqueryIntegration
+    - **Web part description:** Hit enter to select the default description or type in any other value.
+        - Selected choice: Hit enter (default description)
+    - **Framework to use:** Select any JavaScript framework to develop the component. Available choices are (No JavaScript Framework, React, and Knockout)
+        - Selected choice: No JavaScript Framework. We will integrate JQuery to this solution.
+
 
 ## Configured Required Packages and Dependencies
 
@@ -50,79 +69,86 @@ yo @microsoft/sharepoint
 
 We will now include the JQuery packages. Type in below commands on command prompt.
 
+```
 npm i jquery jqueryui combokeys --save
+```
 
-The --save option enables NPM to include the packages to dependencies section of package.json file.
+The ```--save``` option enables NPM to include the packages to dependencies section of package.json file.
 
- 
 
 **Include Typings**
 
 Typings will help for auto complete while writing the code in code editor. Type below command.
 
+```
 tsd install jquery jqueryui combokeys --save
+```
 
- 
 
 **Lock down the package dependencies**
 
 Type in below command to lock down the package dependencies.
 
+```
 npm shrinkwrap
+```
 
- 
 
-Solution Changes
+## Solution Changes
 
 1. In the command prompt, type below command to open the solution in code editor of your choice.
 
-code .
+    ```
+    code .
+    ```
 
-1. Expand node\_module folder to see the npm packages being added for jQuery.
+2. Expand node_modules folder to see the npm packages being added for jQuery.
 
-![](https://nanddeepnachanblogs.com/wp-content/uploads/2020/03/word-image-74.png)
+    ![](/media/2018-08-03-integrating-jquery-with-spfx-webparts/02.png)
 
-1. Open config.json under config folder.
-2. Under externals node, add jQuery references.
+3. Open config.json under config folder.
+4. Under externals node, add jQuery references.
 
-![](https://nanddeepnachanblogs.com/wp-content/uploads/2020/03/word-image-75.png)
+    ![](/media/2018-08-03-integrating-jquery-with-spfx-webparts/03.png)
 
-1. Open package.json and verify jQuery dependencies are listed.
+5. Open package.json and verify jQuery dependencies are listed.
 
-![](https://nanddeepnachanblogs.com/wp-content/uploads/2020/03/word-image-76.png)
+    ![](/media/2018-08-03-integrating-jquery-with-spfx-webparts/04.png)
 
-1. Open webpart file SpFxJQueryIntegrationWebPart.ts and import jQuery.
+6. Open webpart file SpFxJQueryIntegrationWebPart.ts and import jQuery.
 
-![](https://nanddeepnachanblogs.com/wp-content/uploads/2020/03/word-image-77.png)
+    ![](/media/2018-08-03-integrating-jquery-with-spfx-webparts/05.png)
 
-1. Define a constructor and load external jQuery UI css from it.
+7. Define a constructor and load external jQuery UI css from it.
 
-![](https://nanddeepnachanblogs.com/wp-content/uploads/2020/03/word-image-78.png)
+    ![](/media/2018-08-03-integrating-jquery-with-spfx-webparts/06.png)
 
-1. Right click on spFxJQueryIntegration folder, click New file
+8. Right click on spFxJQueryIntegration folder, click New file
 
-![](https://nanddeepnachanblogs.com/wp-content/uploads/2020/03/word-image-79.png)
+    ![](/media/2018-08-03-integrating-jquery-with-spfx-webparts/07.png)
 
-1. Name the file as AccordianTemplate.ts and add below content.
+9. Name the file as AccordianTemplate.ts and add below content.
 
-![](https://nanddeepnachanblogs.com/wp-content/uploads/2020/03/word-image-80.png)
+    ![](/media/2018-08-03-integrating-jquery-with-spfx-webparts/08.png)
 
-1. Use the accordion template in main webpart class.
+9. Use the accordion template in main webpart class.
 
-![](https://nanddeepnachanblogs.com/wp-content/uploads/2020/03/word-image-81.png)
+    ![](/media/2018-08-03-integrating-jquery-with-spfx-webparts/09.png)
+
 
 ## Test the web part
 
-1. On command prompt, type "gulp serve".
+1. On command prompt, type ```gulp serve```.
 2. Open any SharePoint site in your tenant or use SharePoint local workbench.
-3. Add the App to your site from “Add an App” menu.
+3. Add the App to your site from **Add an App** menu.
 4. Edit any page and add the web part.
 
-![](https://nanddeepnachanblogs.com/wp-content/uploads/2020/03/word-image-82.png)
+    ![](/media/2018-08-03-integrating-jquery-with-spfx-webparts/10.png)
 
-1. See the web part working.
+5. See the web part working.
 
-![](https://nanddeepnachanblogs.com/wp-content/uploads/2020/03/word-image-83.png)
+    ![](/media/2018-08-03-integrating-jquery-with-spfx-webparts/11.png)
+
 
 ## Summary
 
