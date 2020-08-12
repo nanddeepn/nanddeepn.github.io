@@ -1,19 +1,32 @@
 ---
 title: "SharePoint Framework - Deploy SPFx WebParts to SharePoint Library"
 date: "2018-08-01"
+share: true
+categories:
+  - SharePoint
+  - SharePoint Framework
+header:
+  image: media/2018-08-01-deploy-spfx-webparts-to-sharepoint-library/03.png
+  teaser: media/2018-08-01-deploy-spfx-webparts-to-sharepoint-library/03.png
+tags:
+  - "2018"
+  - August 2018
+last_modified_at: 2018-08-01T00:00:00-00:00
 ---
 
 ## Overview
 
-Please refer my previous article [Develop First Client Side Web Part](https://nanddeepnachanblogs.com/2018/07/sharepoint-framework-develop-first-client-side-web-part/) to get started, develop first SPFx client side web part and test it on a local SharePoint workbench.
+Please refer my previous article [Develop First Client Side Web Part](/posts/2018-07-20-sharepoint-framework-develop-first-client-side-web-part/) to get started, develop first SPFx client side web part and test it on a local SharePoint workbench.
+
 
 In the production ready scenario, the web parts can be deployed to any of below:
 
-1. [Azure CDN](https://nanddeepnachanblogs.com/2018/07/sharepoint-framework-deploy-spfx-webparts-to-azure-cdn/)
-2. [Office 365 Public CDN](https://nanddeepnachanblogs.com/2018/08/deploy-spfx-webparts-to-office-365-public-cdn/)
+1. [Azure CDN](/posts/2018-07-28-sharepoint-framework-deploy-spfx-webparts-to-azure-cdn/)
+2. [Office 365 Public CDN](/posts/2018-08-02-deploy-spfx-webparts-to-office-365-public-cdn/)
 3. SharePoint Library in your tenant (This article)
 
 In this article, we will explore the option of deploying the SPFx web parts using SharePoint library.
+
 
 ## Deployment to CDN
 
@@ -27,18 +40,20 @@ If the organization has its users worldwide across different geo locations, havi
 
 In package-solution.json, specifying includeClientSideAssets as true will include the assets in .sppkg file. After deploying the sppkg solution to app catalog, SharePoint will unpack the assets to predefined location in tenant.
 
+
 ## Create SharePoint Library as CDN
 
 1. Open SharePoint Site.
-2. Click Settings (gear icon) > Add an App.
+2. Click **Settings (gear icon)** > **Add an App**.
 
-![](https://nanddeepnachanblogs.com/wp-content/uploads/2020/03/word-image-53.png)
+    ![](/media/2018-08-01-deploy-spfx-webparts-to-sharepoint-library/01.png)
 
-1. Click Document Library tile.
-2. Give it a name - SPFxDeploy.
-3. Click (gear icon) > Library settings.
-4. Under “Permissions and Management”, click “Permissions for this document library”.
-5. Give read permission to all users (use everyone user).
+3. Click Document Library tile.
+4. Give it a name - SPFxDeploy.
+5. Click **Settings (gear icon)** > **Library settings**.
+6. Under **Permissions and Management**, click **Permissions for this document library**.
+7. Give read permission to all users (use everyone user).
+
 
 ## Configure SPFx Solution for SharePoint Library
 
@@ -46,60 +61,70 @@ In package-solution.json, specifying includeClientSideAssets as true will includ
 
 1. Open command prompt.
 2. In the command prompt, navigate to SPFx solution folder.
-3. Type “code .” to open the solution in code editor of your choice.
+3. Type ```code .``` to open the solution in code editor of your choice.
 4. Open package-solution.json file from config folder. This file takes care of solution packaging.
 5. Set includeClientSideAssets value as false. The client side assets will not be packaged inside final package (sppkg file) because these will be hosted in SharePoint library.
 
-![](https://nanddeepnachanblogs.com/wp-content/uploads/2020/03/word-image-54.png)
+    ![](/media/2018-08-01-deploy-spfx-webparts-to-sharepoint-library/02.png)
+
 
 **Update CDN Path**
 
 1. Open write-manifests.json from config folder.
 2. Update CDN base path as SharePoint library url.
 
-![](https://nanddeepnachanblogs.com/wp-content/uploads/2020/03/word-image-55.png)
+    ![](/media/2018-08-01-deploy-spfx-webparts-to-sharepoint-library/03.png)
+
 
 **Prepare the package**
 
 In the command prompt, type the below command.
 
+```
 gulp bundle --ship
+```
 
-This will minify the required assets to upload to CDN. The ship switch denotes distribution. The minified assets are located at “temp\\deploy” folder.
+This will minify the required assets to upload to CDN. The ship switch denotes distribution. The minified assets are located at "temp\deploy" folder.
 
-Upload the files from “temp\\deploy” folder to SharePoint library.
+Upload the files from "temp\deploy" folder to SharePoint library.
 
-![](https://nanddeepnachanblogs.com/wp-content/uploads/2020/03/word-image-56.png)
+![](/media/2018-08-01-deploy-spfx-webparts-to-sharepoint-library/04.png)
+
 
 **Deploy Package to SharePoint**
 
 In the command prompt, type the below command.
 
+```
 gulp package-solution --ship
+```
 
-This will create the solution package (sppkg) in sharepoint\\solution folder.
+This will create the solution package (sppkg) in sharepoint\solution folder.
+
 
 **Upload package to app catalog**
 
 1. Open the SharePoint app catalog site.
-2. Upload the solution package (sppkg) from sharepoint\\solution folder to app catalog.
+2. Upload the solution package (sppkg) from sharepoint\solution folder to app catalog.
 3. Make sure the url is pointing to SharePoint library.
 
-![](https://nanddeepnachanblogs.com/wp-content/uploads/2020/03/word-image-57.png)
+    ![](/media/2018-08-01-deploy-spfx-webparts-to-sharepoint-library/05.png)
 
-1. Click Deploy.
+4. Click **Deploy**.
+
 
 ## Test the web part
 
 1. Open any SharePoint site in your tenant.
-2. Add the App to your site from “Add an App” menu.
+2. Add the App to your site from **Add an App** menu.
 3. Edit any page and add the web part.
 
-![](https://nanddeepnachanblogs.com/wp-content/uploads/2020/03/word-image-58.png)
+    ![](/media/2018-08-01-deploy-spfx-webparts-to-sharepoint-library/06.png)
 
-1. Click F12 to open developer toolbar. Confirm that it is served from SharePoint library.
+4. Click F12 to open developer toolbar. Confirm that it is served from SharePoint library.
 
-![](https://nanddeepnachanblogs.com/wp-content/uploads/2020/03/word-image-59.png)
+    ![](/media/2018-08-01-deploy-spfx-webparts-to-sharepoint-library/07.png)
+
 
 ## Summary
 

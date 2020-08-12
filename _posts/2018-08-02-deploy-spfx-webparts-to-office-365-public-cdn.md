@@ -20,8 +20,8 @@ Please read through my previous article Develop First Client Side Web Part ) to 
 
 Below are the more common followed deployment approaches
 
-1. Office 365 Public CDN (This article)
-2. [Azure CDN](/posts/2018-07-28-sharepoint-framework-deploy-spfx-webparts-to-azure-cdn/)
+1. [Azure CDN](/posts/2018-07-28-sharepoint-framework-deploy-spfx-webparts-to-azure-cdn/)
+2. Office 365 Public CDN (This article)
 3. [SharePoint Library in your tenant](/posts/2018-08-01-deploy-spfx-webparts-to-sharepoint-library/)
 
 In this article, we will explore how SPFx webparts can be deployed to office 365 CDN.
