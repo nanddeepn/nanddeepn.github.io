@@ -1,6 +1,17 @@
 ---
 title: "SharePoint Framework – Deploy SPFx WebParts to Azure CDN"
 date: "2018-07-28"
+share: true
+categories:
+  - SharePoint
+  - SharePoint Framework
+header:
+  image: media/2018-08-01-deploy-spfx-webparts-to-sharepoint-library/03.png
+  teaser: media/2018-08-01-deploy-spfx-webparts-to-sharepoint-library/03.png
+tags:
+  - "2018"
+  - July 2018
+last_modified_at: 2018-07-28T00:00:00-00:00
 ---
 
 ## Overview
@@ -10,58 +21,62 @@ In the previous article Develop First Client Side Web Part, we developed SharePo
 Majorly the SPFx web parts are deployed on either of below CDN (Content Delivery Network) options:
 
 1. Azure CDN (This article)
-2. [Office 365 Public CDN](https://nanddeepnachanblogs.com/2018/08/deploy-spfx-webparts-to-office-365-public-cdn/)
-3. [SharePoint Library in your tenant](https://nanddeepnachanblogs.com/2018/08/deploy-spfx-webparts-to-sharepoint-library/)
+2. [Office 365 Public CDN](/posts/2018-08-02-deploy-spfx-webparts-to-office-365-public-cdn/)
+3. [SharePoint Library in your tenant](/posts/2018-08-01-deploy-spfx-webparts-to-sharepoint-library/)
 
 In this article, we will have a look at how SPFx web parts can be deployed to Azure CDN.
+
 
 ## Configure MS Azure Storage Account
 
 Follow below steps to configure MS Azure storage account and integrate it with CDN:
 
 1. Login to MS Azure Portal ([https://portal.azure.com](https://portal.azure.com)).
-2. Click “Create a resource”.
-3. Click “Storage account - blob, file, table, queue”.
+2. Click **Create a resource**.
+3. Click **Storage account - blob, file, table, queue**.
 
-![](https://nanddeepnachanblogs.com/wp-content/uploads/2020/03/word-image-39.png)
+    ![](/media/2018-07-28-sharepoint-framework-deploy-spfx-webparts-to-azure-cdn/01.png)
 
-1. Fill out the form.
+4. Fill out the form.
 
-![](https://nanddeepnachanblogs.com/wp-content/uploads/2020/03/word-image-40.png)
+    ![](/media/2018-07-28-sharepoint-framework-deploy-spfx-webparts-to-azure-cdn/02.png)
 
-1. Click **Create.**
-2. The storage account endpoint can be referred by URI – http://<StorageAccountName>.blob.core.windows.net
+5. Click **Create.**
+6. The storage account endpoint can be referred by URI – http://<StorageAccountName>.blob.core.windows.net
+
 
 ## Configure BLOB Container
 
 1. Select storage account from dashboard.
-2. Click “Blobs”.
+2. Click **Blobs**.
 
-![](https://nanddeepnachanblogs.com/wp-content/uploads/2020/03/word-image-41.png)
+    ![](/media/2018-07-28-sharepoint-framework-deploy-spfx-webparts-to-azure-cdn/03.png)
 
-1. Click “+ Container”.
+3. Click **+ Container**.
 
-![](https://nanddeepnachanblogs.com/wp-content/uploads/2020/03/word-image-42.png)
+    ![](/media/2018-07-28-sharepoint-framework-deploy-spfx-webparts-to-azure-cdn/04.png)
 
-1. Click Access keys and note down any of the access key.
+4. Click Access keys and note down any of the access key.
 
-![](https://nanddeepnachanblogs.com/wp-content/uploads/2020/03/word-image-43.png)
+    ![](/media/2018-07-28-sharepoint-framework-deploy-spfx-webparts-to-azure-cdn/05.png)
+
 
 ## Enable Azure CDN for Storage Account
 
 We will enable CDN for the above created storage account.
 
 1. Select storage account from dashboard.
-2. Under “BLOB Service”, select “Azure CDN”.
+2. Under **BLOB Service**, select **Azure CDN**.
 
-![](https://nanddeepnachanblogs.com/wp-content/uploads/2020/03/word-image-44.png)
+    ![](/media/2018-07-28-sharepoint-framework-deploy-spfx-webparts-to-azure-cdn/06.png)
 
-1. Click Create.
-2. The endpoint will appear in the endpoint list.
+3. Click **Create**.
+4. The endpoint will appear in the endpoint list.
 
-![](https://nanddeepnachanblogs.com/wp-content/uploads/2020/03/word-image-45.png)
+    ![](/media/2018-07-28-sharepoint-framework-deploy-spfx-webparts-to-azure-cdn/07.png)
 
-1. The BLOB container can be accessed from url: http://<EndpointName>.azureedge.net/<myPublicContainer>/<BlobName>
+5. The BLOB container can be accessed from url: http://<EndpointName>.azureedge.net/<myPublicContainer>/<BlobName>
+
 
 ## Configure SPFx Solution for Azure CDN
 
@@ -69,11 +84,12 @@ We will enable CDN for the above created storage account.
 
 1. Open command prompt.
 2. In the command prompt, navigate to SPFx solution folder.
-3. Type “code .” to open the solution in code editor of your choice.
+3. Type **code .** to open the solution in code editor of your choice.
 4. Open **package-solution.json** file from **config** folder. This file takes care of solution packaging.
 5. Set **includeClientSideAsserts** value as **false**. The client side assets will not be packaged inside final package (sppkg file) because these will be hosted on external CDN.
 
-![](https://nanddeepnachanblogs.com/wp-content/uploads/2020/03/word-image-46.png)
+    ![](/media/2018-07-28-sharepoint-framework-deploy-spfx-webparts-to-azure-cdn/08.png)
+
 
 **Update Azure storage account details to Solution**
 
@@ -83,30 +99,38 @@ We will enable CDN for the above created storage account.
     - container: BLOB container
     - accessKey: storage account access key (primary or secondary)
 
-![](https://nanddeepnachanblogs.com/wp-content/uploads/2020/03/word-image-47.png)
+    ![](/media/2018-07-28-sharepoint-framework-deploy-spfx-webparts-to-azure-cdn/09.png)
+
 
 **Update CDN Path**
 
 1. Open **write-manifests.json** from **config** folder.
 2. Update CDN base path as BLOB container end point.
 
-![](https://nanddeepnachanblogs.com/wp-content/uploads/2020/03/word-image-48.png)
+    ![](/media/2018-07-28-sharepoint-framework-deploy-spfx-webparts-to-azure-cdn/10.png)
+
 
 **Prepare the package**
 
 In the command prompt, type below command:
 
+```
 gulp bundle --ship
+```
 
-This will minify the required assets to upload to CDN. The ship switch denotes distribution. The minified assets are located at “temp\\deploy” folder.
+This will minify the required assets to upload to CDN. The ship switch denotes distribution. The minified assets are located at "temp\deploy" folder.
+
 
 **Deploy assets to Azure Storage**
 
 In the command prompt, type below command:
 
+```
 gulp deploy-azure-storage
+```
 
 This will deploy the assets (JavaScript, CSS files) to Azure CDN.
+
 
 ## Deploy Package to SharePoint
 
@@ -114,31 +138,36 @@ The next step is to deploy the app package (sppkg) to SharePoint App catalog.
 
 In the command prompt, type below command:
 
+```
 gulp package-solution --ship
+```
 
-This will create the solution package (sppkg) in sharepoint\\solution folder.
+This will create the solution package (sppkg) in sharepoint\solution folder.
+
 
 **Upload package to app catalog**
 
 1. Open the SharePoint app catalog site.
-2. Upload the solution package (sppkg) from sharepoint\\solution folder to app catalog.
+2. Upload the solution package (sppkg) from sharepoint\solution folder to app catalog.
 3. Make sure the url is pointing to Azure CDN.
 
-![](https://nanddeepnachanblogs.com/wp-content/uploads/2020/03/word-image-49.png)
+    ![](/media/2018-07-28-sharepoint-framework-deploy-spfx-webparts-to-azure-cdn/11.png)
 
-1. Click **Deploy.**
+4. Click **Deploy.**
+
 
 ## Test the web part
 
 1. Open any SharePoint site in your tenant.
-2. Add the App to your site from “Add an App” menu.
+2. Add the App to your site from **Add an App** menu.
 3. Edit any page and add the web part.
 
-![](https://nanddeepnachanblogs.com/wp-content/uploads/2020/03/word-image-50.png)
+    ![](/media/2018-07-28-sharepoint-framework-deploy-spfx-webparts-to-azure-cdn/12.png)
 
-1. Click F12 to open developer toolbar. Confirm that it is served from Azure CDN.
+4. Click F12 to open developer toolbar. Confirm that it is served from Azure CDN.
 
-![](https://nanddeepnachanblogs.com/wp-content/uploads/2020/03/word-image-51.png)
+    ![](/media/2018-07-28-sharepoint-framework-deploy-spfx-webparts-to-azure-cdn/13.png)
+
 
 ## Summary
 
