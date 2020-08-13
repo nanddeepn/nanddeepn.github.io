@@ -15,6 +15,7 @@ I’ll be speaking at the following events.
 Microsoft 365 Saturday, Gurgaon|[Developing SharePoint Framework Solutions for the Enterprise](https://www.spsevents.org/event/gurgaon2020/sessions/)|29 August, 2020|Online
 Teams Day Online 2|[Collaborate on Microsoft Teams with Power Platform](https://modernworkplacesummits.com/)|30 September, 2020|Online
 Global Microsoft 365 Developer Bootcamp, Chennai|[Change Notifications and Track Changes with Microsoft Graph](https://www.meetup.com/XMonkeys360/events/271978500/)|10 October, 2020|Online
+Virtual M365 Saturday Ottawa|[Developing SharePoint Framework Solutions for the Enterprise](https://www.spsevents.org/event/m365ottawa/schedule/)|17 October, 2020|Online
 
 
 ## Past events
