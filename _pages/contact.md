@@ -19,6 +19,28 @@ Use below form to contact me, if :
 - You’d like me to speak at your event.
 
 Looking forward to hearing from you!
+
+<form action="https://formspree.io/mknqajve" method="POST">
+    <input type="hidden" name="_next" value="//" />
+    <p>
+        <label>Name: </label>
+        <input type="text" name="name" required />
+    </p>
+
+    <p>
+        <label>Email: </label>
+        <input type="email" name="_replyto" required />
+   </p> 
+
+    <p>
+        <label>Comments: </label>
+        <textarea name="comments" required></textarea>
+    </p>
+
+    <p> 
+        <input type="submit" value="Send">
+    </p>
+</form>
  
 
 PS: For any technical queries, I encourage you to use the comments section of the relevant blog post. This will benefit everyone from the information. **Technical questions submitted via this form will not get answered.**
