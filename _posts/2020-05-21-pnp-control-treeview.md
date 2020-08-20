@@ -301,3 +301,5 @@ The code developed during this article can be found here: [https://github.com/na
 
 - PnP TreeView control ([https://pnp.github.io/sp-dev-fx-controls-react/controls/TreeView/](https://pnp.github.io/sp-dev-fx-controls-react/controls/TreeView/))
 - Git code repo ([https://github.com/pnp/sp-dev-fx-controls-react/tree/master/src/controls/treeView](https://github.com/pnp/sp-dev-fx-controls-react/tree/master/src/controls/treeView))
+
+[![HitCount](http://hits.dwyl.com/nanddeepn/nanddeepngithubio/posts/2020-05-21-pnp-control-treeview/.svg)](http://hits.dwyl.com/nanddeepn/nanddeepngithubio/posts/2020-05-21-pnp-control-treeview/)
