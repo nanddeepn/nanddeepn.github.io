@@ -246,3 +246,5 @@ Follow below steps to deploy SPFx web part as messaging extension:
 ## Summary
 
 SharePoint Framework v1.11 supports to host our SPFx web parts as MS Teams messaging extension. We don't need to use a specific host in the supportedHosts property (like TeamsTab or TeamsPersonalApp) inside web parts's manifest.json. However, we just need to extend the teams manifest in your SharePoint Framework solution with composeExtension.
+
+[![HitCount](http://hits.dwyl.com/nanddeepn/nanddeepngithubio/posts/2020-08-07-spfx-web-part-as-ms-teams-messaging-extension/.svg)](http://hits.dwyl.com/nanddeepn/nanddeepngithubio/posts/2020-08-07-spfx-web-part-as-ms-teams-messaging-extension/)
