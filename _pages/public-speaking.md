@@ -57,3 +57,13 @@ Webinar|[SharePoint Framework development with React](https://www.c-sharpcorner.
 Webinar|[Getting Started with SharePoint Framework (SPFx)](https://www.c-sharpcorner.com/events/getting-started-with-sharepoint-framework-spfx)|08 September, 2018|Online
 C# Corner Pune Chapter Meet|[SharePoint Site Provisioning](https://www.c-sharpcorner.com/events/learn-sharepoint-office-365-azure-for-developers-and-azure-bot-service)|28 July, 2018|Pune, India
 Webinar|[Modern Sites in SharePoint](https://www.c-sharpcorner.com/events/modern-sites-in-sharepoint)|09 June, 2018|Online
+
+
+## Event Organizer
+
+**Event**|**When**|**Where**
+[Global Microsoft 365 Developer Bootcamp 2020 - Pune](https://www.meetup.com/Pune-Tech-Community/events/272057386/)|24 & 25 October, 2020|Online
+[Global AI On Tour - 2020, Pune](https://www.meetup.com/Microsoft-365-and-Power-Platform-User-group-India/events/270546415/)|20 June, 2020|Online
+[SPFx Deep Dive Webinar Series](https://www.meetup.com/Microsoft-365-and-Power-Platform-User-group-India/events/lmdsrrybchbdb/)|May, 2020|Webinar Series
+[Getting Started with SharePoint Framework](https://www.meetup.com/Microsoft-365-and-Power-Platform-User-group-India/events/rtfhrrybcgblb/)|April, 2020|Webinar Series
+[Global Power Platform Bootcamp, 2020](https://www.powerplatformbootcamp.com/location-detail/?id=ca4081e5-c11f-ea11-8454-281878f66ccc&city=Pune)|15 February, 2020|Pune
