@@ -118,9 +118,8 @@ Enable the sideloading of the app by following the below steps.
 
 We can create a standalone and static app inside MS Teams that links to the SharePoint intranet site. Please note, this functionality is only available with SharePoint modern sites and page. Classic SharePoint sites and pages are not supported for this.
 
-# References
+
+## References
 
 - Create a SharePoint intranet in Teams ([aka.ms/sharepoint-app-in-teams](http://aka.ms/sharepoint-app-in-teams))
 - Admin settings for apps in Microsoft Teams ([aka.ms/ManageAppsInTeams](http://aka.ms/ManageAppsInTeams))
-
-[![HitCount](http://hits.dwyl.com/nanddeepn/nanddeepngithubio/posts/2020-06-01-host-sharepoint-app-in-ms-teams/.svg)](http://hits.dwyl.com/nanddeepn/nanddeepngithubio/posts/2020-06-01-host-sharepoint-app-in-ms-teams/)

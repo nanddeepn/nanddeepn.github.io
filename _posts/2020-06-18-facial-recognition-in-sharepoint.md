@@ -192,15 +192,15 @@ But I am just 21! 😊
 
 Azure Face API analyses faces in images. It recognizes the range of facial expressions like happiness, contempt, neutrality, and fear; and recognition and grouping of similar faces in images.
 
+
 ## Use Cases
 
 The Face API can be useful in the below scenarios:
 - Find missing persons
 - Recognize VIPs
 
+
 ## References
 
 - Face recognition ([https://azure.microsoft.com/en-in/services/cognitive-services/face/](https://azure.microsoft.com/en-in/services/cognitive-services/face/))
 - Face API Pricing ([https://azure.microsoft.com/en-in/pricing/details/cognitive-services/face-api/](https://azure.microsoft.com/en-in/pricing/details/cognitive-services/face-api/))
-
-[![HitCount](http://hits.dwyl.com/nanddeepn/nanddeepngithubio/posts/2020-06-18-facial-recognition-in-sharepoint/.svg)](http://hits.dwyl.com/nanddeepn/nanddeepngithubio/posts/2020-06-18-facial-recognition-in-sharepoint/)

@@ -293,13 +293,13 @@ The selection mode can be set by using property TreeViewSelectionMode. The possi
 
 In this article, we explored the implementation and practical use of TreeView control in the SPFx web part. Hope this reusable control will help you in your future solutions. Share your feedback!
 
+
 ## Code download
 
 The code developed during this article can be found here: [https://github.com/nanddeepn/code-samples/tree/master/SPFx/WebParts/spfx-react-treeview-control](https://github.com/nanddeepn/code-samples/tree/master/SPFx/WebParts/spfx-react-treeview-control)
+
 
 ## References
 
 - PnP TreeView control ([https://pnp.github.io/sp-dev-fx-controls-react/controls/TreeView/](https://pnp.github.io/sp-dev-fx-controls-react/controls/TreeView/))
 - Git code repo ([https://github.com/pnp/sp-dev-fx-controls-react/tree/master/src/controls/treeView](https://github.com/pnp/sp-dev-fx-controls-react/tree/master/src/controls/treeView))
-
-[![HitCount](http://hits.dwyl.com/nanddeepn/nanddeepngithubio/posts/2020-05-21-pnp-control-treeview/.svg)](http://hits.dwyl.com/nanddeepn/nanddeepngithubio/posts/2020-05-21-pnp-control-treeview/)
