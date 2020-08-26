@@ -15,8 +15,6 @@ tags:
 last_modified_at: 2020-08-07T00:00:00-00:00
 ---
 
-# SPFx web part as MS Teams messaging extension
-
 ## Overview
 
 SharePoint Framework v1.11 supports to host our SPFx web parts as MS Teams messaging extension. This offers more power to the developers so that they can now extend SPFx web parts to MS Teams as messaging extension.
