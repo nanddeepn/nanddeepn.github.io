@@ -1,5 +1,5 @@
 ---
-title: "Implementing Action Messaging Extensions for MS Teams with Yo Teams"
+title: "Implementing Personal Tabs for MS Teams with Yo Teams"
 date: "2020-09-02"
 share: true
 header:
