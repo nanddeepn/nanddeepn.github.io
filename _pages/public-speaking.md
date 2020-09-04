@@ -13,11 +13,15 @@ I’ll be speaking at the following events.
 
 **Event**|**Topic**|**When**|**Where**
 TeamsCommunityDay - The Tour|[Collaborate on Microsoft Teams with Power Platform](https://www.teamscommunityday.de/en/sessions-09-09-2020-e/)|09 September, 2020|Online
+Global AI On Tour - NYC|[SharePoint Content classification with AI capabilities](https://globalai.community/global-ai-on-tour/united-states-new-york)|09 September, 2020|Online
 Microsoft 365 Saturday, Gurgaon|[Developing SharePoint Framework Solutions for the Enterprise](https://www.spsevents.org/event/gurgaon2020/sessions/)|19 September, 2020|Online
-Teams Day Online 2|[Collaborate on Microsoft Teams with Power Platform](https://modernworkplacesummits.com/)|30 September, 2020|Online
+Global AI On Tour - Dhaka, Bangladesh|[Using AI to classify SharePoint Content with Cognitive and Sentiment analysis](https://globalai.community/global-ai-on-tour/bangladesh-dhaka-2)|19 September, 2020|Online
+Teams Day Online 2|[Collaborate on Microsoft Teams with Power Platform](https://modernworkplacesummits.com/session-list)|30 September, 2020|Online
 Global Microsoft 365 Developer Bootcamp, Chennai|[Change Notifications and Track Changes with Microsoft Graph](https://www.meetup.com/XMonkeys360/events/271978500/)|10 October, 2020|Online
 Virtual M365 Saturday Ottawa|[Developing SharePoint Framework Solutions for the Enterprise](https://www.spsevents.org/event/m365ottawa/schedule/)|17 October, 2020|Online
 Global Microsoft 365 Developer Bootcamp 2020 - Trivandrum, Kerala|[Microsoft Lists: Evolving the value of SharePoint lists and beyond](https://www.meetup.com/Talklify-Community/events/272081194/)|14 November, 2020|Online
+Global Microsoft 365 Developer Bootcamp 2020, Hamburg, DE|[Collaborate on Microsoft Teams with Power Platform](https://www.meetup.com/de-DE/Office-365-User-Group-Hamburg/events/271966324/)|28 November, 2020|Online
+Global Microsoft 365 Developer Bootcamp 2020, Hamburg, DE|[Microsoft Lists: Evolving the value of SharePoint lists and beyond](https://www.meetup.com/de-DE/Office-365-User-Group-Hamburg/events/271966324/)|28 November, 2020|Online
 
 
 ## Past events
