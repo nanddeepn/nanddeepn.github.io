@@ -15,7 +15,41 @@ toc: true
     </tr>
     <tr>
         <td width="50%">
+            <iframe type="text/html" width="336" height="550" frameborder="0" allowfullscreen style="max-width:100%" src="https://read.amazon.in/kp/embed?asin=B08GZT5Z64&preview=newtab&linkCode=kpe&ref_=cm_sw_r_kb_dp_W1KvFbED4RB3X" ></iframe>
+            <p>Published on 30 August, 2020</p>
+        </td>
+        <td>
+            Design and develop hybrid scenarios with SharePoint Online and SharePoint Server 2019. This book will help you build hybrid environments from scratch, and covers basic to advanced scenarios.
+            <br/>
+            Key Features:
+            <ul>
+                <li>Enlarge your hybrid terminology</li>
+                <li>Get familiar with the new and improved features of SharePoint Server 2019</li>
+                <li>Develop a hybrid experience with SharePoint Server 2019</li>
+                <li>Enable hybrid search</li>
+                <li>Understand the on-premises data gateway</li>
+                <li>Configure and integrate SharePoint Server 2019 with Power Platform, including Power BI, Power Apps, and Power Automate</li>
+            </ul>
+            <ul>
+                <li>
+                    <a href="https://www.amazon.com/Understanding-Hybrid-Environments-SharePoint-2019/dp/148426049X" target="_blank">Buy at Amazon.com</a>                    
+                </li>
+                <li>
+                    <a href="https://www.amazon.in/Understanding-Hybrid-Environments-SharePoint-2019/dp/148426049X" target="_blank">Buy at Amazon India</a>
+                </li>
+                <li>
+                    <a href="https://link.springer.com/book/10.1007/978-1-4842-6050-0" target="_blank">Buy at Springer Link</a>
+                </li>
+                <li>
+                    <a href="https://www.apress.com/gp/book/9781484260494" target="_blank">Buy at Apress</a>
+                </li>
+            </ul>            
+        </td>
+    </tr>
+    <tr>
+        <td width="50%">
             <iframe type="text/html" width="336" height="550" frameborder="0" allowfullscreen style="max-width:100%" src="https://read.amazon.in/kp/card?asin=B0822SS97K&preview=newtab&linkCode=kpe&ref_=cm_sw_r_kb_dp_3J6hFbWKZRDQ4" ></iframe>
+            <p>Published on 27 November, 2019</p>
         </td>
         <td>
             A step-by-step guide to acquire knowledge of the SharePoint Framework (SPFx), build it from scratch, and gradually move towards developing practical examples.
