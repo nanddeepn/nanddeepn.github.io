@@ -13,7 +13,7 @@ I’ll be speaking at the following events.
 
 **Event**|**Topic**|**When**|**Where**
 TeamsCommunityDay - The Tour|[Collaborate on Microsoft Teams with Power Platform](https://www.teamscommunityday.de/en/sessions-09-09-2020-e/)|09 September, 2020|Online
-Global AI On Tour - NYC|[SharePoint Content classification with AI capabilities](https://globalai.community/global-ai-on-tour/united-states-new-york)|09 September, 2020|Online
+Global AI On Tour - NYC|[SharePoint Content classification with AI capabilities](https://www.thetechplatform.com/global-ai-tour)|09 September, 2020|Online
 Microsoft 365 Saturday, Gurgaon|[Developing SharePoint Framework Solutions for the Enterprise](https://www.spsevents.org/event/gurgaon2020/sessions/)|19 September, 2020|Online
 Global AI On Tour - Dhaka, Bangladesh|[Using AI to classify SharePoint Content with Cognitive and Sentiment analysis](https://globalai.community/global-ai-on-tour/bangladesh-dhaka-2)|19 September, 2020|Online
 Teams Day Online 2|[Collaborate on Microsoft Teams with Power Platform](https://modernworkplacesummits.com/session-list)|30 September, 2020|Online
