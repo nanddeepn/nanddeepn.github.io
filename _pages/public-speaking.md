@@ -12,8 +12,6 @@ toc: true
 I’ll be speaking at the following events.
 
 **Event**|**Topic**|**When**|**Where**
-TeamsCommunityDay - The Tour|[Collaborate on Microsoft Teams with Power Platform](https://www.teamscommunityday.de/en/sessions-09-09-2020-e/)|09 September, 2020|Online
-Global AI On Tour - NYC|[SharePoint Content classification with AI capabilities](https://www.thetechplatform.com/global-ai-tour)|09 September, 2020|Online
 Microsoft 365 Saturday, Gurgaon|[Developing SharePoint Framework Solutions for the Enterprise](https://www.spsevents.org/event/gurgaon2020/sessions/)|19 September, 2020|Online
 Global AI On Tour - Dhaka, Bangladesh|[Using AI to classify SharePoint Content with Cognitive and Sentiment analysis](https://globalai.community/global-ai-on-tour/bangladesh-dhaka-2)|19 September, 2020|Online
 Teams Day Online 2|[Collaborate on Microsoft Teams with Power Platform](https://modernworkplacesummits.com/session-list)|30 September, 2020|Online
@@ -27,6 +25,8 @@ Global Microsoft 365 Developer Bootcamp 2020, Hamburg, DE|[Microsoft Lists: Evol
 ## Past events
 
 **Event**|**Topic**|**When**|**Where**
+Global AI On Tour - NYC|[SharePoint Content classification with AI capabilities](https://www.thetechplatform.com/global-ai-tour)|09 September, 2020|Online
+TeamsCommunityDay - The Tour|[Collaborate on Microsoft Teams with Power Platform](https://www.teamscommunityday.de/en/sessions-09-09-2020-e/)|09 September, 2020|Online
 Pune Tech Community - Webinar|[Accelerate SPFx development with PnP](https://www.meetup.com/Pune-Tech-Community/events/272694280/)| 29 August, 2020|Online
 Global AI Community - AI Talks|[Using AI to classify SharePoint Content with Cognitive and Sentiment analysis](https://globalai.community/ai-talks/ai-talks-with-nanddeep-nachan)|20 August, 2020|Online
 Webinar|[Microsoft Inspire Updates for Office 365 & Power Platform](https://www.meetup.com/Microsoft-365-and-Power-Platform-User-group-India/events/272119991/)|05 August, 2020|Online
