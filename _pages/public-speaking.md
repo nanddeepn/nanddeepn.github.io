@@ -19,8 +19,10 @@ Microsoft Ignite, Ask the Expert|[ATE-DB155C: Introducing modern admin capabilit
 Microsoft Ignite, Ask the Expert|[ATE-DB136B: Ask anything about Microsoft Compliance: information protection & governance, insider risks, Compliance Management, and more!](https://myignite.microsoft.com/sessions/)|24 September, 2020 at 5:30 PM IST / 5 AM PDT|Online
 Teams Day Online 2|[Collaborate on Microsoft Teams with Power Platform](https://modernworkplacesummits.com/session-list)|30 September, 2020|Online
 Global Microsoft 365 Developer Bootcamp, Chennai|[Change Notifications and Track Changes with Microsoft Graph](https://www.meetup.com/XMonkeys360/events/271978500/)|10 October, 2020|Online
+Global Microsoft 365 Developer Bootcamp 2020 Hyderabad, India|[Explore RBAC and PIM in M365](https://sessionize.com/global-microsoft-365-developer-bootcamp-Hyderbad20/)|17 October, 2020|Online
 Virtual M365 Saturday Ottawa|[Developing SharePoint Framework Solutions for the Enterprise](https://www.spsevents.org/event/m365ottawa/schedule/)|17 October, 2020|Online
 Virtual M365 Friday Cincinnati|[Collaborate on Microsoft Teams with Power Platform](https://www.spsevents.org/event/cincinnatisps2020/sessions/)|23 October, 2020|Online
+Webinar, Dear Azure|[PL-900](PL-900)|24 October, 2020|Online
 Global Microsoft 365 Developer Bootcamp 2020 - Trivandrum, Kerala|[Microsoft Lists: Evolving the value of SharePoint lists and beyond](https://www.meetup.com/Talklify-Community/events/272081194/)|14 November, 2020|Online
 Global Microsoft 365 Developer Bootcamp 2020, Hamburg, DE|[Collaborate on Microsoft Teams with Power Platform](https://www.meetup.com/de-DE/Office-365-User-Group-Hamburg/events/271966324/)|28 November, 2020|Online
 Global Microsoft 365 Developer Bootcamp 2020, Hamburg, DE|[Microsoft Lists: Evolving the value of SharePoint lists and beyond](https://www.meetup.com/de-DE/Office-365-User-Group-Hamburg/events/271966324/)|28 November, 2020|Online
