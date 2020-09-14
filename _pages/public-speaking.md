@@ -14,9 +14,9 @@ I’ll be speaking at the following events.
 **Event**|**Topic**|**When**|**Where**
 Microsoft 365 Saturday, Gurgaon|[Developing SharePoint Framework Solutions for the Enterprise](https://www.spsevents.org/event/gurgaon2020/sessions/)|19 September, 2020|Online
 Global AI On Tour - Dhaka, Bangladesh|[Using AI to classify SharePoint Content with Cognitive and Sentiment analysis](https://globalai.community/global-ai-on-tour/bangladesh-dhaka-2)|19 September, 2020|Online
-Microsoft Ignite, Ask the Expert|[ATE-DB136A: Ask anything about Microsoft Compliance: information protection & governance, insider risks, Compliance Management, and more!](https://myignite.microsoft.com/sessions/)|23 September, 2020 at 9:30 AM IST / 9 PM PDT|Online
-Microsoft Ignite, Ask the Expert|[ATE-DB155C: Introducing modern admin capabilities to better service Microsoft 365 Apps for enterprise](https://myignite.microsoft.com/sessions/)|24 September, 2020 at 4:45 PM IST / 4:15 AM PDT|Online
-Microsoft Ignite, Ask the Expert|[ATE-DB136B: Ask anything about Microsoft Compliance: information protection & governance, insider risks, Compliance Management, and more!](https://myignite.microsoft.com/sessions/)|24 September, 2020 at 5:30 PM IST / 5 AM PDT|Online
+Microsoft Ignite, Ask the Expert|[ATE-DB136: Embrace a New Way of Work with Microsoft 365](https://myignite.microsoft.com/sessions/ATE-DB136)|24 September, 2020 at 9:30 AM IST / 9 PM PDT|Online
+Microsoft Ignite, Ask the Expert|[ATE-DB155-R2: Introducing modern admin capabilities to better service Microsoft 365 Apps for enterprise](https://myignite.microsoft.com/sessions/ATE-DB155-R2/)|24 September, 2020 at 4:45 PM IST / 4:15 AM PDT|Online
+Microsoft Ignite, Ask the Expert|[ATE-DB136-R1: Embrace a New Way of Work with Microsoft 365](https://myignite.microsoft.com/sessions/ATE-DB136-R1)|24 September, 2020 at 5:30 PM IST / 5 AM PDT|Online
 Teams Day Online 2|[Collaborate on Microsoft Teams with Power Platform](https://modernworkplacesummits.com/session-list)|30 September, 2020|Online
 Global Microsoft 365 Developer Bootcamp, Chennai|[Change Notifications and Track Changes with Microsoft Graph](https://www.meetup.com/XMonkeys360/events/271978500/)|10 October, 2020|Online
 Global Microsoft 365 Developer Bootcamp 2020 Hyderabad, India|[Explore RBAC and PIM in M365](https://sessionize.com/global-microsoft-365-developer-bootcamp-Hyderbad20/)|17 October, 2020|Online
