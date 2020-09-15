@@ -155,8 +155,8 @@ Follow the instructions from README.md, section "Deploying to Azure using Git" t
     SCM_COMMAND_IDLE_TIMEOUT|1800
 
 4. Go to **Deployment Center**.
-5. Choose **Local Git** as source and **App Service build service** as the Build Provider.
-6. Choose **Local Git** as a source and **App Service build service** as the Build Provider.
+5. Choose **Local Git** as a source and **App Service build service** as the Build Provider.
+6. Click **Finish**.
 7. Click on **Deployment Credentials** and store the **App Credentials** securely.
 8. In your tab folder initialize a Git repository using ```git init```.
 9. Build the solution using `gulp build` to make sure you don't have any errors
