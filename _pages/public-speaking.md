@@ -18,13 +18,14 @@ Microsoft Ignite, Ask the Expert|[ATE-DB136: Embrace a New Way of Work with Micr
 Microsoft Ignite, Ask the Expert|[ATE-DB155-R2: Introducing modern admin capabilities to better service Microsoft 365 Apps for enterprise](https://myignite.microsoft.com/sessions/ATE-DB155-R2/)|24 September, 2020 at 4:45 PM IST / 4:15 AM PDT|Online
 Microsoft Ignite, Ask the Expert|[ATE-DB136-R1: Embrace a New Way of Work with Microsoft 365](https://myignite.microsoft.com/sessions/ATE-DB136-R1)|24 September, 2020 at 5:30 PM IST / 5 AM PDT|Online
 Teams Day Online 2|[Collaborate on Microsoft Teams with Power Platform](https://modernworkplacesummits.com/session-list)|30 September, 2020|Online
-Global Microsoft 365 Developer Bootcamp, Chennai|[Change Notifications and Track Changes with Microsoft Graph](https://www.meetup.com/XMonkeys360/events/271978500/)|10 October, 2020|Online
-Global Microsoft 365 Developer Bootcamp 2020 Hyderabad, India|[Explore RBAC and PIM in M365](https://www.eventbrite.co.uk/e/global-microsoft-365-developer-bootcamp-2020-hyderabad-india-tickets-116282310521)|17 October, 2020|Online
+Global Microsoft 365 Developer Bootcamp, 2020, Dhaka, Bangladesh|[Collaborate on Microsoft Teams with Power Platform](https://www.eventbrite.com/e/microsoft-365-developer-bootcamp-tickets-114279968462)|03 October, 2020|Online
+Global Microsoft 365 Developer Bootcamp, 2020, Chennai|[Change Notifications and Track Changes with Microsoft Graph](https://www.meetup.com/XMonkeys360/events/271978500/)|10 October, 2020|Online
+Global Microsoft 365 Developer Bootcamp, 2020, Hyderabad, India|[Explore RBAC and PIM in M365](https://www.eventbrite.co.uk/e/global-microsoft-365-developer-bootcamp-2020-hyderabad-india-tickets-116282310521)|17 October, 2020|Online
 Virtual M365 Saturday Ottawa|[Developing SharePoint Framework Solutions for the Enterprise](https://www.spsevents.org/event/m365ottawa/schedule/)|17 October, 2020|Online
 Virtual M365 Friday Cincinnati|[Collaborate on Microsoft Teams with Power Platform](https://www.spsevents.org/event/cincinnatisps2020/sessions/)|23 October, 2020|Online
 Webinar, Dear Azure|[PL-900](PL-900)|24 October, 2020|Online
-Global Microsoft 365 Developer Bootcamp 2020 - Pune|[Collect Input in Microsoft Teams with Task Modules](https://www.meetup.com/Pune-Tech-Community/events/272057386/)|25 October, 2020|Online
-Global Microsoft 365 Developer Bootcamp 2020 - Trivandrum, Kerala|[Microsoft Lists: Evolving the value of SharePoint lists and beyond](https://www.meetup.com/Talklify-Community/events/272081194/)|14 November, 2020|Online
+Global Microsoft 365 Developer Bootcamp,2020, Pune|[Collect Input in Microsoft Teams with Task Modules](https://www.meetup.com/Pune-Tech-Community/events/272057386/)|25 October, 2020|Online
+Global Microsoft 365 Developer Bootcamp, 2020, Trivandrum, Kerala|[Microsoft Lists: Evolving the value of SharePoint lists and beyond](https://www.meetup.com/Talklify-Community/events/272081194/)|14 November, 2020|Online
 Global Microsoft 365 Developer Bootcamp 2020, Hamburg, DE|[Collaborate on Microsoft Teams with Power Platform](https://www.meetup.com/de-DE/Office-365-User-Group-Hamburg/events/271966324/)|28 November, 2020|Online
 Global Microsoft 365 Developer Bootcamp 2020, Hamburg, DE|[Microsoft Lists: Evolving the value of SharePoint lists and beyond](https://www.meetup.com/de-DE/Office-365-User-Group-Hamburg/events/271966324/)|28 November, 2020|Online
 
