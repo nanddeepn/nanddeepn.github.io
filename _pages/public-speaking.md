@@ -12,8 +12,6 @@ toc: true
 I’ll be speaking at the following events.
 
 **Event**|**Topic**|**When**|**Where**
-Microsoft 365 Saturday, Gurgaon|[Developing SharePoint Framework Solutions for the Enterprise](https://www.spsevents.org/event/gurgaon2020/sessions/)|19 September, 2020|Online
-Global AI On Tour - Dhaka, Bangladesh|[Using AI to classify SharePoint Content with Cognitive and Sentiment analysis](https://globalai.community/global-ai-on-tour/bangladesh-dhaka-2)|19 September, 2020|Online
 Microsoft Ignite, Ask the Expert|[ATE-DB136: Embrace a New Way of Work with Microsoft 365](https://myignite.microsoft.com/sessions/ATE-DB136)|24 September, 2020 at 9:30 AM IST / 9 PM PDT|Online
 Microsoft Ignite, Ask the Expert|[ATE-DB155-R2: Introducing modern admin capabilities to better service Microsoft 365 Apps for enterprise](https://myignite.microsoft.com/sessions/ATE-DB155-R2/)|24 September, 2020 at 4:45 PM IST / 4:15 AM PDT|Online
 Microsoft Ignite, Ask the Expert|[ATE-DB136-R1: Embrace a New Way of Work with Microsoft 365](https://myignite.microsoft.com/sessions/ATE-DB136-R1)|24 September, 2020 at 5:30 PM IST / 5 AM PDT|Online
@@ -34,6 +32,8 @@ Global Microsoft 365 Developer Bootcamp 2020, Hamburg, DE|[Microsoft Lists: Evol
 ## Past events
 
 **Event**|**Topic**|**When**|**Where**
+Global AI On Tour - Dhaka, Bangladesh|[Using AI to classify SharePoint Content with Cognitive and Sentiment analysis](https://www.facebook.com/events/331630477843707/)|19 September, 2020|Online
+Microsoft 365 Saturday, Gurgaon|[Developing SharePoint Framework Solutions for the Enterprise](https://www.spsevents.org/event/gurgaon2020/sessions/)|19 September, 2020|Online
 Global AI On Tour - NYC|[SharePoint Content classification with AI capabilities](https://www.thetechplatform.com/global-ai-tour)|09 September, 2020|Online
 TeamsCommunityDay - The Tour|[Collaborate on Microsoft Teams with Power Platform](https://www.teamscommunityday.de/en/sessions-09-09-2020-e/)|09 September, 2020|Online
 Pune Tech Community - Webinar|[Accelerate SPFx development with PnP](https://www.meetup.com/Pune-Tech-Community/events/272694280/)| 29 August, 2020|Online
