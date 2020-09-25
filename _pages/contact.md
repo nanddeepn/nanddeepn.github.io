@@ -8,17 +8,17 @@ last_modified_at: 2019-08-27T15:46:43-04:00
 toc: true
 ---
 
-Hi there — Thank you for being here!
+Hello! 
+Thank you for visiting!
 
-Use below form to contact me, if :
+Contact me by filling out below form, if :
 
-- You want to utilize my Microsoft cloud expertise in:
-    - Solution architecture design and implementation
-    - Consult about solving particularly challenging problems
-    - Review existing solutions or implementation plans
-- You’d like me to speak at your event.
+- You like to seek my opinion on Microsoft cloud engagements:
+    - Architecture design and implementation
+    - Review technical solutions
+- You like me to be a speaker / mentor at your event.
 
-Looking forward to hearing from you!
+Looking forward for the collaboration!
 
 <form action="https://formspree.io/mknqajve" method="POST">
     <input type="hidden" name="_next" value="//" />
@@ -43,6 +43,6 @@ Looking forward to hearing from you!
 </form>
  
 
-PS: For any technical queries, I encourage you to use the comments section of the relevant blog post. This will benefit everyone from the information. **Technical questions submitted via this form will not get answered.**
+Note: For any specific technical queries, please leave your comments on the blog post.
 
 Thank you!
