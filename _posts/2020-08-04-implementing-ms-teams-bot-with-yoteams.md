@@ -155,8 +155,8 @@ Follow the instructions from README.md, section "Deploying to Azure using Git" t
     SCM_COMMAND_IDLE_TIMEOUT|1800
 
 4. Go to **Deployment Center**.
-5. Choose **Local Git** as source and **App Service build service** as the Build Provider.
-6. Choose **Local Git** as a source and **App Service build service** as the Build Provider.
+5. Choose **Local Git** as a source and **App Service build service** as the Build Provider.
+6. Click **Finish**.
 7. Click on **Deployment Credentials** and store the **App Credentials** securely.
 8. In your tab folder initialize a Git repository using ```git init```.
 9. Build the solution using `gulp build` to make sure you don't have any errors
@@ -166,6 +166,7 @@ Follow the instructions from README.md, section "Deploying to Azure using Git" t
 13. Wait until the deployment is completed and navigate to https://yoteamsbasicbot.azurewebsites.net/privacy.html to test that the web application is running.
 14. Repeat step 11 for every commit you do and want to deploy.
 
+> NOTE: The `.env` file is excluded from source control and will not be pushed to the web site so you need to ensure that all the settings present in the `.env` file are added as application settings to your Azure Web site (except the `PORT` variable which is used for local debugging).
 
 ## Summary
 

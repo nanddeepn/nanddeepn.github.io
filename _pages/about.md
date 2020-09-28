@@ -1,6 +1,6 @@
 ---
 permalink: /about-me/
-title: "About Author"
+title: "About the Author"
 
 layout: archive
 author_profile: true
@@ -13,9 +13,9 @@ toc: true
 </figure> 
 
 <br>
-Hello! I’m Nanddeep Nachan, the writer of this blog.
+Hello! I’m Nanddeep Nachan.
 
-I am from Pune, Maharashtra, India and is a newborn Microsoft MVP (Office Apps & Services). I am happily married and living with my loving family (Parents, caring sister, lovely wife, and a sweet newborn junior).
+I am from Pune, Maharashtra, India. Microsoft MVP (Office Apps & Services), Microsoft Certified Trainer (MCT). I am happily married and living with my loving family (Parents, caring sister, lovely wife, and a sweet newborn junior).
 
 I born in a small town [Khopoli](https://en.wikipedia.org/wiki/Khopoli), cocooned amidst the Sahyadri mountains. Spent my childhood at [Matheran](https://en.wikipedia.org/wiki/Matheran), a cozy little hill station. Eventually moved to Mumbai for higher educations and landed in Pune for the job.
 
