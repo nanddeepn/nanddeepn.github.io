@@ -6,7 +6,7 @@ header:
   image: media/2020-09-27-ms-ignite-2020-spo-admin-capabilities/SP-admin_Ignite20_002_home-page-1.png
   teaser: media/2020-09-27-ms-ignite-2020-spo-admin-capabilities/SP-admin_Ignite20_002_home-page-1.png
 categories:
-  - MS Teams
+  - SharePoint
 tags:
   - "2020"
   - September 2020
@@ -160,7 +160,7 @@ We have a new view available as &quot;Sites connected to Teams&quot;, also a col
 
 ## Swap the root site from UI
 
-Earlier we had a PowerShell option [Invoke-SPOSiteSwap](https://docs.microsoft.com/en-us/powershell/module/sharepoint-online/invoke-spositeswap?WT.mc_id=M365-MVP-5003693) to swap the root site. The Replace Site button from UI helps to do this without any PowerShell involvement.
+Earlier we had a PowerShell option [Invoke-SPOSiteSwap](https://docs.microsoft.com/en-us/powershell/module/sharepoint-online/invoke-spositeswap?WT.mc_id=M365-MVP-5003693){:target="_blank"} to swap the root site. The Replace Site button from UI helps to do this without any PowerShell involvement.
 
 ![](/media/2020-09-27-ms-ignite-2020-spo-admin-capabilities/11.png)
 
