@@ -370,4 +370,4 @@ Task modules enable us to implement modal popup experiences in MS Teams applicat
 
 ## Code Download
 
-The code developed during this article can be found at: [https://github.com/nanddeepn/code-samples/tree/master/MSTeams/task-modules-tab/YouTubePlayer\_AdaptiveCards](https://github.com/nanddeepn/code-samples/tree/master/MSTeams/task-modules-tab/YouTubePlayer_AdaptiveCards)
+The code developed during this article can be found at: [https://github.com/nanddeepn/code-samples/tree/master/MSTeams/task-modules-tab/YouTubePlayer_AdaptiveCards](https://github.com/nanddeepn/code-samples/tree/master/MSTeams/task-modules-tab/YouTubePlayer_AdaptiveCards)
