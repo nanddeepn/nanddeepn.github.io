@@ -9,7 +9,7 @@ categories:
   - MS Teams
 tags:
   - "2020"
-  - September 2020
+  - October 2020
 last_modified_at: 2020-10-06T00:00:00-00:00
 ---
 
