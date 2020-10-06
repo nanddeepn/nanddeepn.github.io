@@ -14,6 +14,7 @@ I’ll be speaking at the following events.
 **Event**|**Topic**|**When**|**Where**
 Global Microsoft 365 Developer Bootcamp, 2020, Chennai|[Change Notifications and Track Changes with Microsoft Graph](https://www.meetup.com/XMonkeys360/events/271978500/)|10 October, 2020|Online
 Webinar, Office 365 and Power Platform User group - India|[SharePoint updates from Microsoft Ignite 2020](https://www.meetup.com/Microsoft-365-and-Power-Platform-User-group-India)|10 October, 2020|Online
+Proctor, Global Microsoft 365 Developer Bootcamp, APAC Region|[Global Microsoft 365 Developer Bootcamp, APAC Region](https://microsoft365developerbootcamp.splashthat.com/)|14, 15 October, 2020|Online
 Global Microsoft 365 Developer Bootcamp, 2020, Hyderabad, India|[Explore RBAC and PIM in M365](https://www.eventbrite.co.uk/e/global-microsoft-365-developer-bootcamp-2020-hyderabad-india-tickets-116282310521)|17 October, 2020|Online
 Virtual M365 Saturday Ottawa|[Developing SharePoint Framework Solutions for the Enterprise](https://www.spsevents.org/event/m365ottawa/schedule/)|17 October, 2020|Online
 Virtual M365 Friday Cincinnati|[Collaborate on Microsoft Teams with Power Platform](https://www.spsevents.org/event/cincinnatisps2020/sessions/)|23 October, 2020|Online
