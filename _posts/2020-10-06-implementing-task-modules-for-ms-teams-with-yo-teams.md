@@ -6,7 +6,7 @@ header:
   image: media/2020-10-06-implementing-task-modules-for-ms-teams-with-yo-teams/09.gif
   teaser: media/2020-10-06-implementing-task-modules-for-ms-teams-with-yo-teams/09.gif
 categories:
-  - SharePoint
+  - MS Teams
 tags:
   - "2020"
   - September 2020
