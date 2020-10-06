@@ -20,7 +20,7 @@ Custom tabs can be used with app to embed our own content in MS Teams. MS Teams 
 - Channel/group tab: delivers content to channels and group chats.
 - Personal tab: scoped to a single user.
 
-In this article, we will web experiences with custom personal tabs in Microsoft Teams using Yo Teams.
+In this article, we will explore web experiences with custom personal tabs in Microsoft Teams using `Yo Teams`.
 
 
 ## Personal Tabs overview
