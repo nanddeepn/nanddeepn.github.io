@@ -130,7 +130,7 @@ Note down the forwarding address for future reference.
 3. Run the project to test everything works.
 
     ```
-    dotnet build &amp;&amp; dotnet run
+    dotnet build && dotnet run
     ```
 
 4. Open the application in Visual Studio Code.
