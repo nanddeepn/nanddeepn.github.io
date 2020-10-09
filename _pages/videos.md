@@ -19,5 +19,5 @@ If you are enjoying these videos, make sure you subscribe to my YouTube channel 
 ### SharePoint Videos
 <iframe src="https://www.youtube.com/embed/videoseries?list=PL8xQaaKX4RN6k13Nk8MBKPdEYVmOBvcK2"></iframe>
 
-### SharePoint Framework Videos
+### SharePoint Framework Webinar Series Videos
 <iframe src="https://www.youtube.com/embed/videoseries?list=PL8xQaaKX4RN4wmYF_fbr_Jv0oXpEc95S6"></iframe>
