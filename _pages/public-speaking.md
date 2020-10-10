@@ -12,8 +12,6 @@ toc: true
 I’ll be speaking at the following events.
 
 **Event**|**Topic**|**When**|**Where**
-Global Microsoft 365 Developer Bootcamp, 2020, Chennai|[Change Notifications and Track Changes with Microsoft Graph](https://www.meetup.com/XMonkeys360/events/271978500/)|10 October, 2020|Online
-Webinar, Office 365 and Power Platform User group - India|[SharePoint updates from Microsoft Ignite 2020](https://www.meetup.com/Microsoft-365-and-Power-Platform-User-group-India/events/273747075/)|10 October, 2020|Online
 Proctor, Global Microsoft 365 Developer Bootcamp, EMEA Region|[Global Microsoft 365 Developer Bootcamp, EMEA Region](https://microsoft365developerbootcamp.splashthat.com/)|13, 14 October, 2020 at 13:00 - 17:00 CET|Online
 Proctor, Global Microsoft 365 Developer Bootcamp, APAC Region|[Global Microsoft 365 Developer Bootcamp, APAC Region](https://microsoft365developerbootcamp.splashthat.com/)|14, 15 October, 2020 at 14:00 - 18:00 AEST|Online
 Global Microsoft 365 Developer Bootcamp, 2020, Hyderabad, India|[Explore RBAC and PIM in M365](https://www.eventbrite.co.uk/e/global-microsoft-365-developer-bootcamp-2020-hyderabad-india-tickets-116282310521)|17 October, 2020|Online
@@ -30,6 +28,8 @@ Global Microsoft 365 Developer Bootcamp 2020, Hamburg, DE|[Microsoft Lists: Evol
 ## Past events
 
 **Event**|**Topic**|**When**|**Where**
+Webinar, Office 365 and Power Platform User group - India|[SharePoint updates from Microsoft Ignite 2020](https://www.meetup.com/Microsoft-365-and-Power-Platform-User-group-India/events/273747075/)|10 October, 2020|Online
+Global Microsoft 365 Developer Bootcamp, 2020, Chennai|[Change Notifications and Track Changes with Microsoft Graph](https://www.meetup.com/XMonkeys360/events/271978500/)|10 October, 2020|Online
 Global Microsoft 365 Developer Bootcamp, 2020, Dhaka, Bangladesh|[Collaborate on Microsoft Teams with Power Platform](https://www.facebook.com/events/576061033057859/)|03 October, 2020|Online
 Teams Day Online 2|[Collaborate on Microsoft Teams with Power Platform](https://modernworkplacesummits.com/session-list)|30 September, 2020|Online
 Microsoft Ignite, Ask the Expert, SME Support|[ATE-DB136: Embrace a New Way of Work with Microsoft 365](https://myignite.microsoft.com/sessions/ATE-DB136)|24 September, 2020|Online
