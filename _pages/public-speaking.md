@@ -30,6 +30,7 @@ Global Microsoft 365 Developer Bootcamp 2020, Hamburg, DE|[Microsoft Lists: Evol
 **Event**|**Topic**|**When**|**Where**
 Webinar, Office 365 and Power Platform User group - India|[SharePoint updates from Microsoft Ignite 2020](https://www.meetup.com/Microsoft-365-and-Power-Platform-User-group-India/events/273747075/)|10 October, 2020|Online
 Global Microsoft 365 Developer Bootcamp, 2020, Chennai|[Change Notifications and Track Changes with Microsoft Graph](https://www.meetup.com/XMonkeys360/events/271978500/)|10 October, 2020|Online
+Microsoft Virtual Hub|[Host SharePoint Framework web part as MS Teams messaging extension](https://aka.ms/virtualhub/realworld)|07 October, 2020|Online
 Global Microsoft 365 Developer Bootcamp, 2020, Dhaka, Bangladesh|[Collaborate on Microsoft Teams with Power Platform](https://www.facebook.com/events/576061033057859/)|03 October, 2020|Online
 Teams Day Online 2|[Collaborate on Microsoft Teams with Power Platform](https://modernworkplacesummits.com/session-list)|30 September, 2020|Online
 Microsoft Ignite, Ask the Expert, SME Support|[ATE-DB136: Embrace a New Way of Work with Microsoft 365](https://myignite.microsoft.com/sessions/ATE-DB136)|24 September, 2020|Online
