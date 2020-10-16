@@ -15,7 +15,7 @@ I’ll be speaking at the following events.
 Global Microsoft 365 Developer Bootcamp, 2020, Hyderabad, India|[Explore RBAC and PIM in M365](https://www.eventbrite.co.uk/e/global-microsoft-365-developer-bootcamp-2020-hyderabad-india-tickets-116282310521)|17 October, 2020|Online
 Virtual M365 Saturday Ottawa|[Developing SharePoint Framework Solutions for the Enterprise](https://www.spsevents.org/event/m365ottawa/schedule/)|17 October, 2020|Online
 Virtual M365 Friday Cincinnati|[Collaborate on Microsoft Teams with Power Platform](https://www.spsevents.org/event/cincinnatisps2020/sessions/)|23 October, 2020|Online
-aOS Southeast Asia 2020|[Handling Change Notifications with Microsoft Graph](https://sessionize.com/aos-southeast-asia-2020/)|23, 24 October, 2020|Online
+aOS Southeast Asia 2020|[Handling Change Notifications with Microsoft Graph](https://aossea.com/Home/Agenda)|24 October, 2020|Online
 Webinar, Dear Azure|[PL-900: Microsoft Power Platform Fundamentals](https://www.eventbrite.com/e/mastering-microsoft-fundamentals-master-the-basics-virtual-event-2020-tickets-121523228247)|24 October, 2020|Online
 Global Microsoft 365 Developer Bootcamp,2020, Pune|[Collect Input in Microsoft Teams with Task Modules](https://www.meetup.com/Pune-Tech-Community/events/272057386/)|25 October, 2020|Online
 Global Microsoft 365 Developer Bootcamp, 2020, Trivandrum, Kerala|[Microsoft Lists: Evolving the value of SharePoint lists and beyond](https://talklify.com/events/global-microsoft-365-bootcamp/)|31 October, 2020|Online
