@@ -19,7 +19,7 @@ Global Microsoft 365 Developer Bootcamp,2020, Pune|[Collect Input in Microsoft T
 Global Microsoft 365 Developer Bootcamp, 2020, Trivandrum, Kerala|[Microsoft Lists: Evolving the value of SharePoint lists and beyond](https://talklify.com/events/global-microsoft-365-bootcamp/)|31 October, 2020|Online
 Global Microsoft 365 Developer Bootcamp 2020, Hamburg, DE|[Collaborate on Microsoft Teams with Power Platform](https://www.meetup.com/de-DE/Office-365-User-Group-Hamburg/events/271966324/)|28 November, 2020|Online
 Global Microsoft 365 Developer Bootcamp 2020, Hamburg, DE|[Microsoft Lists: Evolving the value of SharePoint lists and beyond](https://www.meetup.com/de-DE/Office-365-User-Group-Hamburg/events/271966324/)|28 November, 2020|Online
-aMS Germany|[SharePoint Content classification with AI capabilities](https://www.eventbrite.fr/e/ams-germany-december-12020-tickets-125727318795)|01 December,2020|Online
+aMS Germany|[SharePoint Content classification with AI capabilities](https://www.eventbrite.fr/e/ams-germany-december-12020-tickets-125727318795)|01 December, 2020|Online
 
 
 ## Past events
