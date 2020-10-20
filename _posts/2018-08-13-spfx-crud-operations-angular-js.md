@@ -692,12 +692,14 @@ crudapp
                     </div>  
                   </div>  
                   <div class="ms-Grid-row ms-bgColor-themeDark ms-fontColor-white ${styles.row}">  
+                    {% raw %}
                     <div class="ms-Grid-col ms-u-lg10 ms-u-xl8 ms-u-xlPush2 ms-u-lgPush1">  
                       <div>{{vm.status}}</div>  
                       <ul>  
                         <li ng-repeat="item in vm.items">{{item.Title}} ({{item.Id}})</li>  
                       <ul>  
                     </div>  
+                    {% endraw %}
                   </div>  
               </div>  
             </div>`;  

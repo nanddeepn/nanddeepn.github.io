@@ -165,7 +165,7 @@ The .sppkg package will be available inside the "sharepoint\solution" folder.
 
 After deploying the web part, follow the below steps to approve API requests.
 
-1. Open SharePoint Admin Center ([https://\[tenant\]-admin.sharepoint.com](https://[tenant]-admin.sharepoint.com)).
+1. Open SharePoint Admin Center ([https://[tenant]-admin.sharepoint.com](https://[tenant]-admin.sharepoint.com)).
 2. From left navigation, click "API Management".
 3. Approve the pending request.
 

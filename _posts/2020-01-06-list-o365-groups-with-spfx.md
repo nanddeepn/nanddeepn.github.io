@@ -496,7 +496,7 @@ After deploying the web part, follow the below steps to approve API requests.
 
 1. On the command prompt, type "gulp serve".
 2. Open SharePoint site.
-3. Navigate to /\_layouts/15/workbench.aspx
+3. Navigate to /_layouts/15/workbench.aspx
 4. Locate and add the web part (named O365 Groups Listing) to page.
 
 ![](/media/2020-01-06-list-o365-groups-with-spfx/04.png)

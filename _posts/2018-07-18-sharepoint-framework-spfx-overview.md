@@ -75,7 +75,7 @@ The customizations in modern sites are supported using SharePoint Framework (SPF
     1. Stands for Node Package Manager
     2. Installs modules and its dependencies (equivalent to Nuget Package)
     3. Packages can be installed globally (-g switch) or locally
-    4. Installed packages go inside node\_modules folder
+    4. Installed packages go inside node_modules folder
 3. **Gulp**
     1. Automates SPFx development and deployment tasks
     2. Bundle and minify JavaScript and CSS files

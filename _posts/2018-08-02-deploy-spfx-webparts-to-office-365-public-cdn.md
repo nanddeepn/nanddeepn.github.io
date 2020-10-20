@@ -141,7 +141,7 @@ Follow below steps to setup new CDN location
 2. Update CDN base path as Office 365 CDN end point.
 
     ```
-    https://publiccdn.sharepointonline.com/\[tenant\]/sites/\[site-collection-name\]/\[document-library\]/\[folder\]
+    https://publiccdn.sharepointonline.com/[tenant]/sites/[site-collection-name]/[document-library]/[folder]
     ```
 
     ![](/media/2018-08-02-deploy-spfx-webparts-to-office-365-public-cdn/09.png)

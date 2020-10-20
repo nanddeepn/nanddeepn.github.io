@@ -106,7 +106,7 @@ npm install --save @pnp/sp
 
 Follow the below steps to configure our web part to use PnP JS V2:
 
-1. Open web part file “src\\webparts\\richTextControl\\RichTextControlWebPart.ts”.
+1. Open web part file `src\webparts\richTextControl\RichTextControlWebPart.ts`.
 2. Add below import.
 
     ```typescript
@@ -116,7 +116,7 @@ Follow the below steps to configure our web part to use PnP JS V2:
 3. Implement onInit method to initialize the context.
 ```typescript
 protected onInit(): Promise<void> {
-  return super.onInit().then(\_ => {
+  return super.onInit().then(_ => {
     sp.setup({
       spfxContext: this.context
     });
@@ -141,7 +141,7 @@ export interface IRichTextControlState {
 
 Follow the below steps to use rich text:
 
-1. Open file "src\\webparts\\richTextControl\\components\\RichTextControl.tsx".
+1. Open file `src\webparts\richTextControl\components\RichTextControl.tsx`.
 2. Include below imports:
 
 ```typescript
@@ -191,11 +191,13 @@ We will implement a scenario to add rich text to a SharePoint list.
 
             <div className={styles.row}>
               <div className={styles.column}>
+                {% raw %}
                 <PrimaryButton
                   onClick={this.onSave}
-                  style={{ marginBottom: '15px', marginRight: '8px', float: 'right' }}>
+                  style={{marginBottom: '15px', marginRight: '8px', float: 'right'}}>
                   Save
                 </PrimaryButton>
+                {% endraw %}
               </div>
             </div>
           </div>
@@ -237,11 +239,13 @@ We will implement a scenario to read rich text from the SharePoint list. To keep
 1. In the Render method, add a button to read the item.
 
     ```typescript
+    {% raw %}
     <PrimaryButton
       onClick={this.onRead}
-      style={{ marginBottom: '15px', marginRight: '8px', float: 'right' }}>
+      style={{marginBottom: '15px', marginRight: '8px', float: 'right'}}>
       Read
     </PrimaryButton>
+    {% endraw %}
     ```
 
 2. Implement the _onRead_ method to read the first item from the SharePoint list.
@@ -280,11 +284,13 @@ We will implement a scenario to update the first item with rich text from the Sh
 1. In the _Render_ method, add a button to update the item.
 
     ```typescript
+    {% raw %}
     <PrimaryButton
       onClick={this.onUpdate}
-      style={{ marginBottom: '15px', marginRight: '8px', float: 'right' }}>
+      style={{marginBottom: '15px', marginRight: '8px', float: 'right'}}>
       Update
     </PrimaryButton>
+    {% endraw %}
     ```
 
 2. Implement the _onUpdate_ method to update the first item in the SharePoint list.

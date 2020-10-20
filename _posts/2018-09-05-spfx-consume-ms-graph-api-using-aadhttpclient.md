@@ -131,7 +131,7 @@ webApiPermissionRequests is an array of webApiPermissionRequest items where each
 - resource: name or the ObjectId (in Azure AD). E.g. Microsoft Graph
 - scope: name or unique ID of the permission
 
-Please refer the permission API documentation at - [https://developer.microsoft.com/en-us/graph/docs/concepts/permissions\_reference](https://developer.microsoft.com/en-us/graph/docs/concepts/permissions_reference)
+Please refer the permission API documentation at - [https://developer.microsoft.com/en-us/graph/docs/concepts/permissions_reference](https://developer.microsoft.com/en-us/graph/docs/concepts/permissions_reference)
 
 
 ## Configure Props
@@ -234,7 +234,7 @@ The MS Graph operation is part of an experimental feature and is only available 
 
 ![](/media/2018-09-05-spfx-consume-ms-graph-api-using-aadhttpclient/03.png)
 
-Please refer article here ([https://support.office.com/en-us/article/set-up-the-standard-or-targeted-release-options-in-office-365-3b3adfa4-1777-4ff0-b606-fb8732101f47#bkmk\_setup](https://support.office.com/en-us/article/set-up-the-standard-or-targeted-release-options-in-office-365-3b3adfa4-1777-4ff0-b606-fb8732101f47#bkmk_setup)) to setup your tenant for targeted release.
+Please refer article here ([https://support.office.com/en-us/article/set-up-the-standard-or-targeted-release-options-in-office-365-3b3adfa4-1777-4ff0-b606-fb8732101f47#bkmk_setup](https://support.office.com/en-us/article/set-up-the-standard-or-targeted-release-options-in-office-365-3b3adfa4-1777-4ff0-b606-fb8732101f47#bkmk_setup)) to setup your tenant for targeted release.
 
 
 ## Test the WebPart

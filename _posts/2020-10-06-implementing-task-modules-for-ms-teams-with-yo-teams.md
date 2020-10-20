@@ -287,6 +287,7 @@ Once we have an Adaptive card ready, we will create a task module to display it 
 6. The helper `appRoot()` method is as below:
 
     ```typescript
+    {% raw %}
     private appRoot(): string {
         if (typeof window === "undefined") {
             return "https://{{HOSTNAME}}";
@@ -294,6 +295,7 @@ Once we have an Adaptive card ready, we will create a task module to display it 
             return window.location.protocol + "//" + window.location.host;
         }
     }
+    {% endraw %}
     ```
 
 7. Add an HTML page `src\app\web\youTubePlayerTab\player.html` to solution to render the YouTube video.

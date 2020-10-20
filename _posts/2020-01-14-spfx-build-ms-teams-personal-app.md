@@ -135,7 +135,7 @@ Update the web part manifest to make the SPFx web part available as a personal a
     }
     ```
 
-3. Open web part file at "src\\webparts\\myTeamsPersonalApp\\MyTeamsPersonalAppWebPart.ts"
+3. Open web part file at `src\webparts\myTeamsPersonalApp\MyTeamsPersonalAppWebPart.ts`.
 4. Update the render method as below:
 
 ```typescript

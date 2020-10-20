@@ -181,7 +181,7 @@ npm update -g @microsoft/generator-sharepoint
     code .
     ```
 
-6. From the web part solution, open the web part file src\\webparts\\libraryConsumerWebPart\\LibraryConsumerWebPartWebPart.ts
+6. From the web part solution, open the web part file `src\webparts\libraryConsumerWebPart\LibraryConsumerWebPartWebPart.ts`.
 7. Import the library to use.
 
     ```typescript

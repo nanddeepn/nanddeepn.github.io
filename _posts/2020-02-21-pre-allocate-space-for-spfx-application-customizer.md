@@ -177,7 +177,7 @@ public getTopMessage(): Promise<string> {
 }
 ```
 
-This method will return us the text to be added to the Top placeholder. Now, let us use this method inside \_renderPlaceHolders.
+This method will return us the text to be added to the Top placeholder. Now, let us use this method inside `_renderPlaceHolders`.
 
 ```typescript
 private _renderPlaceHolders(): void {  

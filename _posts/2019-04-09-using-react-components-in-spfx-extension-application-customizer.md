@@ -87,7 +87,7 @@ In this article, we will explore the how we can use React components in Applicat
 
 ## Implement Application Customizer
 
-Open ReactHeaderFooterApplicationCustomizer.ts under “\\src\\extensions\\ reactHeaderFooter \\” folder.
+Open ReactHeaderFooterApplicationCustomizer.ts under `\src\extensions\reactHeaderFooter\` folder.
 
 To get access to placeholders on the page, use below imports.
 

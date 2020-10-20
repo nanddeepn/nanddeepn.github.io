@@ -101,9 +101,12 @@ On the command prompt, run below command to include the npm package.
 
 ## Using TreeView control in SPFx Solution
 
-1. Open the React component file at “src\\webparts\\treeViewDemo\\components\\TreeViewDemo.tsx”
+1. Open the React component file at `src\webparts\treeViewDemo\components\TreeViewDemo.tsx`.
 2. Add below imports.
-    `import { TreeView, ITreeItem, TreeViewSelectionMode, TreeItemActionsDisplayMode } from "@pnp/spfx-controls-react/lib/TreeView";`
+
+    ```typescript
+    import { TreeView, ITreeItem, TreeViewSelectionMode, TreeItemActionsDisplayMode } from "@pnp/spfx-controls-react/lib/TreeView";
+    ```
 
 3. Let us use some dummy data to render TreeView. In real world scenarios, this can come from SharePoint list or any other data source.
     ```typescript
@@ -219,7 +222,7 @@ On the command prompt, run below command to include the npm package.
                   selectChildrenIfParentSelected={true}
                   showCheckboxes={true}
                   treeItemActionsDisplayMode={TreeItemActionsDisplayMode.ContextualMenu}
-                  defaultSelectedKeys={\['R2', '6'\]}
+                  defaultSelectedKeys={['R2', '6']}
                   onExpandCollapse={this.onExpandCollapseTree}
                   onSelect={this.onItemSelected}
                   onRenderItem={this.renderCustomTreeItem} />
@@ -245,7 +248,7 @@ On the command prompt, run below command to include the npm package.
 
 6. Implement **onSelect** to get the selected tree item.
 ```typescript
-private onItemSelected(items: ITreeItem\[\]) {
+private onItemSelected(items: ITreeItem[]) {
   console.log("items selected: " + items.length);
 }
 ```
@@ -264,25 +267,28 @@ You can fully customize how tree items are rendered by providing the onRenderIte
      selectChildrenIfParentSelected={true}
      showCheckboxes={true}
      treeItemActionsDisplayMode={TreeItemActionsDisplayMode.ContextualMenu}
-     defaultSelectedKeys={\['R2', '6'\]}
+     defaultSelectedKeys={['R2', '6']}
      onExpandCollapse={this.onExpandCollapseTree}
      onSelect={this.onItemSelected}
      onRenderItem={this.renderCustomTreeItem} />
 ```
 
 Implement the **onRenderItem** as below:
+
 ```typescript
+{% raw %}
 private renderCustomTreeItem(item: ITreeItem): JSX.Element {
   return (
     <span>
       {
         item.iconProps &&
-        <i className={"ms-Icon ms-Icon--" + item.iconProps.iconName} style={{ paddingRight: '4px' }} />
+        <i className={"ms-Icon ms-Icon--" + item.iconProps.iconName} style={{paddingRight: '4px'}} />
       }
       {item.label}
     </span>
   );
 }
+{% endraw %}
 ```
 
 ### Selection Modes

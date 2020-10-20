@@ -174,9 +174,9 @@ As we need the SharePoint context to work with people picker, we will have to pa
                     isRequired={true}    
                     disabled={false}    
                     ensureUser={true}    
-                    selectedItems={this.\_getPeoplePickerItems}    
+                    selectedItems={this._getPeoplePickerItems}    
                     showHiddenInUI={false}    
-                    principalTypes={\[PrincipalType.User\]}    
+                    principalTypes={[PrincipalType.User]}    
                     resolveDelay={1000} />        
                 </div>    
               </div>    

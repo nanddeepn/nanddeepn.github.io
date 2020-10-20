@@ -122,7 +122,7 @@ The file CustomHeaderFooterApplicationCustomizer.manifest.json inside the folder
 
 ## Implement Application Customizer
 
-Open CustomHeaderFooterApplicationCustomizer.ts under “\\src\\extensions\\customHeaderFooter\\” folder.
+Open CustomHeaderFooterApplicationCustomizer.ts under "\src\extensions\customHeaderFooter\" folder.
 
 To get access to placeholders on the page, use below imports.
 

@@ -115,34 +115,38 @@ onRenderCaretDown|Optional custom renderer for chevron icon.
 Implement onRenderOption event to uplift our dropdown by showing colored icon next to dropdown option.
 
 ```typescript
+{% raw %}
 private onRenderOption(option: IDropdownOption): JSX.Element {  
   return (  
     <div>  
       {option.data && option.data.icon && (  
-        <Icon style={{ marginRight: '8px', color: option.data.colorName }} iconName={option.data.icon} aria-hidden="true" title={option.data.icon} />  
+        <Icon style={{marginRight: '8px', color: option.data.colorName}} iconName={option.data.icon} aria-hidden="true" title={option.data.icon} />  
       )}  
       <span>{option.text}</span>  
     </div>  
   );  
 }
+{% endraw %}
 ```
 
 
 Implement onRenderTitle event to show the selected option with colored icon.
 
 ```typescript
-private onRenderTitle(options: IDropdownOption\[\]): JSX.Element {  
-  const option = options\[0\];  
+{% raw %}
+private onRenderTitle(options: IDropdownOption[]): JSX.Element {  
+  const option = options[0];  
   
   return (  
     <div>  
       {option.data && option.data.icon && (  
-        <Icon style={{ marginRight: '8px', color: option.data.colorName }} iconName={option.data.icon} aria-hidden="true" title={option.data.icon} />  
+        <Icon style={{marginRight: '8px', color: option.data.colorName}} iconName={option.data.icon} aria-hidden="true" title={option.data.icon} />  
       )}  
       <span>{option.text}</span>  
     </div>  
   );  
 }
+{% endraw %}
 ```
 
 

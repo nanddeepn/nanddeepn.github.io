@@ -45,7 +45,7 @@ Follow the below steps to create a library component named spfx-library.
 
     ![](/media/2019-10-06-dynamically-load-spfx-library-components/01.png)
 
-3. To avoid localhost port conflicts on gulp serve, open config\\serve.json and set the port to any number other than default port 4321. For more information - [SharePoint Library Components – Simultaneous Parallel Development](http://warner.digital/sharepoint-library-components-simultaneous-parallel-development/)
+3. To avoid localhost port conflicts on gulp serve, open `config\serve.json` and set the port to any number other than default port 4321. For more information - [SharePoint Library Components – Simultaneous Parallel Development](http://warner.digital/sharepoint-library-components-simultaneous-parallel-development/)
 
     ```json
     {  

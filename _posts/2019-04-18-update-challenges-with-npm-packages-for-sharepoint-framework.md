@@ -53,7 +53,7 @@ There have been few challenges recently with npm to find out the outdated packag
 
 ![](/media/2019-04-18-update-challenges-with-npm-packages-for-sharepoint-framework/01.png)
 
-The complete error log is available at mentioned location under "AppData\Roaming\npm-cache\_logs". However it does not help to clearly understand the exact cause of issue and its resolution.
+The complete error log is available at mentioned location under "AppData\Roaming\npm-cache_logs". However it does not help to clearly understand the exact cause of issue and its resolution.
 
 ![](/media/2019-04-18-update-challenges-with-npm-packages-for-sharepoint-framework/02.png)
 

@@ -148,12 +148,12 @@ webApiPermissionRequests is an array of webApiPermissionRequest items where each
 - resource: name or the ObjectId (in Azure AD). E.g. Microsoft Graph
 - scope: name or unique ID of the permission
 
-Please refer the permission API documentation at - [https://developer.microsoft.com/en-us/graph/docs/concepts/permissions\_reference](https://developer.microsoft.com/en-us/graph/docs/concepts/permissions_reference)
+Please refer the permission API documentation at - [https://developer.microsoft.com/en-us/graph/docs/concepts/permissions_reference](https://developer.microsoft.com/en-us/graph/docs/concepts/permissions_reference)
 
 
 ## Configure Props
 
-Define the context property in IConsumeMsGraphProps.ts under “\\src\\webparts\\consumeMsGraph\\components\\”.
+Define the context property in IConsumeMsGraphProps.ts under "\src\webparts\consumeMsGraph\components\".
 
 ```typescript
 import { WebPartContext } from '@microsoft/sp-webpart-base';  

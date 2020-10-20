@@ -206,7 +206,7 @@ We will have to parse the response and store the metadata to SharePoint.
 
     - **Site address**: Specify SharePoint site url
     - **Method**: Get
-    - **Uri**: /\_api/web/getFileByServerRelativeUrl('File Path')?$select=ListItemAllFields/ID&$expand=ListItemAllFields
+    - **Uri**: /_api/web/getFileByServerRelativeUrl('File Path')?$select=ListItemAllFields/ID&$expand=ListItemAllFields
     - **Headers**: key: accept, value: application/json | key: content-type, value: application/json
 
 2. Run the flow and get the Body from the output of "**Send an HTTP request to SharePoint**".

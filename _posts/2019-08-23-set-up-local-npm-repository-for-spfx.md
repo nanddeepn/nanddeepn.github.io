@@ -94,7 +94,7 @@ It is time to test that packages are being referred from npm local repository.
 
 ## Browsing Local npm Repository
 
-local-npm provides UI based experience to browse local modules. It can be accessed from [http://localhost:5080/\_browse](http://localhost:5080/_browse)
+local-npm provides UI based experience to browse local modules. It can be accessed from [http://localhost:5080/_browse](http://localhost:5080/_browse)
 
 ![](/media/2019-08-23-set-up-local-npm-repository-for-spfx/02.png)
 

@@ -72,7 +72,7 @@ Now, inside render method, we will use this data to create Checkbox dynamically.
 ```typescript
 options.map((checkBoxItem: ICheckboxInput) => {
   return (
-      <Checkbox label={checkBoxItem.Title} title={checkBoxItem.Title} onChange={this.\_onChange} />
+      <Checkbox label={checkBoxItem.Title} title={checkBoxItem.Title} onChange={this._onChange} />
   );
 });
 ```

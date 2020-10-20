@@ -27,9 +27,11 @@ Before we begin, we will need below parameters handy:
 Consider using the SharePoint modern site. (E.g. [https://contoso.sharepoint.com/sites/SPDemo](https://contoso.sharepoint.com/sites/SPDemo))
 
 **Placeholder**|**Example**
-`{ { siteUrl } }`|[https://contoso.sharepoint.com/sites/SPDemo](https://contoso.sharepoint.com/sites/SPDemo)
-`{ { sitePath } }`|/sites/SPDemo
-`{ { subdomain } }`|contoso
+{% raw %}
+`{{siteUrl}}`|[https://contoso.sharepoint.com/sites/SPDemo](https://contoso.sharepoint.com/sites/SPDemo)
+`{{sitePath}}`|/sites/SPDemo
+`{{subdomain}}`|contoso
+{% endraw %}
 
 ## Set up App Studio to create SharePoint App
 
@@ -41,9 +43,9 @@ Follow these steps to download App Studio from the App Store, if you do not have
 
     ![](/media/2020-06-01-host-sharepoint-app-in-ms-teams/01.png)
 
-4.    Click **Add**.
+4. Click **Add**.
 
-![](/media/2020-06-01-host-sharepoint-app-in-ms-teams/02.png)
+    ![](/media/2020-06-01-host-sharepoint-app-in-ms-teams/02.png)
 
 ## App Studio to create a SharePoint App
 
@@ -71,8 +73,10 @@ We will create a new app using App Studio to host SharePoint App.
 
 9. Specify the parameters. Follow below format:
 
-    - contentUrl: `{ { siteUrl } }/\_layouts/15/teamslogon.aspx?SPFX=true&dest={ { sitePath } }`
-    - websiteUrl: `{ { siteUrl } }`
+{% raw %}
+    - contentUrl: `{{siteUrl}}/_layouts/15/teamslogon.aspx?SPFX=true&dest={{sitePath}}`
+    - websiteUrl: `{{siteUrl}}`
+{% endraw %}
 
     ![](/media/2020-06-01-host-sharepoint-app-in-ms-teams/07.png)
 
@@ -83,7 +87,7 @@ We will create a new app using App Studio to host SharePoint App.
 
     ![](/media/2020-06-01-host-sharepoint-app-in-ms-teams/08.png)
 
-14. Add AAD App ID to set up a single sign-on (SSO). Specify AAD application ID as **00000003-0000-0ff1-ce00-000000000000** and Resource Url as **{{subdomain}}.sharepoint.com**
+14. Add AAD App ID to set up a single sign-on (SSO). Specify AAD application ID as **00000003-0000-0ff1-ce00-000000000000** and Resource Url as {% raw %} **{{subdomain}}.sharepoint.com** {% endraw %}
 
     ![](/media/2020-06-01-host-sharepoint-app-in-ms-teams/09.png)
 

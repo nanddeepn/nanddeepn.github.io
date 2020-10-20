@@ -105,7 +105,7 @@ By default, configuration option is enabled. If your add-in does not have any in
 
 We will update the code to work as Outlook AddIn.
 
-1. Open the web part file at "src\\webparts\\spFxOutlookAddIn\\SpFxOutlookAddInWebPart.ts"
+1. Open the web part file at `src\webparts\spFxOutlookAddIn\SpFxOutlookAddInWebPart.ts`.
 2. Update the render method to check the office context.
 
 ```typescript

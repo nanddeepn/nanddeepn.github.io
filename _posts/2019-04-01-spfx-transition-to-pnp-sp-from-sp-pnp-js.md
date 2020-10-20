@@ -137,7 +137,7 @@ Follow below steps, if you have not have prior project with sp-pnp-js
     npm i @pnp/logging @pnp/common @pnp/odata @pnp/sp --save
     ```
 
-    The new @pnp/sp package will appear under node\_modules.
+    The new @pnp/sp package will appear under node_modules.
 
     ![](/media/2019-04-01-spfx-transition-to-pnp-sp-from-sp-pnp-js/03.png)
 

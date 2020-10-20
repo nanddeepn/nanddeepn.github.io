@@ -93,7 +93,7 @@ npm i @pnp/logging @pnp/common @pnp/odata @pnp/sp --save
 
 To consume MS Graph or any third-party REST APIs, the permissions need to be explicitly set in the solution manifest.
 
-Open "config\\package-solution.json" and add below permission scope:
+Open `config\package-solution.json` and add below permission scope:
 
 ```json
 {  
@@ -234,7 +234,7 @@ export * from './O365GroupService';
 
 ## Consume service from web part
 
-1. Open web part file at "src\\webparts\\o365GroupCreation\\O365GroupCreationWebPart.ts"
+1. Open web part file at `src\webparts\o365GroupCreation\O365GroupCreationWebPart.ts`.
 2. Import the service.
 
     ```typescript
@@ -256,7 +256,7 @@ protected onInit(): Promise<void> {
 
 We will have to pass the SharePoint context from our web part to the React component.
 
-1. Open React component properties at "src\\webparts\\o365GroupCreation\\components\\IO365GroupCreationProps.ts"
+1. Open React component properties at `src\webparts\o365GroupCreation\components\IO365GroupCreationProps.ts`.
 2. Add the below properties.
 
 ```typescript
@@ -271,7 +271,7 @@ export interface IO365GroupCreationProps {
 
 ## Implement the NewGroup React Component
 
-1. Open the React component at src\\webparts\\o365GroupCreation\\components\\O365GroupCreation.tsx
+1. Open the React component at `src\webparts\o365GroupCreation\components\O365GroupCreation.tsx`.
 2. Add below imports.
 
     ```typescript

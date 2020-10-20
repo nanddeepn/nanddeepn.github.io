@@ -37,7 +37,7 @@ PnP JS is the popular library amongst SPFx developers for SharePoint operations.
 **Example# 1: Basic usage**
 
 ```typescript
-pnp.sp.web.lists.getByTitle("BigList").items.getAll().then((allItems: any\[\]) => {
+pnp.sp.web.lists.getByTitle("BigList").items.getAll().then((allItems: any[]) => {
     // how many did we get
     console.log(allItems.length);
 });
@@ -47,7 +47,7 @@ pnp.sp.web.lists.getByTitle("BigList").items.getAll().then((allItems: any\[\]) =
 **Example# 2: Set page size**
 
 ```typescript
-pnp.sp.web.lists.getByTitle("BigList").items.getAll(4000).then((allItems: any\[\]) => {
+pnp.sp.web.lists.getByTitle("BigList").items.getAll(4000).then((allItems: any[]) => {
     // how many did we get
     console.log(allItems.length);
 });
@@ -57,7 +57,7 @@ pnp.sp.web.lists.getByTitle("BigList").items.getAll(4000).then((allItems: any\[\
 **Example# 3:** Use select and top. top will set page size and override the any value passed to getAll
 
 ```typescript
-pnp.sp.web.lists.getByTitle("BigList").items.select("Title").top(4000).getAll().then((allItems: any\[\]) => {
+pnp.sp.web.lists.getByTitle("BigList").items.select("Title").top(4000).getAll().then((allItems: any[]) => {
     // how many did we get
     console.log(allItems.length);
 });
@@ -67,7 +67,7 @@ pnp.sp.web.lists.getByTitle("BigList").items.select("Title").top(4000).getAll().
 **Example# 4: U**se filter as a supported odata operation, but this will likely fail on large lists.
 
 ```typescript
-pnp.sp.web.lists.getByTitle("BigList").items.select("Title").filter("Title eq 'Test'").getAll().then((allItems: any\[\]) => {
+pnp.sp.web.lists.getByTitle("BigList").items.select("Title").filter("Title eq 'Test'").getAll().then((allItems: any[]) => {
     // how many did we get
     console.log(allItems.length);
 });

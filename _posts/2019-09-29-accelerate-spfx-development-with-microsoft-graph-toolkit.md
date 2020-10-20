@@ -188,7 +188,7 @@ Follow below steps to deploy the SPFx package (.sppkg) to SharePoint app catalog
     gulp package-solution --ship
     ```
 
-3. The .sppkg package will be available inside the "sharepoint\\solution" folder. Upload package to the app catalog.
+3. The .sppkg package will be available inside the `sharepoint\solution` folder. Upload package to the app catalog.
 4. Please go to the API Management Page to approve pending permissions.
 
 ![](/media/2019-09-29-accelerate-spfx-development-with-microsoft-graph-toolkit/02.png)

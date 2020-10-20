@@ -181,7 +181,7 @@ We will need to set permissions on SPFx webpart so that it can access the resour
     gulp bundle
     ```
 
-3. Run below command to create the solution package (sppkg) in sharepoint\\solution folder.
+3. Run below command to create the solution package (sppkg) in `sharepoint\solution` folder.
 
     ```
     gulp package-solution
@@ -219,7 +219,7 @@ We can also use SharePoint Online Management Shell to manage permission requests
 Type below command to connect to SharePoint Online. Enter the credentials when prompted.
 
 ```
-Connect-SPOService -Url "https://\[tenant\]-admin.sharepoint.com"
+Connect-SPOService -Url "https://[tenant]-admin.sharepoint.com"
 ```
 
 Use below command to view all pending permission requests
