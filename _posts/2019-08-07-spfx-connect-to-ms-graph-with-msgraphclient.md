@@ -386,7 +386,7 @@ After deploying the web part, follow the below steps to approve API requests.
 3. Navigate to /_layouts/15/workbench.aspx
 4. Locate and add the webpart (named ConnectWithMSGraphClient) to page.
 
-The page generates an alert “To view the information on this page, you need to verify your identity”, to resolve this add below urls to trusted site in browser.
+The page generates an alert "To view the information on this page, you need to verify your identity", to resolve this add below urls to trusted site in browser.
 
 - https://graph.microsoft.com
 - https://.office365.com

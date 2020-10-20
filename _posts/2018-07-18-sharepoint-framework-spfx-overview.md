@@ -44,7 +44,7 @@ The customizations in modern sites are supported using SharePoint Framework (SPF
 
 1. The obvious choice of developers for customizing DOM on classic SharePoint sites.
 2. The script can be edited by any users easily.
-3. Cannot be added to “NoScript” sites.
+3. Cannot be added to "NoScript" sites.
 
 
 **App Parts**

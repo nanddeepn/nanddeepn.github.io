@@ -50,7 +50,7 @@ class ParentComponent extends React.Component {
 }
 ```
 
-In the above example, we want to pass the data from Parent to Child component which is inside Parent state. The data is being passed as properties on child components. The simplest option to pass the data from “Parent Component” to “Child Component” is by using props (React properties) defined on child components.
+In the above example, we want to pass the data from Parent to Child component which is inside Parent state. The data is being passed as properties on child components. The simplest option to pass the data from "Parent Component" to "Child Component" is by using props (React properties) defined on child components.
 
 Please note state is one way to pass data to another component. However, it is not always necessary to use the state. You may pass the data in the form of variables or constants.
 

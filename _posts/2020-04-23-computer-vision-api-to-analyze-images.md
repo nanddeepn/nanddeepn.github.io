@@ -106,7 +106,7 @@ Follow the below steps to set up Power Automate flow:
     ![](/media/2020-04-23-computer-vision-api-to-analyze-images/10.png)
 
 3. Name the flow.
-4. Choose the flow’s trigger as “When a file is created in a folder”.
+4. Choose the flow’s trigger as "When a file is created in a folder".
 
     ![](/media/2020-04-23-computer-vision-api-to-analyze-images/11.png)
 
@@ -162,7 +162,7 @@ We will have to parse the response and store the metadata to SharePoint.
 
 ![](/media/2020-04-23-computer-vision-api-to-analyze-images/20.png)
 
-Update our custom “Cognitive Tags” field with tags using the expression: join(body('Analyze_Image')?['description']?['tags'],',')
+Update our custom "Cognitive Tags" field with tags using the expression: join(body('Analyze_Image')?['description']?['tags'],',')
 
 
 ## Test the Solution

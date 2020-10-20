@@ -314,7 +314,7 @@ Specify unique GUID for feature ID.
 
     ![](/media/2018-08-21-spfx-provision-sharepoint-assets/04.png)
 
-7. When installation finishes, refresh the page. The site should have “SPFx List” provisioned.
+7. When installation finishes, refresh the page. The site should have "SPFx List" provisioned.
 
     ![](/media/2018-08-21-spfx-provision-sharepoint-assets/05.png)
 

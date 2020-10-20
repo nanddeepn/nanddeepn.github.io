@@ -103,7 +103,7 @@ Follow the below steps to set up Power Automate flow:
 
     ![](/media/2020-06-18-facial-recognition-in-sharepoint/09.png)
 
-2. Select a template “When a new file is added in SharePoint, complete a custom”.
+2. Select a template "When a new file is added in SharePoint, complete a custom".
 
     ![](/media/2020-06-18-facial-recognition-in-sharepoint/10.png)
 
@@ -112,7 +112,7 @@ Follow the below steps to set up Power Automate flow:
     ![](/media/2020-06-18-facial-recognition-in-sharepoint/11.png)
 
 4. Click **Continue**.
-5. Add an activity “Face API”, select action “Detect faces (preview)”.
+5. Add an activity "Face API", select action "Detect faces (preview)".
 
     ![](/media/2020-06-18-facial-recognition-in-sharepoint/12.png)
 
@@ -160,7 +160,7 @@ Now let’s use this container as temporary storage for uploaded images to the S
 
     ![](/media/2020-06-18-facial-recognition-in-sharepoint/18.png)
 
-2. Add an activity “Azure Blob Storage”, select action “Create blob”.
+2. Add an activity "Azure Blob Storage", select action "Create blob".
 
     ![](/media/2020-06-18-facial-recognition-in-sharepoint/19.png)
 
@@ -172,11 +172,11 @@ Now let’s use this container as temporary storage for uploaded images to the S
 
     ![](/media/2020-06-18-facial-recognition-in-sharepoint/21.png)
 
-5. Add an action “Detect faces (Preview)”. Compose the Image Url as the URL of the storage account + Path to the uploaded file.
+5. Add an action "Detect faces (Preview)". Compose the Image Url as the URL of the storage account + Path to the uploaded file.
 
     ![](/media/2020-06-18-facial-recognition-in-sharepoint/22.png)
 
-6. Add an action “Update file properties”.
+6. Add an action "Update file properties".
 
     ![](/media/2020-06-18-facial-recognition-in-sharepoint/23.png)
 

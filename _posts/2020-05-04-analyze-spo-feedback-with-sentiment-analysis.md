@@ -108,7 +108,7 @@ Follow the below steps to set up Power Automate flow:
     ![](/media/2020-05-04-analyze-spo-feedback-with-sentiment-analysis/11.png)
 
 4. Click **Continue**.
-5. Add an activity “Text Analytics”, select action “Detect Sentiment”.
+5. Add an activity "Text Analytics", select action "Detect Sentiment".
 
     ![](/media/2020-05-04-analyze-spo-feedback-with-sentiment-analysis/12.png)
 

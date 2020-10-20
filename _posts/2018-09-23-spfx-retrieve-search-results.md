@@ -180,7 +180,7 @@ We will define an interface for representing the SharePoint search results.
     }
     ```
 
-3. On the command prompt type “gulp serve” to see the controls on webpart.
+3. On the command prompt type "gulp serve" to see the controls on webpart.
 
     ![](/media/2018-09-23-spfx-retrieve-search-results/04.png)
 

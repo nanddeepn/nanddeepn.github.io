@@ -219,7 +219,7 @@ The SharePoint local workbench now cannot be used to test the field customizer a
     }
     ```
 
-3. Open PercentFieldCustomizerFieldCustomizer.ts file from "\src\extensions\percentFieldCustomizer\” folder.
+3. Open PercentFieldCustomizerFieldCustomizer.ts file from "\src\extensions\percentFieldCustomizer\" folder.
 4. Update onRenderCell method.
 
     ```typescript

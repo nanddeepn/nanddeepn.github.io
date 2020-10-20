@@ -151,7 +151,7 @@ Follow below steps, if you have not have prior project with sp-pnp-js
     import { sp, Web } from '@pnp/sp';
     ```
 
-3. Update the code to make use of new @pnp/sp imports. The “pnp” references are replaced with “sp”.
+3. Update the code to make use of new @pnp/sp imports. The "pnp" references are replaced with "sp".
 4. Update onInit() method.
 
     ```typescript

@@ -178,7 +178,7 @@ export interface IReactAutoBindState {
 
     ![](/media/2019-01-05-spfx-react-autobind-events/02.png)
 
-    We are expected to see the alert message greeting the text entered in the textbox. But nothing happens. If we observe the developer toolbar console, we have an error “Cannot read property 'state' of undefined at ReactAutoBind.greetButtonClicked”. This means our event has not bind to our button control.
+    We are expected to see the alert message greeting the text entered in the textbox. But nothing happens. If we observe the developer toolbar console, we have an error "Cannot read property 'state' of undefined at ReactAutoBind.greetButtonClicked". This means our event has not bind to our button control.
  
 
 ## Bind event to button

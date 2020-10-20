@@ -91,7 +91,7 @@ Property pane has below metadata:
     - **Framework to use:** Select any JavaScript framework to develop the component. Available choices are (No JavaScript Framework, React, and Knockout)
         - Selected choice: No JavaScript Framework
 
-5. Once Yeoman finishes generating the solution, on command prompt type “code .” to open the solution in code editor.
+5. Once Yeoman finishes generating the solution, on command prompt type "code ." to open the solution in code editor.
 
 
 ## Property Pane Code

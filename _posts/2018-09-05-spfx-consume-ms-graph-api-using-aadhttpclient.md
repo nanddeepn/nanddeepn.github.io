@@ -103,7 +103,7 @@ import { AadHttpClient } from '@microsoft/sp-http';
 
 In order to consume MS Graph or any third party REST APIs, we need to explicitly specify the permissions in manifest of solution.
 
-In the package-solution.json file under “config” folder, configure webApiPermissionRequests property to specify User.ReadBasic.All permission.
+In the package-solution.json file under "config" folder, configure webApiPermissionRequests property to specify User.ReadBasic.All permission.
 
 ```json
 {  

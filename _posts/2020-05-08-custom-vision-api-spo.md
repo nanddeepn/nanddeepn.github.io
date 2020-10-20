@@ -227,7 +227,7 @@ We will have to parse the response and store the metadata to SharePoint.
 
     ![](/media/2020-05-08-custom-vision-api-spo/26.png)
 
-8. Add an action “Update file properties”.
+8. Add an action "Update file properties".
 
 ![](/media/2020-05-08-custom-vision-api-spo/27.png)
 

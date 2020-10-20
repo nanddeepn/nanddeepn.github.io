@@ -78,7 +78,7 @@ pnp.sp.web.lists.getByTitle("BigList").items.select("Title").filter("Title eq 'T
 
 Here is another approach to get read the large list with paging implementation.
 
-Consider we have a SharePoint list named “LargeList” with below schema:
+Consider we have a SharePoint list named "LargeList" with below schema:
 
 **Field Name**|**Type**
 Title|Single line of text

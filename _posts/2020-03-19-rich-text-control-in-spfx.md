@@ -18,7 +18,7 @@ last_modified_at: 2020-03-19T00:00:00-00:00
 
 Rich text controls offer rich formatting of text content. The ribbon provides WYSIWYG (What You See Is What You Get) editor experience. SharePoint supports Rich text fields, however providing similar experience from custom components like SharePoint Framework web parts involves some efforts, as we do not have any out of the box or Office UI Fabric control to support this scenario.
 
-In this article, we will explore the approach to implement Rich text control in SPFx using npm package “react-draft-wysiwyg”.
+In this article, we will explore the approach to implement Rich text control in SPFx using npm package "react-draft-wysiwyg".
 
 ## Develop SPFx Web Part for Rich Text Control
 
@@ -73,7 +73,7 @@ code .
 
 ## SharePoint List
 
-Create a supporting SharePoint list named “RichText” to implement the scenario with the below schema:
+Create a supporting SharePoint list named "RichText" to implement the scenario with the below schema:
 
 **Column**|**Type**|**Comments**
 Title|Single line of text|OOB column
@@ -126,7 +126,7 @@ protected onInit(): Promise<void> {
 
 ## Define State
 
-Define a state to represent an item in the “RichText” SharePoint list.
+Define a state to represent an item in the "RichText" SharePoint list.
 
 ```typescript
 export interface IRichTextControlState {
@@ -314,7 +314,7 @@ private async onUpdate() {
 
 ## Summary
 
-In this article, we explored the approach to implement Rich text control in SPFx using npm package “react-draft-wysiwyg” to support rich formatting of text content in SharePoint Framework web parts.
+In this article, we explored the approach to implement Rich text control in SPFx using npm package "react-draft-wysiwyg" to support rich formatting of text content in SharePoint Framework web parts.
 
 ## Code Download
 

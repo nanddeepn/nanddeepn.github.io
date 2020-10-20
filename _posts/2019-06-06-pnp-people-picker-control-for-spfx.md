@@ -102,7 +102,7 @@ npm i @pnp/logging @pnp/common @pnp/odata @pnp/sp --save
 
 As we need the SharePoint context to work with people picker, we will have to pass it from our web part to the React component.
 
-1. Open React component properties at "src\webparts\pnPPeoplePicker\components\IPnPPeoplePickerProps.ts”
+1. Open React component properties at "src\webparts\pnPPeoplePicker\components\IPnPPeoplePickerProps.ts"
 2. Add below properties.
 
     ```typescript
