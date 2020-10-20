@@ -12,23 +12,26 @@ toc: true
 I’ll be speaking at the following events.
 
 **Event**|**Topic**|**When**|**Where**
-Global Microsoft 365 Developer Bootcamp, 2020, Chennai|[Change Notifications and Track Changes with Microsoft Graph](https://www.meetup.com/XMonkeys360/events/271978500/)|10 October, 2020|Online
-Webinar, Office 365 and Power Platform User group - India|[SharePoint updates from Microsoft Ignite 2020](https://www.meetup.com/Microsoft-365-and-Power-Platform-User-group-India/events/273747075/)|10 October, 2020|Online
-Proctor, Global Microsoft 365 Developer Bootcamp, APAC Region|[Global Microsoft 365 Developer Bootcamp, APAC Region](https://microsoft365developerbootcamp.splashthat.com/)|14, 15 October, 2020|Online
-Global Microsoft 365 Developer Bootcamp, 2020, Hyderabad, India|[Explore RBAC and PIM in M365](https://www.eventbrite.co.uk/e/global-microsoft-365-developer-bootcamp-2020-hyderabad-india-tickets-116282310521)|17 October, 2020|Online
-Virtual M365 Saturday Ottawa|[Developing SharePoint Framework Solutions for the Enterprise](https://www.spsevents.org/event/m365ottawa/schedule/)|17 October, 2020|Online
 Virtual M365 Friday Cincinnati|[Collaborate on Microsoft Teams with Power Platform](https://www.spsevents.org/event/cincinnatisps2020/sessions/)|23 October, 2020|Online
-aOS Southeast Asia 2020|[Handling Change Notifications with Microsoft Graph](https://sessionize.com/aos-southeast-asia-2020/)|23, 24 October, 2020|Online
+aOS Southeast Asia 2020|[Handling Change Notifications with Microsoft Graph](https://aossea.com/Home/Agenda)|24 October, 2020|Online
 Webinar, Dear Azure|[PL-900: Microsoft Power Platform Fundamentals](https://www.eventbrite.com/e/mastering-microsoft-fundamentals-master-the-basics-virtual-event-2020-tickets-121523228247)|24 October, 2020|Online
 Global Microsoft 365 Developer Bootcamp,2020, Pune|[Collect Input in Microsoft Teams with Task Modules](https://www.meetup.com/Pune-Tech-Community/events/272057386/)|25 October, 2020|Online
-Global Microsoft 365 Developer Bootcamp, 2020, Trivandrum, Kerala|[Microsoft Lists: Evolving the value of SharePoint lists and beyond](https://www.meetup.com/Talklify-Community/events/272081194/)|31 October, 2020|Online
+Global Microsoft 365 Developer Bootcamp, 2020, Trivandrum, Kerala|[Microsoft Lists: Evolving the value of SharePoint lists and beyond](https://talklify.com/events/global-microsoft-365-bootcamp/)|31 October, 2020|Online
 Global Microsoft 365 Developer Bootcamp 2020, Hamburg, DE|[Collaborate on Microsoft Teams with Power Platform](https://www.meetup.com/de-DE/Office-365-User-Group-Hamburg/events/271966324/)|28 November, 2020|Online
 Global Microsoft 365 Developer Bootcamp 2020, Hamburg, DE|[Microsoft Lists: Evolving the value of SharePoint lists and beyond](https://www.meetup.com/de-DE/Office-365-User-Group-Hamburg/events/271966324/)|28 November, 2020|Online
+aMS Germany|[SharePoint Content classification with AI capabilities](https://www.eventbrite.fr/e/ams-germany-december-12020-tickets-125727318795)|01 December, 2020|Online
 
 
 ## Past events
 
 **Event**|**Topic**|**When**|**Where**
+Virtual M365 Saturday Ottawa|[Developing SharePoint Framework Solutions for the Enterprise](https://www.spsevents.org/event/m365ottawa/schedule/)|17 October, 2020|Online
+Global Microsoft 365 Developer Bootcamp, 2020, Hyderabad, India|[Explore RBAC and PIM in M365](https://www.eventbrite.co.uk/e/global-microsoft-365-developer-bootcamp-2020-hyderabad-india-tickets-116282310521)|17 October, 2020|Online
+Proctor, Global Microsoft 365 Developer Bootcamp, APAC Region|[Global Microsoft 365 Developer Bootcamp, APAC Region](https://microsoft365developerbootcamp.splashthat.com/)|14, 15 October, 2020|Online
+Proctor, Global Microsoft 365 Developer Bootcamp, EMEA Region|[Global Microsoft 365 Developer Bootcamp, EMEA Region](https://microsoft365developerbootcamp.splashthat.com/)|13, 14 October, 2020|Online
+Webinar, Office 365 and Power Platform User group - India|[SharePoint updates from Microsoft Ignite 2020](https://www.meetup.com/Microsoft-365-and-Power-Platform-User-group-India/events/273747075/)|10 October, 2020|Online
+Global Microsoft 365 Developer Bootcamp, 2020, Chennai|[Change Notifications and Track Changes with Microsoft Graph](https://www.meetup.com/XMonkeys360/events/271978500/)|10 October, 2020|Online
+Microsoft Virtual Hub|[Host SharePoint Framework web part as MS Teams messaging extension](https://aka.ms/virtualhub/realworld)|07 October, 2020|Online
 Global Microsoft 365 Developer Bootcamp, 2020, Dhaka, Bangladesh|[Collaborate on Microsoft Teams with Power Platform](https://www.facebook.com/events/576061033057859/)|03 October, 2020|Online
 Teams Day Online 2|[Collaborate on Microsoft Teams with Power Platform](https://modernworkplacesummits.com/session-list)|30 September, 2020|Online
 Microsoft Ignite, Ask the Expert, SME Support|[ATE-DB136: Embrace a New Way of Work with Microsoft 365](https://myignite.microsoft.com/sessions/ATE-DB136)|24 September, 2020|Online
