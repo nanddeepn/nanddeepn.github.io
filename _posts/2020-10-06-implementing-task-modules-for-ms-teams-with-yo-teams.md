@@ -376,13 +376,17 @@ https://teams.microsoft.com/l/task/<APP_ID>?url=<TaskInfo.url>&height=<TaskInfo.
 The URL to display the YouTube video is as follows, which is our `<TaskInfo.url>`:
 
 ```
+{% raw %}
 https://{{YOUR_NGROK_URL}}/youTubePlayerTab/player.html?vid=OhFsua8pjjA
+{% endraw %}
 ```
 
 The deep link for to launch the video player task module would be the following
 
 ```
+{% raw %}
 https://teams.microsoft.com/l/task/95b167e0-1299-11eb-b75c-318abc0c444f?url=https://{{YOUR_NGROK_URL}}/youTubePlayerTab/player.html?vid=OhFsua8pjjA&height=700&width=1000&title=YouTube%20Player:%20My%20video%20title
+{% endraw %}
 ```
 
 Test out the deep link as follows:
