@@ -78,7 +78,7 @@ We will generate a solution using Yo Teams.
 
     ![](/media/2020-10-06-implementing-task-modules-for-ms-teams-with-yo-teams/01.png)
 
-3. On the command prompt, type code . to open the solution in visual studio code.
+3. On the command prompt, type `code .` to open the solution in Visual Studio Code.
 
 
 ## Use the latest version of Teams manifest and SDK
@@ -91,14 +91,14 @@ npm i @microsoft/teams-js
 
 **Changes to manifest.json**
 
-Under the manifest folder, open the manifest.json file and make below changes:
+Under the `src\manifest` folder, open the `manifest.json` file and make below changes:
 
-- Change the `$schema` property to `https://developer.microsoft.com/en-us/json-schemas/teams/v1.7/MicrosoftTeams.schema.json`
-- Change the `manifestVersion` property to `1.7`.
+- Change the `$schema` property to `https://developer.microsoft.com/en-us/json-schemas/teams/v1.8/MicrosoftTeams.schema.json`
+- Change the `manifestVersion` property to `1.8`.
 
 **Changes to gulp.config.js**
 
-Under the root folder, open the gulp.config.js file and make below changes:
+Under the root folder, open the `gulp.config.js` file and make below changes:
 
 Add the following to the SCHEMAS property.
 
@@ -122,7 +122,7 @@ Before customizing the tab, let us test it.
 
     ![](/media/2020-10-06-implementing-task-modules-for-ms-teams-with-yo-teams/02.png)
 
-2. Open a browser and navigate to the ngrok URL displayed in the console:
+2. Open a browser and navigate to the ngrok URL displayed in the console.
 
     ![](/media/2020-10-06-implementing-task-modules-for-ms-teams-with-yo-teams/03.png)
 
@@ -137,7 +137,7 @@ Before customizing the tab, let us test it.
     ![](/media/2020-10-06-implementing-task-modules-for-ms-teams-with-yo-teams/05.png)
 
 6. Select **Upload a custom app** > **Upload for me or my teams**.
-7. Upload the app package (a ZIP file) from the project&#39;s ./package folder.
+7. Upload the app package (a ZIP file) from the project's `./package` folder.
 
     ![](/media/2020-10-06-implementing-task-modules-for-ms-teams-with-yo-teams/06.png)
 
@@ -198,7 +198,7 @@ Below is a JSON example of an Adaptive Card that contains an input box and a sin
 }
 ```
 
-Add above json content by creating a file at src\app\scripts\youTubePlayerTab\YouTubeSelectorCard.json
+Add above json content by creating a file at `src\app\scripts\youTubePlayerTab\YouTubeSelectorCard.json`.
 
 
 ## Using Adaptive Cards in Microsoft Teams task modules
@@ -217,7 +217,7 @@ Once we have an Adaptive card ready, we will create a task module to display it 
     }
     ```
 
-3. Update the render method as below:
+3. Update the `render` method as below:
 
     ```typescript
     public render() {
@@ -236,7 +236,7 @@ Once we have an Adaptive card ready, we will create a task module to display it 
     }
     ```
 
-4. Implement onChangeVideoAdaptiveCard method as below:
+4. Implement `onChangeVideoAdaptiveCard` method as below:
 
     ```typescript
     private onChangeVideoAdaptiveCard = (event: React.MouseEvent<HTMLButtonElement>): void => {
@@ -270,7 +270,7 @@ Once we have an Adaptive card ready, we will create a task module to display it 
     }
     ```
 
-5. Implement onShowVideo method as below:
+5. Implement `onShowVideo` method as below:
 
     ```typescript
     private onShowVideo = (event: React.MouseEvent<HTMLButtonElement>): void => {
@@ -284,7 +284,7 @@ Once we have an Adaptive card ready, we will create a task module to display it 
     }
     ```
 
-6. The helper appRoot() method is as below:
+6. The helper `appRoot()` method is as below:
 
     ```typescript
     private appRoot(): string {
