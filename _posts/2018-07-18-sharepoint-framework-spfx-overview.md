@@ -119,7 +119,7 @@ node -v
 
 Install any of below code editor:
 
-- Visual Studio Code ([https://code/visualstudio.com](https://code/visualstudio.com))
+- Visual Studio Code ([https://code.visualstudio.com](https://code.visualstudio.com))
 - Atom ([https://atom.io](https://atom.io))
 - Webstorm ([https://www.jetbrains.com/webstorm](https://www.jetbrains.com/webstorm))
 - Visual Studio SPFx Project Template ([https://marketplace.visualstudio.com/items?itemName=SharePointPnP.SPFxProjectTemplate](https://marketplace.visualstudio.com/items?itemName=SharePointPnP.SPFxProjectTemplate))
