@@ -12,7 +12,6 @@ toc: true
 I’ll be speaking at the following events.
 
 **Event**|**Topic**|**When**|**Where**
-Global Microsoft 365 Developer Bootcamp 2020, Trivandrum, Kerala|[Microsoft Lists: Evolving the value of SharePoint lists and beyond](https://talklify.com/events/global-microsoft-365-bootcamp/)|31 October, 2020|Online
 Global Microsoft 365 Developer Bootcamp 2020, Hamburg, DE|[Collaborate on Microsoft Teams with Power Platform](https://www.meetup.com/de-DE/Office-365-User-Group-Hamburg/events/271966324/)|28 November, 2020|Online
 Global Microsoft 365 Developer Bootcamp 2020, Hamburg, DE|[Microsoft Lists: Evolving the value of SharePoint lists and beyond](https://www.meetup.com/de-DE/Office-365-User-Group-Hamburg/events/271966324/)|28 November, 2020|Online
 aMS Germany|[SharePoint Content classification with AI capabilities](https://www.eventbrite.fr/e/ams-germany-december-12020-tickets-125727318795)|01 December, 2020|Online
@@ -21,6 +20,7 @@ aMS Germany|[SharePoint Content classification with AI capabilities](https://www
 ## Past events
 
 **Event**|**Topic**|**When**|**Where**
+Global Microsoft 365 Developer Bootcamp 2020, Trivandrum, Kerala|[Microsoft Lists: Evolving the value of SharePoint lists and beyond](https://talklify.com/events/global-microsoft-365-bootcamp/)|31 October, 2020|Online
 Global Microsoft 365 Developer Bootcamp 2020, Pune|[Collect Input in Microsoft Teams with Task Modules](https://www.meetup.com/Pune-Tech-Community/events/272057386/)|25 October, 2020|Online
 Webinar, Dear Azure|[PL-900: Microsoft Power Platform Fundamentals](https://www.eventbrite.com/e/mastering-microsoft-fundamentals-master-the-basics-virtual-event-2020-tickets-121523228247)|24 October, 2020|Online
 aOS Southeast Asia 2020|[Handling Change Notifications with Microsoft Graph](https://aossea.com/Home/Agenda)|24 October, 2020|Online
