@@ -16,6 +16,7 @@ Global Microsoft 365 Developer Bootcamp 2020, Hamburg, DE|[Collaborate on Micros
 Global Microsoft 365 Developer Bootcamp 2020, Hamburg, DE|[Microsoft Lists: Evolving the value of SharePoint lists and beyond](https://www.meetup.com/de-DE/Office-365-User-Group-Hamburg/events/271966324/)|28 November, 2020|Online
 aMS Germany|[SharePoint Content classification with AI capabilities](https://www.eventbrite.fr/e/ams-germany-december-12020-tickets-125727318795)|01 December, 2020|Online
 Microsoft 365 Saturday, Bangalore|[Project Oakdale, new data platform for Microsoft Teams](https://www.spsevents.org/event/bangaloresps2020/sessions/)|12 December, 2020|Online
+Global Security and Compliance Community Conference|[Explore RBAC and PIM in M365](http://microsoft365compliance.de/compliance-and-security-community-conference-2021)|08 February, 2021|Online
 
 
 ## Past events
