@@ -18,6 +18,7 @@ Global Microsoft 365 Developer Bootcamp 2020, Hamburg, DE|[Microsoft Lists: Evol
 aMS Germany|[SharePoint Content classification with AI capabilities](https://ams-germany-2020.sessionize.com/session/224858)|01 December, 2020|Online
 M365 Saturday Ahmedabad 2020|[Project Oakdale, new data platform for Microsoft Teams](https://www.spsevents.org/event/ahmedabad2020/sessions/)|05 December, 2020|Online
 Microsoft 365 Saturday, Bangalore|[Project Oakdale, new data platform for Microsoft Teams](https://www.spsevents.org/event/bangaloresps2020/sessions/)|12 December, 2020|Online
+Modern Workplace Conference Paris 2021|[Project Oakdale, new data platform for Microsoft Teams](https://mwcp21.sessionize.com/session/224864)|19 January, 2020|Online
 Global Security and Compliance Community Conference|[Explore RBAC and PIM in M365](http://microsoft365compliance.de/compliance-and-security-community-conference-2021)|08 February, 2021|Online
 
 
