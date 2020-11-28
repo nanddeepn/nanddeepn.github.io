@@ -12,9 +12,6 @@ toc: true
 I’ll be speaking at the following events.
 
 **Event**|**Topic**|**When**|**Where**
-Proctor, Toronto Office Developer Bootcamp 2020|[SPFx Development](https://bootcamp.tspug.com/Agenda)|27 November, 2020|Online
-Global Microsoft 365 Developer Bootcamp 2020, Hamburg, DE|[Collaborate on Microsoft Teams with Power Platform](https://www.meetup.com/de-DE/Office-365-User-Group-Hamburg/events/271966324/)|28 November, 2020|Online
-Global Microsoft 365 Developer Bootcamp 2020, Hamburg, DE|[Microsoft Lists: Evolving the value of SharePoint lists and beyond](https://www.meetup.com/de-DE/Office-365-User-Group-Hamburg/events/271966324/)|28 November, 2020|Online
 aMS Germany|[SharePoint Content classification with AI capabilities](https://ams-germany-2020.sessionize.com/session/224858)|01 December, 2020|Online
 M365 Saturday Ahmedabad 2020|[Dataverse for Teams - new data platform for Microsoft Teams](https://www.spsevents.org/event/ahmedabad2020/sessions/)|05 December, 2020|Online
 Microsoft 365 Saturday, Bangalore|[Introduction to Microsoft Dataverse for Teams](https://www.spsevents.org/event/bangaloresps2020/sessions/)|12 December, 2020|Online
@@ -26,6 +23,9 @@ Virtual Scottish Summit 2021|[Developing SharePoint Framework Solutions for the 
 ## Past events
 
 **Event**|**Topic**|**When**|**Where**
+Global Microsoft 365 Developer Bootcamp 2020, Hamburg, DE|[Microsoft Lists: Evolving the value of SharePoint lists and beyond](https://www.meetup.com/de-DE/Office-365-User-Group-Hamburg/events/271966324/)|28 November, 2020|Online
+Global Microsoft 365 Developer Bootcamp 2020, Hamburg, DE|[Collaborate on Microsoft Teams with Power Platform](https://www.meetup.com/de-DE/Office-365-User-Group-Hamburg/events/271966324/)|28 November, 2020|Online
+Proctor, Toronto Office Developer Bootcamp 2020|[SPFx Development](https://bootcamp.tspug.com/Agenda)|27 November, 2020|Online
 Global Microsoft 365 Developer Bootcamp 2020, Trivandrum, Kerala|[Microsoft Lists: Evolving the value of SharePoint lists and beyond](https://talklify.com/events/global-microsoft-365-bootcamp/)|31 October, 2020|Online
 Global Microsoft 365 Developer Bootcamp 2020, Pune|[Collect Input in Microsoft Teams with Task Modules](https://www.meetup.com/Pune-Tech-Community/events/272057386/)|25 October, 2020|Online
 Webinar, Dear Azure|[PL-900: Microsoft Power Platform Fundamentals](https://www.eventbrite.com/e/mastering-microsoft-fundamentals-master-the-basics-virtual-event-2020-tickets-121523228247)|24 October, 2020|Online
