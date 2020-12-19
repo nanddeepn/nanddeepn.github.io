@@ -12,7 +12,6 @@ toc: true
 I’ll be speaking at the following events.
 
 **Event**|**Topic**|**When**|**Where**
-M365 Saturday Coimbatore|[Demystifying the Microsoft Lists Magic](https://www.spsevents.org/event/m365coimbatore2020/)|19 December, 2020|Online
 Modern Workplace Conference Paris 2021|[Project Oakdale, new data platform for Microsoft Teams](https://mwcp21.sessionize.com/session/224864)|19 January, 2021|Online
 Global Security and Compliance Community Conference|[Explore RBAC and PIM in M365](http://microsoft365compliance.de/compliance-and-security-community-conference-2021)|08 February, 2021|Online
 Virtual Scottish Summit 2021|[Developing SharePoint Framework Solutions for the Enterprise](https://scottishsummit.com/)|27 February, 2021|Online
@@ -21,6 +20,7 @@ Virtual Scottish Summit 2021|[Developing SharePoint Framework Solutions for the 
 ## Past events
 
 **Event**|**Topic**|**When**|**Where**
+M365 Saturday Coimbatore|[Demystifying the Microsoft Lists Magic](https://www.spsevents.org/event/m365coimbatore2020/)|19 December, 2020|Online
 Microsoft 365 Saturday, Bangalore|[Introduction to Microsoft Dataverse for Teams](https://www.spsevents.org/event/bangaloresps2020/sessions/)|12 December, 2020|Online
 M365 Saturday Ahmedabad 2020|[Dataverse for Teams - new data platform for Microsoft Teams](https://www.spsevents.org/event/ahmedabad2020/sessions/)|05 December, 2020|Online
 aMS Germany|[SharePoint Content classification with AI capabilities](https://ams-germany-2020.sessionize.com/session/224858)|01 December, 2020|Online
