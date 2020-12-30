@@ -99,7 +99,7 @@ private _onChange(ev: React.FormEvent<HTMLInputElement>, isChecked: boolean) {
 
 Since we have set the "title" property on our Checkbox, we are able to retrieve it from currentTarget. This helps to detect the Checkbox in action.
 
-## Conclusion
+## Summary
 
 The Fluent UI (aka Office UI Fabric) controls offers nice and simple implementation for Checkbox. When we dynamically create Checkbox collection, it is bit tricky to get the selection. The property set on Checkbox during the control creation can be retrieved from currentTarget.
 
