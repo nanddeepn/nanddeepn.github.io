@@ -254,9 +254,14 @@ body:hover .visually-hidden button {
     color: $lastfm-color;
   }
 
+  .fa-certificate,
   .fa-linkedin,
   .fa-linkedin-in {
     color: $linkedin-color;
+  }
+
+  .fa-envelope {
+    color: $bitbucket-color;
   }
 
   .fa-mastodon,

@@ -133,6 +133,9 @@ author:
     - label: "Instagram"
       icon: "fab fa-fw fa-instagram"
       url: "https://instagram.com/nanddeepnachan/"
+    - label: "Certifications"
+      icon: "fas fa-certificate fa-spin"
+      url: "https://www.youracclaim.com/users/nanddeep-nachan/badges?sort=-state_updated_at&page=1"
 
 
 # Site Footer
