@@ -12,7 +12,8 @@ toc: true
 I’ll be speaking at the following events.
 
 **Event**|**Topic**|**When**|**Where**
-Modern Workplace Conference Paris 2021|[Project Oakdale, new data platform for Microsoft Teams](https://mwcp21.sessionize.com/session/224864)|19 January, 2021|Online
+philly.NET Code Camp 2021|[Change Notifications and Track Changes with Microsoft Graph](https://philly-net-code-camp-2021.sessionize.com/session/235468)|16 January, 2021 (7:30 PM IST)|Online
+Modern Workplace Conference Paris 2021|[Project Oakdale, new data platform for Microsoft Teams](https://mwcp21.sessionize.com/session/224864)|19 January, 2021 (10 PM IST)|Online
 Global Security and Compliance Community Conference|[Explore RBAC and PIM in M365](http://microsoft365compliance.de/compliance-and-security-community-conference-2021)|08 February, 2021|Online
 Virtual Scottish Summit 2021|[Developing SharePoint Framework Solutions for the Enterprise](https://scottishsummit.com/)|27 February, 2021|Online
 
