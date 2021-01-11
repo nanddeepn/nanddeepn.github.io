@@ -1,6 +1,6 @@
 ---
 title: "Timer based Button text in SharePoint Framework"
-date: "2020-12-14"
+date: "2020-12-30"
 share: true
 header:
   image: media/2020-12-30-spfx-timer-based-controls-text/01.gif
