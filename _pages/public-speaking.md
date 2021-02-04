@@ -89,7 +89,7 @@ Webinar, C# Corner, Pune Chapter|[Modern Sites in SharePoint](https://www.c-shar
 ## Event Organizer
 
 **Event**|**When**|**Where**
-[Global Power Platform Bootcamp 2021, Pune](https://www.powerplatformbootcamp.com/2021/location-detail/?id=b93adc3c-8e12-eb11-8441-0003ffb4cdf8&city=Pune)|19 & 20 February, 2021|Online
+[Global Power Platform Bootcamp 2021, Pune](https://www.eventbrite.fr/e/global-power-platform-bootcamp-india-2021-tickets-132998599391)|19 & 20 February, 2021|Online
 [Global Microsoft 365 Developer Bootcamp 2020, Pune](https://www.meetup.com/Pune-Tech-Community/events/272057386/)|24 & 25 October, 2020|Online
 [Global AI On Tour - 2020, Pune](https://www.meetup.com/Microsoft-365-and-Power-Platform-User-group-India/events/270546415/)|20 June, 2020|Online
 [SPFx Deep Dive Webinar Series](https://www.meetup.com/Microsoft-365-and-Power-Platform-User-group-India/events/lmdsrrybchbdb/)|May, 2020|Webinar Series
