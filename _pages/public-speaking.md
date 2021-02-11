@@ -13,6 +13,7 @@ I’ll be speaking at the following events.
 
 **Event**|**Topic**|**When**|**Where**
 Virtual Scottish Summit 2021|[Developing SharePoint Framework Solutions for the Enterprise](https://scottishsummit.com/)|27 February, 2021|Online
+A day with Microsoft Teams Development|[Implementing Messaging Extensions for MS Teams](https://www.eventbrite.com/e/a-day-with-microsoft-teams-development-tickets-141051048483)|06 March, 2021|Online
 Power Platform Virual Conference|[Power Platform empowers Microsoft Teams](https://www.2020twenty.net/power-platform-virtual-conference/)|11 - 12 March, 2021|Online
 
 ## Past events
