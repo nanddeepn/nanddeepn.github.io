@@ -4,7 +4,7 @@ title: "Public Speaking"
 
 layout: archive
 author_profile: true
-last_modified_at: 2021-02-15T15:46:43-04:00
+last_modified_at: 2021-02-27T15:46:43-04:00
 toc: true
 ---
 
@@ -12,7 +12,6 @@ toc: true
 I’ll be speaking at the following events.
 
 **Event**|**Topic**|**When**|**Where**
-Virtual Scottish Summit 2021|[Developing SharePoint Framework Solutions for the Enterprise](https://scottishsummit.com/scottish-summit-2021-sessions)|27 February, 2021|Online
 A day with Microsoft Teams Development|[Implementing Messaging Extensions for MS Teams](https://www.eventbrite.com/e/a-day-with-microsoft-teams-development-tickets-141051048483)|06 March, 2021|Online
 Power Platform Virual Conference|[Power Platform empowers Microsoft Teams](https://www.2020twenty.net/power-platform-virtual-conference/)|11 March, 2021|Online
 Teams Day Online 3|[Bring your SharePoint apps to MS Teams](https://teamsdayonline.com/)|07 - 08 April, 2021|Online
@@ -20,6 +19,7 @@ Teams Day Online 3|[Bring your SharePoint apps to MS Teams](https://teamsdayonli
 ## Past events
 
 **Event**|**Topic**|**When**|**Where**
+Virtual Scottish Summit 2021|[Developing SharePoint Framework Solutions for the Enterprise](https://scottishsummit.com/scottish-summit-2021-sessions#sz-session-222970)|27 February, 2021|Online
 Global Security and Compliance Community Conference|[Explore RBAC and PIM in M365](https://microsoft365compliance.de/agenda)|08 February, 2021|Online
 Modern Workplace Conference Paris 2021|[Project Oakdale, new data platform for Microsoft Teams](https://mwcp21.sessionize.com/session/224864)|19 January, 2021|Online
 philly.NET Code Camp 2021|[Change Notifications and Track Changes with Microsoft Graph](https://philly-net-code-camp-2021.sessionize.com/session/235468)|16 January, 2021|Online
