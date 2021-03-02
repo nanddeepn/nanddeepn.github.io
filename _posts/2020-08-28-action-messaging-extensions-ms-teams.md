@@ -413,7 +413,8 @@ Follow the below steps to test the action messaging extension.
 4. On the command prompt, type below command.
 
     ```
-    gulp buildgulp manifest
+    gulp build
+    gulp manifest
     ```
 
 5. The .zip package will be available under the packages folder.
