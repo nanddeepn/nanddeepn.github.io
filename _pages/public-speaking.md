@@ -13,7 +13,7 @@ I’ll be speaking at the following events.
 
 **Event**|**Topic**|**When**|**Where**
 Power Platform Virual Conference|[Power Platform empowers Microsoft Teams](https://www.2020twenty.net/power-platform-virtual-conference/)|11 March, 2021|Online
-Teams Day Online 3|[Bring your SharePoint apps to MS Teams](https://teamsdayonline.com/)|07 - 08 April, 2021|Online
+Teams Day Online 3|[Bring your SharePoint apps to MS Teams](https://modernworkplacesummits.com/schedule-1)|07 - 08 April, 2021|Online
 3rd cloud8 virtual Summit 2021|[Bring your SharePoint apps to MS Teams](https://www.cloudeight.ch/)|04 June, 2021|Online
 
 ## Past events
