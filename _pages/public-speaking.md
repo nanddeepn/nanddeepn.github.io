@@ -12,7 +12,9 @@ toc: true
 I’ll be speaking at the following events.
 
 **Event**|**Topic**|**When**|**Where**
-Teams Day Online 3|[Bring your SharePoint apps to MS Teams](https://modernworkplacesummits.com/schedule-1)|07 - 08 April, 2021|Online
+Teams Day Online 3|[Bring your SharePoint apps to MS Teams](https://modernworkplacesummits.com/schedule-1)|07 April, 2021 at 7:30 PM IST|Online
+PnP SPFx community call|[Questionnaire Teams Meeting App with SPFx](https://github.com/pnp/sp-dev-fx-webparts/tree/master/samples/react-teams-meeting-app-questionnaire)|08 April, 2021 at 7:30 PM IST|Online
+Teams Nation|[Extending MS Teams with SharePoint Framework](https://teamsnation.rocks/hub)|12 May, 2021|Online
 3rd cloud8 virtual Summit 2021|[Bring your SharePoint apps to MS Teams](https://www.cloudeight.ch/)|04 June, 2021|Online
 
 ## Past events
