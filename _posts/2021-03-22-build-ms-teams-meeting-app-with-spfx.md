@@ -396,4 +396,5 @@ This article illustrates the possibilities to surface SPFx web part as Microsoft
 
 
 ## Code Download
-PR is raised at [PnP Repo](https://github.com/pnp/sp-dev-fx-webparts/) to make this code available to the community. 
+The code developed during this article is proudly available under PnP repo and can be found here:
+[https://github.com/pnp/sp-dev-fx-webparts/tree/master/samples/react-teams-meeting-app-questionnaire](https://github.com/pnp/sp-dev-fx-webparts/tree/master/samples/react-teams-meeting-app-questionnaire) 
