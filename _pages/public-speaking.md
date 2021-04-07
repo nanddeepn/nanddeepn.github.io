@@ -12,7 +12,6 @@ toc: true
 I’ll be speaking at the following events.
 
 **Event**|**Topic**|**When**|**Where**
-Teams Day Online 3|[Bring your SharePoint apps to MS Teams](https://modernworkplacesummits.com/schedule-1)|07 April, 2021 at 7:30 PM IST|Online
 PnP SPFx community call|[Questionnaire Teams Meeting App with SPFx](https://github.com/pnp/sp-dev-fx-webparts/tree/master/samples/react-teams-meeting-app-questionnaire)|08 April, 2021 at 7:30 PM IST|Online
 Cloud Lunch and Learn Marathon 2021|[Explore RBAC and PIM in M365](https://www.cloudlunchlearn.com/marathon)|20 April, 2021|Online
 Microsoft 365 Virtual Marathon|[Bring your SharePoint apps to MS Teams](https://www.m365virtualmarathon.com/sessions.html)|27 April, 2021 at 1:00 PM IST|Online
@@ -25,6 +24,7 @@ Cloud Lunch and Learn Marathon 2021|[Explore RBAC and PIM in M365](https://www.c
 ## Past events
 
 **Event**|**Topic**|**When**|**Where**
+Teams Day Online 3|[Bring your SharePoint apps to MS Teams](https://modernworkplacesummits.com/schedule-1)|07 April, 2021|Online
 Power Platform Virual Conference|[Power Platform empowers Microsoft Teams](https://www.2020twenty.net/power-platform-virtual-conference/)|11 March, 2021|Online
 A day with Microsoft Teams Development|[Implementing Messaging Extensions for MS Teams](https://www.eventbrite.com/e/a-day-with-microsoft-teams-development-tickets-141051048483)|06 March, 2021|Online
 Virtual Scottish Summit 2021|[Developing SharePoint Framework Solutions for the Enterprise](https://scottishsummit.com/scottish-summit-2021-sessions#sz-session-222970)|27 February, 2021|Online
