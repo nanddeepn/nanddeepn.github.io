@@ -92,7 +92,7 @@ Webinar, C# Corner, Pune Chapter|[Modern Sites in SharePoint](https://www.c-shar
 
 ## Other appearances
 
-**Event**|**When**|**Where**
+**Event**|**Topic**|**When**|**Where**
 Microsoft Ignite, Ask the Expert, SME Support|[ATE-DB136: Embrace a New Way of Work with Microsoft 365](https://myignite.microsoft.com/sessions/ATE-DB136)|24 September, 2020|Online
 Microsoft Ignite, Ask the Expert, SME Support|[ATE-DB155-R2: Introducing modern admin capabilities to better service Microsoft 365 Apps for enterprise](https://myignite.microsoft.com/sessions/ATE-DB155-R2/)|24 September, 2020|Online
 Microsoft Ignite, Ask the Expert, SME Support|[ATE-DB136-R1: Embrace a New Way of Work with Microsoft 365](https://myignite.microsoft.com/sessions/ATE-DB136-R1)|24 September, 2020|Online
