@@ -12,7 +12,6 @@ toc: true
 I’ll be speaking at the following events.
 
 **Event**|**Topic**|**When**|**Where**
-PnP SPFx community call|[Questionnaire Teams Meeting App with SPFx](https://github.com/pnp/sp-dev-fx-webparts/tree/master/samples/react-teams-meeting-app-questionnaire)|08 April, 2021 at 7:30 PM IST|Online
 Cloud Lunch and Learn Marathon 2021|[Explore RBAC and PIM in M365](https://www.cloudlunchlearn.com/marathon)|20 April, 2021|Online
 Microsoft 365 Virtual Marathon|[Bring your SharePoint apps to MS Teams](https://www.m365virtualmarathon.com/sessions.html)|27 April, 2021 at 1:00 PM IST|Online
 Microsoft 365 Virtual Marathon|[Monitor Office 365 Logs from Azure Sentinel](https://www.m365virtualmarathon.com/sessions.html)|28 April, 2021 at 8:00 PM IST|Online
@@ -37,7 +36,6 @@ M365 Saturday Ahmedabad 2020|[Dataverse for Teams - new data platform for Micros
 aMS Germany|[SharePoint Content classification with AI capabilities](https://ams-germany-2020.sessionize.com/session/224858)|01 December, 2020|Online
 Global Microsoft 365 Developer Bootcamp 2020, Hamburg, DE|[Microsoft Lists: Evolving the value of SharePoint lists and beyond](https://www.meetup.com/de-DE/Office-365-User-Group-Hamburg/events/271966324/)|28 November, 2020|Online
 Global Microsoft 365 Developer Bootcamp 2020, Hamburg, DE|[Collaborate on Microsoft Teams with Power Platform](https://www.meetup.com/de-DE/Office-365-User-Group-Hamburg/events/271966324/)|28 November, 2020|Online
-Proctor, Toronto Office Developer Bootcamp 2020|[SPFx Development](https://bootcamp.tspug.com/Agenda)|27 November, 2020|Online
 Global Microsoft 365 Developer Bootcamp 2020, Trivandrum, Kerala|[Microsoft Lists: Evolving the value of SharePoint lists and beyond](https://talklify.com/events/global-microsoft-365-bootcamp/)|31 October, 2020|Online
 Global Microsoft 365 Developer Bootcamp 2020, Pune|[Collect Input in Microsoft Teams with Task Modules](https://www.meetup.com/Pune-Tech-Community/events/272057386/)|25 October, 2020|Online
 Webinar, Dear Azure|[PL-900: Microsoft Power Platform Fundamentals](https://www.eventbrite.com/e/mastering-microsoft-fundamentals-master-the-basics-virtual-event-2020-tickets-121523228247)|24 October, 2020|Online
@@ -52,9 +50,6 @@ Global Microsoft 365 Developer Bootcamp, 2020, Chennai|[Change Notifications and
 Microsoft Virtual Hub|[Host SharePoint Framework web part as MS Teams messaging extension](https://aka.ms/virtualhub/realworld)|07 October, 2020|Online
 Global Microsoft 365 Developer Bootcamp, 2020, Dhaka, Bangladesh|[Collaborate on Microsoft Teams with Power Platform](https://www.facebook.com/events/576061033057859/)|03 October, 2020|Online
 Teams Day Online 2|[Collaborate on Microsoft Teams with Power Platform](https://modernworkplacesummits.com/session-list)|30 September, 2020|Online
-Microsoft Ignite, Ask the Expert, SME Support|[ATE-DB136: Embrace a New Way of Work with Microsoft 365](https://myignite.microsoft.com/sessions/ATE-DB136)|24 September, 2020|Online
-Microsoft Ignite, Ask the Expert, SME Support|[ATE-DB155-R2: Introducing modern admin capabilities to better service Microsoft 365 Apps for enterprise](https://myignite.microsoft.com/sessions/ATE-DB155-R2/)|24 September, 2020|Online
-Microsoft Ignite, Ask the Expert, SME Support|[ATE-DB136-R1: Embrace a New Way of Work with Microsoft 365](https://myignite.microsoft.com/sessions/ATE-DB136-R1)|24 September, 2020|Online
 Global AI On Tour - Dhaka, Bangladesh|[Using AI to classify SharePoint Content with Cognitive and Sentiment analysis](https://www.facebook.com/events/331630477843707/)|19 September, 2020|Online
 Microsoft 365 Saturday, Gurgaon|[Developing SharePoint Framework Solutions for the Enterprise](https://www.spsevents.org/event/gurgaon2020/sessions/)|19 September, 2020|Online
 Global AI On Tour - NYC|[SharePoint Content classification with AI capabilities](https://www.thetechplatform.com/global-ai-tour)|09 September, 2020|Online
@@ -95,6 +90,11 @@ Webinar, C# Corner, Pune Chapter|[Getting Started with SharePoint Framework (SPF
 C# Corner, Pune Chapter Meet|[SharePoint Site Provisioning](https://www.c-sharpcorner.com/events/learn-sharepoint-office-365-azure-for-developers-and-azure-bot-service)|28 July, 2018|Pune, India
 Webinar, C# Corner, Pune Chapter|[Modern Sites in SharePoint](https://www.c-sharpcorner.com/events/modern-sites-in-sharepoint)|09 June, 2018|Online
 
+## Other appearances
+**Event**|**When**|**Where**
+Microsoft Ignite, Ask the Expert, SME Support|[ATE-DB136: Embrace a New Way of Work with Microsoft 365](https://myignite.microsoft.com/sessions/ATE-DB136)|24 September, 2020|Online
+Microsoft Ignite, Ask the Expert, SME Support|[ATE-DB155-R2: Introducing modern admin capabilities to better service Microsoft 365 Apps for enterprise](https://myignite.microsoft.com/sessions/ATE-DB155-R2/)|24 September, 2020|Online
+Microsoft Ignite, Ask the Expert, SME Support|[ATE-DB136-R1: Embrace a New Way of Work with Microsoft 365](https://myignite.microsoft.com/sessions/ATE-DB136-R1)|24 September, 2020|Online
 
 ## Event Organizer
 
