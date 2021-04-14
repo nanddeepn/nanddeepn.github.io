@@ -12,7 +12,6 @@ toc: true
 I’ll be speaking at the following events.
 
 **Event**|**Topic**|**When**|**Where**
-Cloud Lunch and Learn Marathon 2021|[Explore RBAC and PIM in M365](https://www.cloudlunchlearn.com/marathon)|20 April, 2021|Online
 Microsoft 365 Virtual Marathon|[Bring your SharePoint apps to MS Teams](https://www.m365virtualmarathon.com/sessions.html)|27 April, 2021 at 1:00 PM IST|Online
 Microsoft 365 Virtual Marathon|[Monitor Office 365 Logs from Azure Sentinel](https://www.m365virtualmarathon.com/sessions.html)|28 April, 2021 at 8:00 PM IST|Online
 Microsoft Global Hindi Bootcamp|[Bring governance and security to your M365 with RBAC and PIM](https://sessionize.com/MicrosoftGlobalHindiBootcamp/)|08 May, 2021|Online
