@@ -12,14 +12,14 @@ toc: true
 I’ll be speaking at the following events.
 
 **Event**|**Topic**|**When**|**Where**
-Microsoft 365 Virtual Marathon|[Bring your SharePoint apps to MS Teams](https://www.m365virtualmarathon.com/sessions.html)|27 April, 2021 at 1:00 PM IST|Online
-Microsoft 365 Virtual Marathon|[Monitor Office 365 Logs from Azure Sentinel](https://www.m365virtualmarathon.com/sessions.html)|28 April, 2021 at 8:00 PM IST|Online
+Microsoft 365 Virtual Marathon|[Bring your SharePoint apps to MS Teams](https://www.m365virtualmarathon.com/sessions.html)|27 April, 2021 at 12:30 PM IST|Online
+Microsoft 365 Virtual Marathon|[Monitor Office 365 Logs from Azure Sentinel](https://www.m365virtualmarathon.com/sessions.html)|28 April, 2021 at 8:30 AM IST|Online
 Microsoft Global Hindi Bootcamp|[Bring governance and security to your M365 with RBAC and PIM](https://sessionize.com/MicrosoftGlobalHindiBootcamp/)|08 May, 2021|Online
 Collabdays Nordics|[Protect Office 365 with Azure Sentinel](https://www.collabdays.org/2021-nordics/)|10 May, 2021|Online
 Teams Nation|[Extending MS Teams with SharePoint Framework](https://teamsnation.rocks/hub)|12 May, 2021|Online
 Cloud Lunch and Learn Marathon 2021|[Collaborate with Microsoft Teams and SharePoint](https://www.cloudlunchlearn.com/marathon)|13 May, 2021 at 11:00 AM (UTC)|Online
 Cloud Lunch and Learn Marathon 2021|[Explore RBAC and PIM in M365](https://www.cloudlunchlearn.com/marathon)|13 May, 2021|Online
-3rd cloud8 virtual Summit 2021|[Bring your SharePoint apps to MS Teams](https://www.cloudeight.ch/)|04 June, 2021|Online
+3rd cloud8 virtual Summit 2021|[Bring your SharePoint apps to MS Teams](https://www.cloudeight.ch/)|04 June, 2021 at 5:30 PM IST|Online
 
 ## Past events
 
