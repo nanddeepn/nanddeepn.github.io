@@ -23,8 +23,8 @@ Azure Summit 2021|[Monitor Office 365 Logs from Azure Sentinel](https://www.2020
 ## Past events
 
 **Event**|**Topic**|**When**|**Where**
-Microsoft 365 Virtual Marathon|[Monitor Office 365 Logs from Azure Sentinel](https://www.m365virtualmarathon.com/sessions.html)|28 April, 2021|Online
-Microsoft 365 Virtual Marathon|[Bring your SharePoint apps to MS Teams](https://www.m365virtualmarathon.com/sessions.html)|27 April, 2021|Online
+Microsoft 365 Virtual Marathon|[Monitor Office 365 Logs from Azure Sentinel](https://www.m365virtualmarathon.com/sessions.html#sz-session-249012)|28 April, 2021|Online
+Microsoft 365 Virtual Marathon|[Bring your SharePoint apps to MS Teams](https://www.m365virtualmarathon.com/sessions.html#sz-session-250765)|27 April, 2021|Online
 Teams Day Online 3|[Bring your SharePoint apps to MS Teams](https://modernworkplacesummits.com/schedule-1)|07 April, 2021|Online
 Power Platform Virual Conference|[Power Platform empowers Microsoft Teams](https://www.2020twenty.net/power-platform-virtual-conference/)|11 March, 2021|Online
 A day with Microsoft Teams Development|[Implementing Messaging Extensions for MS Teams](https://www.eventbrite.com/e/a-day-with-microsoft-teams-development-tickets-141051048483)|06 March, 2021|Online
