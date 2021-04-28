@@ -20,6 +20,7 @@ Teams Nation|[Extending MS Teams with SharePoint Framework](https://teamsnation.
 Cloud Lunch and Learn Marathon 2021|[Collaborate with Microsoft Teams and SharePoint](https://www.cloudlunchlearn.com/marathon)|13 May, 2021 at 11:00 AM (UTC)|Online
 Cloud Lunch and Learn Marathon 2021|[Explore RBAC and PIM in M365](https://www.cloudlunchlearn.com/marathon)|13 May, 2021|Online
 3rd cloud8 virtual Summit 2021|[Bring your SharePoint apps to MS Teams](https://www.cloudeight.ch/)|04 June, 2021 at 5:30 PM IST|Online
+Azure Summit 2021|[Monitor Office 365 Logs from Azure Sentinel](https://www.2020twenty.net/azure-summit-2021/)|13-18 September, 2021|Online
 
 ## Past events
 
