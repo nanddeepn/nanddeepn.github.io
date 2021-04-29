@@ -3,8 +3,8 @@ title: "Threat detection with Azure Sentinel analytics"
 date: "2021-04-15"
 share: true
 header:
-  image: media/2021-04-15-threat-detection-with-azure-sentinel-analytics/01.png
-  teaser: media/2021-04-15-threat-detection-with-azure-sentinel-analytics/01.png
+  image: media/2021-04-15-threat-detection-with-azure-sentinel-analytics/07.png
+  teaser: media/2021-04-15-threat-detection-with-azure-sentinel-analytics/07.png
 categories:
   - Office 365
   - MS Azure
@@ -70,7 +70,9 @@ We can create a new Microsoft security rule that filters alerts from different M
 
     ![](/media/2021-04-15-threat-detection-with-azure-sentinel-analytics/06.png)
 
-When there will be more than 5 edits to SharePoint list item in span of 5 hours, Azure Sentinel will create an incident for it for bulk editing.
+When there will be more than 5 edits to SharePoint list item in span of 5 hours, Azure Sentinel will create an incident for it for bulk editing, as shown below:
+
+![](/media/2021-04-15-threat-detection-with-azure-sentinel-analytics/07.png)
 
 ## Summary
 
