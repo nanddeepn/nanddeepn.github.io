@@ -12,6 +12,7 @@ toc: true
 I’ll be speaking at the following events.
 
 **Event**|**Topic**|**When**|**Where**
+Microsoft Power Night|[MS Teams Apps with SharePoint Framework](https://www.linkedin.com/feed/update/urn:li:activity:6793265022773559296/)|02 May, 2021 at 6:30 PM IST|Online
 Microsoft Global Hindi Bootcamp|[Bring governance and security to your M365 with RBAC and PIM](https://www.eventbrite.sg/e/free-microsoft-global-hindi-bootcamp-tickets-152673541673)|08 May, 2021 at 10:15 AM IST|Online
 Collabdays Nordics|[Protect Office 365 with Azure Sentinel](https://www.collabdays.org/2021-nordics/)|10 May, 2021|Online
 Teams Nation|[Extending MS Teams with SharePoint Framework](https://teamsnation.rocks/hub)|12 May, 2021|Online
