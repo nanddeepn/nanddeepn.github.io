@@ -13,7 +13,7 @@ I’ll be speaking at the following events.
 
 **Event**|**Topic**|**When**|**Where**
 Microsoft Global Hindi Bootcamp|[Bring governance and security to your M365 with RBAC and PIM](https://www.eventbrite.sg/e/free-microsoft-global-hindi-bootcamp-tickets-152673541673)|08 May, 2021 at 10:15 AM IST|Online
-Collabdays Nordics|[Protect Office 365 with Azure Sentinel](https://www.collabdays.org/2021-nordics/)|10 May, 2021|Online
+Collabdays Nordics|[Protect Office 365 with Azure Sentinel](https://www.collabdays.org/2021-nordics/schedule/)|11 May, 2021 at 3:15 PM IST|Online
 Teams Nation|[Extending MS Teams with SharePoint Framework](https://teamsnation.sessionize.com/session/244819)|12 May, 2021 at 3:30 PM IST|Online
 Cloud Lunch and Learn Marathon 2021|[Collaborate with Microsoft Teams and SharePoint](https://www.cloudlunchlearn.com/marathon)|13 May, 2021 at 04:30 PM IST|Online
 Cloud Lunch and Learn Marathon 2021|[Explore RBAC and PIM in M365](https://www.cloudlunchlearn.com/marathon)|13 May, 2021 at 7:30 PM IST|Online
