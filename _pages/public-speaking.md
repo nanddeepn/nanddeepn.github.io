@@ -12,7 +12,6 @@ toc: true
 I’ll be speaking at the following events.
 
 **Event**|**Topic**|**When**|**Where**
-Microsoft Global Hindi Bootcamp|[Bring governance and security to your M365 with RBAC and PIM](https://www.eventbrite.sg/e/free-microsoft-global-hindi-bootcamp-tickets-152673541673)|08 May, 2021 at 10:15 AM IST|Online
 Collabdays Nordics|[Protect Office 365 with Azure Sentinel](https://www.collabdays.org/2021-nordics/schedule/)|11 May, 2021 at 03:15 PM IST|Online
 Teams Nation|[Extending MS Teams with SharePoint Framework](https://teamsnation.sessionize.com/session/244819)|12 May, 2021 at 03:30 PM IST|Online
 Cloud Lunch and Learn Marathon 2021|[Collaborate with Microsoft Teams and SharePoint](https://www.cloudlunchlearn.com/marathon)|13 May, 2021 at 04:30 PM IST|Online
@@ -25,6 +24,7 @@ Azure Summit 2021|[Monitor Office 365 Logs from Azure Sentinel](https://www.2020
 ## Past events
 
 **Event**|**Topic**|**When**|**Where**
+Microsoft Global Hindi Bootcamp|[Bring governance and security to your M365 with RBAC and PIM](https://www.eventbrite.sg/e/free-microsoft-global-hindi-bootcamp-tickets-152673541673)|08 May, 2021|Online
 Microsoft Power Night|[MS Teams Apps with SharePoint Framework](https://www.linkedin.com/video/live/urn:li:ugcPost:6793265021771104257/)|02 May, 2021 at 6:30 PM IST|Online
 Microsoft 365 Virtual Marathon|[Monitor Office 365 Logs from Azure Sentinel](https://www.m365virtualmarathon.com/sessions.html#sz-session-249012)|28 April, 2021|Online
 Microsoft 365 Virtual Marathon|[Bring your SharePoint apps to MS Teams](https://www.m365virtualmarathon.com/sessions.html#sz-session-250765)|27 April, 2021|Online
