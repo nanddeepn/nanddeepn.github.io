@@ -25,7 +25,7 @@ Azure Summit 2021|[Monitor Office 365 Logs from Azure Sentinel](https://www.2020
 
 **Event**|**Topic**|**When**|**Where**
 Microsoft Global Hindi Bootcamp|[Bring governance and security to your M365 with RBAC and PIM](https://www.eventbrite.sg/e/free-microsoft-global-hindi-bootcamp-tickets-152673541673)|08 May, 2021|Online
-Microsoft Power Night|[MS Teams Apps with SharePoint Framework](https://www.linkedin.com/video/live/urn:li:ugcPost:6793265021771104257/)|02 May, 2021 at 6:30 PM IST|Online
+Microsoft Power Night|[MS Teams Apps with SharePoint Framework](https://www.linkedin.com/video/live/urn:li:ugcPost:6793265021771104257/)|02 May, 2021|Online
 Microsoft 365 Virtual Marathon|[Monitor Office 365 Logs from Azure Sentinel](https://www.m365virtualmarathon.com/sessions.html#sz-session-249012)|28 April, 2021|Online
 Microsoft 365 Virtual Marathon|[Bring your SharePoint apps to MS Teams](https://www.m365virtualmarathon.com/sessions.html#sz-session-250765)|27 April, 2021|Online
 Teams Day Online 3|[Bring your SharePoint apps to MS Teams](https://modernworkplacesummits.com/schedule-1)|07 April, 2021|Online
