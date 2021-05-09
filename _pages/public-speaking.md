@@ -16,7 +16,7 @@ Collabdays Nordics|[Protect Office 365 with Azure Sentinel](https://www.collabda
 Teams Nation|[Extending MS Teams with SharePoint Framework](https://teamsnation.sessionize.com/session/244819)|12 May, 2021 at 03:30 PM IST|Online
 Cloud Lunch and Learn Marathon 2021|[Collaborate with Microsoft Teams and SharePoint](https://www.cloudlunchlearn.com/marathon)|13 May, 2021 at 04:30 PM IST|Online
 Cloud Lunch and Learn Marathon 2021|[Explore RBAC and PIM in M365](https://www.cloudlunchlearn.com/marathon)|13 May, 2021 at 07:30 PM IST|Online
-M365 Philly Virtual 2021|[Build MS Teams Applications with SharePoint](https://www.spsevents.org/event/sharepoint-saturday-philly/sessions/)|14 May, 2021 at 02:00 PM IST|Online
+M365 Philly Virtual 2021|[Build MS Teams Applications with SharePoint](https://www.spsevents.org/event/sharepoint-saturday-philly/sessions/)|15 May, 2021 at 02:00 PM IST|Online
 M365 Chicago|[Extend your SharePoint solutions to MS Teams](https://m365chicago.com/)|04 June, 2021|Online
 3rd cloud8 virtual Summit 2021|[Bring your SharePoint apps to MS Teams](https://www.cloudeight.ch/)|04 June, 2021 at 5:30 PM IST|Online
 Azure Summit 2021|[Monitor Office 365 Logs from Azure Sentinel](https://www.2020twenty.net/azure-summit-2021/)|13-18 September, 2021|Online
