@@ -12,7 +12,6 @@ toc: true
 I’ll be speaking at the following events.
 
 **Event**|**Topic**|**When**|**Where**
-Teams Nation|[Extending MS Teams with SharePoint Framework](https://teamsnation.sessionize.com/session/244819)|12 May, 2021 at 03:30 PM IST|Online
 Cloud Lunch and Learn Marathon 2021|[Collaborate with Microsoft Teams and SharePoint](https://www.cloudlunchlearn.com/marathon)|13 May, 2021 at 04:30 PM IST|Online
 Cloud Lunch and Learn Marathon 2021|[Explore RBAC and PIM in M365](https://www.cloudlunchlearn.com/marathon)|13 May, 2021 at 07:30 PM IST|Online
 M365 Philly Virtual 2021|[Build MS Teams Applications with SharePoint](https://www.spsevents.org/event/sharepoint-saturday-philly/sessions/)|15 May, 2021 at 02:00 PM IST|Online
@@ -23,6 +22,7 @@ Azure Summit 2021|[Monitor Office 365 Logs from Azure Sentinel](https://www.2020
 ## Past events
 
 **Event**|**Topic**|**When**|**Where**
+Teams Nation|[Extending MS Teams with SharePoint Framework](https://teamsnation.sessionize.com/session/244819)|12 May, 2021|Online
 Collabdays Nordics|[Protect Office 365 with Azure Sentinel](https://www.collabdays.org/2021-nordics/schedule/)|11 May, 2021|Online
 Microsoft Global Hindi Bootcamp|[Bring governance and security to your M365 with RBAC and PIM](https://www.eventbrite.sg/e/free-microsoft-global-hindi-bootcamp-tickets-152673541673)|08 May, 2021|Online
 Microsoft Power Night|[MS Teams Apps with SharePoint Framework](https://www.linkedin.com/video/live/urn:li:ugcPost:6793265021771104257/)|02 May, 2021|Online
