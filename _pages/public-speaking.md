@@ -48,11 +48,9 @@ aOS Southeast Asia 2020|[Handling Change Notifications with Microsoft Graph](htt
 Virtual M365 Friday Cincinnati|[Collaborate on Microsoft Teams with Power Platform](https://www.spsevents.org/event/cincinnatisps2020/sessions/)|23 October, 2020|Online
 Virtual M365 Saturday Ottawa|[Developing SharePoint Framework Solutions for the Enterprise](https://www.spsevents.org/event/m365ottawa/schedule/)|17 October, 2020|Online
 Global Microsoft 365 Developer Bootcamp, 2020, Hyderabad, India|[Explore RBAC and PIM in M365](https://www.eventbrite.co.uk/e/global-microsoft-365-developer-bootcamp-2020-hyderabad-india-tickets-116282310521)|17 October, 2020|Online
-Proctor, Global Microsoft 365 Developer Bootcamp, APAC Region|[Global Microsoft 365 Developer Bootcamp, APAC Region](https://microsoft365developerbootcamp.splashthat.com/)|14, 15 October, 2020|Online
-Proctor, Global Microsoft 365 Developer Bootcamp, EMEA Region|[Global Microsoft 365 Developer Bootcamp, EMEA Region](https://microsoft365developerbootcamp.splashthat.com/)|13, 14 October, 2020|Online
 Webinar, Office 365 and Power Platform User group - India|[SharePoint updates from Microsoft Ignite 2020](https://www.meetup.com/Microsoft-365-and-Power-Platform-User-group-India/events/273747075/)|10 October, 2020|Online
 Global Microsoft 365 Developer Bootcamp, 2020, Chennai|[Change Notifications and Track Changes with Microsoft Graph](https://www.meetup.com/XMonkeys360/events/271978500/)|10 October, 2020|Online
-Microsoft Virtual Hub|[Host SharePoint Framework web part as MS Teams messaging extension](https://aka.ms/virtualhub/realworld)|07 October, 2020|Online
+Microsoft Virtual Hub|[Host SharePoint Framework web part as MS Teams messaging extension](https://adoption.microsoft.com/virtual-hub/real-world-scenarios/#host-sharepoint-framework-web-part-as-microsoft-teams-messaging-extension)|07 October, 2020|Online
 Global Microsoft 365 Developer Bootcamp, 2020, Dhaka, Bangladesh|[Collaborate on Microsoft Teams with Power Platform](https://www.facebook.com/events/576061033057859/)|03 October, 2020|Online
 Teams Day Online 2|[Collaborate on Microsoft Teams with Power Platform](https://modernworkplacesummits.com/session-list)|30 September, 2020|Online
 Global AI On Tour - Dhaka, Bangladesh|[Using AI to classify SharePoint Content with Cognitive and Sentiment analysis](https://www.facebook.com/events/331630477843707/)|19 September, 2020|Online
@@ -98,6 +96,8 @@ Webinar, C# Corner, Pune Chapter|[Modern Sites in SharePoint](https://www.c-shar
 ## Other appearances
 
 **Event**|**Topic**|**When**|**Where**
+Proctor, Global Microsoft 365 Developer Bootcamp, APAC Region|[Global Microsoft 365 Developer Bootcamp, APAC Region](https://microsoft365developerbootcamp.splashthat.com/)|14, 15 October, 2020|Online
+Proctor, Global Microsoft 365 Developer Bootcamp, EMEA Region|[Global Microsoft 365 Developer Bootcamp, EMEA Region](https://microsoft365developerbootcamp.splashthat.com/)|13, 14 October, 2020|Online
 Microsoft Ignite, Ask the Expert, SME Support|[ATE-DB136: Embrace a New Way of Work with Microsoft 365](https://myignite.microsoft.com/sessions/ATE-DB136)|24 September, 2020|Online
 Microsoft Ignite, Ask the Expert, SME Support|[ATE-DB155-R2: Introducing modern admin capabilities to better service Microsoft 365 Apps for enterprise](https://myignite.microsoft.com/sessions/ATE-DB155-R2/)|24 September, 2020|Online
 Microsoft Ignite, Ask the Expert, SME Support|[ATE-DB136-R1: Embrace a New Way of Work with Microsoft 365](https://myignite.microsoft.com/sessions/ATE-DB136-R1)|24 September, 2020|Online
