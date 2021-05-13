@@ -74,8 +74,8 @@ Global AI On Tour 2020, Ahmedabad|[Using AI to classify SharePoint Content with 
 C# Corner, Toronto Chapter Meetup|[Use Fluent UI to build beauty with SharePoint](https://www.meetup.com/C-Corner-Toronto-Chapter-Meetup/events/270297173/)|02 May, 2020|Online
 C# Corner Global Monthly Virtual Meet: April 2020|[Developing SharePoint Framework Solutions for the Enterprise](https://www.c-sharpcorner.com/events/c-sharp-corner-global-monthly-virtual-meet)|15 April, 2020|Online
 SPFx Webinar Series|[Setting up developer environment for SPFx](https://www.meetup.com/Microsoft-365-and-Power-Platform-User-group-India/events/xwxfrrybcgblb/)|08 April, 2020|Online
-C# Corner, Pune Chapter Meet|[Automate MS Teams life cycle with MS Graph](https://www.c-sharpcorner.com/events/typescript-azure-serverless-architecture-ms-teams-and-ms-graph)|22 February, 2020|Pune, India
 Power Platform 24 Conference 2020|[Power BI, Power Automate, and Power Apps: Connecting to data using the on-premises data gateway](https://www.xrmvirtual.com/meeting-details/?id=950c9718-cf4d-ea11-a812-000d3a102d9a)|26 February, 2020|Online
+C# Corner, Pune Chapter Meet|[Automate MS Teams life cycle with MS Graph](https://www.c-sharpcorner.com/events/typescript-azure-serverless-architecture-ms-teams-and-ms-graph)|22 February, 2020|Pune, India
 Global Power Platform Bootcamp 2020, Pune|[Power BI, Power Automate, and Power Apps: Connecting to data using the on-premises data gateway](https://www.eventbrite.com/e/global-power-platform-bootcamp-pune-tickets-87262505503#)|15 February, 2020|Pune, India
 Global M365 Developer Bootcamp 2019, Gurgaon|[Overview of MS Teams Graph API](https://www.eventbrite.com/e/global-microsoft-365-developer-bootcamp-2019-gurgaon-tickets-67692611423)|07 December, 2019|Gurgaon, India
 SPS Bangalore 2019|[Continuous integration and delivery pipelines for SPFx Solutions on Azure DevOps](https://www.spsevents.org/event/bangalore2019/sessions/)|30 November, 2019|Bangalore, India
