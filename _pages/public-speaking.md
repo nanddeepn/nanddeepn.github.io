@@ -12,6 +12,7 @@ toc: true
 I’ll be speaking at the following events.
 
 **Event**|**Topic**|**When**|**Where**
+C# Corner CloudTech Student  Conference| [Introduction to Azure Functions](https://www.c-sharpcorner.com/events/cloudtech-student-conference)|29 May, 2021 at 03:10 PM|Online
 M365 Chicago|[Extend your SharePoint solutions to MS Teams](https://m365chicago.com/)|04 June, 2021|Online
 3rd cloud8 virtual Summit 2021|[Bring your SharePoint apps to MS Teams](https://www.cloudeight.ch/)|04 June, 2021 at 5:30 PM IST|Online
 Azure Summit 2021|[Monitor Office 365 Logs from Azure Sentinel](https://www.2020twenty.net/azure-summit-2021/)|13-18 September, 2021|Online
