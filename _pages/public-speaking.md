@@ -12,13 +12,13 @@ toc: true
 I’ll be speaking at the following events.
 
 **Event**|**Topic**|**When**|**Where**
-3rd cloud8 virtual Summit 2021|[Bring your SharePoint apps to MS Teams](https://www.cloudeight.ch/)|04 June, 2021 at 5:30 PM IST|Online
-M365 Chicago|[Extend your SharePoint solutions to MS Teams](https://m365chicago.com/)|04 June, 2021 at 11:30 PM IST|Online
 Azure Summit 2021|[Monitor Office 365 Logs from Azure Sentinel](https://www.2020twenty.net/azure-summit-2021/)|13-18 September, 2021|Online
 
 ## Past events
 
 **#**|**Event**|**Topic**|**When**|**Where**
+76|M365 Chicago|[Extend your SharePoint solutions to MS Teams](https://m365chicago.com/sessions.html#sz-session-254940)|04 June, 2021|Online
+75|3rd cloud8 virtual Summit 2021|[Bring your SharePoint apps to MS Teams](https://www.cloudeight.ch/?page_id=255)|04 June, 2021|Online
 74|C# Corner CloudTech Student Conference, IMS Noida|[Introduction to Azure Functions](https://www.c-sharpcorner.com/events/cloudtech-student-conference)|29 May, 2021|Online
 73|M365 Philly Virtual 2021|[Build MS Teams Applications with SharePoint](https://www.spsevents.org/event/sharepoint-saturday-philly/sessions/)|15 May, 2021|Online
 72|Cloud Lunch and Learn Marathon 2021|[Explore RBAC and PIM in M365](https://www.cloudlunchlearn.com/marathon)|13 May, 2021|Online
