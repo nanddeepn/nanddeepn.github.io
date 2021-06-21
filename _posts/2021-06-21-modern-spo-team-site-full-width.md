@@ -1,5 +1,5 @@
 ---
-title: "Make Modern Team Site to Full Width"
+title: "Make Modern SharePoint Online Team Site to Full Width"
 date: "2021-06-21"
 share: true
 header:
