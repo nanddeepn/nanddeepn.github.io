@@ -4,7 +4,7 @@ title: "Public Speaking"
 
 layout: archive
 author_profile: true
-last_modified_at: 2021-03-11T15:46:43-04:00
+last_modified_at: 2021-07-16T15:46:43-04:00
 toc: true
 ---
 
@@ -13,6 +13,7 @@ I’ll be speaking at the following events.
 
 **Event**|**Topic**|**When**|**Where**
 Microsoft Azure Associate Certifications - Preparation Series by Dear Azure - Azure INDIA|[PL-100: Microsoft Power Platform App Maker](https://www.eventbrite.com/e/microsoft-azure-associate-certifications-preparation-series-by-dear-azure-tickets-162201578287)|21 August, 2021 at 10 AM IST|Online
+India Cloud Security Summit, 2021|[Information Barriers in MS Teams](https://www.eventbrite.fr/e/india-cloud-security-summit-2021-tickets-154447696217)|28 August, 2021|Online
 Azure Summit 2021|[Monitor Office 365 Logs from Azure Sentinel](https://www.2020twenty.net/azure-summit-2021/)|13-18 September, 2021|Online
 
 ## Past events
