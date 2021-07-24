@@ -10,6 +10,7 @@ toc: true
 ## Code Contributions
 
 **Contribution**|**Topic**|**When**
+PnP Teams Bot Sample|[MS Teams Incident Management Bot](https://github.com/pnp/teams-dev-samples/tree/main/samples/bot-teams-incidentmanagement)|12 July, 2021
 PnP SPFx Web Part Sample|[Questionnaire Teams Meeting App](https://github.com/pnp/sp-dev-fx-webparts/tree/master/samples/react-teams-meeting-app-questionnaire)|22 March, 2021
 PnP SPFx Web Part Sample|[Timeline](https://github.com/pnp/sp-dev-fx-webparts/tree/master/samples/react-timeline)|11 July, 2020
 PnP React control for SPFx|[TreeView Control](https://pnp.github.io/sp-dev-fx-controls-react/controls/TreeView/)|07 May, 2020
