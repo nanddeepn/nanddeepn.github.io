@@ -12,7 +12,6 @@ toc: true
 I’ll be speaking at the following events.
 
 **Event**|**Topic**|**When**|**Where**
-Global Microsoft Hindi Bootcamp|[Monitor Office 365 Environment with Azure Sentinel](https://www.globalmicrosoftevents.com/schedule-1)|07 August, 2021 at 10 AM IST|Online
 Microsoft Azure Associate Certifications - Preparation Series by Dear Azure - Azure INDIA|[PL-100: Microsoft Power Platform App Maker](https://www.eventbrite.com/e/microsoft-azure-associate-certifications-preparation-series-by-dear-azure-tickets-162201578287)|21 August, 2021 at 10 AM IST|Online
 India Cloud Security Summit, 2021|[Information Barriers in MS Teams](https://www.indiacloudsecuritysummit.com/#agenda)|28 August, 2021|Online
 Azure Back to School 2021|[Monitor Office 365 Environment with Azure Sentinel](https://azurebacktoschool.github.io/)|01 September, 2021|Online
@@ -21,6 +20,7 @@ Azure Summit 2021|[Monitor Office 365 Logs from Azure Sentinel](https://azuresum
 ## Past events
 
 **#**|**Event**|**Topic**|**When**|**Where**
+77|Global Microsoft Hindi Bootcamp|[Monitor Office 365 Environment with Azure Sentinel](https://www.globalmicrosoftevents.com/schedule-1)|07 August, 2021|Online
 76|M365 Chicago|[Extend your SharePoint solutions to MS Teams](https://m365chicago.com/sessions.html#sz-session-254940)|04 June, 2021|Online
 75|3rd cloud8 virtual Summit 2021|[Bring your SharePoint apps to MS Teams](https://www.cloudeight.ch/?page_id=255)|04 June, 2021|Online
 74|C# Corner CloudTech Student Conference, IMS Noida|[Introduction to Azure Functions](https://www.c-sharpcorner.com/events/cloudtech-student-conference)|29 May, 2021|Online
