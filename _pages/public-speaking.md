@@ -14,8 +14,8 @@ I’ll be speaking at the following events.
 **Event**|**Topic**|**When**|**Where**
 Power Platform Bootcamp India|[Explore Microsoft Power Platform Center of Excellence](https://events.powercommunity.com/power-platform-bootcamp-india/)|28 August, 2021 at 10 AM IST|Online
 India Cloud Security Summit, 2021|[Information Barriers in MS Teams](https://www.indiacloudsecuritysummit.com/#agenda)|28 August, 2021 at 1:30 PM IST|Online
-Azure Back to School 2021|[Monitor Office 365 Environment with Azure Sentinel](https://azurebacktoschool.github.io/)|01 September, 2021|Online
 Cloud Summit 2021|[Monitor Office 365 Logs from Azure Sentinel](https://azuresummit.live/)|14 September, 2021|Online
+Azure Back to School 2021|[Monitor Office 365 Environment with Azure Sentinel](https://azurebacktoschool.github.io/)|19 September, 2021|Online
 NYC Teams Tuesday - November|[Modern SharePoint Development](https://www.meetup.com/NYC-Teams-Tuesday/events/280337056/)|16 November, 2021 at 10:15 PM IST|Online
 
 ## Past events
