@@ -12,8 +12,6 @@ toc: true
 I’ll be speaking at the following events.
 
 **Event**|**Topic**|**When**|**Where**
-Power Platform Bootcamp India|[Explore Microsoft Power Platform Center of Excellence](https://events.powercommunity.com/power-platform-bootcamp-india/)|28 August, 2021 at 10 AM IST|Online
-India Cloud Security Summit, 2021|[Information Barriers in MS Teams](https://www.indiacloudsecuritysummit.com/#agenda)|28 August, 2021 at 1:30 PM IST|Online
 Cloud Summit 2021|[Monitor Office 365 Logs from Azure Sentinel](https://azuresummit.live/)|14 September, 2021|Online
 Azure Back to School 2021|[Monitor Office 365 Environment with Azure Sentinel](https://azurebacktoschool.github.io/)|19 September, 2021|Online
 NYC Teams Tuesday - November|[Modern SharePoint Development](https://www.meetup.com/NYC-Teams-Tuesday/events/280337056/)|16 November, 2021 at 10:15 PM IST|Online
@@ -21,6 +19,8 @@ NYC Teams Tuesday - November|[Modern SharePoint Development](https://www.meetup.
 ## Past events
 
 **#**|**Event**|**Topic**|**When**|**Where**
+81|India Cloud Security Summit, 2021|[Information Barriers in MS Teams](https://www.indiacloudsecuritysummit.com/#agenda)|28 August, 2021|Online
+80|Power Platform Bootcamp India|[Explore Microsoft Power Platform Center of Excellence](https://events.powercommunity.com/power-platform-bootcamp-india/)|28 August, 2021|Online
 79|Microsoft 365 Bootcamp 2021|[Power Platform and MS Teams: Better together](https://events.powercommunity.com/sessions/power-platform-and-ms-teams-better-together/)|21 August, 2021|Online
 78|Microsoft Azure Associate Certifications - Preparation Series by Dear Azure - Azure INDIA|[PL-100: Microsoft Power Platform App Maker](https://www.eventbrite.com/e/microsoft-azure-associate-certifications-preparation-series-by-dear-azure-tickets-162201578287)|21 August, 2021|Online
 77|Global Microsoft Hindi Bootcamp|[Monitor Office 365 Environment with Azure Sentinel](https://www.globalmicrosoftevents.com/schedule-1)|07 August, 2021|Online
