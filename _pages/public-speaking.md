@@ -12,15 +12,17 @@ toc: true
 I’ll be speaking at the following events.
 
 **Event**|**Topic**|**When**|**Where**
-Cloud Summit 2021|[Monitor Office 365 Logs from Azure Sentinel](https://azuresummit.live/)|14 September, 2021|Online
-Azure Back to School 2021|[Monitor Office 365 Environment with Azure Sentinel](https://azurebacktoschool.github.io/)|19 September, 2021|Online
 Microsoft 365 UK (M365UK) User Group|[Information Barriers in Office 365](https://www.meetup.com/m365uk/)|13 October, 2021 at 8:30 PM IST|Online
 aMS Southeast Asia 2021|[Universal Actions for Adaptive Cards on Microsoft Teams](https://amssea.asia/)|15 October, 2021|Online
+The Global AI Back Together|[Organizer](https://www.meetup.com/Pune-Tech-Community/events/280810012/)|21 October, 2021 at 6 PM IST|Online
 NYC Teams Tuesday - November|[Modern SharePoint Development](https://www.meetup.com/NYC-Teams-Tuesday/events/280337056/)|16 November, 2021 at 10:15 PM IST|Online
+The Global AI Bootcamp 2022|[Organizer](https://www.meetup.com/Pune-Tech-Community/events/280810067/)|15 January, 2022 at 10 AM IST|Online
 
 ## Past events
 
 **#**|**Event**|**Topic**|**When**|**Where**
+83|Azure Back to School 2021|[Monitor Office 365 Environment with Azure Sentinel](https://azurebacktoschool.github.io/)|19 September, 2021|Online
+82|Cloud Summit 2021|[Monitor Office 365 Logs from Azure Sentinel](https://azuresummit.live/)|14 September, 2021|Online
 81|India Cloud Security Summit, 2021|[Information Barriers in MS Teams](https://www.indiacloudsecuritysummit.com/#agenda)|28 August, 2021|Online
 80|Power Platform Bootcamp India|[Explore Microsoft Power Platform Center of Excellence](https://events.powercommunity.com/power-platform-bootcamp-india/)|28 August, 2021|Online
 79|Microsoft 365 Bootcamp 2021|[Power Platform and MS Teams: Better together](https://events.powercommunity.com/sessions/power-platform-and-ms-teams-better-together/)|21 August, 2021|Online
@@ -115,6 +117,7 @@ NYC Teams Tuesday - November|[Modern SharePoint Development](https://www.meetup.
 ## Event Organizer
 
 **#**|**Event**|**When**|**Where**
+08|[First Time Speaker Series 2021](https://www.meetup.com/Pune-Tech-Community/events/)|August 2021|Online
 07|[M365 Saturday Pune 2021](https://www.spsevents.org/event/punesps2021/)|20 March, 2021|Online
 06|[Global Power Platform Bootcamp 2021, India](https://www.eventbrite.fr/e/global-power-platform-bootcamp-india-2021-tickets-132998599391)|19 & 20 February, 2021|Online
 05|[Global Microsoft 365 Developer Bootcamp 2020, Pune](https://www.meetup.com/Pune-Tech-Community/events/272057386/)|24 & 25 October, 2020|Online
