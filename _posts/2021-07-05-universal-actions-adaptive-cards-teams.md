@@ -190,7 +190,7 @@ Adaptive Cards v1.4 offers unified experience for the developers. The developers
 ## References
 
 - [Adaptive Cards](https://adaptivecards.io/)
-- [Universal Actions for Adaptive Cards](https://docs.microsoft.com/en-us/microsoftteams/platform/task-modules-and-cards/cards/universal-actions-for-adaptive-cards/?WT.mc_id=M365-MVP-5003693)
+- [Universal Actions for Adaptive Cards](https://docs.microsoft.com/en-us/microsoftteams/platform/task-modules-and-cards/cards/universal-actions-for-adaptive-cards/overview?WT.mc_id=M365-MVP-5003693)
 - [User Specific Views](https://docs.microsoft.com/en-us/microsoftteams/platform/task-modules-and-cards/cards/universal-actions-for-adaptive-cards/user-specific-views/?WT.mc_id=M365-MVP-5003693)
 - [Sequential Workflows](https://docs.microsoft.com/en-us/microsoftteams/platform/task-modules-and-cards/cards/universal-actions-for-adaptive-cards/sequential-workflows/?WT.mc_id=M365-MVP-5003693)
 - [Up to date cards](https://docs.microsoft.com/en-us/microsoftteams/platform/task-modules-and-cards/cards/universal-actions-for-adaptive-cards/up-to-date-views/?WT.mc_id=M365-MVP-5003693)
