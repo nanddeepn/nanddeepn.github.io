@@ -12,6 +12,7 @@ toc: true
 I’ll be speaking at the following events.
 
 **Event**|**Topic**|**When**|**Where**
+Guest Speaker - Panimalar Institute of Technology, Chennai|[Introduction to Microsoft  Azure and Office 365](https://site.ieee.org/sb-pit/about-branch/)|19 October, 2021 at 6 PM IST|Online
 The Global AI Back Together|[Organizer](https://www.meetup.com/Pune-Tech-Community/events/280810012/)|21 October, 2021 at 6 PM IST|Online
 NYC Teams Tuesday - November|[Modern SharePoint Development](https://www.meetup.com/NYC-Teams-Tuesday/events/280337056/)|16 November, 2021 at 10:15 PM IST|Online
 D365 Champs|[Explore Microsoft Power Platform Center of Excellence](https://www.d365champions.com/html/event-details.php?id=33)|20 November, 2021 at 11 AM IST|Online
