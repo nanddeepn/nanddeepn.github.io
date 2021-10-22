@@ -120,7 +120,7 @@ The Global AI Bootcamp 2022|[Organizer](https://www.meetup.com/Pune-Tech-Communi
 ## Event Organizer
 
 **#**|**Event**|**When**|**Where**
-09|[The Global AI Back Together](https://www.meetup.com/Pune-Tech-Community/events/280810012/)|21 October, 2021|Online
+09|[The Global AI Back Together, Pune - 2021](https://globalai.community/global-ai-back-together/asia-global-ai-pune-4406/)|21 October, 2021|Online
 08|[First Time Speaker Series 2021](https://www.meetup.com/Pune-Tech-Community/events/)|August 2021|Online
 07|[M365 Saturday Pune 2021](https://www.spsevents.org/event/punesps2021/)|20 March, 2021|Online
 06|[Global Power Platform Bootcamp 2021, India](https://www.eventbrite.fr/e/global-power-platform-bootcamp-india-2021-tickets-132998599391)|19 & 20 February, 2021|Online
