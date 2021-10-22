@@ -12,8 +12,7 @@ toc: true
 I’ll be speaking at the following events.
 
 **Event**|**Topic**|**When**|**Where**
-Guest Speaker - [Panimalar Institute of Technology, Chennai](https://site.ieee.org/sb-pit/about-branch/)|[Introduction to Microsoft  Azure and Office 365](https://www.linkedin.com/feed/update/urn:li:activity:6855730460438474752/)|19 October, 2021 at 6 PM IST|Online
-The Global AI Back Together|[Organizer](https://www.meetup.com/Pune-Tech-Community/events/280810012/)|21 October, 2021 at 6 PM IST|Online
+Microsoft Ignite After Party| [Microsoft Teams: Thrive with Hybrid Work](https://www.meetup.com/Pune-Tech-Community/events/281519449/)|13 November, 2021 at 6 PM IST|Online
 aMS Germany|[Universal Actions for Adaptive Cards on Microsoft Teams](https://sessionize.com/ams-germany---16-11-2021/)|16 November, 2021 at 10:15 PM IST|Online
 NYC Teams Tuesday - November|[Modern SharePoint Development](https://www.meetup.com/NYC-Teams-Tuesday/events/280337056/)|16 November, 2021 at 10:15 PM IST|Online
 D365 Champs|[Explore Microsoft Power Platform Center of Excellence](https://www.d365champions.com/html/event-details.php?id=33)|20 November, 2021 at 11 AM IST|Online
@@ -22,6 +21,7 @@ The Global AI Bootcamp 2022|[Organizer](https://www.meetup.com/Pune-Tech-Communi
 ## Past events
 
 **#**|**Event**|**Topic**|**When**|**Where**
+86|Guest Speaker - [Panimalar Institute of Technology, Chennai](https://site.ieee.org/sb-pit/about-branch/)|[Introduction to Microsoft  Azure and Office 365](https://www.linkedin.com/feed/update/urn:li:activity:6855730460438474752/)|19 October, 2021|Online
 85|aMS Southeast Asia 2021|[Universal Actions for Adaptive Cards on Microsoft Teams](https://amssea.asia/)|15 October, 2021|Online
 84|Microsoft 365 UK (M365UK) User Group|[Information Barriers in Office 365](https://www.meetup.com/m365uk/)|13 October, 2021|Online
 83|Azure Back to School 2021|[Monitor Office 365 Environment with Azure Sentinel](https://azurebacktoschool.github.io/)|19 September, 2021|Online
@@ -120,6 +120,7 @@ The Global AI Bootcamp 2022|[Organizer](https://www.meetup.com/Pune-Tech-Communi
 ## Event Organizer
 
 **#**|**Event**|**When**|**Where**
+09|[The Global AI Back Together](https://www.meetup.com/Pune-Tech-Community/events/280810012/)|21 October, 2021|Online
 08|[First Time Speaker Series 2021](https://www.meetup.com/Pune-Tech-Community/events/)|August 2021|Online
 07|[M365 Saturday Pune 2021](https://www.spsevents.org/event/punesps2021/)|20 March, 2021|Online
 06|[Global Power Platform Bootcamp 2021, India](https://www.eventbrite.fr/e/global-power-platform-bootcamp-india-2021-tickets-132998599391)|19 & 20 February, 2021|Online
