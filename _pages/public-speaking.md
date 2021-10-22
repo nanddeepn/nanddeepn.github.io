@@ -22,8 +22,8 @@ The Global AI Bootcamp 2022|[Organizer](https://www.meetup.com/Pune-Tech-Communi
 
 **#**|**Event**|**Topic**|**When**|**Where**
 86|Guest Speaker - [Panimalar Institute of Technology, Chennai](https://site.ieee.org/sb-pit/about-branch/)|[Introduction to Microsoft  Azure and Office 365](https://www.linkedin.com/feed/update/urn:li:activity:6855730460438474752/)|19 October, 2021|Online
-85|aMS Southeast Asia 2021|[Universal Actions for Adaptive Cards on Microsoft Teams](https://amssea.asia/)|15 October, 2021|Online
-84|Microsoft 365 UK (M365UK) User Group|[Information Barriers in Office 365](https://www.meetup.com/m365uk/)|13 October, 2021|Online
+85|aMS Southeast Asia 2021|[Universal Actions for Adaptive Cards on Microsoft Teams](https://amssea.asia/Sessions/#sz-session-272970)|15 October, 2021|Online
+84|Microsoft 365 UK (M365UK) User Group|[Information Barriers in Office 365](https://www.meetup.com/m365uk/events/280958459/)|13 October, 2021|Online
 83|Azure Back to School 2021|[Monitor Office 365 Environment with Azure Sentinel](https://azurebacktoschool.github.io/)|19 September, 2021|Online
 82|Cloud Summit 2021|[Monitor Office 365 Logs from Azure Sentinel](https://azuresummit.live/)|14 September, 2021|Online
 81|India Cloud Security Summit, 2021|[Information Barriers in MS Teams](https://www.indiacloudsecuritysummit.com/#agenda)|28 August, 2021|Online
