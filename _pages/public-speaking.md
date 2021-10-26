@@ -13,9 +13,9 @@ I’ll be speaking at the following events.
 
 **Event**|**Topic**|**When**|**Where**
 Microsoft Ignite After Party| [Microsoft Teams: Thrive with Hybrid Work](https://www.meetup.com/Pune-Tech-Community/events/281519449/)|13 November, 2021 at 6 PM IST|Online
-aMS Germany|[Universal Actions for Adaptive Cards on Microsoft Teams](https://sessionize.com/ams-germany---16-11-2021/)|16 November, 2021 at 10:15 PM IST|Online
+aMS Germany|[Universal Actions for Adaptive Cards on Microsoft Teams](https://sessionize.com/ams-germany---16-11-2021/)|16 November, 2021|Online
 NYC Teams Tuesday - November|[Modern SharePoint Development](https://www.meetup.com/NYC-Teams-Tuesday/events/280337056/)|16 November, 2021 at 10:15 PM IST|Online
-D365 Champs|[Explore Microsoft Power Platform Center of Excellence](https://www.d365champions.com/html/event-details.php?id=33)|20 November, 2021 at 11 AM IST|Online
+D365 Champs|[Explore Microsoft Power Platform Center of Excellence](https://d365champions.com/html/gbaw2021_home/#eventschedule)|20 November, 2021 at 11 AM IST|Online
 The Global AI Bootcamp 2022|[Organizer](https://www.meetup.com/Pune-Tech-Community/events/280810067/)|15 January, 2022 at 10 AM IST|Online
 
 ## Past events
