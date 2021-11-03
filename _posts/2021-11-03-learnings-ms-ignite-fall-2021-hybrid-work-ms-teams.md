@@ -100,7 +100,6 @@ Use Whiteboard in Mesh experience.
 
 [What’s new in Microsoft 365—How we’re empowering everyone for a new world of hybrid work](https://www.microsoft.com/en-us/microsoft-365/blog/2021/11/02/whats-new-in-microsoft-365how-were-empowering-everyone-for-a-new-world-of-hybrid-work/)
 
-
 ## Digital Employee Experience – Microsoft Viva
 Viva builds on top of Microsoft Teams so people can find everything they need right in the flow of work. Viva has 4 modules
 1. Viva Connections
@@ -109,6 +108,16 @@ Viva builds on top of Microsoft Teams so people can find everything they need ri
 4. Viva Topics
 
 Acquisition of [Ally.io](https://ally.io/) brings in the 5th module focus on connecting work to strategic objectives.
+
+## Microsoft Ignite After Party
+Intersted to explore more?
+Following Microsoft Ignite, We will host After Parties to spark conversations around a pre-selected topic, bringing the content closer to our local communities!
+Join me along with my fellow MVP colleagues [Kirti Prajapati](https://www.linkedin.com/in/kirtiprajapati/), Siddharth Vaghasia(https://www.linkedin.com/in/siddharthvaghasia/), and Smita Nachan(https://www.linkedin.com/in/smitanachan/) on the discussion!
+- [Microsoft Ignite After Party - Microsoft Teams: Thrive with Hybrid Work](https://www.meetup.com/Pune-Tech-Community/events/281519449/)
+- [Microsoft Ignite After Party - Accelerate innovation with Power Platform](https://www.meetup.com/Pune-Tech-Community/events/281519495/)
+- [Microsoft Ignite After Party - Teams + Power Platform engage your entire workforce](https://www.meetup.com/m365ahmedabad/events/281519243/)
+- [Microsoft Ignite After Party-Microsoft Viva: The new digital employee experience](https://www.meetup.com/m365ahmedabad/events/281519285/)
+
 
 ## References
 - [Empower everyone for a new world of hybrid work](https://myignite.microsoft.com/sessions/4c7e0a4c-96ad-4f27-aa61-087ee16a7683) by Jared Spataro (Microsoft)
