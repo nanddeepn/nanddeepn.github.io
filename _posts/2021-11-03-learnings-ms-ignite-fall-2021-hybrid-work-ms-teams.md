@@ -112,7 +112,7 @@ Acquisition of [Ally.io](https://ally.io/) brings in the 5th module focus on con
 ## Microsoft Ignite After Party
 Intersted to explore more?
 Following Microsoft Ignite, We will host After Parties to spark conversations around a pre-selected topic, bringing the content closer to our local communities!
-Join me along with my fellow MVP colleagues [Kirti Prajapati](https://www.linkedin.com/in/kirtiprajapati/), Siddharth Vaghasia(https://www.linkedin.com/in/siddharthvaghasia/), and Smita Nachan(https://www.linkedin.com/in/smitanachan/) on the discussion!
+Join me along with my fellow MVP colleagues [Kirti Prajapati](https://www.linkedin.com/in/kirtiprajapati/), [Siddharth Vaghasia](https://www.linkedin.com/in/siddharthvaghasia/), and [Smita Nachan](https://www.linkedin.com/in/smitanachan/) on the discussion!
 - [Microsoft Ignite After Party - Microsoft Teams: Thrive with Hybrid Work](https://www.meetup.com/Pune-Tech-Community/events/281519449/)
 - [Microsoft Ignite After Party - Accelerate innovation with Power Platform](https://www.meetup.com/Pune-Tech-Community/events/281519495/)
 - [Microsoft Ignite After Party - Teams + Power Platform engage your entire workforce](https://www.meetup.com/m365ahmedabad/events/281519243/)
