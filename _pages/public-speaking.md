@@ -17,6 +17,7 @@ aMS Germany|[Universal Actions for Adaptive Cards on Microsoft Teams](https://am
 NYC Teams Tuesday - November|[Modern SharePoint Development](https://www.meetup.com/NYC-Teams-Tuesday/events/280337056/)|16 November, 2021 at 10:15 PM IST|Online
 D365 Champs|[Explore Microsoft Power Platform Center of Excellence](https://d365champions.com/html/gbaw2021_home/#eventschedule)|20 November, 2021 at 11 AM IST|Online
 MCT West Africa Cloud Bootcamp 2021|[Microsoft Viva Connections - Set up and Extend with SPFx](https://mctwestafrica.com/)|26 November, 2021|Online
+M365 Saturday Bangalore 2021|[Microsoft Viva Connections - Set up and Extend with SPFx](https://www.m365event.com/)|11 December, 2021|Online
 The Global AI Bootcamp 2022|[Organizer](https://www.meetup.com/Pune-Tech-Community/events/280810067/)|15 January, 2022 at 10 AM IST|Online
 
 ## Past events
