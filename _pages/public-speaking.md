@@ -12,17 +12,17 @@ toc: true
 I’ll be speaking at the following events.
 
 **Event**|**Topic**|**When**|**Where**
-Microsoft Ignite After Party| [Microsoft Teams: Thrive with Hybrid Work](https://www.meetup.com/Pune-Tech-Community/events/281519449/)|13 November, 2021 at 6 PM IST|Online
 aMS Germany|[Universal Actions for Adaptive Cards on Microsoft Teams](https://ams.community/ams-germany-16-11-2021/)|16 November, 2021 at 6 PM IST|Online
 NYC Teams Tuesday - November|[Modern SharePoint Development](https://www.meetup.com/NYC-Teams-Tuesday/events/280337056/)|16 November, 2021 at 10:15 PM IST|Online
 D365 Champs|[Explore Microsoft Power Platform Center of Excellence](https://d365champions.com/html/gbaw2021_home/#eventschedule)|20 November, 2021 at 11 AM IST|Online
-MCT West Africa Cloud Bootcamp 2021|[Microsoft Viva Connections - Set up and Extend with SPFx](https://mctwestafrica.com/)|26 November, 2021|Online
+MCT West Africa Cloud Bootcamp 2021|[Microsoft Viva Connections - Set up and Extend with SPFx](https://mctwestafrica.com/)|28 November, 2021 at 10 PM IST|Online
 M365 Saturday Bangalore 2021|[Microsoft Viva Connections - Set up and Extend with SPFx](https://www.m365event.com/)|11 December, 2021|Online
 The Global AI Bootcamp 2022|[Organizer](https://www.meetup.com/Pune-Tech-Community/events/280810067/)|15 January, 2022 at 10 AM IST|Online
 
 ## Past events
 
 **#**|**Event**|**Topic**|**When**|**Where**
+87|Microsoft Ignite After Party| [Microsoft Teams: Thrive with Hybrid Work](https://www.meetup.com/Pune-Tech-Community/events/281519449/)|13 November, 2021|Online
 86|Guest Speaker - [Panimalar Institute of Technology, Chennai](https://site.ieee.org/sb-pit/about-branch/)|[Introduction to Microsoft  Azure and Office 365](https://www.linkedin.com/feed/update/urn:li:activity:6855730460438474752/)|19 October, 2021|Online
 85|aMS Southeast Asia 2021|[Universal Actions for Adaptive Cards on Microsoft Teams](https://amssea.asia/Sessions/#sz-session-272970)|15 October, 2021|Online
 84|Microsoft 365 UK (M365UK) User Group|[Information Barriers in Office 365](https://www.meetup.com/m365uk/events/280958459/)|13 October, 2021|Online
