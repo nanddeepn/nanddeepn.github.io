@@ -4,7 +4,7 @@ title: "Public Speaking"
 
 layout: archive
 author_profile: true
-last_modified_at: 2021-07-16T15:46:43-04:00
+last_modified_at: 2021-11-16T15:46:43-04:00
 toc: true
 ---
 
@@ -12,8 +12,6 @@ toc: true
 I’ll be speaking at the following events.
 
 **Event**|**Topic**|**When**|**Where**
-aMS Germany|[Universal Actions for Adaptive Cards on Microsoft Teams](https://ams.community/ams-germany-16-11-2021/)|16 November, 2021 at 6 PM IST|Online
-NYC Teams Tuesday - November|[Modern SharePoint Development](https://www.meetup.com/NYC-Teams-Tuesday/events/280337056/)|16 November, 2021 at 10:15 PM IST|Online
 D365 Champs|[Explore Microsoft Power Platform Center of Excellence](https://d365champions.com/html/gbaw2021_home/#eventschedule)|20 November, 2021 at 11 AM IST|Online
 MCT West Africa Cloud Bootcamp 2021|[Microsoft Viva Connections - Set up and Extend with SPFx](https://mctwestafrica.com/)|28 November, 2021 at 10 PM IST|Online
 M365 Saturday Bangalore 2021|[Microsoft Viva Connections - Set up and Extend with SPFx](https://www.m365event.com/)|11 December, 2021|Online
@@ -22,6 +20,8 @@ The Global AI Bootcamp 2022|[Organizer](https://www.meetup.com/Pune-Tech-Communi
 ## Past events
 
 **#**|**Event**|**Topic**|**When**|**Where**
+89|NYC Teams Tuesday - November|[Modern SharePoint Development](https://www.meetup.com/NYC-Teams-Tuesday/events/280337056/)|16 November, 2021|Online
+88|aMS Germany|[Universal Actions for Adaptive Cards on Microsoft Teams](https://ams.community/ams-germany-16-11-2021/)|16 November, 2021|Online
 87|Microsoft Ignite After Party| [Microsoft Teams: Thrive with Hybrid Work](https://www.meetup.com/Pune-Tech-Community/events/281519449/)|13 November, 2021|Online
 86|Guest Speaker - [Panimalar Institute of Technology, Chennai](https://site.ieee.org/sb-pit/about-branch/)|[Introduction to Microsoft  Azure and Office 365](https://www.linkedin.com/feed/update/urn:li:activity:6855730460438474752/)|19 October, 2021|Online
 85|aMS Southeast Asia 2021|[Universal Actions for Adaptive Cards on Microsoft Teams](https://amssea.asia/Sessions/#sz-session-272970)|15 October, 2021|Online
