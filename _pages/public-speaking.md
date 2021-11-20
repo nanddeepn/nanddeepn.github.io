@@ -19,7 +19,7 @@ The Global AI Bootcamp 2022|[Organizer](https://www.meetup.com/Pune-Tech-Communi
 ## Past events
 
 **#**|**Event**|**Topic**|**When**|**Where**
-90|D365 Champs|[Explore Microsoft Power Platform Center of Excellence](https://d365champions.com/html/gbaw2021_home/#eventschedule)|20 November, 2021|Online
+90|Global Biz Apps Weekend by D365 Champs|[Explore Microsoft Power Platform Center of Excellence](https://d365champions.com/html/gbaw2021_home/#eventschedule)|20 November, 2021|Online
 89|NYC Teams Tuesday - November|[Modern SharePoint Development](https://www.meetup.com/NYC-Teams-Tuesday/events/280337056/)|16 November, 2021|Online
 88|aMS Germany|[Universal Actions for Adaptive Cards on Microsoft Teams](https://ams.community/ams-germany-16-11-2021/)|16 November, 2021|Online
 87|Microsoft Ignite After Party| [Microsoft Teams: Thrive with Hybrid Work](https://www.meetup.com/Pune-Tech-Community/events/281519449/)|13 November, 2021|Online
