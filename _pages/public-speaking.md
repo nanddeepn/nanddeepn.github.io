@@ -14,6 +14,7 @@ I’ll be speaking at the following events.
 **Event**|**Topic**|**When**|**Where**
 M365 Saturday Bangalore 2021|[Microsoft Viva Connections - Set up and Extend with SPFx](https://www.m365event.com/#agenda)|11 December, 2021 at 12:35 PM IST|Online
 The Global AI Bootcamp 2022|[Organizer](https://www.meetup.com/Pune-Tech-Community/events/280810067/)|15 January, 2022 at 10 AM IST|Online
+Microsoft Teams Day Online 5|[Deploy Microsoft Viva Connections to MS Teams and Extend with SPFx](https://teamsdayonline.com/)|6-7 April, 2022|Online
 
 ## Past events
 
