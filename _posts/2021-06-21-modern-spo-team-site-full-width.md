@@ -33,7 +33,7 @@ Follow the below steps to turn off the left navigation and make use of Team site
 2. Under **Look and Feel**, click **Navigation Elements**.
 3. Deselect **Enable Quick Launch**.
 
-    ![](/media/2021-06-21-modern-spo-team-site-full-width/01.png)
+    ![](/media/2021-06-21-modern-spo-team-site-full-width/02.png)
 
 4. Click **OK**.
 
@@ -57,7 +57,7 @@ $web.Update()
 
 Once the quick launch is disabled, the Team site will be turned in to full width site experience.
 
-![](/media/2021-06-21-modern-spo-team-site-full-width/01.png)
+![](/media/2021-06-21-modern-spo-team-site-full-width/03.png)
 
 ## Summary
 
