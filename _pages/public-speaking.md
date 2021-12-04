@@ -19,6 +19,7 @@ Microsoft Teams Day Online 5|[Deploy Microsoft Viva Connections to MS Teams and 
 ## Past events
 
 **#**|**Event**|**Topic**|**When**|**Where**
+92|Global Microsoft Hindi Event|[Deploy Microsoft Viva to MS Teams and extend with SPFx](https://www.globaldevcommunity.com/schedule-1)|04 December, 2021|Online
 91|MCT West Africa Cloud Bootcamp 2021|[Microsoft Viva Connections - Set up and Extend with SPFx](https://mctwestafrica.com/schedule/microsoft-viva-connections-set-up-and-extend-with-spfx/)|28 November, 2021|Online
 90|Global Biz Apps Weekend by D365 Champs|[Explore Microsoft Power Platform Center of Excellence](https://d365champions.com/html/gbaw2021_home/#eventschedule)|20 November, 2021|Online
 89|NYC Teams Tuesday - November|[Modern SharePoint Development](https://www.meetup.com/NYC-Teams-Tuesday/events/280337056/)|16 November, 2021|Online
