@@ -12,7 +12,6 @@ toc: true
 I’ll be speaking at the following events.
 
 **Event**|**Topic**|**When**|**Where**
-M365 Saturday Bangalore 2021|[Microsoft Viva Connections - Set up and Extend with SPFx](https://www.m365event.com/#agenda)|11 December, 2021 at 12:35 PM IST|Online
 The Global AI Bootcamp 2022|[Organizer](https://www.meetup.com/Pune-Tech-Community/events/280810067/)|15 January, 2022 at 10 AM IST|Online
 Modern Workplace Conference Paris 2022|[Microsoft Viva Connections - Set up and Extend with SPFx](https://modern-workplace.pro/)|26 January, 2022 at 3:15 PM IST|Online
 Global Power Platform Bootcamp 2022|[Organizer](https://www.powerplatformbootcamp.com/2022/location-detail/?id=8284762c-ed4d-ec11-a3ee-281878f66d01&city=Pune%20Tech%20Community)|19 February, 2022|Online
@@ -21,6 +20,7 @@ Microsoft Teams Day Online 5|[Deploy Microsoft Viva Connections to MS Teams and 
 ## Past events
 
 **#**|**Event**|**Topic**|**When**|**Where**
+93|M365 Saturday Bangalore 2021|[Microsoft Viva Connections - Set up and Extend with SPFx](https://www.m365event.com/#agenda)|11 December, 2021|Online
 92|Global Microsoft Hindi Event|[Deploy Microsoft Viva to MS Teams and extend with SPFx](https://www.globaldevcommunity.com/schedule-1)|04 December, 2021|Online
 91|MCT West Africa Cloud Bootcamp 2021|[Microsoft Viva Connections - Set up and Extend with SPFx](https://mctwestafrica.com/schedule/microsoft-viva-connections-set-up-and-extend-with-spfx/)|28 November, 2021|Online
 90|Global Biz Apps Weekend by D365 Champs|[Explore Microsoft Power Platform Center of Excellence](https://d365champions.com/html/gbaw2021_home/#eventschedule)|20 November, 2021|Online
