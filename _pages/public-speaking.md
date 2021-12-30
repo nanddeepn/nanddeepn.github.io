@@ -15,6 +15,7 @@ I’ll be speaking at the following events.
 M365 Below in Chicago|[All about Microsoft Viva Connections](https://m365chicago.com/sessions.html)|14 January, 2022 at 9 AM IST|Online
 The Global AI Bootcamp 2022|[Organizer](https://www.meetup.com/Pune-Tech-Community/events/280810067/)|15 January, 2022 at 10 AM IST|Online
 Modern Workplace Conference Paris 2022|[Microsoft Viva Connections - Set up and Extend with SPFx](https://modern-workplace.pro/)|26 January, 2022 at 3:15 PM IST|Online
+TeamscommunityDay 2022 - Karlsruhe|[Deploy Microsoft Viva Connections to MS Teams and Extend with SPFx](https://www.teamscommunityday.de/)|28 January, 2022|Online
 Global Power Platform Bootcamp 2022|[Organizer](https://www.powerplatformbootcamp.com/2022/location-detail/?id=8284762c-ed4d-ec11-a3ee-281878f66d01&city=Pune%20Tech%20Community)|19 February, 2022|Online
 Microsoft Teams Day Online 5|[Deploy Microsoft Viva Connections to MS Teams and Extend with SPFx](https://teamsdayonline.com/)|6-7 April, 2022|Online
 
