@@ -12,7 +12,7 @@ toc: true
 I’ll be speaking at the following events.
 
 **Event**|**Topic**|**When**|**Where**
-M365 Below in Chicago|[All about Microsoft Viva Connections](https://m365chicago.com/sessions.html)|14 January, 2022 at 9 AM IST|Online
+M365 Below in Chicago|[All about Microsoft Viva Connections](https://m365chicago.com/sessions.html)|14 January, 2022 at 8:30 PM IST|Online
 The Global AI Bootcamp 2022|[Organizer](https://www.meetup.com/Pune-Tech-Community/events/280810067/)|15 January, 2022 at 10 AM IST|Online
 Modern Workplace Conference Paris 2022|[Microsoft Viva Connections - Set up and Extend with SPFx](https://modern-workplace.pro/)|26 January, 2022 at 3:15 PM IST|Online
 TeamscommunityDay 2022 - Karlsruhe|[Deploy Microsoft Viva Connections to MS Teams and Extend with SPFx](https://www.teamscommunityday.de/)|28 January, 2022|Online
