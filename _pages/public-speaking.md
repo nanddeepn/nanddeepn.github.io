@@ -12,16 +12,17 @@ toc: true
 I’ll be speaking at the following events.
 
 **Event**|**Topic**|**When**|**Where**
-M365 Below in Chicago|[All about Microsoft Viva Connections](https://m365chicago.com/sessions.html)|14 January, 2022 at 7:30 PM IST|Online
-The Global AI Bootcamp 2022|[Organizer](https://www.meetup.com/Pune-Tech-Community/events/280810067/)|15 January, 2022 at 10 AM IST|Online
 Modern Workplace Conference Paris 2022|[Microsoft Viva Connections - Set up and Extend with SPFx](https://modern-workplace.pro/)|26 January, 2022 at 3:15 PM IST|Online
 TeamscommunityDay 2022 - Karlsruhe|[Deploy Microsoft Viva Connections to MS Teams and Extend with SPFx](https://www.teamscommunityday.de/)|28 January, 2022|Online
 Global Power Platform Bootcamp 2022|[Organizer](https://www.powerplatformbootcamp.com/2022/location-detail/?id=8284762c-ed4d-ec11-a3ee-281878f66d01&city=Pune%20Tech%20Community)|19 February, 2022|Online
+Canadian Cloud Summit 2022|[Microsoft Viva Connections - Set up and Extend with SPFx](https://www.canadiancloudsummit.com/)|17 February, 2022 at 12:30 AM IST|Online
 Microsoft Teams Day Online 5|[Deploy Microsoft Viva Connections to MS Teams and Extend with SPFx](https://teamsdayonline.com/)|6-7 April, 2022|Online
+PnP Community Call|[ACE - My Groups](https://aka.ms/m365pnp)|7 April, 2022|Online
 
 ## Past events
 
 **#**|**Event**|**Topic**|**When**|**Where**
+94|M365 Chicago|[All about Microsoft Viva Connections](https://m365chicago.com/sessions.html)|14 January, 2022|Online
 93|M365 Saturday Bangalore 2021|[Microsoft Viva Connections - Set up and Extend with SPFx](https://www.m365event.com/#agenda)|11 December, 2021|Online
 92|Global Microsoft Hindi Event|[Deploy Microsoft Viva to MS Teams and extend with SPFx](https://www.globaldevcommunity.com/schedule-1)|04 December, 2021|Online
 91|MCT West Africa Cloud Bootcamp 2021|[Microsoft Viva Connections - Set up and Extend with SPFx](https://mctwestafrica.com/schedule/microsoft-viva-connections-set-up-and-extend-with-spfx/)|28 November, 2021|Online
@@ -128,7 +129,8 @@ Microsoft Teams Day Online 5|[Deploy Microsoft Viva Connections to MS Teams and 
 ## Event Organizer
 
 **#**|**Event**|**When**|**Where**
-09|[The Global AI Back Together, Pune - 2021](https://globalai.community/global-ai-back-together/asia-global-ai-pune-4406/)|21 October, 2021|Online
+10|[The Global AI Bootcamp 2022, Pune 2022](https://www.meetup.com/Pune-Tech-Community/events/280810067/)|15 January, 2022|Online
+09|[The Global AI Back Together, Pune 2021](https://globalai.community/global-ai-back-together/asia-global-ai-pune-4406/)|21 October, 2021|Online
 08|[First Time Speaker Series 2021](https://www.meetup.com/Pune-Tech-Community/events/)|August 2021|Online
 07|[M365 Saturday Pune 2021](https://www.spsevents.org/event/punesps2021/)|20 March, 2021|Online
 06|[Global Power Platform Bootcamp 2021, India](https://www.eventbrite.fr/e/global-power-platform-bootcamp-india-2021-tickets-132998599391)|19 & 20 February, 2021|Online
