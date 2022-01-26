@@ -12,7 +12,7 @@ toc: true
 I’ll be speaking at the following events.
 
 **Event**|**Topic**|**When**|**Where**
-TeamscommunityDay 2022 - Karlsruhe|[Deploy Microsoft Viva Connections to MS Teams and Extend with SPFx](https://www.teamscommunityday.de/)|28 January, 2022|Online
+TeamscommunityDay 2022 - Karlsruhe|[Deploy Microsoft Viva Connections to MS Teams and Extend with SPFx](https://teamscommunityday-cologne-and-central.sessionize.com/session/314132)|28 January, 2022|Online
 Canadian Cloud Summit 2022|[Microsoft Viva Connections - Set up and Extend with SPFx](https://www.canadiancloudsummit.com/)|17 February, 2022 at 12:30 AM IST|Online
 Global Power Platform Bootcamp 2022|[Organizer](https://www.powerplatformbootcamp.com/2022/location-detail/?id=8284762c-ed4d-ec11-a3ee-281878f66d01&city=Pune%20Tech%20Community)|19 February, 2022|Online
 Microsoft Teams Day Online 5|[Deploy Microsoft Viva Connections to MS Teams and Extend with SPFx](https://teamsdayonline.com/)|6-7 April, 2022|Online
