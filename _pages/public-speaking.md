@@ -12,16 +12,16 @@ toc: true
 I’ll be speaking at the following events.
 
 **Event**|**Topic**|**When**|**Where**
-Modern Workplace Conference Paris 2022|[Microsoft Viva Connections - Set up and Extend with SPFx](https://modern-workplace.pro/)|26 January, 2022 at 3:15 PM IST|Online
 TeamscommunityDay 2022 - Karlsruhe|[Deploy Microsoft Viva Connections to MS Teams and Extend with SPFx](https://www.teamscommunityday.de/)|28 January, 2022|Online
-Global Power Platform Bootcamp 2022|[Organizer](https://www.powerplatformbootcamp.com/2022/location-detail/?id=8284762c-ed4d-ec11-a3ee-281878f66d01&city=Pune%20Tech%20Community)|19 February, 2022|Online
 Canadian Cloud Summit 2022|[Microsoft Viva Connections - Set up and Extend with SPFx](https://www.canadiancloudsummit.com/)|17 February, 2022 at 12:30 AM IST|Online
+Global Power Platform Bootcamp 2022|[Organizer](https://www.powerplatformbootcamp.com/2022/location-detail/?id=8284762c-ed4d-ec11-a3ee-281878f66d01&city=Pune%20Tech%20Community)|19 February, 2022|Online
 Microsoft Teams Day Online 5|[Deploy Microsoft Viva Connections to MS Teams and Extend with SPFx](https://teamsdayonline.com/)|6-7 April, 2022|Online
 PnP Community Call|[ACE - My Groups](https://aka.ms/m365pnp)|7 April, 2022|Online
 
 ## Past events
 
 **#**|**Event**|**Topic**|**When**|**Where**
+95|Modern Workplace Conference Paris 2022|[Microsoft Viva Connections - Set up and Extend with SPFx](https://modern-workplace.pro/agenda-2022/#page-content)|26 January, 2022|Online
 94|M365 Chicago|[All about Microsoft Viva Connections](https://m365chicago.com/sessions.html)|14 January, 2022|Online
 93|M365 Saturday Bangalore 2021|[Microsoft Viva Connections - Set up and Extend with SPFx](https://www.m365event.com/#agenda)|11 December, 2021|Online
 92|Global Microsoft Hindi Event|[Deploy Microsoft Viva to MS Teams and extend with SPFx](https://www.globaldevcommunity.com/schedule-1)|04 December, 2021|Online
