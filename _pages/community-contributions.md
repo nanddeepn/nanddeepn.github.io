@@ -10,6 +10,7 @@ toc: true
 ## Code Contributions
 
 **Contribution**|**Topic**|**When**
+PnP Microsoft Viva Connections Adaptive Card Sample|[My M365 Groups](https://github.com/pnp/sp-dev-fx-aces/tree/main/samples/PrimaryTextCard-My-M365-Groups)|07 January, 2022
 PnP Teams Bot Sample|[MS Teams Incident Management Bot](https://github.com/pnp/teams-dev-samples/tree/main/samples/bot-teams-incidentmanagement)|12 July, 2021
 PnP SPFx Web Part Sample|[Questionnaire Teams Meeting App](https://github.com/pnp/sp-dev-fx-webparts/tree/master/samples/react-teams-meeting-app-questionnaire)|22 March, 2021
 PnP SPFx Web Part Sample|[Timeline](https://github.com/pnp/sp-dev-fx-webparts/tree/master/samples/react-timeline)|11 July, 2020
