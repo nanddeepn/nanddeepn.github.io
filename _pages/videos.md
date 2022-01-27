@@ -8,7 +8,7 @@ last_modified_at: 2019-08-27T15:46:43-04:00
 toc: true
 ---
 
-If you are enjoying these videos, make sure you subscribe to my YouTube channel and also click on the bell icon to get notified whenever I publish new videos!
+If you are enjoying these videos, make sure you subscribe to [my YouTube channel](https://www.youtube.com/c/NanddeepNachan) and also click on the bell icon to get notified whenever I publish new videos!
 
 <style>
 .fluid-width-video-wrapper:first-of-type {padding-top: 0px !important}
