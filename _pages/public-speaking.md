@@ -12,7 +12,6 @@ toc: true
 I’ll be speaking at the following events.
 
 **Event**|**Topic**|**When**|**Where**
-Global Power Platform Bootcamp 2022|[Organizer](https://www.powerplatformbootcamp.com/2022/location-detail/?id=8284762c-ed4d-ec11-a3ee-281878f66d01&city=Pune%20Tech%20Community)|19 February, 2022|Online
 Teams Nation 2022|[Building apps for Teams meetings](https://www.teamsnation.online/schedule/)|23 March, 2022 at 2:30 PM IST|Online
 Microsoft Teams Day Online 5|[Deploy Microsoft Viva Connections to MS Teams and Extend with SPFx](https://teamsdayonline.com/)|6-7 April, 2022|Online
 PnP Community Call|[ACE - My Groups](https://aka.ms/m365pnp)|7 April, 2022|Online
@@ -130,6 +129,7 @@ PnP Community Call|[ACE - My Groups](https://aka.ms/m365pnp)|7 April, 2022|Onlin
 ## Event Organizer
 
 **#**|**Event**|**When**|**Where**
+11|[Global Power Platform Bootcamp 2022, Pune](https://www.powerplatformbootcamp.com/2022/location-detail/?id=8284762c-ed4d-ec11-a3ee-281878f66d01&city=Pune%20Tech%20Community)|19 February, 2022|Online
 10|[The Global AI Bootcamp 2022, Pune 2022](https://www.meetup.com/Pune-Tech-Community/events/280810067/)|15 January, 2022|Online
 09|[The Global AI Back Together, Pune 2021](https://globalai.community/global-ai-back-together/asia-global-ai-pune-4406/)|21 October, 2021|Online
 08|[First Time Speaker Series 2021](https://www.meetup.com/Pune-Tech-Community/events/)|August 2021|Online
