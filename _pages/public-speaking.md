@@ -16,6 +16,8 @@ philly.NET Code Camp 2022|[Bring your SharePoint apps to MS Teams](https://www.m
 Teams Nation 2022|[Building apps for Teams meetings](https://www.teamsnation.online/schedule/)|23 March, 2022 at 2:30 PM IST|Online
 Microsoft Teams Day Online 5|[Deploy Microsoft Viva Connections to MS Teams and Extend with SPFx](https://teamsdayonline.com/)|6-7 April, 2022|Online
 PnP Community Call|[ACE - My Groups](https://aka.ms/m365pnp)|7 April, 2022|Online
+Microsoft 365 Virtual Marathon 2022|[Build engaging meeting experiences for MS Teams with Apps](https://www.m365virtualmarathon.com/)|4 May, 2022|Online
+Microsoft 365 Virtual Marathon 2022|[Universal Actions for Adaptive Cards on Microsoft Teams](https://www.m365virtualmarathon.com/)|4 May, 2022|Online
 
 ## Past events
 
