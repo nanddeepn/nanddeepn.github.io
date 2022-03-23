@@ -20,7 +20,7 @@ Microsoft 365 Virtual Marathon 2022|[Universal Actions for Adaptive Cards on Mic
 ## Past events
 
 **#**|**Event**|**Topic**|**When**|**Where**
-99|Teams Nation 2022|[Building apps for Teams meetings](https://www.teamsnation.online/schedule/)|23 March, 2022|Online
+99|Teams Nation Community Conference 2022|[Building apps for Teams meetings](https://www.teamsnation.online/schedule/)|23 March, 2022|Online
 98|philly.NET Code Camp 2022|[Bring your SharePoint apps to MS Teams](https://philly-net-code-camp-2022.sessionize.com/session/319224)|04 March, 2022|Online
 97|Canadian Cloud Summit 2022|[Microsoft Viva Connections - Set up and Extend with SPFx](https://www.canadiancloudsummit.com/)|17 February, 2022|Online
 96|Teams Community Day 2022 - Cologne|[Deploy Microsoft Viva Connections to MS Teams and Extend with SPFx](https://teamscommunityday-cologne-and-central.sessionize.com/session/314132)|28 January, 2022|Online
