@@ -12,14 +12,14 @@ toc: true
 I’ll be speaking at the following events.
 
 **Event**|**Topic**|**When**|**Where**
-Microsoft Teams Day Online 5|[Deploy Microsoft Viva Connections to MS Teams and Extend with SPFx](https://teamsdayonline.com/)|6-7 April, 2022|Online
-PnP Community Call|[ACE - My Groups](https://aka.ms/m365pnp)|7 April, 2022|Online
 Microsoft 365 Virtual Marathon 2022|[Build engaging meeting experiences for MS Teams with Apps](https://www.m365virtualmarathon.com/)|4 May, 2022|Online
 Microsoft 365 Virtual Marathon 2022|[Universal Actions for Adaptive Cards on Microsoft Teams](https://www.m365virtualmarathon.com/)|4 May, 2022|Online
+Global Azure Bootcamp 2022 - Pune|[Organizer](https://www.meetup.com/Pune-Tech-Community/events/285099113/)|7 May, 2022|Online
 
 ## Past events
 
 **#**|**Event**|**Topic**|**When**|**Where**
+100|Teams 10x Virtual Summit|[Deploy Microsoft Viva Connections to MS Teams and Extend with SPFx](https://teamsdayonline.com/schedule-3)|7 April, 2022|Online
 99|Teams Nation Community Conference 2022|[Building apps for Teams meetings](https://www.teamsnation.online/schedule/)|23 March, 2022|Online
 98|philly.NET Code Camp 2022|[Bring your SharePoint apps to MS Teams](https://philly-net-code-camp-2022.sessionize.com/session/319224)|04 March, 2022|Online
 97|Canadian Cloud Summit 2022|[Microsoft Viva Connections - Set up and Extend with SPFx](https://www.canadiancloudsummit.com/)|17 February, 2022|Online
