@@ -15,6 +15,7 @@ I’ll be speaking at the following events.
 Microsoft 365 Virtual Marathon 2022|[Build engaging meeting experiences for MS Teams with Apps](https://www.m365virtualmarathon.com/)|04 May, 2022|Online
 Microsoft 365 Virtual Marathon 2022|[Universal Actions for Adaptive Cards on Microsoft Teams](https://www.m365virtualmarathon.com/)|04 May, 2022|Online
 Global Azure Bootcamp 2022 - Pune|[Organizer](https://www.meetup.com/Pune-Tech-Community/events/285099113/)|07 May, 2022|Online
+Microsoft Viva Days 2022|[Microsoft Viva Connections - Set up and Extend with SPFx](https://sessionize.com/microsoft-viva-days-2022/)|14 May, 2022|Online
 
 ## Past events
 
