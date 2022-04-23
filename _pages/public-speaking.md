@@ -16,7 +16,7 @@ Pune Tech Community Monthly Meetup, April 2022|[Power Platform Custom Connector:
 Microsoft 365 Virtual Marathon 2022|[Universal Actions for Adaptive Cards on Microsoft Teams](https://www.m365virtualmarathon.com/)|05 May, 2022 at 9:30 AM IST|Online
 Microsoft 365 Virtual Marathon 2022|[Build engaging meeting experiences for MS Teams with Apps](https://www.m365virtualmarathon.com/)|05 May, 2022 at 10:30 AM IST|Online
 Global Azure Bootcamp 2022 - Pune|[Organizer](https://www.meetup.com/Pune-Tech-Community/events/285099113/)|07 May, 2022|Online
-Microsoft Viva Days 2022|[Microsoft Viva Connections - Set up and Extend with SPFx](https://sessionize.com/microsoft-viva-days-2022/)|14 May, 2022|Online
+Microsoft Viva Days 2022|[Microsoft Viva Connections - Set up and Extend with SPFx](https://sessionize.com/microsoft-viva-days-2022/)|14 May, 2022 at 1:15 PM IST|Online
 Microsoft Build|[Device and cloud solutions strategies to reduce your climate impact, Humans of IT](https://mybuild.microsoft.com)|25 May, 2022 at 9:30 PM IST|Online
 Azure for All|[Power Apps for Azure Cloud Professionals](https://www.linkedin.com/company/dearazure/)|04 June, 2022 at 11 AM IST|Online
 Hyderabad Power Platform User Group|[Custom Connectors in Power Platform](https://powerusers.microsoft.com/t5/Hyderabad-Power-Platform-User/gh-p/pp_Hyderabad_usergroup)|11 June, 2022|Online
