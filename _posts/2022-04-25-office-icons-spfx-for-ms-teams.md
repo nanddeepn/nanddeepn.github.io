@@ -63,6 +63,7 @@ Add the web part as Teams personal app or Teams tab. One thing, you will notice 
 ## The Solution
 
 As per the resolution mentioned in the reference URL (i.e., [https://github.com/microsoft/fluentui/wiki/Using-icons](https://github.com/microsoft/fluentui/wiki/Using-icons)), 
+
 *By default, the font-based Fluent UI icons are not added to your bundle or loaded on the page, in order to save bytes for scenarios where you don't care about icons, or you only care about a subset.*
 
 If you have upgraded to use Fluent UI, add below import to the web part.
