@@ -12,10 +12,10 @@ toc: true
 I’ll be speaking at the following events.
 
 **Event**|**Topic**|**When**|**Where**
-Global Azure Bootcamp 2022 - Pune|[Organizer](https://www.meetup.com/Pune-Tech-Community/events/285099113/)|07 May, 2022|Online
 Microsoft Viva Days 2022|[Microsoft Viva Connections - Set up and Extend with SPFx](https://sessionize.com/microsoft-viva-days-2022/)|14 May, 2022 at 1:15 PM IST|Online
 Microsoft Build|[Device and cloud solutions strategies to reduce your climate impact, Humans of IT](https://mybuild.microsoft.com)|25 May, 2022 at 9:30 PM IST|Online
 Azure for All|[Power Apps for Azure Cloud Professionals](https://www.linkedin.com/company/dearazure/)|05 June, 2022 at 11 AM IST|Online
+PnP Microsoft Dev Bi-weekly call|[Sessionize Custom Connector](https://pnp.github.io/#home)|09 June, 2022 at 7:30 PM IST|Online
 Hyderabad Power Platform User Group|[Custom Connectors in Power Platform](https://powerusers.microsoft.com/t5/Hyderabad-Power-Platform-User/gh-p/pp_Hyderabad_usergroup)|11 June, 2022|Online
 
 ## Past events
@@ -137,6 +137,7 @@ Hyderabad Power Platform User Group|[Custom Connectors in Power Platform](https:
 ## Event Organizer
 
 **#**|**Event**|**When**|**Where**
+12|Global Azure Bootcamp 2022 - Pune|[Organizer](https://www.meetup.com/Pune-Tech-Community/events/285099113/)|07 May, 2022|Online
 11|[Global Power Platform Bootcamp 2022, Pune](https://www.powerplatformbootcamp.com/2022/location-detail/?id=8284762c-ed4d-ec11-a3ee-281878f66d01&city=Pune%20Tech%20Community)|19 February, 2022|Online
 10|[The Global AI Bootcamp 2022, Pune 2022](https://www.meetup.com/Pune-Tech-Community/events/280810067/)|15 January, 2022|Online
 09|[The Global AI Back Together, Pune 2021](https://globalai.community/global-ai-back-together/asia-global-ai-pune-4406/)|21 October, 2021|Online
