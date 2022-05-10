@@ -137,7 +137,7 @@ Hyderabad Power Platform User Group|[Custom Connectors in Power Platform](https:
 ## Event Organizer
 
 **#**|**Event**|**When**|**Where**
-12|Global Azure Bootcamp 2022 - Pune|[Organizer](https://www.meetup.com/Pune-Tech-Community/events/285099113/)|07 May, 2022|Online
+12|[Global Azure Bootcamp 2022, Pune](https://www.meetup.com/Pune-Tech-Community/events/285099113/)|07 May, 2022|Online
 11|[Global Power Platform Bootcamp 2022, Pune](https://www.powerplatformbootcamp.com/2022/location-detail/?id=8284762c-ed4d-ec11-a3ee-281878f66d01&city=Pune%20Tech%20Community)|19 February, 2022|Online
 10|[The Global AI Bootcamp 2022, Pune 2022](https://www.meetup.com/Pune-Tech-Community/events/280810067/)|15 January, 2022|Online
 09|[The Global AI Back Together, Pune 2021](https://globalai.community/global-ai-back-together/asia-global-ai-pune-4406/)|21 October, 2021|Online
