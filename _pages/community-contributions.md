@@ -10,6 +10,8 @@ toc: true
 ## Code Contributions
 
 **Contribution**|**Topic**|**When**
+Power Platform Connectors, Independent Publisher|[Sessionize (Independent Publisher)](https://docs.microsoft.com/en-us/connectors/sessionizeip/)|11 May, 2022
+Power Platform Connectors, Independent Publisher|[Udemy (Independent Publisher)](https://docs.microsoft.com/en-us/connectors/udemyip/)|11 May, 2022
 PnP Sample Script|[Export a csv report on all Whiteboards](https://pnp.github.io/script-samples/whiteboard-report-usage/README.html)|07 March, 2022
 PnP Microsoft Viva Connections Adaptive Card Sample|[My M365 Groups](https://github.com/pnp/sp-dev-fx-aces/tree/main/samples/PrimaryTextCard-My-M365-Groups)|07 January, 2022
 PnP Teams Bot Sample|[MS Teams Incident Management Bot](https://github.com/pnp/teams-dev-samples/tree/main/samples/bot-teams-incidentmanagement)|12 July, 2021
