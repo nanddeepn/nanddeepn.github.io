@@ -12,7 +12,7 @@ toc: true
 I’ll be speaking at the following events.
 
 **Event**|**Topic**|**When**|**Where**
-Microsoft Viva Days 2022|[Microsoft Viva Connections - Set up and Extend with SPFx](https://sessionize.com/microsoft-viva-days-2022/)|14 May, 2022 at 1:15 PM IST|Online
+Microsoft Viva Days 2022|[Microsoft Viva Connections - Set up and Extend with SPFx](https://www.microsoftvivadays.com/#agenda)|14 May, 2022 at 1:15 PM IST|Online
 Microsoft Build|[Device and cloud solutions strategies to reduce your climate impact, Humans of IT](https://mybuild.microsoft.com)|25 May, 2022 at 9:30 PM IST|Online
 Azure for All - Webinar Series by Dear Azure - Azure INDIA|[Power Apps for Azure Cloud Professionals](https://www.linkedin.com/events/powerappsforazurecloudprofessio6929479288953921537/about/)|05 June, 2022 at 11 AM IST|Online
 PnP Microsoft Dev Bi-weekly call|[Sessionize Custom Connector](https://pnp.github.io/#home)|09 June, 2022 at 7:30 PM IST|Online
