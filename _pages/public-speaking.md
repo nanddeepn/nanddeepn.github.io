@@ -19,7 +19,7 @@ Hyderabad Power Platform User Group|[Custom Connectors in Power Platform](https:
 ## Past events
 
 **#**|**Event**|**Topic**|**When**|**Where**
-105|Microsoft Build|[Device and cloud solutions strategies to reduce your climate impact, Humans of IT]([https://mybuild.microsoft.com](https://mybuild.microsoft.com/en-US/sessions/6b331ad9-d7f0-4041-bc25-1088c4b73ab6?source=sessions)|25 May, 2022|Online
+105|**Microsoft Build 2022**|[Device and cloud solutions strategies to reduce your climate impact, Humans of IT](https://mybuild.microsoft.com/en-US/sessions/6b331ad9-d7f0-4041-bc25-1088c4b73ab6?source=sessions)|25 May, 2022|Online
 104|Microsoft Viva Days 2022|[Microsoft Viva Connections - Set up and Extend with SPFx](https://www.microsoftvivadays.com/#agenda)|14 May, 2022|Online
 103|Microsoft 365 Virtual Marathon 2022|[Build engaging meeting experiences for MS Teams with Apps](https://www.m365virtualmarathon.com/)|05 May, 2022|Online
 102|Microsoft 365 Virtual Marathon 2022|[Universal Actions for Adaptive Cards on Microsoft Teams](https://www.m365virtualmarathon.com/)|05 May, 2022|Online
