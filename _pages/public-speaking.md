@@ -15,7 +15,8 @@ I’ll be speaking at the following events.
 Azure for All - Webinar Series by Dear Azure - Azure INDIA|[Power Apps for Azure Cloud Professionals](https://www.linkedin.com/events/powerappsforazurecloudprofessio6929479288953921537/about/)|05 June, 2022 at 11 AM IST|Online
 PnP Microsoft Dev Bi-weekly call|[Sessionize Custom Connector](https://pnp.github.io/#home)|09 June, 2022 at 7:30 PM IST|Online
 Hyderabad Power Platform User Group|[Custom Connectors in Power Platform](https://powerusers.microsoft.com/t5/Hyderabad-Power-Platform-User/gh-p/pp_Hyderabad_usergroup)|11 June, 2022|Online
-aMS Pune|[Building apps for Teams meetings](https://ams.community/ams-pune-june-18-2022/)|18 June, 2022|Pune
+aMS Pune|[Building apps for Teams meetings](https://ams.community/ams-pune-june-18-2022/)|18 June, 2022|Pune, India
+aMS Delhi|[Building Custom Connectors for Power Platform](https://ams-delhi-2022.sessionize.com/)|25 June, 2022|Online
 
 ## Past events
 
