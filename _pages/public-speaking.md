@@ -12,7 +12,6 @@ toc: true
 I’ll be speaking at the following events.
 
 **Event**|**Topic**|**When**|**Where**
-Azure for All - Webinar Series by Dear Azure - Azure INDIA|[Power Apps for Azure Cloud Professionals](https://www.linkedin.com/events/powerappsforazurecloudprofessio6929479288953921537/about/)|05 June, 2022 at 11 AM IST|Online
 PnP Microsoft Dev Bi-weekly call|[Sessionize Custom Connector](https://pnp.github.io/#home)|09 June, 2022 at 7:30 PM IST|Online
 Hyderabad Power Platform User Group|[Custom Connectors in Power Platform](https://powerusers.microsoft.com/t5/Hyderabad-Power-Platform-User/gh-p/pp_Hyderabad_usergroup)|11 June, 2022|Online
 aMS Pune|[Building apps for Teams meetings](https://ams.community/ams-pune-june-18-2022/)|18 June, 2022|Pune, India
@@ -21,6 +20,7 @@ aMS Delhi|[Building Custom Connectors for Power Platform](https://ams-delhi-2022
 ## Past events
 
 **#**|**Event**|**Topic**|**When**|**Where**
+106|Azure for All - Webinar Series by Dear Azure - Azure INDIA|[Power Apps for Azure Cloud Professionals](https://www.linkedin.com/events/powerappsforazurecloudprofessio6929479288953921537/about/)|05 June, 2022|Online
 105|**Microsoft Build 2022**|[Device and cloud solutions strategies to reduce your climate impact, Humans of IT](https://mybuild.microsoft.com/en-US/sessions/6b331ad9-d7f0-4041-bc25-1088c4b73ab6?source=sessions)|25 May, 2022|Online
 104|Microsoft Viva Days 2022|[Microsoft Viva Connections - Set up and Extend with SPFx](https://www.microsoftvivadays.com/#agenda)|14 May, 2022|Online
 103|Microsoft 365 Virtual Marathon 2022|[Build engaging meeting experiences for MS Teams with Apps](https://www.m365virtualmarathon.com/)|05 May, 2022|Online
