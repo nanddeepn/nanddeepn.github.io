@@ -27,6 +27,7 @@ PnP SPFx Web Part Sample|[Display hierarchical information](https://github.com/S
 ## Community Demos
 
 **Community**|**Topic**|**When**
+Power Platform & M365 Dev Community Call | [Building Independent Publisher Power Platform Connector for Sessionize](https://warner.digital/pnpsummary06092022/)|09 June, 2022
 SharePoint PnP Viva Connections & SPFx JS SIG Call|[ACE - My M365 Groups](https://techcommunity.microsoft.com/t5/microsoft-365-pnp-blog/viva-connections-amp-sharepoint-framework-community-call-7th-of/ba-p/3278956)|07 April, 2022
 SharePoint Framework Community Call|[Questionnaire Teams Meeting App with SPFx](https://techcommunity.microsoft.com/t5/microsoft-365-pnp-blog/sharepoint-framework-community-call-recording-8th-of-april-2021/ba-p/2261708)|08 April, 2021
 SharePoint Framework Community Call|[Office 365 Group Management with SPFx](https://developer.microsoft.com/en-us/microsoft-365/blogs/sharepoint-framework-community-call-recording-27th-of-february-2020/)|27 February, 2020
