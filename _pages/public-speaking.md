@@ -12,8 +12,9 @@ toc: true
 I’ll be speaking at the following events.
 
 **Event**|**Topic**|**When**|**Where**
-aMS Pune|[Building apps for Teams meetings](https://ams.community/ams-pune-june-18-2022/)|18 June, 2022|Pune, India
-aMS Delhi|[Building Custom Connectors for Power Platform](https://ams-delhi-2022.sessionize.com/)|25 June, 2022|Online
+aMS Pune|[Building apps for Teams meetings](https://ams.community/ams-pune-june-18-2022/)|18 June, 2022 at 11 AM IST|Pune, India
+Simplifying Low Code with Azure and AI|[Using Azure APIs in Power Platform](https://www.linkedin.com/posts/kasamshaikh_azure-ai-dearazure-activity-6939096377704493056-jpBj?utm_source=linkedin_share&utm_medium=member_desktop_web)|25 June, 2022 at 11:10 AM IST|Mumbai, India
+aMS Delhi|[Building Custom Connectors for Power Platform](https://ams-delhi-2022.sessionize.com/)|25 June, 2022 at 2 PM IST|Online
 
 ## Past events
 
