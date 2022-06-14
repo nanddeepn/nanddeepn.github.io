@@ -10,6 +10,7 @@ toc: true
 ## Code Contributions
 
 **Contribution**|**Topic**|**When**
+PnP Sample Script|[Install Solution and Deploy to the SharePoint site](https://pnp.github.io/script-samples/spo-install-deploy-spfx-solution/README.html?tabs=cli-m365-ps)|14 June, 2022
 Power Platform Connectors, Independent Publisher|[Sessionize (Independent Publisher)](https://docs.microsoft.com/en-us/connectors/sessionizeip/)|11 May, 2022
 Power Platform Connectors, Independent Publisher|[Udemy (Independent Publisher)](https://docs.microsoft.com/en-us/connectors/udemyip/)|11 May, 2022
 PnP Sample Script|[Export a csv report on all Whiteboards](https://pnp.github.io/script-samples/whiteboard-report-usage/README.html)|07 March, 2022
