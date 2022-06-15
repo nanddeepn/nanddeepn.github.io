@@ -12,7 +12,6 @@ tags:
   - May 2022
 last_modified_at: 2022-05-27T00:00:00-00:00
 ---
-
 ## Overview
 The Shared Channels feature in MS Teams is still in preview and is rolling to the M365 tenants. It provides a flexible way to collaborate with people from different teams and organizations which makes it easy to work without tenant switching for vendors, partners, and customers.
 

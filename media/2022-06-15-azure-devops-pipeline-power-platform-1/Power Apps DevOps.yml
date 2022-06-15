@@ -1,0 +1,47 @@
+trigger:
+  enabled: false
+stages:
+- stage: __default
+  jobs:
+  - job: Job
+    pool:
+      vmImage: windows-latest
+    steps:
+    - task: PowerPlatformToolInstaller@0
+      inputs:
+        DefaultVersion: true
+    - task: PowerPlatformWhoAmi@0
+      inputs:
+        authenticationType: 'PowerPlatformSPN'
+        PowerPlatformSPN: 'Nachan365 Power Platform'
+    - task: PowerPlatformExportSolution@0
+      inputs:
+        authenticationType: 'PowerPlatformSPN'
+        PowerPlatformSPN: 'Nachan365 Power Platform'
+        SolutionName: 'ContosoSolution'
+        SolutionOutputFile: '$(Build.StagingDirectory)\ContosoSolution_Unmanaged.zip'
+        AsyncOperation: true
+        MaxAsyncWaitTime: '60'
+    - task: PowerPlatformUnpackSolution@0
+      inputs:
+        SolutionInputFile: '$(Build.StagingDirectory)\ContosoSolution_Unmanaged.zip'
+        SolutionTargetFolder: '$(Build.SourcesDirectory)\ContosoSolution'
+    - task: PublishBuildArtifacts@1
+      inputs:
+        PathtoPublish: '$(Build.ArtifactStagingDirectory)'
+        ArtifactName: 'drop'
+        publishLocation: 'Container'
+    - task: CmdLine@2
+      inputs:
+        script: |
+          cd $(Build.SourcesDirectory)
+
+          git config user.email "nanddeep.nachan@contoso.com"
+          git config user.name "Nanddeep Nachan"
+
+          git checkout main
+          git pull
+          git add --all
+          git commit -m "Updated the solution"
+          git -c http.extraheader="AUTHORIZATION:bearer $(System.AccessToken)" push origin main -f
+
