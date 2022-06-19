@@ -4,7 +4,7 @@ title: "Public Speaking"
 
 layout: archive
 author_profile: true
-last_modified_at: 2021-11-16T15:46:43-04:00
+last_modified_at: 2022-06-19T15:46:43-04:00
 toc: true
 ---
 
@@ -12,7 +12,6 @@ toc: true
 I’ll be speaking at the following events.
 
 **Event**|**Topic**|**When**|**Where**
-aMS Pune|[Building apps for Teams meetings](https://ams.community/ams-pune-june-18-2022/)|18 June, 2022 at 11 AM IST|Pune, India
 Simplifying Low Code with Azure and AI|[Using Azure APIs in Power Platform](https://www.linkedin.com/posts/kasamshaikh_azure-ai-dearazure-activity-6939096377704493056-jpBj?utm_source=linkedin_share&utm_medium=member_desktop_web)|25 June, 2022 at 11:10 AM IST|Mumbai, India
 aMS Delhi|[Building Custom Connectors for Power Platform](https://ams-delhi-2022.sessionize.com/)|25 June, 2022 at 2 PM IST|Online
 5th cloud8 virtual Summit 2022|[Building apps for Teams meetings](https://www.cloudeight.ch/)|23 September, 2022 at 1:30 PM IST|Online
@@ -20,6 +19,7 @@ aMS Delhi|[Building Custom Connectors for Power Platform](https://ams-delhi-2022
 ## Past events
 
 **#**|**Event**|**Topic**|**When**|**Where**
+108|aMS Pune|[Building apps for Teams meetings](https://ams.community/ams-pune-june-18-2022/)|18 June, 2022|Pune, India
 107|Hyderabad Power Platform User Group|[Custom Connectors in Power Platform](https://powerusers.microsoft.com/t5/Hyderabad-Power-Platform-User/Hyderabad-Power-Platform-User-Group-June-2022-Meetup/ev-p/1607831)|11 June, 2022|Online
 106|Azure for All - Webinar Series by Dear Azure - Azure INDIA|[Power Apps for Azure Cloud Professionals](https://www.linkedin.com/events/powerappsforazurecloudprofessio6929479288953921537/about/)|05 June, 2022|Online
 105|**Microsoft Build 2022**|[Device and cloud solutions strategies to reduce your climate impact, Humans of IT](https://mybuild.microsoft.com/en-US/sessions/6b331ad9-d7f0-4041-bc25-1088c4b73ab6?source=sessions)|25 May, 2022|Online
@@ -140,6 +140,7 @@ aMS Delhi|[Building Custom Connectors for Power Platform](https://ams-delhi-2022
 ## Event Organizer
 
 **#**|**Event**|**When**|**Where**
+13|[aMS Pune (Hybrid)](https://www.meetup.com/pune-tech-community/events/286519676/)|18 June, 2022|Pune, India
 12|[Global Azure Bootcamp 2022, Pune](https://www.meetup.com/Pune-Tech-Community/events/285099113/)|07 May, 2022|Online
 11|[Global Power Platform Bootcamp 2022, Pune](https://www.powerplatformbootcamp.com/2022/location-detail/?id=8284762c-ed4d-ec11-a3ee-281878f66d01&city=Pune%20Tech%20Community)|19 February, 2022|Online
 10|[The Global AI Bootcamp 2022, Pune 2022](https://www.meetup.com/Pune-Tech-Community/events/280810067/)|15 January, 2022|Online
@@ -151,4 +152,4 @@ aMS Delhi|[Building Custom Connectors for Power Platform](https://ams-delhi-2022
 04|[Global AI On Tour - 2020, Pune](https://www.meetup.com/Microsoft-365-and-Power-Platform-User-group-India/events/270546415/)|20 June, 2020|Online
 03|[SPFx Deep Dive Webinar Series](https://www.meetup.com/Microsoft-365-and-Power-Platform-User-group-India/events/lmdsrrybchbdb/)|May, 2020|Webinar Series
 02|[Getting Started with SharePoint Framework](https://www.meetup.com/Microsoft-365-and-Power-Platform-User-group-India/events/rtfhrrybcgblb/)|April, 2020|Webinar Series
-01|[Global Power Platform Bootcamp 2020, Pune](https://www.powerplatformbootcamp.com/location-detail/?id=ca4081e5-c11f-ea11-8454-281878f66ccc&city=Pune)|15 February, 2020|Pune
+01|[Global Power Platform Bootcamp 2020, Pune](https://www.powerplatformbootcamp.com/location-detail/?id=ca4081e5-c11f-ea11-8454-281878f66ccc&city=Pune)|15 February, 2020|Pune, India
