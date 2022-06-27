@@ -1,5 +1,5 @@
 ---
-title: "Set up Azure DevOps Pipeline for Power Platform - Part 1"
+title: "Set up Azure DevOps Pipeline for Power Platform - Continuous Integration (Part 1)"
 date: "2022-06-15"
 share: true
 header:
