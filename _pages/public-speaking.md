@@ -12,6 +12,8 @@ toc: true
 I’ll be speaking at the following events.
 
 **Event**|**Topic**|**When**|**Where**
+Power Platform Classmates|[Canvas Apps](https://www.linkedin.com/posts/power-platform-classmates_powerplatform-microsoft-community-activity-6949383715244404736-Fnx8)|16 July, 2022 at 10:00 AM IST|Online
+Azure DevDay Pune|[Building Bots with Azure and consume anywhere](https://reskilll.com/event/DevDayPune)|16 July, 2022|Pune, India
 C# Corner MVP Show|[Developing applications with SharePoint Framework](https://www.c-sharpcorner.com/)|27 July, 2022 at 7:30 PM IST|Online
 5th cloud8 virtual Summit 2022|[Building apps for Teams meetings](https://www.cloudeight.ch/)|23 September, 2022 at 1:30 PM IST|Online
 
