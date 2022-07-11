@@ -16,6 +16,7 @@ Power Platform Classmates|[Canvas Apps](https://www.linkedin.com/posts/power-pla
 Azure DevDay Pune|[Building Bots with Azure and consume anywhere](https://reskilll.com/event/DevDayPune)|16 July, 2022|Pune, India
 C# Corner MVP Show|[Developing applications with SharePoint Framework](https://www.c-sharpcorner.com/)|27 July, 2022 at 7:30 PM IST|Online
 5th cloud8 virtual Summit 2022|[Building apps for Teams meetings](https://www.cloudeight.ch/)|23 September, 2022 at 1:30 PM IST|Online
+Teams10X|[Explore Shared Channels in MS Teams](https://teams10x.com/teams-summit-april-2022)|28-29 September, 2022|Online
 
 ## Past events
 
