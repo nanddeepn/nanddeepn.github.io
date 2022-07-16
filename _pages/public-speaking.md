@@ -12,8 +12,6 @@ toc: true
 I’ll be speaking at the following events.
 
 **Event**|**Topic**|**When**|**Where**
-Power Platform Classmates|[Canvas Apps](https://www.linkedin.com/posts/power-platform-classmates_powerplatform-microsoft-community-activity-6949383715244404736-Fnx8)|16 July, 2022 at 10:00 AM IST|Online
-Azure DevDay Pune|[Building Bots with Azure and consume anywhere](https://reskilll.com/event/DevDayPune)|16 July, 2022|Pune, India
 C# Corner MVP Show|[Developing applications with SharePoint Framework](https://www.c-sharpcorner.com/)|27 July, 2022 at 7:30 PM IST|Online
 5th cloud8 virtual Summit 2022|[Building apps for Teams meetings](https://www.cloudeight.ch/)|23 September, 2022 at 1:30 PM IST|Online
 Teams10X|[Explore Shared Channels in MS Teams](https://teams10x.com/teams-summit-april-2022)|28-29 September, 2022|Online
@@ -21,6 +19,8 @@ Teams10X|[Explore Shared Channels in MS Teams](https://teams10x.com/teams-summit
 ## Past events
 
 **#**|**Event**|**Topic**|**When**|**Where**
+112|Azure DevDay Pune|[Building Bots with Azure and consume anywhere](https://reskilll.com/event/DevDayPune)|16 July, 2022|Online
+111|Power Platform Classmates|[Canvas Apps](https://www.linkedin.com/posts/power-platform-classmates_powerplatform-microsoft-community-activity-6949383715244404736-Fnx8)|16 July, 2022|Online
 110|aMS Delhi|[Building Custom Connectors for Power Platform](https://ams-delhi-2022.sessionize.com/)|25 June, 2022|Online
 109|Simplifying Low Code with Azure and AI|[Using Azure APIs in Power Platform](https://www.linkedin.com/posts/kasamshaikh_azure-ai-dearazure-activity-6939096377704493056-jpBj?utm_source=linkedin_share&utm_medium=member_desktop_web)|25 June, 2022|Mumbai, India
 108|aMS Pune|[Building apps for Teams meetings](https://ams.community/ams-pune-june-18-2022/)|18 June, 2022|Pune, India
