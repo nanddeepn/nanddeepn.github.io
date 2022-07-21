@@ -228,7 +228,7 @@ When deployed, the web part works as below:
 Paging is a nicer way to present the large data. PnP Control for paging (Pagination Control) is a flexible control to implement paging in an easy way.
 
 ## Code Download
-The SPFx code developed for this article can be found [here](github.com/nanddeepn/code-samples/tree/master/SPFx/WebParts/spfx-pnp-pagination).
+The SPFx code developed for this article can be found [here](https://github.com/nanddeepn/code-samples/tree/master/SPFx/WebParts/spfx-pnp-pagination).
 
 ## References
 - [PnP Pagination Control](https://pnp.github.io/sp-dev-fx-controls-react/controls/Pagination/)
