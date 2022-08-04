@@ -6,10 +6,10 @@ header:
   image: media/2022-07-30-image-helper-api-spfx/01.png
   teaser: media/2022-07-30-image-helper-api-spfx/01.png
 categories:
-  + SharePoint Framework
+  - SharePoint Framework
 tags:
-  + "2022"
-  + July 2022
+  - "2022"
+  - July 2022
 last_modified_at: 2022-07-30T00:00:00-00:00
 ---
 
