@@ -144,6 +144,7 @@ Teams10X|[Explore Shared Channels in MS Teams](https://teams10x.com/teams-summit
 ## Event Organizer
 
 **#**|**Event**|**When**|**Where**
+14|[M365 Cloud Day, Pune 2022](https://www.meetup.com/pune-tech-community/events/287138179/)|06 August, 2022|Pune, India
 13|[aMS Pune (Hybrid)](https://www.meetup.com/pune-tech-community/events/286519676/)|18 June, 2022|Pune, India
 12|[Global Azure Bootcamp 2022, Pune](https://www.meetup.com/Pune-Tech-Community/events/285099113/)|07 May, 2022|Online
 11|[Global Power Platform Bootcamp 2022, Pune](https://www.powerplatformbootcamp.com/2022/location-detail/?id=8284762c-ed4d-ec11-a3ee-281878f66d01&city=Pune%20Tech%20Community)|19 February, 2022|Online
