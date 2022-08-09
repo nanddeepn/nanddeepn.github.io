@@ -12,13 +12,13 @@ toc: true
 I’ll be speaking at the following events.
 
 **Event**|**Topic**|**When**|**Where**
-Gira Online Speakers LATAM 2022|[Using Cognitive services to classify your content](https://giraspeakerslatam-us.azurewebsites.net/)|08 August, 2022 at 10:30 PM IST|Online
 5th cloud8 virtual Summit 2022|[Building apps for Teams meetings](https://www.cloudeight.ch/)|23 September, 2022 at 1:30 PM IST|Online
-Teams10X|[Explore Shared Channels in MS Teams](https://teams10x.com/teams-summit-april-2022)|28-29 September, 2022|Online
+Teams10X|[Explore Shared Channels in MS Teams](https://teams10xfall22.sessionize.com/speaker/388554b5-f811-441c-96d9-1d9beb38074e)|29 September, 2022 at 11:35 PM IST|Online
 
 ## Past events
 
 **#**|**Event**|**Topic**|**When**|**Where**
+113|Gira Online Speakers LATAM 2022|[Using Cognitive services to classify your content](https://giraspeakerslatam-us.azurewebsites.net/)|08 August, 2022|Online
 112|Azure DevDay Pune|[Building Bots with Azure and consume anywhere](https://reskilll.com/event/DevDayPune)|16 July, 2022|Online
 111|Power Platform Classmates|[Canvas Apps](https://www.linkedin.com/posts/power-platform-classmates_powerplatform-microsoft-community-activity-6949383715244404736-Fnx8)|16 July, 2022|Online
 110|aMS Delhi|[Building Custom Connectors for Power Platform](https://ams-delhi-2022.sessionize.com/)|25 June, 2022|Online
