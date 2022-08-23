@@ -12,8 +12,11 @@ toc: true
 I’ll be speaking at the following events.
 
 **Event**|**Topic**|**When**|**Where**
+SharePoint PnP Viva Connections & SPFx JS SIG Call|[Viva Connections ACE for Public Holidays](https://pnp.github.io/)|22 September, 2022 at 7:30 PM IST|Online
 5th cloud8 virtual Summit 2022|[Building apps for Teams meetings](https://www.cloudeight.ch/)|23 September, 2022 at 1:30 PM IST|Online
+Global Microsoft Hindi (हिंदी) Conference 22-23|[TBD](https://sessionize.com/global-microsoft-hindi-conference/)|24 September, 2022|Online
 Teams10X|[Explore Shared Channels in MS Teams](https://teams10xfall22.sessionize.com/speaker/388554b5-f811-441c-96d9-1d9beb38074e)|29 September, 2022 at 11:35 PM IST|Online
+The North American Collaboration Summit 2022|[Extending MS Teams with SharePoint Framework](http://www.collabsummit.org/schedule/)|14 October, 2022 at 7:30 PM IST|Online
 
 ## Past events
 
