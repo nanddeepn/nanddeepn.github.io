@@ -10,6 +10,7 @@ toc: true
 ## Code Contributions
 
 **#**|**Contribution**|**Topic**|**When**
+14|PnP Microsoft Viva Connections Adaptive Card Sample|[Public Holidays](https://github.com/pnp/sp-dev-fx-aces/tree/main/samples/ImageCard-PublicHolidays)|26 August, 2022
 13|PnP Sample Script|[Install Solution and Deploy to the SharePoint site](https://pnp.github.io/script-samples/spo-install-deploy-spfx-solution/README.html?tabs=cli-m365-ps)|14 June, 2022
 12|Power Platform Connectors, Independent Publisher|[Sessionize (Independent Publisher)](https://docs.microsoft.com/en-us/connectors/sessionizeip/)|11 May, 2022
 11|Power Platform Connectors, Independent Publisher|[Udemy (Independent Publisher)](https://docs.microsoft.com/en-us/connectors/udemyip/)|11 May, 2022
