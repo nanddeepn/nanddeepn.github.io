@@ -15,6 +15,38 @@ toc: true
     </tr>
     <tr>
         <td width="50%">
+            <iframe type="text/html" width="336" height="550" frameborder="0" allowfullscreen style="max-width:100%" src="https://www.amazon.com/Running-Microsoft-Viva-Connections-Workforce-dp-1484286057/dp/1484286057/" ></iframe>
+            <p>Published on 13 September, 2022</p>
+        </td>
+        <td>
+            Leverage the collaboration capabilities of Microsoft Viva Connections as an employee experience platform to build a gateway to your digital workplace.
+            <br/>
+            Key Features:
+            <ul>
+                <li>Understand the modern experience in SharePoint with Microsoft Viva Connections</li>
+                <li>Know best practices for your home site in SharePoint</li>
+                <li>Get your content ready for feed with SharePoint and Yammer</li>
+                <li>Build Adaptive Card Extensions (ACEs) with SPFx</li>
+                <li>Define governance for Viva Connections</li>
+            </ul>
+            <ul>
+                <li>
+                    <a href="https://www.amazon.com/Running-Microsoft-Viva-Connections-Workforce-dp-1484286057/dp/1484286057/" target="_blank">Buy at Amazon.com</a>                    
+                </li>
+                <li>
+                    <a href="https://www.amazon.in/Running-Microsoft-Viva-Connections-Workforce-ebook/dp/B0BDJX2JFZ/" target="_blank">Buy at Amazon India</a>
+                </li>
+                <li>
+                    <a href="https://link.springer.com/book/10.1007/978-1-4842-8606-7" target="_blank">Buy at Springer Link</a>
+                </li>
+                <li>
+                    <a href="https://www.apress.com/gp/book/9781484286067" target="_blank">Buy at Apress</a>
+                </li>
+            </ul>            
+        </td>
+    </tr>    
+    <tr>
+        <td width="50%">
             <iframe type="text/html" width="336" height="550" frameborder="0" allowfullscreen style="max-width:100%" src="https://read.amazon.in/kp/card?asin=B08GZT5Z64&preview=newtab&linkCode=kpe&ref_=cm_sw_r_kb_dp_W1KvFbED4RB3X" ></iframe>
             <p>Published on 30 August, 2020</p>
         </td>
