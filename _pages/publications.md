@@ -15,7 +15,7 @@ toc: true
     </tr>
     <tr>
         <td width="50%">
-            <iframe type="text/html" width="336" height="550" frameborder="0" allowfullscreen style="max-width:100%" src="https://www.amazon.com/Running-Microsoft-Viva-Connections-Workforce-dp-1484286057/dp/1484286057/" ></iframe>
+            <iframe type="text/html" width="336" height="550" frameborder="0" allowfullscreen style="max-width:100%" src="https://read.amazon.in/kp/card?asin=B0BDJX2JFZ&preview=newtab"></iframe>
             <p>Published on 13 September, 2022</p>
         </td>
         <td>
