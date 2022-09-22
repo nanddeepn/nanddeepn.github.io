@@ -12,7 +12,6 @@ toc: true
 I’ll be speaking at the following events.
 
 **Event**|**Topic**|**When**|**Where**
-SharePoint PnP Viva Connections & SPFx JS SIG Call|[Viva Connections ACE for Public Holidays](https://pnp.github.io/)|22 September, 2022 at 7:30 PM IST|Online
 Skill Academy|[Building tailored employee experiences with Microsoft Viva Connections and SharePoint Framework](https://msevents.microsoft.com/event?id=575473758)|23 September, 2022 at 11:35 PM IST|Online
 5th cloud8 virtual Summit 2022|[Building apps for Teams meetings](https://www.cloudeight.ch/)|23 September, 2022 at 1:30 PM IST|Online
 Global Microsoft Hindi (हिंदी) Conference 22-23|[Yammer and it's role in Microsoft Viva](https://www.linkedin.com/events/globalmicrosoft-event-september6969912974203322369/)|24 September, 2022|Online
@@ -23,6 +22,7 @@ Microsoft Ignite|[OD19](https://ignite.microsoft.com/)|12 October, 2022|Online
 The North American Collaboration Summit 2022|[Extending MS Teams with SharePoint Framework](http://www.collabsummit.org/schedule/)|14 October, 2022 at 7:30 PM IST|Online
 India Cloud Security Summit 2022|[Ensuring Security and Compliance in Microsoft Teams](https://www.indiacloudsecuritysummit.com/#agenda)|29 October, 2022|Online
 Organizer - Pune Tech Community|[Global AI Developer Days, Pune 2022](https://www.meetup.com/pune-tech-community/events/287922909/)|29 October, 2022|Online
+M365 Chicago|[All about Microsoft Viva Connections](https://m365chicago.com/)|11 November, 2022|Online
 Organizer - Pune Tech Community|[Global AI Bootcamp, Pune 2023](https://www.meetup.com/pune-tech-community/events/287923053/)|04 March, 2023|Online
 
 ## Past events
