@@ -29,7 +29,7 @@ toc: true
 ## Community Demos
 
 **#**|**Community**|**Topic**|**When**
-07|SharePoint PnP Viva Connections and SharePoint Framework Community Call|[Building Viva Connections ACE for public holidays](https://aka.ms/spfx-call)|22 September, 2022
+07|SharePoint PnP Viva Connections and SharePoint Framework Community Call|[Building Viva Connections ACE for public holidays](https://pnp.github.io/blog/microsoft-viva-and-spfx-community-call/2022-09-22/)|22 September, 2022
 06|Power Platform & M365 Dev Community Call | [Building Independent Publisher Power Platform Connector for Sessionize](https://pnp.github.io/blog/microsoft-365-developer-community-call/2022-06-09/)|09 June, 2022
 05|SharePoint PnP Viva Connections & SPFx JS SIG Call|[ACE - My M365 Groups](https://techcommunity.microsoft.com/t5/microsoft-365-pnp-blog/viva-connections-amp-sharepoint-framework-community-call-7th-of/ba-p/3278956)|07 April, 2022
 04|SharePoint Framework Community Call|[Questionnaire Teams Meeting App with SPFx](https://techcommunity.microsoft.com/t5/microsoft-365-pnp-blog/sharepoint-framework-community-call-recording-8th-of-april-2021/ba-p/2261708)|08 April, 2021
