@@ -12,8 +12,6 @@ toc: true
 I’ll be speaking at the following events.
 
 **Event**|**Topic**|**When**|**Where**
-Skill Academy|[Building tailored employee experiences with Microsoft Viva Connections and SharePoint Framework](https://msevents.microsoft.com/event?id=575473758)|23 September, 2022 at 11:35 PM IST|Online
-5th cloud8 virtual Summit 2022|[Building apps for Teams meetings](https://www.cloudeight.ch/)|23 September, 2022 at 1:30 PM IST|Online
 Global Microsoft Hindi (हिंदी) Conference 22-23|[Yammer and it's role in Microsoft Viva](https://www.linkedin.com/events/globalmicrosoft-event-september6969912974203322369/)|24 September, 2022|Online
 Teams10X|[Explore Shared Channels in MS Teams](https://teams10xfall22.sessionize.com/speaker/388554b5-f811-441c-96d9-1d9beb38074e)|29 September, 2022 at 11:35 PM IST|Online
 Organizer - Pune Tech Community|[Application Developers Day, Pune 2022](https://www.meetup.com/pune-tech-community/events/288451237/)|08 October, 2022|Pune, India
@@ -28,6 +26,8 @@ Organizer - Pune Tech Community|[Global AI Bootcamp, Pune 2023](https://www.meet
 ## Past events
 
 **#**|**Event**|**Topic**|**When**|**Where**
+115|5th cloud8 virtual Summit 2022|[Building apps for Teams meetings](https://www.cloudeight.ch/)|23 September, 2022|Online
+114|Microsoft Modern Workplace Academy|[Building tailored employee experiences with Microsoft Viva Connections and SharePoint Framework](https://msevents.microsoft.com/event?id=575473758)|23 September, 2022|Online
 113|Gira Online Speakers LATAM 2022|[Using Cognitive services to classify your content](https://giraspeakerslatam-us.azurewebsites.net/)|08 August, 2022|Online
 112|Azure DevDay Pune|[Building Bots with Azure and consume anywhere](https://reskilll.com/event/DevDayPune)|16 July, 2022|Online
 111|Power Platform Classmates|[Canvas Apps](https://www.linkedin.com/posts/power-platform-classmates_powerplatform-microsoft-community-activity-6949383715244404736-Fnx8)|16 July, 2022|Online
