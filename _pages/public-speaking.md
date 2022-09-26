@@ -14,7 +14,7 @@ I’ll be speaking at the following events.
 **Event**|**Topic**|**When**|**Where**
 Teams10X|[Explore Shared Channels in MS Teams](https://teams10xfall22.sessionize.com/speaker/388554b5-f811-441c-96d9-1d9beb38074e)|29 September, 2022 at 11:35 PM IST|Online
 Organizer - Pune Tech Community|[Application Developers Day, Pune 2022](https://www.meetup.com/pune-tech-community/events/288451237/)|08 October, 2022|Pune, India
-Microsoft Reactor Bengaluru|[Build modern employee experience with Microsoft Viva Connections](https://www.meetup.com/microsoft-reactor-bengaluru/)|12 October, 2022 at 06:00 PM IST|Online
+Microsoft Reactor Bengaluru|[Build modern employee experience with Microsoft Viva Connections](https://www.meetup.com/microsoft-reactor-bengaluru/events/288472697/)|12 October, 2022 at 06:00 PM IST|Online
 **Microsoft Ignite**|[OD19](https://ignite.microsoft.com/)|12 October, 2022|Online
 The North American Collaboration Summit 2022|[Extending MS Teams with SharePoint Framework](http://www.collabsummit.org/schedule/)|14 October, 2022 at 7:30 PM IST|Online
 India Cloud Security Summit 2022|[Ensuring Security and Compliance in Microsoft Teams](https://www.indiacloudsecuritysummit.com/#agenda)|29 October, 2022|Online
