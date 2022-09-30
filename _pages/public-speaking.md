@@ -12,19 +12,20 @@ toc: true
 I’ll be speaking at the following events.
 
 **Event**|**Topic**|**When**|**Where**
-Teams10X|[Explore Shared Channels in MS Teams](https://teams10xfall22.sessionize.com/speaker/388554b5-f811-441c-96d9-1d9beb38074e)|29 September, 2022 at 11:35 PM IST|Online
-Organizer - Pune Tech Community|[Application Developers Day, Pune 2022](https://www.meetup.com/pune-tech-community/events/288451237/)|08 October, 2022|Pune, India
+Application Developers Day, Pune 2022|[Bot Development in an easy steps](https://www.meetup.com/pune-tech-community/events/288451237/)|08 October, 2022|Pune, India
 Microsoft Reactor Bengaluru|[Build modern employee experience with Microsoft Viva Connections](https://www.meetup.com/microsoft-reactor-bengaluru/events/288472697/)|12 October, 2022 at 06:00 PM IST|Online
 **Microsoft Ignite**|[Microsoft Teams Best Practices, Tips and Tricks from our experts](https://ignite.microsoft.com/en-US/sessions/2a9ad3a7-e933-4017-9535-fe3b048ffaa0)|12 October, 2022|Online
 The North American Collaboration Summit 2022|[Extending MS Teams with SharePoint Framework](http://www.collabsummit.org/schedule/)|14 October, 2022 at 7:30 PM IST|Online
 India Cloud Security Summit 2022|[Ensuring Security and Compliance in Microsoft Teams](https://www.indiacloudsecuritysummit.com/#agenda)|29 October, 2022|Online
 Organizer - Pune Tech Community|[Global AI Developer Days, Pune 2022](https://www.meetup.com/pune-tech-community/events/287922909/)|29 October, 2022|Online
 M365 Chicago|[All about Microsoft Viva Connections](https://m365chicago.com/)|11 November, 2022|Online
+Microsoft Ignite After Party|[Microsoft Ignite After Party](https://www.meetup.com/pune-tech-community/events/288791031/)|19 November, 2022|Online
 Organizer - Pune Tech Community|[Global AI Bootcamp, Pune 2023](https://www.meetup.com/pune-tech-community/events/287923053/)|04 March, 2023|Online
 
 ## Past events
 
 **#**|**Event**|**Topic**|**When**|**Where**
+117|Teams10X|[Explore Shared Channels in MS Teams](https://teams10xfall22.sessionize.com/speaker/388554b5-f811-441c-96d9-1d9beb38074e)|29 September, 2022|Online
 116|Global Microsoft Hindi (हिंदी) Event|[Yammer and it's role in Microsoft Viva](https://www.linkedin.com/events/globalmicrosoft-event-september6969912974203322369/)|24 September, 2022|Online
 115|5th cloud8 virtual Summit 2022|[Building apps for Teams meetings](https://www.cloudeight.ch/)|23 September, 2022|Online
 114|Microsoft Modern Workplace Academy|[Building tailored employee experiences with Microsoft Viva Connections and SharePoint Framework](https://msevents.microsoft.com/event?id=575473758)|23 September, 2022|Online
@@ -154,6 +155,7 @@ Organizer - Pune Tech Community|[Global AI Bootcamp, Pune 2023](https://www.meet
 ## Event Organizer
 
 **#**|**Event**|**When**|**Where**
+15|[Application Developers Day, Pune 2022](https://www.meetup.com/pune-tech-community/events/288451237/)|08 October, 2022|Pune, India
 14|[M365 Cloud Day, Pune 2022](https://www.meetup.com/pune-tech-community/events/287138179/)|06 August, 2022|Pune, India
 13|[aMS Pune (Hybrid)](https://www.meetup.com/pune-tech-community/events/286519676/)|18 June, 2022|Pune, India
 12|[Global Azure Bootcamp 2022, Pune](https://www.meetup.com/Pune-Tech-Community/events/285099113/)|07 May, 2022|Online
