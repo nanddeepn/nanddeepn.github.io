@@ -12,7 +12,6 @@ toc: true
 I’ll be speaking at the following events.
 
 **Event**|**Topic**|**When**|**Where**
-Application Developers Day, Pune 2022|[Bot Development in an easy steps](https://www.meetup.com/pune-tech-community/events/288451237/)|08 October, 2022|Pune, India
 Microsoft Reactor Bengaluru|[Build modern employee experience with Microsoft Viva Connections](https://www.meetup.com/microsoft-reactor-bengaluru/events/288472697/)|12 October, 2022 at 06:00 PM IST|Online
 **Microsoft Ignite**|[Microsoft Teams Best Practices, Tips and Tricks from our experts](https://ignite.microsoft.com/en-US/sessions/2a9ad3a7-e933-4017-9535-fe3b048ffaa0)|12 October, 2022|Online
 The North American Collaboration Summit 2022|[Extending MS Teams with SharePoint Framework](http://www.collabsummit.org/schedule/)|14 October, 2022 at 7:30 PM IST|Online
@@ -26,6 +25,7 @@ Organizer - Pune Tech Community|[Global AI Bootcamp, Pune 2023](https://www.meet
 ## Past events
 
 **#**|**Event**|**Topic**|**When**|**Where**
+118|Application Developers Day, Pune 2022|[Bot Development in an easy steps](https://www.meetup.com/pune-tech-community/events/288451237/)|08 October, 2022|Pune, India
 117|Teams10X|[Explore Shared Channels in MS Teams](https://teams10xfall22.sessionize.com/speaker/388554b5-f811-441c-96d9-1d9beb38074e)|29 September, 2022|Online
 116|Global Microsoft Hindi (हिंदी) Event|[Yammer and it's role in Microsoft Viva](https://www.linkedin.com/events/globalmicrosoft-event-september6969912974203322369/)|24 September, 2022|Online
 115|5th cloud8 virtual Summit 2022|[Building apps for Teams meetings](https://www.cloudeight.ch/)|23 September, 2022|Online
