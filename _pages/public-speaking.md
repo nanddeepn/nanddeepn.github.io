@@ -21,6 +21,7 @@ M365 Chicago|[Yammer and It's Role in Microsoft Viva](https://m365chicago.com/)|
 M365 Chicago|[Microsoft Viva Connections - Set Up and Extend with SPFx](https://m365chicago.com/)|11 November, 2022 at 9:30 PM IST|Online
 Microsoft Ignite After Party|[Microsoft Ignite After Party](https://www.meetup.com/pune-tech-community/events/288791031/)|19 November, 2022|Online
 Organizer - Pune Tech Community|[Global AI Bootcamp, Pune 2023](https://www.meetup.com/pune-tech-community/events/287923053/)|04 March, 2023|Online
+MVP VCCP Tuesday - Microsoft Viva|Building tailored employee experiences with Microsoft Viva Connections and SharePoint Framework|28 March, 2023|Online
 
 ## Past events
 
