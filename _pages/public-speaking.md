@@ -12,7 +12,6 @@ toc: true
 I’ll be speaking at the following events.
 
 **Event**|**Topic**|**When**|**Where**
-The North American Collaboration Summit 2022|[Extending MS Teams with SharePoint Framework](http://www.collabsummit.org/schedule/)|14 October, 2022 at 7:30 PM IST|Online
 India Cloud Security Summit 2022|[Ensuring Security and Compliance in Microsoft Teams](https://www.indiacloudsecuritysummit.com/#agenda)|29 October, 2022|Online
 Organizer - Pune Tech Community|[Global AI Developer Days, Pune 2022](https://www.meetup.com/pune-tech-community/events/287922909/)|29 October, 2022|Online
 M365 Chicago|[Yammer and It's Role in Microsoft Viva](https://m365chicago.com/)|11 November, 2022 at 8:30 PM IST|Online
@@ -24,6 +23,7 @@ MVP VCCP Tuesday - Microsoft Viva|Building tailored employee experiences with Mi
 ## Past events
 
 **#**|**Event**|**Topic**|**When**|**Where**
+121|The North American Collaboration Summit 2022|[Extending MS Teams with SharePoint Framework](http://www.collabsummit.org/schedule/)|14 October, 2022|Online
 120|**Microsoft Ignite**|[Microsoft Teams Best Practices, Tips and Tricks from our experts](https://ignite.microsoft.com/en-US/sessions/2a9ad3a7-e933-4017-9535-fe3b048ffaa0)|12 October, 2022|Online
 119|Microsoft Reactor Bengaluru|[Build modern employee experience with Microsoft Viva Connections](https://www.meetup.com/microsoft-reactor-bengaluru/events/288472697/)|12 October, 2022|Online
 118|Application Developers Day, Pune 2022|[Bot Development in an easy steps](https://www.meetup.com/pune-tech-community/events/288451237/)|08 October, 2022|Pune, India
