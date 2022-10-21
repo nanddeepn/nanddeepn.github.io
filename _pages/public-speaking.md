@@ -14,6 +14,7 @@ I’ll be speaking at the following events.
 **Event**|**Topic**|**When**|**Where**
 India Cloud Security Summit 2022|[Ensuring Security and Compliance in Microsoft Teams](https://www.indiacloudsecuritysummit.com/#agenda)|29 October, 2022|Online
 Organizer - Pune Tech Community|[Global AI Developer Days, Pune 2022](https://www.meetup.com/pune-tech-community/events/287922909/)|29 October, 2022|Online
+Global AI Developer Days, New York|[Add intelligence to your M365 Apps with Azure AI](https://globalai.community/developer-days/north-america-new-york-5574/)|02 November, 2022|Online
 M365 Chicago|[Yammer and It's Role in Microsoft Viva](https://m365chicago.com/)|11 November, 2022 at 8:30 PM IST|Online
 M365 Chicago|[Microsoft Viva Connections - Set Up and Extend with SPFx](https://m365chicago.com/)|11 November, 2022 at 9:30 PM IST|Online
 Microsoft Ignite After Party|[Microsoft Ignite After Party](https://www.meetup.com/pune-tech-community/events/288791031/)|19 November, 2022|Online
