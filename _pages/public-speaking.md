@@ -12,7 +12,6 @@ toc: true
 I’ll be speaking at the following events.
 
 **Event**|**Topic**|**When**|**Where**
-Global AI Developer Days, New York|[Add intelligence to your M365 Apps with Azure AI](https://globalai.community/developer-days/north-america-new-york-5574/)|02 November, 2022|Online
 M365 Chicago|[Yammer and It's Role in Microsoft Viva](https://m365chicago.com/)|11 November, 2022 at 8:30 PM IST|Online
 M365 Chicago|[Microsoft Viva Connections - Set Up and Extend with SPFx](https://m365chicago.com/)|11 November, 2022 at 9:30 PM IST|Online
 Microsoft Ignite After Party|[Microsoft Ignite After Party](https://www.meetup.com/pune-tech-community/events/288791031/)|19 November, 2022|Online
@@ -22,6 +21,7 @@ MVP VCCP Tuesday - Microsoft Viva|Building tailored employee experiences with Mi
 ## Past events
 
 **#**|**Event**|**Topic**|**When**|**Where**
+123|Global AI Developer Days, Tri-State|[Add intelligence to your M365 Apps with Azure AI](https://communitydays.org/event/2022-11-02/global-ai-developers-days-tri-state#Speakers)|02 November, 2022|Online
 122|India Cloud Security Summit 2022|[Ensuring Security and Compliance in Microsoft Teams](https://www.indiacloudsecuritysummit.com/#agenda)|29 October, 2022|Online
 121|The North American Collaboration Summit 2022|[Extending MS Teams with SharePoint Framework](http://www.collabsummit.org/schedule/)|14 October, 2022|Online
 120|**Microsoft Ignite**|[Microsoft Teams Best Practices, Tips and Tricks from our experts](https://ignite.microsoft.com/en-US/sessions/2a9ad3a7-e933-4017-9535-fe3b048ffaa0)|12 October, 2022|Online
