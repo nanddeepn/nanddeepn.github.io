@@ -110,11 +110,11 @@ Follow below steps to set up Microsoft Syntex:
 
 The default content center will be created at the configured URL.
 
-    ![](/media/2022-11-17-getting-started-microsoft-syntex/06.png)
+![](/media/2022-11-17-getting-started-microsoft-syntex/06.png)
 
 If needed, you can create additional content centers from SharePoint admin center.
 
-    ![](/media/2022-11-17-getting-started-microsoft-syntex/07.png)
+![](/media/2022-11-17-getting-started-microsoft-syntex/07.png)
 
 
 ## Create Pre-built model
@@ -155,7 +155,10 @@ Once the model is created, follow below steps to test it.
 
     ![](/media/2022-11-17-getting-started-microsoft-syntex/13.png)
 
-In the document library, select the documehttps://learn.microsoft.com/en-us/microsoft-365/contentunderstanding/create-syntex-modelnt(s), click Classify and extract to let Microsoft Syntex to extract out the information from your documents. This usually takes 30 minutes to process the information and extract the metadata.
+In the document library, select the document(s), click Classify and extract to let Microsoft Syntex to extract out the information from your documents. 
+
+> Note:
+> This usually takes 30 minutes to process the information and extract the metadata.
 
 ![](/media/2022-11-17-getting-started-microsoft-syntex/14.png)
 
