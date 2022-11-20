@@ -12,14 +12,15 @@ toc: true
 I’ll be speaking at the following events.
 
 **Event**|**Topic**|**When**|**Where**
-Microsoft Ignite After Party|[Microsoft Ignite After Party](https://www.meetup.com/pune-tech-community/events/288791031/)|19 November, 2022|Online
 Organizer - Pune Tech Community|[.NET Conf, Pune 2022](https://www.meetup.com/pune-tech-community/events/289618681/)|17 December, 2022|Online
+Organizer - Pune Tech Community|[Global Power Platform Bootcamp, Pune 2023](https://www.meetup.com/pune-tech-community/events/289814150/)|25 February, 2023|Online
 Organizer - Pune Tech Community|[Global AI Bootcamp, Pune 2023](https://www.meetup.com/pune-tech-community/events/287923053/)|04 March, 2023|Online
 MVP VCCP Tuesday - Microsoft Viva|Building tailored employee experiences with Microsoft Viva Connections and SharePoint Framework|28 March, 2023|Online
 
 ## Past events
 
 **#**|**Event**|**Topic**|**When**|**Where**
+126|Microsoft Ignite After Party|[Introducing Microsoft Syntex](https://www.meetup.com/pune-tech-community/events/288791031/)|19 November, 2022|Online
 125|M365 Chicago|[Microsoft Viva Connections - Set Up and Extend with SPFx](https://m365chicago.com/)|11 November, 2022|Online
 124|M365 Chicago|[Yammer and It's Role in Microsoft Viva](https://m365chicago.com/)|11 November, 2022|Online
 123|Global AI Developer Days, Tri-State|[Add intelligence to your M365 Apps with Azure AI](https://communitydays.org/event/2022-11-02/global-ai-developers-days-tri-state#Speakers)|02 November, 2022|Online
