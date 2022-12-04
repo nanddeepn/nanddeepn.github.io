@@ -12,6 +12,7 @@ toc: true
 I’ll be speaking at the following events.
 
 **Event**|**Topic**|**When**|**Where**
+M365 Philly Virtual 2022|[Explore Microsoft Syntex](https://www.communitydays.org/event/2022-12-15/m365-philly-virtual-2022)|15 December, 2022|Online
 Organizer - Pune Tech Community|[.NET Conf, Pune 2022](https://www.meetup.com/pune-tech-community/events/289618681/)|17 December, 2022|Online
 Organizer - Pune Tech Community|[Global Power Platform Bootcamp, Pune 2023](https://www.meetup.com/pune-tech-community/events/289814150/)|25 February, 2023|Online
 Organizer - Pune Tech Community|[Global AI Bootcamp, Pune 2023](https://www.meetup.com/pune-tech-community/events/287923053/)|04 March, 2023|Online
