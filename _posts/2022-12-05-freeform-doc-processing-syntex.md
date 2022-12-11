@@ -27,9 +27,14 @@ Freeform document processing model uses Microsoft Power Apps AI Builder to creat
 
 ## Business Scenario
 
-Let us take a scenario, where we are receiving invoices from multiple vendors (e.g., Adatum and Contoso). Adatum shares the invoices over an email. Whereas invoices received from Contoso are in scanned format. Each of them follows its format to share the invoices.
+Let us take a scenario, where we need to process the rental agreements in various formats. The information can appear in a freeform without any pre-defined layout.
 
-You may use the [sample data](https://learn.microsoft.com/en-us/ai-builder/form-processing-sample-data?WT.mc_id=M365-MVP-5003693) for setting up the model.
+You may use the [Rental agreements sample data](https://learn.microsoft.com/en-us/ai-builder/form-processing-sample-data?WT.mc_id=M365-MVP-5003693) for setting up the model.
+
+![](/media/2022-12-05-freeform-doc-processing-syntex/01.png)
+
+The above image shows two different formats of the rental agreement, but has common metadata to extract (E.g., Landlord, Tenant, Property Address, Start Date, End Date, Monthly Rent, and Security Deposit). 
+
 
 ## Create a Freeform document processing model
 
@@ -40,31 +45,27 @@ Follow the below steps to create a Freeform document processing model:
 3. Click **Create a model**.
 4. Select the **Freeform selection method**.
 
-    ![](/media/2022-12-05-freeform-doc-processing-syntex/01.png)
+    ![](/media/2022-12-05-freeform-doc-processing-syntex/02.png)
 
 5. Read out the details to understand the model better. Note, you can use this model on PDF and image files in the English language.
 
-    ![](/media/2022-12-05-freeform-doc-processing-syntex/02.png)
+    ![](/media/2022-12-05-freeform-doc-processing-syntex/03.png)
 
 6. Name your model. Click **Create**.
 
-    ![](/media/2022-12-05-freeform-doc-processing-syntex/03.png)
+    ![](/media/2022-12-05-freeform-doc-processing-syntex/04.png)
 
 
 **Choose information to extract**
 
-1. We can now start by defining the information to extract as Field, Checkbox, or Table.
+Based on the fields that we want to capture from the rental agreement, let us define the fields.
 
-    ![](/media/2022-12-05-freeform-doc-processing-syntex/04.png)
-
-2. Based on the fields that we want to capture from the invoice, let us define the fields.
-
-    ![](/media/2022-12-05-freeform-doc-processing-syntex/05.png)
+![](/media/2022-12-05-freeform-doc-processing-syntex/05.png)
 
 
 **Add collections of documents**
 
-In the next step, we need to create a collection for each layout (e.g., Adatum and Contoso invoices).
+In the next step, we need to create a collection.
 
 ![](/media/2022-12-05-freeform-doc-processing-syntex/06.png)
 
@@ -81,11 +82,11 @@ We can add documents from any of below source:
 
 **Tag documents**
 
-1. In the next step, we need to tag the documents to extract the information from the sample documents into the fields defined.
+In the next step, we need to tag the documents to extract the information from the sample documents into the fields defined.
 
-    ![](/media/2022-12-05-freeform-doc-processing-syntex/07.png)
+![](/media/2022-12-05-freeform-doc-processing-syntex/07.png)
 
-2. Processing the table involves defining the rows and columns. Or switch to advanced tagging mode to tag the content of the table.
+If any field is not available in a document to tag, select **Not available in document** against the field.
 
     ![](/media/2022-12-05-freeform-doc-processing-syntex/08.png)
 
@@ -102,7 +103,7 @@ Review your model.
 Click **Train** to train your model. 
 
 > Note:
-> This may take from 20 minutes up to a few hours.
+> This may take from 20 minutes up to a few hours, based on varied layouts.
 
 
 ## Publish trained model
@@ -111,6 +112,8 @@ After the training is complete, your model is ready to publish. It is a good ide
 
 ![](/media/2022-12-05-freeform-doc-processing-syntex/10.png)
 
+Click **Publish** to make the model available.
+
 
 ## Apply the model
 
@@ -118,7 +121,6 @@ As a next step, we need to apply the model to a document library to start proces
 
 1. Click **+ Add library**.
 2. Select SharePoint and document library.
-3. If you choose to **Extract info from tables**, specify the SharePoint list.
 
     ![](/media/2022-12-05-freeform-doc-processing-syntex/11.png)
 
@@ -135,8 +137,6 @@ Once the documents are uploaded to the designated document library, select the d
 The result will look as follows:
 
 ![](/media/2022-12-05-freeform-doc-processing-syntex/13.png)
-
-The information from the table gets stored in a specified SharePoint list.
 
 
 ## Summary
