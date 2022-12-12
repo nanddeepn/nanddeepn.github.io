@@ -143,6 +143,9 @@ The result will look as follows:
 
 Freeform document processing is an AI offering of Microsoft Syntex that makes it easy to extract information when an organization receives a huge number of documents over email, fax, or a physical copy.
 
+## Update
+I came across another interesting article on the same topic - [New Microsoft Syntex Freeform Document Processing Model & Syntex Model Renames](https://www.leonarmston.com/2022/11/new-microsoft-syntex-freeform-document-processing-model/) by [Leon Armston (MVP)](https://twitter.com/LeonArmston)
+
 
 ## References
 
