@@ -17,7 +17,7 @@ last_modified_at: 2022-12-05T00:00:00-00:00
 
 When your organization receives a huge number of documents over email, fax, or a physical copy, it is difficult to process them physically and classify the information. Freeform document processing as an AI offering of Microsoft Syntex makes your work easy in these situations.
 
-This article is an extension to my previous article Getting started with Microsoft Syntex but focuses specifically on Freeform document processing.
+This article is an extension to my previous article [Getting started with Microsoft Syntex](../2022-11-17-getting-started-microsoft-syntex) but focuses specifically on Freeform document processing.
 
 ## Freeform document processing
 
@@ -88,7 +88,7 @@ In the next step, we need to tag the documents to extract the information from t
 
 If any field is not available in a document to tag, select **Not available in document** against the field.
 
-    ![](/media/2022-12-05-freeform-doc-processing-syntex/08.png)
+![](/media/2022-12-05-freeform-doc-processing-syntex/08.png)
 
 
 **Model summary**
