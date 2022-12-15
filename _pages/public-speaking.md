@@ -12,7 +12,6 @@ toc: true
 I’ll be speaking at the following events.
 
 **Event**|**Topic**|**When**|**Where**
-M365 Philly Virtual 2022|[Explore Microsoft Syntex](https://www.communitydays.org/event/2022-12-15/m365-philly-virtual-2022)|15 December, 2022 at 8:30 PM IST|Online
 Organizer - Pune Tech Community|[.NET Conf, Pune 2022](https://www.meetup.com/pune-tech-community/events/289618681/)|17 December, 2022|Online
 M365 Saturday Ahmedabad 2023|[Build your content understanding with Microsoft Syntex](https://www.meetup.com/m365ahmedabad/events/289560209/)|January 7, 2023|Ahmedabad, India
 Organizer - Pune Tech Community|[Global Power Platform Bootcamp, Pune 2023](https://www.meetup.com/pune-tech-community/events/289814150/)|25 February, 2023|Online
@@ -22,6 +21,7 @@ MVP VCCP Tuesday - Microsoft Viva|Building tailored employee experiences with Mi
 ## Past events
 
 **#**|**Event**|**Topic**|**When**|**Where**
+127|M365 Philly Virtual 2022|[Explore Microsoft Syntex](https://www.communitydays.org/event/2022-12-15/m365-philly-virtual-2022)|15 December, 2022|Online
 126|Microsoft Ignite After Party|[Introducing Microsoft Syntex](https://www.meetup.com/pune-tech-community/events/288791031/)|19 November, 2022|Online
 125|M365 Chicago|[Microsoft Viva Connections - Set Up and Extend with SPFx](https://m365chicago.com/)|11 November, 2022|Online
 124|M365 Chicago|[Yammer and It's Role in Microsoft Viva](https://m365chicago.com/)|11 November, 2022|Online
