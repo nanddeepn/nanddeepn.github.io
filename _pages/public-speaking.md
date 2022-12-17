@@ -17,6 +17,7 @@ Organizer - Pune Tech Community|[Global Power Platform Bootcamp, Pune 2023](http
 Organizer - Pune Tech Community|[Global AI Bootcamp, Pune 2023](https://www.meetup.com/pune-tech-community/events/287923053/)|04 March, 2023|Online
 MVP VCCP Tuesday - Microsoft Viva|Building tailored employee experiences with Microsoft Viva Connections and SharePoint Framework|28 March, 2023|Online
 
+
 ## Past events
 
 **#**|**Event**|**Topic**|**When**|**Where**
@@ -148,14 +149,6 @@ MVP VCCP Tuesday - Microsoft Viva|Building tailored employee experiences with Mi
 02|C# Corner, Pune Chapter Meet|[SharePoint Site Provisioning](https://www.c-sharpcorner.com/events/learn-sharepoint-office-365-azure-for-developers-and-azure-bot-service)|28 July, 2018|Pune, India
 01|Webinar, C# Corner, Pune Chapter|[Modern Sites in SharePoint](https://www.c-sharpcorner.com/events/modern-sites-in-sharepoint)|09 June, 2018|Online
 
-## Other appearances
-
-**#**|**Event**|**Topic**|**When**|**Where**
-05|Proctor, Global Microsoft 365 Developer Bootcamp, APAC Region|[Global Microsoft 365 Developer Bootcamp, APAC Region](https://microsoft365developerbootcamp.splashthat.com/)|14, 15 October, 2020|Online
-04|Proctor, Global Microsoft 365 Developer Bootcamp, EMEA Region|[Global Microsoft 365 Developer Bootcamp, EMEA Region](https://microsoft365developerbootcamp.splashthat.com/)|13, 14 October, 2020|Online
-03|Microsoft Ignite, Ask the Expert, SME Support|[ATE-DB136: Embrace a New Way of Work with Microsoft 365](https://myignite.microsoft.com/sessions/ATE-DB136)|24 September, 2020|Online
-02|Microsoft Ignite, Ask the Expert, SME Support|[ATE-DB155-R2: Introducing modern admin capabilities to better service Microsoft 365 Apps for enterprise](https://myignite.microsoft.com/sessions/ATE-DB155-R2/)|24 September, 2020|Online
-01|Microsoft Ignite, Ask the Expert, SME Support|[ATE-DB136-R1: Embrace a New Way of Work with Microsoft 365](https://myignite.microsoft.com/sessions/ATE-DB136-R1)|24 September, 2020|Online
 
 ## Event Organizer
 
@@ -177,3 +170,13 @@ MVP VCCP Tuesday - Microsoft Viva|Building tailored employee experiences with Mi
 03|[SPFx Deep Dive Webinar Series](https://www.meetup.com/Microsoft-365-and-Power-Platform-User-group-India/events/lmdsrrybchbdb/)|May, 2020|Webinar Series
 02|[Getting Started with SharePoint Framework](https://www.meetup.com/Microsoft-365-and-Power-Platform-User-group-India/events/rtfhrrybcgblb/)|April, 2020|Webinar Series
 01|[Global Power Platform Bootcamp 2020, Pune](https://www.powerplatformbootcamp.com/location-detail/?id=ca4081e5-c11f-ea11-8454-281878f66ccc&city=Pune)|15 February, 2020|Pune, India
+
+
+## Other appearances
+
+**#**|**Event**|**Topic**|**When**|**Where**
+05|Proctor, Global Microsoft 365 Developer Bootcamp, APAC Region|[Global Microsoft 365 Developer Bootcamp, APAC Region](https://microsoft365developerbootcamp.splashthat.com/)|14, 15 October, 2020|Online
+04|Proctor, Global Microsoft 365 Developer Bootcamp, EMEA Region|[Global Microsoft 365 Developer Bootcamp, EMEA Region](https://microsoft365developerbootcamp.splashthat.com/)|13, 14 October, 2020|Online
+03|Microsoft Ignite, Ask the Expert, SME Support|[ATE-DB136: Embrace a New Way of Work with Microsoft 365](https://myignite.microsoft.com/sessions/ATE-DB136)|24 September, 2020|Online
+02|Microsoft Ignite, Ask the Expert, SME Support|[ATE-DB155-R2: Introducing modern admin capabilities to better service Microsoft 365 Apps for enterprise](https://myignite.microsoft.com/sessions/ATE-DB155-R2/)|24 September, 2020|Online
+01|Microsoft Ignite, Ask the Expert, SME Support|[ATE-DB136-R1: Embrace a New Way of Work with Microsoft 365](https://myignite.microsoft.com/sessions/ATE-DB136-R1)|24 September, 2020|Online
