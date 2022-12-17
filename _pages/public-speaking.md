@@ -12,7 +12,6 @@ toc: true
 I’ll be speaking at the following events.
 
 **Event**|**Topic**|**When**|**Where**
-Organizer - Pune Tech Community|[.NET Conf, Pune 2022](https://www.meetup.com/pune-tech-community/events/289618681/)|17 December, 2022|Online
 M365 Saturday Ahmedabad 2023|[Build your content understanding with Microsoft Syntex](https://www.meetup.com/m365ahmedabad/events/289560209/)|January 7, 2023|Ahmedabad, India
 Organizer - Pune Tech Community|[Global Power Platform Bootcamp, Pune 2023](https://www.meetup.com/pune-tech-community/events/289814150/)|25 February, 2023|Online
 Organizer - Pune Tech Community|[Global AI Bootcamp, Pune 2023](https://www.meetup.com/pune-tech-community/events/287923053/)|04 March, 2023|Online
@@ -161,6 +160,7 @@ MVP VCCP Tuesday - Microsoft Viva|Building tailored employee experiences with Mi
 ## Event Organizer
 
 **#**|**Event**|**When**|**Where**
+17|[.NET Conf, Pune 2022](https://www.meetup.com/pune-tech-community/events/289618681/)|17 December, 2022|Online
 16|[Global AI Developer Days, Pune 2022](https://www.meetup.com/pune-tech-community/events/287922909/)|29 October, 2022|Online
 15|[Application Developers Day, Pune 2022](https://www.meetup.com/pune-tech-community/events/288451237/)|08 October, 2022|Pune, India
 14|[M365 Cloud Day, Pune 2022](https://www.meetup.com/pune-tech-community/events/287138179/)|06 August, 2022|Pune, India
