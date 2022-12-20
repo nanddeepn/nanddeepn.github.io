@@ -117,7 +117,7 @@ Click **Publish** to make the model available.
 As a next step, we need to apply the model to a document library to start processing files automatically.
 
 1. Click **+ Add library**
-2. Select SharePoint and document library.
+2. Select SharePoint site and document library.
 3. If you choose to **Extract info from tables** , specify the SharePoint list.
 
 ![](/media/2022-12-12-structured-doc-processing-syntex/11.png)
