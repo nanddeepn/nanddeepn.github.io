@@ -1,5 +1,5 @@
 ---
-title: "Structured Document Processing with Microsoft Syntex"
+title: "Unstructured Document Processing with Microsoft Syntex"
 date: "2022-12-20"
 share: true
 header:
