@@ -13,6 +13,7 @@ I’ll be speaking at the following events.
 
 **Event**|**Topic**|**When**|**Where**
 M365 Saturday Ahmedabad 2023|[Build your content understanding with Microsoft Syntex](https://www.meetup.com/m365ahmedabad/events/289560209/)|January 7, 2023|Ahmedabad, India
+Global Power Platform Bootcamp - Delhi|[Building Custom Connectors for Power Platform](https://www.powerplatformbootcamp.com/2023/location-detail/?id=87424f65-a670-ed11-a81b-002248ae9775&city=Delhi+Power+BI+User+Group)|24 February, 2023 at 06 PM IST|Online
 Organizer - Pune Tech Community|[Global Power Platform Bootcamp, Pune 2023](https://www.meetup.com/pune-tech-community/events/289814150/)|25 February, 2023|Online
 Organizer - Pune Tech Community|[Global AI Bootcamp, Pune 2023](https://www.meetup.com/pune-tech-community/events/287923053/)|04 March, 2023|Online
 MVP VCCP Tuesday - Microsoft Viva|Building tailored employee experiences with Microsoft Viva Connections and SharePoint Framework|28 March, 2023|Online
