@@ -9,9 +9,9 @@ categories:
   - Office 365
   - Microsoft Syntex
 tags:
-  - "2022"
-  - December 2022
-last_modified_at: 2022-12-20T00:00:00-00:00
+  - "2023"
+  - January 2023
+last_modified_at: 2023-01-05T00:00:00-00:00
 ---
 ## Overview
 
