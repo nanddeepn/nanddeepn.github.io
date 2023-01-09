@@ -12,16 +12,16 @@ toc: true
 I’ll be speaking at the following events.
 
 **Event**|**Topic**|**When**|**Where**
-M365 Saturday Ahmedabad 2023|[Build your content understanding with Microsoft Syntex](https://www.meetup.com/m365ahmedabad/events/289560209/)|January 7, 2023|Ahmedabad, India
 Global Power Platform Bootcamp - Delhi|[Building Custom Connectors for Power Platform](https://www.powerplatformbootcamp.com/2023/location-detail/?id=87424f65-a670-ed11-a81b-002248ae9775&city=Delhi+Power+BI+User+Group)|24 February, 2023 at 06 PM IST|Online
-Organizer - Pune Tech Community|[Global Power Platform Bootcamp, Pune 2023](https://www.meetup.com/pune-tech-community/events/289814150/)|25 February, 2023|Online
-Organizer - Pune Tech Community|[Global AI Bootcamp, Pune 2023](https://www.meetup.com/pune-tech-community/events/287923053/)|04 March, 2023|Online
+Organizer - Pune Tech Community|[Global Power Platform Bootcamp, Pune 2023](https://www.meetup.com/pune-tech-community/events/289814150/)|25 February, 2023|Pune, India
+Organizer - Pune Tech Community|[Global AI Bootcamp, Pune 2023](https://www.meetup.com/pune-tech-community/events/287923053/)|04 March, 2023|Pune, India
 MVP VCCP Tuesday - Microsoft Viva|Building tailored employee experiences with Microsoft Viva Connections and SharePoint Framework|28 March, 2023|Online
 
 
 ## Past events
 
 **#**|**Event**|**Topic**|**When**|**Where**
+128|[M365 Saturday Ahmedabad 2023|[Build your content understanding with Microsoft Syntex](https://www.meetup.com/m365ahmedabad/events/289560209/)|January 7, 2023|Ahmedabad, India
 127|M365 Philly Virtual 2022|[Explore Microsoft Syntex](https://www.communitydays.org/event/2022-12-15/m365-philly-virtual-2022)|15 December, 2022|Online
 126|Microsoft Ignite After Party|[Introducing Microsoft Syntex](https://www.meetup.com/pune-tech-community/events/288791031/)|19 November, 2022|Online
 125|M365 Chicago|[Microsoft Viva Connections - Set Up and Extend with SPFx](https://m365chicago.com/)|11 November, 2022|Online
