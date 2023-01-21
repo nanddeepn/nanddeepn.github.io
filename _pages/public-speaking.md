@@ -22,7 +22,7 @@ Teams10X|Building tailored employee experiences with Microsoft Viva Connections 
 ## Past events
 
 **#**|**Event**|**Topic**|**When**|**Where**
-128|[M365 Saturday Ahmedabad 2023|[Build your content understanding with Microsoft Syntex](https://www.meetup.com/m365ahmedabad/events/289560209/)|January 7, 2023|Ahmedabad, India
+128|M365 Saturday Ahmedabad 2023|[Build your content understanding with Microsoft Syntex](https://www.meetup.com/m365ahmedabad/events/289560209/)|January 7, 2023|Ahmedabad, India
 127|M365 Philly Virtual 2022|[Explore Microsoft Syntex](https://www.communitydays.org/event/2022-12-15/m365-philly-virtual-2022)|15 December, 2022|Online
 126|Microsoft Ignite After Party|[Introducing Microsoft Syntex](https://www.meetup.com/pune-tech-community/events/288791031/)|19 November, 2022|Online
 125|M365 Chicago|[Microsoft Viva Connections - Set Up and Extend with SPFx](https://m365chicago.com/)|11 November, 2022|Online

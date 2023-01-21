@@ -38,7 +38,7 @@ Let us consider a business case to address with content assembly. Consider you a
 
 The consulting agreement needs to be renewed for each vendor every year. Contoso spends a significant amount of time generating Consulting agreements which is time-consuming and error-prone work. Contoso is looking for automating this work.
 
-For this article, I am using one such example of consulting agreement from LegalContract.com. You can download the same from here.
+For this article, I am using one such example of consulting agreement from LegalContract.com. You can download the same from [here](/media/2023-01-05-content-assembly-syntex/Consulting Agreement.docx).
 
 The document has the below placeholders
 
