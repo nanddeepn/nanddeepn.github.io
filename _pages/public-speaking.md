@@ -15,9 +15,9 @@ I’ll be speaking at the following events.
 Global Power Platform Bootcamp - Delhi|[Building Custom Connectors for Power Platform](https://www.powerplatformbootcamp.com/2023/location-detail/?id=87424f65-a670-ed11-a81b-002248ae9775&city=Delhi+Power+BI+User+Group)|24 February, 2023 at 06 PM IST|Online
 Organizer - Pune Tech Community|[Global Power Platform Bootcamp, Pune 2023](https://www.meetup.com/pune-tech-community/events/289814150/)|25 February, 2023|Pune, India
 Organizer - Pune Tech Community|[Global AI Bootcamp, Pune 2023](https://www.meetup.com/pune-tech-community/events/287923053/)|04 March, 2023|Pune, India
+Microsoft Reactor Bengaluru|[Implementing ACEs for Viva Connections dashboard](https://www.meetup.com/microsoft-reactor-bengaluru/events/)|15 March, 2023 at 6 PM IST|Online
 NYC Teams Tuesday|[Implementing ACEs for Viva Connections](https://www.meetup.com/NYC-Teams-Tuesday/events/290919102/)|21 March, 2023 at 9:45 PM IST|Online
 MVP VCCP Tuesday - Microsoft Viva|[Building tailored employee experiences with Microsoft Viva Connections and SharePoint Framework](https://teams10x.com/)|28 March, 2023|Online
-Microsoft Reactor Bengaluru|[Implementing ACEs for Viva Connections dashboard](https://www.meetup.com/microsoft-reactor-bengaluru/events/)|29 March, 2023 at 6 PM IST|Online
 Teams10X|Building tailored employee experiences with Microsoft Viva Connections and SharePoint Framework|13 April, 2023 at 3 PM IST|Online
 
 ## Past events
