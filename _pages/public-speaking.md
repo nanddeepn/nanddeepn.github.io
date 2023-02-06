@@ -20,6 +20,7 @@ Experts Live India|[Manage your Content Smarter with Microsoft Syntex](https://e
 NYC Teams Tuesday|[Implementing ACEs for Viva Connections](https://www.meetup.com/NYC-Teams-Tuesday/events/290919102/)|21 March, 2023 at 9:45 PM IST|Online
 MVP VCCP Tuesday - Microsoft Viva|[Building tailored employee experiences with Microsoft Viva Connections and SharePoint Framework](https://teams10x.com/)|28 March, 2023|Online
 Teams10X|Building tailored employee experiences with Microsoft Viva Connections and SharePoint Framework|13 April, 2023 at 3 PM IST|Online
+Organizer - Pune Tech Community|[Global Azure 2023 - Pune](https://www.meetup.com/pune-tech-community/events/291444341/)|13 May, 2023|Online
 aMS Berlin|[Build your content understanding with Microsoft Syntex](https://amsberlin.eu/)|15 June, 2023 at 2 to 2:45 PM IST|Online
 
 ## Past events
