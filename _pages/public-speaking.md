@@ -12,7 +12,7 @@ toc: true
 I’ll be speaking at the following events.
 
 **Event**|**Topic**|**When**|**Where**
-Global Power Platform Bootcamp - Delhi|[Building Custom Connectors for Power Platform](https://www.powerplatformbootcamp.com/2023/location-detail/?id=87424f65-a670-ed11-a81b-002248ae9775&city=Delhi+Power+BI+User+Group)|24 February, 2023 at 06 PM IST|Online
+Global Power Platform Bootcamp - Delhi|[Building Custom Connectors for Power Platform](https://www.eventbrite.com/e/global-power-platform-bootcamp-2023-delhi-tickets-528092738597)|24 February, 2023 at 06 PM IST|Online
 Organizer - Pune Tech Community|[Global Power Platform Bootcamp, Pune 2023](https://www.meetup.com/pune-tech-community/events/289814150/)|25 February, 2023|Pune, India
 Organizer - Pune Tech Community|[Global AI Bootcamp, Pune 2023](https://www.meetup.com/pune-tech-community/events/287923053/)|04 March, 2023|Pune, India
 Global AI Bootcamp, Pune 2023|[Keynote: OpenAI, use cases, and Future!](https://www.meetup.com/pune-tech-community/events/287923053/)|04 March, 2023|Pune, India
