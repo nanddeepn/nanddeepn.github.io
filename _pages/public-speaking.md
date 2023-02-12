@@ -17,7 +17,7 @@ Organizer - Pune Tech Community|[Global Power Platform Bootcamp, Pune 2023](http
 Organizer - Pune Tech Community|[Global AI Bootcamp, Pune 2023](https://www.meetup.com/pune-tech-community/events/287923053/)|04 March, 2023|Pune, India
 Global AI Bootcamp, Pune 2023|[Keynote: OpenAI, use cases, and Future!](https://www.meetup.com/pune-tech-community/events/287923053/)|04 March, 2023|Pune, India
 Microsoft Reactor Bengaluru|[Implementing ACEs for Viva Connections dashboard](https://www.meetup.com/microsoft-reactor-bengaluru/events/)|15 March, 2023 at 6 PM IST|Online
-Experts Live India|[Manage your Content Smarter with Microsoft Syntex](https://expertslive.co.in/)|18 March, 2023|Pune, India
+Experts Live India|[Manage your Content Smarter with Microsoft Syntex](https://expertslive.co.in/)|19 March, 2023|Pune, India
 NYC Teams Tuesday|[Implementing ACEs for Viva Connections](https://www.meetup.com/NYC-Teams-Tuesday/events/290919102/)|21 March, 2023 at 9:45 PM IST|Online
 MVP VCCP Tuesday - Microsoft Viva|[Building tailored employee experiences with Microsoft Viva Connections and SharePoint Framework](https://teams10x.com/)|28 March, 2023|Online
 Teams10X|Building tailored employee experiences with Microsoft Viva Connections and SharePoint Framework|13 April, 2023 at 3 PM IST|Online
