@@ -12,8 +12,6 @@ toc: true
 I’ll be speaking at the following events.
 
 **Event**|**Topic**|**When**|**Where**
-Global Power Platform Bootcamp - Delhi|[Building Custom Connectors for Power Platform](https://www.eventbrite.com/e/global-power-platform-bootcamp-2023-delhi-tickets-528092738597)|24 February, 2023 at 06 PM IST|Online
-Organizer - Pune Tech Community|[Global Power Platform Bootcamp, Pune 2023](https://www.meetup.com/pune-tech-community/events/289814150/)|25 February, 2023|Pune, India
 Microsoft Reactor Bengaluru|[Building Apps for Microsoft Teams](https://www.meetup.com/microsoft-reactor-bengaluru/events/291660578/)|03 March, 2023|Pune, India
 Organizer - Pune Tech Community|[Global AI Bootcamp, Pune 2023](https://www.meetup.com/pune-tech-community/events/287923053/)|04 March, 2023|Pune, India
 Global AI Bootcamp, Pune 2023|[Keynote: OpenAI, use cases, and Future!](https://www.meetup.com/pune-tech-community/events/287923053/)|04 March, 2023|Pune, India
@@ -28,6 +26,7 @@ aMS Berlin|[Build your content understanding with Microsoft Syntex](https://amsb
 ## Past events
 
 **#**|**Event**|**Topic**|**When**|**Where**
+129|Global Power Platform Bootcamp - Delhi|[Building Custom Connectors for Power Platform](https://www.eventbrite.com/e/global-power-platform-bootcamp-2023-delhi-tickets-528092738597)|24 February, 2023|Online
 128|M365 Saturday Ahmedabad 2023|[Build your content understanding with Microsoft Syntex](https://www.meetup.com/m365ahmedabad/events/289560209/)|07 January, 2023|Ahmedabad, India
 127|M365 Philly Virtual 2022|[Explore Microsoft Syntex](https://www.communitydays.org/event/2022-12-15/m365-philly-virtual-2022)|15 December, 2022|Online
 126|Microsoft Ignite After Party|[Introducing Microsoft Syntex](https://www.meetup.com/pune-tech-community/events/288791031/)|19 November, 2022|Online
@@ -161,6 +160,7 @@ aMS Berlin|[Build your content understanding with Microsoft Syntex](https://amsb
 ## Event Organizer
 
 **#**|**Event**|**When**|**Where**
+18|[Global Power Platform Bootcamp, Pune 2023](https://www.meetup.com/pune-tech-community/events/289814150/)|25 February, 2023|Pune, India
 17|[.NET Conf, Pune 2022](https://www.meetup.com/pune-tech-community/events/289618681/)|17 December, 2022|Online
 16|[Global AI Developer Days, Pune 2022](https://www.meetup.com/pune-tech-community/events/287922909/)|29 October, 2022|Online
 15|[Application Developers Day, Pune 2022](https://www.meetup.com/pune-tech-community/events/288451237/)|08 October, 2022|Pune, India
