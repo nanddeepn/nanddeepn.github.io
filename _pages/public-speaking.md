@@ -14,7 +14,6 @@ I’ll be speaking at the following events.
 **Event**|**Topic**|**When**|**Where**
 Microsoft Reactor Bengaluru|[Building Apps for Microsoft Teams](https://www.meetup.com/microsoft-reactor-bengaluru/events/291660578/)|03 March, 2023|Pune, India
 Organizer - Pune Tech Community|[Global AI Bootcamp, Pune 2023](https://www.meetup.com/pune-tech-community/events/287923053/)|04 March, 2023|Pune, India
-Global AI Bootcamp, Pune 2023|[Keynote: OpenAI, use cases, and Future!](https://www.meetup.com/pune-tech-community/events/287923053/)|04 March, 2023|Pune, India
 Microsoft Reactor Bengaluru|[Implementing ACEs for Viva Connections dashboard](https://www.meetup.com/microsoft-reactor-bengaluru/events/)|15 March, 2023 at 6 PM IST|Online
 Experts Live India|[Manage your Content Smarter with Microsoft Syntex](https://expertslive.co.in/)|19 March, 2023|Pune, India
 NYC Teams Tuesday|[Implementing ACEs for Viva Connections](https://www.meetup.com/NYC-Teams-Tuesday/events/290919102/)|21 March, 2023 at 9:45 PM IST|Online
