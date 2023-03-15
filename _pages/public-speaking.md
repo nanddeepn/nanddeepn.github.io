@@ -12,7 +12,6 @@ toc: true
 I’ll be speaking at the following events.
 
 **Event**|**Topic**|**When**|**Where**
-Microsoft Reactor Bengaluru|[Implementing ACEs for Viva Connections dashboard](https://www.meetup.com/microsoft-reactor-bengaluru/events/291182007)|15 March, 2023 at 6 PM IST|Online
 Experts Live India|[Manage your Content Smarter with Microsoft Syntex]([https://expertslive.co.in/](https://konfhub.com/eli-2023))|19 March, 2023|Pune, India
 NYC Teams Tuesday|[Microsoft Syntex to manage your content better](https://www.meetup.com/NYC-Teams-Tuesday/events/290919102/)|21 March, 2023 at 9:45 PM IST|Online
 MVP VCCP Tuesday - Microsoft Viva|[Building tailored employee experiences with Microsoft Viva Connections and SharePoint Framework](https://teams10x.com/)|28 March, 2023|Online
@@ -23,6 +22,7 @@ aMS Berlin|[Build your content understanding with Microsoft Syntex](https://amsb
 ## Past events
 
 **#**|**Event**|**Topic**|**When**|**Where**
+131|Microsoft Reactor Bengaluru|[Implementing ACEs for Viva Connections dashboard](https://www.meetup.com/microsoft-reactor-bengaluru/events/291182007)|15 March, 2023|Online
 130|Microsoft Reactor Bengaluru|[Building Apps for Microsoft Teams](https://www.meetup.com/microsoft-reactor-bengaluru/events/291660578/)|03 March, 2023|Pune, India
 129|Global Power Platform Bootcamp - Delhi|[Building Custom Connectors for Power Platform](https://www.eventbrite.com/e/global-power-platform-bootcamp-2023-delhi-tickets-528092738597)|24 February, 2023|Online
 128|M365 Saturday Ahmedabad 2023|[Build your content understanding with Microsoft Syntex](https://www.meetup.com/m365ahmedabad/events/289560209/)|07 January, 2023|Ahmedabad, India
