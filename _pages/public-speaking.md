@@ -12,16 +12,15 @@ toc: true
 I’ll be speaking at the following events.
 
 **Event**|**Topic**|**When**|**Where**
-Experts Live India|[Manage your Content Smarter with Microsoft Syntex]([https://expertslive.co.in/](https://konfhub.com/eli-2023))|19 March, 2023|Pune, India
-NYC Teams Tuesday|[Microsoft Syntex to manage your content better](https://www.meetup.com/NYC-Teams-Tuesday/events/290919102/)|21 March, 2023 at 9:45 PM IST|Online
-MVP VCCP Tuesday - Microsoft Viva|[Building tailored employee experiences with Microsoft Viva Connections and SharePoint Framework](https://teams10x.com/)|28 March, 2023|Online
-Teams10X|Building tailored employee experiences with Microsoft Viva Connections and SharePoint Framework|13 April, 2023 at 3 PM IST|Online
+Teams10X|[Building tailored employee experiences with Microsoft Viva Connections and SharePoint Framework](https://teams10x.com/)|13 April, 2023 at 3 PM IST|Online
 Organizer - Pune Tech Community|[Global Azure 2023 - Pune](https://www.meetup.com/pune-tech-community/events/291444341/)|13 May, 2023|Online
 aMS Berlin|[Build your content understanding with Microsoft Syntex](https://amsberlin.eu/)|15 June, 2023 at 2 to 2:45 PM IST|Online
 
 ## Past events
 
 **#**|**Event**|**Topic**|**When**|**Where**
+133|NYC Teams Tuesday|[Microsoft Syntex to manage your content better](https://www.meetup.com/NYC-Teams-Tuesday/events/290919102/)|21 March, 2023|Online
+132|Experts Live India|[Manage your Content Smarter with Microsoft Syntex]([https://expertslive.co.in/](https://konfhub.com/eli-2023))|19 March, 2023|Pune, India
 131|Microsoft Reactor Bengaluru|[Implementing ACEs for Viva Connections dashboard](https://www.meetup.com/microsoft-reactor-bengaluru/events/291182007)|15 March, 2023|Online
 130|Microsoft Reactor Bengaluru|[Building Apps for Microsoft Teams](https://www.meetup.com/microsoft-reactor-bengaluru/events/291660578/)|03 March, 2023|Pune, India
 129|Global Power Platform Bootcamp - Delhi|[Building Custom Connectors for Power Platform](https://www.eventbrite.com/e/global-power-platform-bootcamp-2023-delhi-tickets-528092738597)|24 February, 2023|Online
