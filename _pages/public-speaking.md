@@ -14,7 +14,8 @@ I’ll be speaking at the following events.
 **Event**|**Topic**|**When**|**Where**
 Teams10X|[Building tailored employee experiences with Microsoft Viva Connections and SharePoint Framework](https://teams10x.com/)|13 April, 2023 at 3 PM IST|Online
 Teams Elite|Building Bots with Teams Toolkit|02 May, 2023|Online
-AppCamp Global Summit, Bangalore Reactor|Microsoft Teams App Camp|06 May, 2023|Online
+AppCamp Global Summit, Bangalore Reactor|Microsoft Teams App Camp|06 May, 2023|Bangalore, India
+Microsoft Purview Days 2023|[Graph Notifications: A better way to process M365 Audit logs](https://www.eventbrite.fr/e/microsoft-purview-days-2023-tickets-598337532667)|06 May, 2023|Online
 Organizer - Pune Tech Community|[Global Azure 2023 - Pune](https://www.meetup.com/pune-tech-community/events/291444341/)|13 May, 2023|Online
 aMS Berlin|[Build your content understanding with Microsoft Syntex](https://amsberlin.eu/)|15 June, 2023 at 2 to 2:45 PM IST|Online
 
