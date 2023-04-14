@@ -12,7 +12,6 @@ toc: true
 I’ll be speaking at the following events.
 
 **Event**|**Topic**|**When**|**Where**
-Teams10X|[Building tailored employee experiences with Microsoft Viva Connections and SharePoint Framework](https://teams10x.com/)|13 April, 2023 at 3 PM IST|Online
 Microsoft Reactor Bengaluru, Teams Elite|Building Bots with Teams Toolkit|02 May, 2023|Online
 AppCamp Global Summit, Bangalore Reactor|Microsoft Teams App Camp|06 May, 2023|Bangalore, India
 Microsoft Purview Days 2023|[Graph Notifications: A better way to process M365 Audit logs](https://www.eventbrite.fr/e/microsoft-purview-days-2023-tickets-598337532667)|06 May, 2023|Online
@@ -24,6 +23,7 @@ Viva Customer Connection Program|Building tailored employee experiences with Mic
 ## Past events
 
 **#**|**Event**|**Topic**|**When**|**Where**
+134|Teams 10x Spring 2023 - Virtual Summit|[Building tailored employee experiences with Microsoft Viva Connections and SharePoint Framework](https://teams10x-spring2023.sessionize.com/speaker/388554b5-f811-441c-96d9-1d9beb38074e)|13 April, 2023|Online
 133|NYC Teams Tuesday|[Microsoft Syntex to manage your content better](https://www.meetup.com/NYC-Teams-Tuesday/events/290919102/)|21 March, 2023|Online
 132|Experts Live India|[Manage your Content Smarter with Microsoft Syntex]([https://expertslive.co.in/](https://konfhub.com/eli-2023))|19 March, 2023|Pune, India
 131|Microsoft Reactor Bengaluru|[Implementing ACEs for Viva Connections dashboard](https://www.meetup.com/microsoft-reactor-bengaluru/events/291182007)|15 March, 2023|Online
