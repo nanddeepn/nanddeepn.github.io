@@ -12,7 +12,7 @@ toc: true
 I’ll be speaking at the following events.
 
 **Event**|**Topic**|**When**|**Where**
-Microsoft Reactor Bengaluru, Teams Elite|Building Bots with Teams Toolkit|02 May, 2023|Online
+Microsoft Reactor Bengaluru, Teams Elite|[Building Bots with Teams Toolkit](https://www.meetup.com/microsoft-reactor-bengaluru/events/292952517/)|02 May, 2023|Online
 AppCamp Global Summit, Bangalore Reactor|Microsoft Teams App Camp|06 May, 2023|Bangalore, India
 Microsoft Purview Days 2023|[Graph Notifications: A better way to process M365 Audit logs](https://www.eventbrite.fr/e/microsoft-purview-days-2023-tickets-598337532667)|06 May, 2023|Online
 Organizer - Pune Tech Community|[Global Azure 2023 - Pune](https://www.meetup.com/pune-tech-community/events/291444341/)|13 May, 2023|Online
