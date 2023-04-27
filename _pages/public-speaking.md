@@ -12,7 +12,6 @@ toc: true
 I’ll be speaking at the following events.
 
 **Event**|**Topic**|**When**|**Where**
-All India Shri Shivaji Memorial Society (AISSMS) College, Pune|Explore Microsoft Services and Cloud|27 April, 2023|Pune, India
 Microsoft Reactor Bengaluru, Teams Elite|[Building Bots with Teams Toolkit](https://www.meetup.com/microsoft-reactor-bengaluru/events/292952517/)|02 May, 2023|Online
 Microsoft Purview Days 2023|[Graph Notifications: A better way to process M365 Audit logs](https://www.microsoftpurviewday.com/#agenda)|06 May, 2023|Online
 Organizer - Pune Tech Community|[Global Azure 2023 - Pune](https://www.meetup.com/pune-tech-community/events/291444341/)|13 May, 2023|Online
@@ -23,6 +22,7 @@ Viva Customer Connection Program|Building tailored employee experiences with Mic
 ## Past events
 
 **#**|**Event**|**Topic**|**When**|**Where**
+135|All India Shri Shivaji Memorial Society (AISSMS) College of Engineering, Pune|Explore Microsoft Services and Cloud|27 April, 2023|Pune, India
 134|Teams 10x Spring 2023 - Virtual Summit|[Building tailored employee experiences with Microsoft Viva Connections and SharePoint Framework](https://teams10x-spring2023.sessionize.com/speaker/388554b5-f811-441c-96d9-1d9beb38074e)|13 April, 2023|Online
 133|NYC Teams Tuesday|[Microsoft Syntex to manage your content better](https://www.meetup.com/NYC-Teams-Tuesday/events/290919102/)|21 March, 2023|Online
 132|Experts Live India|[Manage your Content Smarter with Microsoft Syntex]([https://expertslive.co.in/](https://konfhub.com/eli-2023))|19 March, 2023|Pune, India
