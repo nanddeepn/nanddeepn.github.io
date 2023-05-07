@@ -25,7 +25,7 @@ In this article, we will explore how OpenAI API DALL-E can be combined with Powe
 
 Follow the below steps to get the API key to work with Open AI APIs.
 
-1. Navigate to [OpenAI](https://openai.com/api/). Sign up, or register to proceed.
+1. Navigate to [OpenAI](https://platform.openai.com/overview). Sign up, or register to proceed.
 
 2. From your profile, select **View API Keys**.
 
