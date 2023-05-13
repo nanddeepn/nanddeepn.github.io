@@ -12,7 +12,6 @@ toc: true
 I’ll be speaking at the following events.
 
 **Event**|**Topic**|**When**|**Where**
-Organizer - Pune Tech Community|[Global Azure 2023 - Pune](https://www.meetup.com/pune-tech-community/events/291444341/)|13 May, 2023|Online
 Viva Round The World|[Implementing ACEs for Viva Connections dashboard with SharePoint Framework](https://www.vivaexplorers.com/vivaroundtheworld)|02 June, 2023 at 11:30 AM IST|Online
 aMS Berlin|[Build your content understanding with Microsoft Syntex](https://amsberlin.eu/)|15 June, 2023 at 2 to 2:45 PM IST|Online
 STYAVA.DEV|[Getting started with SharePoint Framework](https://www.linkedin.com/company/styava-dev/events/)|23 June, 2023 at 10 AM IST|Online
@@ -163,6 +162,7 @@ Viva Customer Connection Program|Building tailored employee experiences with Mic
 ## Event Organizer
 
 **#**|**Event**|**When**|**Where**
+20|[Global Azure, Pune 2023](https://www.meetup.com/pune-tech-community/events/291444341/)|13 May, 2023|Online
 19|[Global AI Bootcamp, Pune 2023](https://www.meetup.com/pune-tech-community/events/287923053/)|04 March, 2023|Pune, India
 18|[Global Power Platform Bootcamp, Pune 2023](https://www.meetup.com/pune-tech-community/events/289814150/)|25 February, 2023|Pune, India
 17|[.NET Conf, Pune 2022](https://www.meetup.com/pune-tech-community/events/289618681/)|17 December, 2022|Online
