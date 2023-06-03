@@ -12,8 +12,6 @@ toc: true
 I’ll be speaking at the following events.
 
 **Event**|**Topic**|**When**|**Where**
-Viva Round The World|[Implementing ACEs for Viva Connections dashboard with SharePoint Framework](https://www.vivaexplorers.com/vivaroundtheworld)|02 June, 2023 at 11:30 AM IST|Online
-Microsoft Build After Party - Pune Tech Community|[Harness the power of AI: Extend Copilot and beyond](https://www.meetup.com/pune-tech-community/events/293633951/)|02 June, 2023 at 06:30 PM IST|Online
 Microsoft Build After Party - Mumbai Microsoft 365 Edition|[Collaborative apps features and announcements]()|10 June, 2023 at 05:00 PM IST|Online
 aMS Berlin|[Build your content understanding with Microsoft Syntex](https://amsberlin.eu/)|15 June, 2023 at 2 to 2:45 PM IST|Online
 STYAVA.DEV|[Getting started with SharePoint Framework](https://www.linkedin.com/company/styava-dev/events/)|23 June, 2023 at 10 AM IST|Online
@@ -22,6 +20,8 @@ Viva Customer Connection Program|Building tailored employee experiences with Mic
 ## Past events
 
 **#**|**Event**|**Topic**|**When**|**Where**
+139|Microsoft Build After Party - Pune Tech Community|[Harness the power of AI: Extend Copilot and beyond](https://www.meetup.com/pune-tech-community/events/293633951/)|02 June, 2023|Online
+138|Viva Round The World|[Implementing ACEs for Viva Connections dashboard with SharePoint Framework](https://viva-round-the-world.sessionize.com/session/470079)|02 June, 2023|Online
 137|Microsoft Purview Days 2023|[Graph Notifications: A better way to process M365 Audit logs](https://www.microsoftpurviewday.com/#agenda)|06 May, 2023|Online
 136|Microsoft Reactor Bengaluru, Teams Elite|[Building Bots with Teams Toolkit](https://www.meetup.com/microsoft-reactor-bengaluru/events/292952517/)|02 May, 2023|Online
 135|All India Shri Shivaji Memorial Society (AISSMS) College of Engineering, Pune|Explore Microsoft Services and Cloud|27 April, 2023|Pune, India
