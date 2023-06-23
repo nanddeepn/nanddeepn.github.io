@@ -12,12 +12,12 @@ toc: true
 I’ll be speaking at the following events.
 
 **Event**|**Topic**|**When**|**Where**
-STYAVA.DEV|[Getting started with SharePoint Framework](https://www.linkedin.com/feed/update/urn:li:activity:7077133077499543552/)|23 June, 2023 at 10 AM IST|Online
 Viva Customer Connection Program|Building tailored employee experiences with Microsoft Viva Connections and SharePoint Framework|25 July at 7:30 PM IST|Online
 
 ## Past events
 
 **#**|**Event**|**Topic**|**When**|**Where**
+143|STYAVA.DEV|[Getting started with SharePoint Framework](https://www.linkedin.com/feed/update/urn:li:activity:7077133077499543552/)|23 June, 2023|Online
 142|aMS Berlin|[Build your content understanding with Microsoft Syntex](https://amsberlin.eu/sessions/)|15 June, 2023|Online
 141|Microsoft Build After Party - Mumbai Microsoft 365 Edition|[Collaborative apps features and announcements]()|10 June, 2023|Online
 140|Microsoft Build After Party - Pune Tech Community|[Transform Teams apps into multiplayer with Live Share](https://www.meetup.com/pune-tech-community/events/293633959/)|02 June, 2023|Online
