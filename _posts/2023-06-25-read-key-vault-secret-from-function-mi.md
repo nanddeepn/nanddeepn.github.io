@@ -6,8 +6,8 @@ header:
   image: media/2023-06-25-read-key-vault-secret-from-function-mi/17.png
   teaser: media/2023-06-25-read-key-vault-secret-from-function-mi/17.png
 categories:
-  - MS Teams
-  - OpenAI
+  - Azure
+  - Managed Identity
 tags:
   - "2023"
   - June 2023
@@ -104,7 +104,7 @@ If you see the message "You are unauthorized to view these contents" while gener
 
     ![](/media/2023-06-25-read-key-vault-secret-from-function-mi/09.png)
 
-Now, we will access the secret from the key vault using the Azure function app's managed identity.
+Now, we will maintain the secrets from the key vault using the specified user.
 
 
 ## Enable Managed Identity on the Azure Function App
@@ -118,7 +118,7 @@ Follow the below steps to enable the managed identity on the Azure Function App:
 
     ![](/media/2023-06-25-read-key-vault-secret-from-function-mi/10.png)
 
-5. Once enabled, click **Azure role permissions**.
+5. Once enabled, click **Azure role assignments**.
 
     ![](/media/2023-06-25-read-key-vault-secret-from-function-mi/11.png)
 
