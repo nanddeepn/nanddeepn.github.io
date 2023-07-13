@@ -13,6 +13,7 @@ I’ll be speaking at the following events.
 
 **Event**|**Topic**|**When**|**Where**
 Viva Customer Connection Program|Building tailored employee experiences with Microsoft Viva Connections and SharePoint Framework|25 July at 7:30 PM IST|Online
+Pune Tech Community|[Unlocking AI Power: Exploring Azure OpenAI Integration with Power Platform](https://www.meetup.com/pune-tech-community/events/294778250/)|28 July at 6:30 PM IST|Online
 Microsoft Viva Days 2023|Building tailored employee experiences with Microsoft Viva Connections and SharePoint Framework|12 August 2023|Online
 
 ## Past events
