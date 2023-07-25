@@ -15,6 +15,7 @@ I’ll be speaking at the following events.
 Pune Tech Community|[Unlocking AI Power: Exploring Azure OpenAI Integration with Power Platform](https://www.meetup.com/pune-tech-community/events/294778250/)|28 July at 6:30 PM IST|Online
 Microsoft Viva Days 2023|[Building tailored employee experiences with Microsoft Viva Connections and SharePoint Framework](https://www.microsoftvivadays.com/#speakers)|12 August 2023|Online
 Software Architecture Conference 2023|[Event driven architecture to process the M365 resource activities](https://softwarearchitecture.live/)|25 August 2023|Online
+Microsoft Power Platform Connect 2023|[Empower your Power Platform solutions with OpenAI](https://www.eventbrite.co.uk/e/microsoft-power-platform-connect-2023-bangalore-tickets-679262009957)|25 August 2023|Bangalore, India
 
 ## Past events
 
