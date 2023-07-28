@@ -12,14 +12,14 @@ toc: true
 I’ll be speaking at the following events.
 
 **Event**|**Topic**|**When**|**Where**
-Pune Tech Community|[Unlocking AI Power: Exploring Azure OpenAI Integration with Power Platform](https://www.meetup.com/pune-tech-community/events/294778250/)|28 July at 6:30 PM IST|Online
-Microsoft Viva Days 2023|[Building tailored employee experiences with Microsoft Viva Connections and SharePoint Framework](https://www.microsoftvivadays.com/#speakers)|12 August 2023|Online
+Microsoft Viva Days 2023|[Building tailored employee experiences with Microsoft Viva Connections and SharePoint Framework](https://www.microsoftvivadays.com/#speakers)|12 August, 2023|Online
 Software Architecture Conference 2023|[Event driven architecture to process the M365 resource activities](https://softwarearchitecture.live/)|25 August 2023|Online
 Microsoft Power Platform Connect 2023|[Empower your Power Platform solutions with OpenAI](https://www.eventbrite.co.uk/e/microsoft-power-platform-connect-2023-bangalore-tickets-679262009957)|25 August 2023|Bangalore, India
 
 ## Past events
 
 **#**|**Event**|**Topic**|**When**|**Where**
+144|Pune Tech Community|[Unlocking AI Power: Exploring Azure OpenAI Integration with Power Platform](https://www.meetup.com/pune-tech-community/events/294778250/)|28 July, 2023|Online
 143|STYAVA.DEV|[Getting started with SharePoint Framework](https://www.linkedin.com/feed/update/urn:li:activity:7077133077499543552/)|23 June, 2023|Online
 142|aMS Berlin|[Build your content understanding with Microsoft Syntex](https://amsberlin.eu/sessions/)|15 June, 2023|Online
 141|Microsoft Build After Party - Mumbai Microsoft 365 Edition|[Collaborative apps features and announcements]()|10 June, 2023|Online
