@@ -64,7 +64,7 @@ Follow the steps below to use a custom connector.
 3. Click **New custom connector** > **Import from GitHub**.
 4. Select the `AzureOpenAIService` connector as shown below:
 
-  ![](/media/2023-08-06-oai-chat-completion-api-pva/02.png)
+    ![](/media/2023-08-06-oai-chat-completion-api-pva/02.png)
 
 5. After you create the connector, click the **Test** tab and select **New Connection.**
 
@@ -72,7 +72,7 @@ Follow the steps below to use a custom connector.
 
 6. To make a connection, provide the Azure OpenAI service instance name and API Key.
 
-  ![](/media/2023-08-06-oai-chat-completion-api-pva/04.png)
+    ![](/media/2023-08-06-oai-chat-completion-api-pva/04.png)
 
 
 ## Using the Chat Completion API in Power Virtual Agent
@@ -83,30 +83,30 @@ Follow the below steps to use the custom connector in PVA.
 2. Create a new topic inside it with the name xbox.
 3. Add the phrases as xbox and gaming.
 
-  ![](/media/2023-08-06-oai-chat-completion-api-pva/05.png)
+    ![](/media/2023-08-06-oai-chat-completion-api-pva/05.png)
 
 4. Add an **Ask a question** node to get the user response and store it in a variable (e.g., VarUserQuestion).
 5. We will now add a node **Call an action** > **Create a flow**.
 6. Accept the user question to start with the flow.
 
-  ![](/media/2023-08-06-oai-chat-completion-api-pva/06.png)
+    ![](/media/2023-08-06-oai-chat-completion-api-pva/06.png)
 
 7. Add an action to use our OpenAI custom connector.
 
-  ![](/media/2023-08-06-oai-chat-completion-api-pva/07.png)
+    ![](/media/2023-08-06-oai-chat-completion-api-pva/07.png)
 
 8. Configure the chat completion API as follows:
 
-  ![](/media/2023-08-06-oai-chat-completion-api-pva/08.png)
+    ![](/media/2023-08-06-oai-chat-completion-api-pva/08.png)
 
 9. Return the answer from the Chat completion API.
 
-  ![](/media/2023-08-06-oai-chat-completion-api-pva/09.png)
+    ![](/media/2023-08-06-oai-chat-completion-api-pva/09.png)
 
 10. Configure the action with input and output.
 11. Add a node with Send a message with an output of flow.
 
-  ![](/media/2023-08-06-oai-chat-completion-api-pva/10.png)
+    ![](/media/2023-08-06-oai-chat-completion-api-pva/10.png)
 
 
 ## Test the PVA
