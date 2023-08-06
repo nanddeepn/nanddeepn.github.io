@@ -68,7 +68,7 @@ Follow the steps below to use a custom connector.
 
 5. After you create the connector, click the **Test** tab and select **New Connection.**
 
-  ![](/media/2023-08-06-oai-chat-completion-api-pva/03.png)
+    ![](/media/2023-08-06-oai-chat-completion-api-pva/03.png)
 
 6. To make a connection, provide the Azure OpenAI service instance name and API Key.
 
