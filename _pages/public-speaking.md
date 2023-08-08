@@ -12,9 +12,11 @@ toc: true
 I’ll be speaking at the following events.
 
 **Event**|**Topic**|**When**|**Where**
-Microsoft Viva Days 2023|[Building tailored employee experiences with Microsoft Viva Connections and SharePoint Framework](https://www.microsoftvivadays.com/#speakers)|12 August, 2023|Online
-Software Architecture Conference 2023|[Event driven architecture to process the M365 resource activities](https://softwarearchitecture.live/)|25 August 2023|Online
-Microsoft Power Platform Connect 2023|[Empower your Power Platform solutions with OpenAI](https://www.eventbrite.co.uk/e/microsoft-power-platform-connect-2023-bangalore-tickets-679262009957)|26 August 2023|Bangalore, India
+Microsoft Viva Days 2023|[Building tailored employee experiences with Microsoft Viva Connections and SharePoint Framework](https://www.microsoftvivadays.com/#speakers)|12 August, 2023 at 10:30 AM IST|Online
+Software Architecture Conference 2023|[Event driven architecture to process the M365 resource activities](https://softwarearchitecture.live/)|25 August, 2023|Online
+Microsoft Power Platform Connect 2023|[Empower your Power Platform solutions with OpenAI](https://www.eventbrite.co.uk/e/microsoft-power-platform-connect-2023-bangalore-tickets-679262009957)|26 August, 2023|Bangalore, India
+Alif Tech Talks|Discussion with MVP|31 August, 2023 at 8 PM IST|Online
+Microsoft Business Applications Podcast|Nanddeep Nachan on the MVP Show|14 September, 2023 at 10 AM IST|Online
 
 ## Past events
 
