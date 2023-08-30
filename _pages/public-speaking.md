@@ -12,7 +12,6 @@ toc: true
 I’ll be speaking at the following events.
 
 **Event**|**Topic**|**When**|**Where**
-Microsoft 365 & Power Platform call|Knowledge Quest Teams Bot - HackTogether: Microsoft Teams Global Hack AI Winner|29 August, 2023 at 8:30 PM IST|Online
 Alif Tech Talks|Discussion with MVP|31 August, 2023 at 8 PM IST|Online
 Hackathon Sample Project Interview with Garry Trinder|Knowledge Quest Teams Bot|07 September, 2023 at 07 PM IST|Online
 Microsoft Power Platform Connect 2023|[Empower your Power Platform solutions with OpenAI](https://www.eventbrite.co.uk/e/microsoft-power-platform-connect-2023-bangalore-tickets-679262009957)|09 September, 2023|Bangalore, India
