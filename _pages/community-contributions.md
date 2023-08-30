@@ -10,6 +10,7 @@ toc: true
 ## Code Contributions
 
 **#**|**Contribution**|**Topic**|**When**
+15|Microsoft Teams Development Community Samples|[Knowledge Quest Teams Bot](https://github.com/pnp/teams-dev-samples/tree/main/samples/bot-knowledge-quest)|10 July, 2023
 14|PnP Microsoft Viva Connections Adaptive Card Sample|[Public Holidays](https://github.com/pnp/sp-dev-fx-aces/tree/main/samples/ImageCard-PublicHolidays)|26 August, 2022
 13|PnP Sample Script|[Install Solution and Deploy to the SharePoint site](https://pnp.github.io/script-samples/spo-install-deploy-spfx-solution/README.html?tabs=cli-m365-ps)|14 June, 2022
 12|Power Platform Connectors, Independent Publisher|[Sessionize (Independent Publisher)](https://docs.microsoft.com/en-us/connectors/sessionizeip/)|11 May, 2022
@@ -29,6 +30,7 @@ toc: true
 ## Community Demos
 
 **#**|**Community**|**Topic**|**When**
+08|Microsoft 365 & Power Platform call| [Knowledge Quest Teams Bot - HackTogether: Microsoft Teams Global Hack AI Winner](https://warner.digital/ms-speakers-summary08292023/) |29 August, 2023|Online
 07|SharePoint PnP Viva Connections and SharePoint Framework Community Call|[Building Viva Connections ACE for public holidays](https://pnp.github.io/blog/microsoft-viva-and-spfx-community-call/2022-09-22/)|22 September, 2022
 06|Power Platform & M365 Dev Community Call | [Building Independent Publisher Power Platform Connector for Sessionize](https://pnp.github.io/blog/microsoft-365-and-power-platform-development-community-call/2022-06-09/)|09 June, 2022
 05|SharePoint PnP Viva Connections & SPFx JS SIG Call|[ACE - My M365 Groups](https://techcommunity.microsoft.com/t5/microsoft-365-pnp-blog/viva-connections-amp-sharepoint-framework-community-call-7th-of/ba-p/3278956)|07 April, 2022
