@@ -170,6 +170,7 @@ Microsoft Business Applications Podcast|Nanddeep Nachan on the MVP Show|14 Septe
 ## Event Organizer
 
 **#**|**Event**|**When**|**Where**
+21|[Copilot Day](https://www.meetup.com/pune-tech-community/events/294761638/)|02 September, 2023|Online
 20|[Global Azure, Pune 2023](https://www.meetup.com/pune-tech-community/events/291444341/)|13 May, 2023|Online
 19|[Global AI Bootcamp, Pune 2023](https://www.meetup.com/pune-tech-community/events/287923053/)|04 March, 2023|Pune, India
 18|[Global Power Platform Bootcamp, Pune 2023](https://www.meetup.com/pune-tech-community/events/289814150/)|25 February, 2023|Pune, India
