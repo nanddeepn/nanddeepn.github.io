@@ -38,13 +38,13 @@ In this article, we will explore the Graph notifications option.
 
 ![](/media/2023-04-08-handle-teams-channel-graph-notifications-az-functions/architecture.png)
 
-1. Azure Logic Apps gets an access token for Microsoft Graph by using Azure AD.
-2. Azure Logic Apps creates a Microsoft Graph subscription and updates it every hour to track changes.
-3. When a Microsoft Graph change notification is processed, the message is handled by Azure Logic Apps.
+1. Azure Function gets an access token for Microsoft Graph by using Azure AD.
+2. Azure Function creates a Microsoft Graph subscription and updates it every hour to track changes.
+3. When a Microsoft Graph change notification is processed, the message is handled by Azure Function.
 
 ## Azure AD App Registration
 
-As per the [documentation](https://learn.microsoft.com/en-us/graph/api/subscription-post-subscription?WT.mc_id=M365-MVP-5003693), `/teams/getAllChannels` resource only supports application permission.
+As per the [documentation](https://learn.microsoft.com/en-us/graph/teams-changenotifications-team-and-channel?WT.mc_id=M365-MVP-5003693), `/teams/getAllChannels` resource only supports application permission.
 
 | **Supported resource** | **Delegated (work or school account)** | **Delegated (personal Microsoft account)** | **Application** |
 | --- | --- | --- | --- |
@@ -113,7 +113,7 @@ You will most likely receive an error: Subscription validation request failed. R
 
 The notificationUrl (i.e., Azure function - we will create in next step) must be capable of responding to the validation request as mentioned [here](https://learn.microsoft.com/en-us/graph/webhooks?tabs=http#notification-endpoint-validation&WT.mc_id=M365-MVP-5003693).
 
-Update the function app as follows:
+Update the function (e.g. ProcessGraphNotification) as follows:
 
 ```powershell
 # Input bindings are passed in via param block.
@@ -211,6 +211,17 @@ Let us create an Azure function as follows to trigger every hour.
 Use below code to renew the subscription.
 
 ```powershell
+# Input bindings are passed in via param block.
+param($Timer)
+
+# Get the current universal time in the default string format.
+$currentUTCtime = (Get-Date).ToUniversalTime()
+
+# The 'IsPastDue' property is 'true' when the current function invocation is later than scheduled.
+if ($Timer.IsPastDue) {
+    Write-Host "PowerShell timer is running late!"
+}
+
 $ClientID = ""
 $ClientSecret = ""
 $TenantID = ""
@@ -253,8 +264,80 @@ if ($notificationSubscription) {
 else {
     Write-Host "Notification not found"
 }
+
+# Write an information log with the current time.
+Write-Host "PowerShell timer trigger function ran! TIME: $currentUTCtime"
+
 ```
 
+Finally, update the function (e.g. ProcessGraphNotification) as follows to update the channel description of newly created Teams channel:
+
+```powershell
+using namespace System.Net
+
+# Input bindings are passed in via param block.
+param($Request, $TriggerMetadata)
+
+# Response for Subscription Notification Validation. Respond back with validationToken. 
+if ($Request.Query.validationToken) {
+    Write-Host "RESPONSE: Sending status code 'OK' and validationToken to Subscription Notification Validation Request" 
+    Push-OutputBinding -Name Response -Value ([HttpResponseContext]@{
+            StatusCode = [HttpStatusCode]::OK
+            Body       = $Request.Query.validationToken
+        })
+}
+
+# Convert notification details to PSObject
+$objNotification = ($Request.RawBody | ConvertFrom-JSON).value
+Write-Host $objNotification
+# https://www.youtube.com/watch?v=J0Xyfqs_gYA
+
+if ($objNotification.clientState -eq "$($env:GRAPH_NOTIFICATION_CHANNEL_CREATED_SUBSCRIPTION_CLIENTSTATE)") {
+    Push-OutputBinding -Name Response -Value ([HttpResponseContext]@{
+            StatusCode = [HttpStatusCode]::BadRequest
+        })
+}
+else {
+    Push-OutputBinding -Name Response -Value ([HttpResponseContext]@{
+            StatusCode = [HttpStatusCode]::Accepted
+        })
+}
+
+# Output Notification to host
+Write-Host "NOTIFICATION: clientState: $($objNotification.clientState)"
+Write-Host "NOTIFICATION: changeResource: $($objNotification.resource)"
+Write-Host "NOTIFICATION: changeType: $($objNotification.changeType)"
+
+# The resource information ($objNotification.resource) will be as follows
+# # "teams('c892d52b-954d-4348-a269-6cf3a7339306')/channels('19:3f5002df7ea3404aa8f8@thread.tacv2')"
+# Use regular expression to extract the TeamID and ChannelID
+$teamsPattern = "teams\('(.+?)'\)"
+$channelsPattern = "channels\('(.+?)'\)"
+
+$teamID = [regex]::Match($objNotification.resource, $teamsPattern).Groups[1].Value
+$channelID = [regex]::Match($objNotification.resource, $channelsPattern).Groups[1].Value
+
+Write-Host "Team ID: $($teamID)"
+Write-Host "Channel ID: $($channelID)"
+
+$clientID = $env:CLIENT_ID
+$clientSecret = $env:CLIENT_SECRET
+$tenantID = $env:TENANT_ID
+
+# Get Access Token
+$accessToken = (Invoke-RestMethod -uri "https://login.microsoftonline.com/$tenantID/oauth2/v2.0/token" `
+            -Method Post `
+            -Headers @{"Content-Type" = 'application/x-www-form-urlencoded'} `
+            -Body "grant_type=client_credentials&client_id=$($clientID)&client_secret=$($clientSecret)&scope=https://graph.microsoft.com/.default").access_token
+
+# Update channel description
+Invoke-RestMethod -Method PATCH `
+    -Uri "https://graph.microsoft.com/v1.0/teams/$($teamID)/channels/$($channelID)" `
+    -Headers @{Authorization = "Bearer $($accessToken)"; "content-type" = "application/json"} `
+    -Body '{"description": "This channel is processed by graph notifications."}'
+
+Write-Host "Finished"
+```
 
 ## Test the scenario
 
