@@ -12,7 +12,6 @@ toc: true
 I’ll be speaking at the following events.
 
 **Event**|**Topic**|**When**|**Where**
-Microsoft Business Applications Podcast|Nanddeep Nachan on the MVP Show|14 September, 2023 at 10 AM IST|Online
 Copilot in Low Code|Generative AI Day|07 October, 2023|Mumbai, India
 
 ## Past events
@@ -165,6 +164,14 @@ Copilot in Low Code|Generative AI Day|07 October, 2023|Mumbai, India
 03|Webinar, C# Corner, Pune Chapter|[Getting Started with SharePoint Framework (SPFx)](https://www.c-sharpcorner.com/events/getting-started-with-sharepoint-framework-spfx)|08 September, 2018|Online
 02|C# Corner, Pune Chapter Meet|[SharePoint Site Provisioning](https://www.c-sharpcorner.com/events/learn-sharepoint-office-365-azure-for-developers-and-azure-bot-service)|28 July, 2018|Pune, India
 01|Webinar, C# Corner, Pune Chapter|[Modern Sites in SharePoint](https://www.c-sharpcorner.com/events/modern-sites-in-sharepoint)|09 June, 2018|Online
+
+
+## Podcasts
+
+**#**|**Event**|**Topic**|**When**|**Where**
+3|Microsoft Business Applications Podcast|Nanddeep Nachan on the MVP Show|14 September, 2023|Online
+2|Hackathon Sample Project Interview with Garry Trinder|Knowledge Quest Teams Bot|07 September, 2023|Online
+1|Alif Tech Talks|Discussion with MVP|31 August, 2023|Online
 
 
 ## Event Organizer
