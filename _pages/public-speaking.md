@@ -177,6 +177,7 @@ I’ll be speaking at the following events.
 ## Event Organizer
 
 **#**|**Event**|**When**|**Where**
+22|[M365 Saturday, Pune 2023](https://www.meetup.com/pune-tech-community/events/296247574/)|28 October, 2023|Pune, India
 21|[Copilot Day](https://www.meetup.com/pune-tech-community/events/294761638/)|02 September, 2023|Online
 20|[Global Azure, Pune 2023](https://www.meetup.com/pune-tech-community/events/291444341/)|13 May, 2023|Online
 19|[Global AI Bootcamp, Pune 2023](https://www.meetup.com/pune-tech-community/events/287923053/)|04 March, 2023|Pune, India
