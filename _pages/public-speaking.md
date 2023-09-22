@@ -12,7 +12,7 @@ toc: true
 I’ll be speaking at the following events.
 
 **Event**|**Topic**|**When**|**Where**
-Copilot in Low Code|Generative AI Day|07 October, 2023|Mumbai, India
+
 
 ## Past events
 
