@@ -12,7 +12,7 @@ toc: true
 I’ll be speaking at the following events.
 
 **Event**|**Topic**|**When**|**Where**
-
+Microsoft AI Community|[Bring your own data to Microsoft Teams chat bot with Azure OpenAI and LangChain](https://www.meetup.com/meetup-group-ybzunvts/events/296336026/)|05 October, 2023 at 8:30 PM IST|Online
 
 ## Past events
 
