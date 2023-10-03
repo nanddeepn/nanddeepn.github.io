@@ -13,6 +13,7 @@ I’ll be speaking at the following events.
 
 **Event**|**Topic**|**When**|**Where**
 Microsoft AI Community|[Bring your own data to Microsoft Teams chat bot with Azure OpenAI and LangChain](https://www.meetup.com/meetup-group-ybzunvts/events/296336026/)|05 October, 2023 at 8:30 PM IST|Online
+Generative AI Day|[Bring your own data to Microsoft Teams chat bot with Azure OpenAI and LangChain](https://www.meetup.com/dear-azure-and-ai-mumbai-india-meetup/events/295906499)|07 October, 2023|Mumbai, India
 
 ## Past events
 
@@ -177,7 +178,8 @@ Microsoft AI Community|[Bring your own data to Microsoft Teams chat bot with Azu
 ## Event Organizer
 
 **#**|**Event**|**When**|**Where**
-22|[M365 Saturday, Pune 2023](https://www.meetup.com/pune-tech-community/events/296247574/)|28 October, 2023|Pune, India
+23|[M365 Saturday, Pune 2023](https://www.meetup.com/pune-tech-community/events/296247574/)|28 October, 2023|Pune, India
+22|[Generative AI Day](https://www.meetup.com/dear-azure-and-ai-mumbai-india-meetup/events/295906499)|07 October, 2023|Mumbai, India
 21|[Copilot Day](https://www.meetup.com/pune-tech-community/events/294761638/)|02 September, 2023|Online
 20|[Global Azure, Pune 2023](https://www.meetup.com/pune-tech-community/events/291444341/)|13 May, 2023|Online
 19|[Global AI Bootcamp, Pune 2023](https://www.meetup.com/pune-tech-community/events/287923053/)|04 March, 2023|Pune, India
