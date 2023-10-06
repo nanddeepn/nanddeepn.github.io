@@ -12,12 +12,12 @@ toc: true
 I’ll be speaking at the following events.
 
 **Event**|**Topic**|**When**|**Where**
-Microsoft AI Community|[Bring your own data to Microsoft Teams chat bot with Azure OpenAI and LangChain](https://www.meetup.com/meetup-group-ybzunvts/events/296336026/)|05 October, 2023 at 8:30 PM IST|Online
 Generative AI Day|[Bring your own data to Microsoft Teams chat bot with Azure OpenAI and LangChain](https://www.meetup.com/dear-azure-and-ai-mumbai-india-meetup/events/295906499)|07 October, 2023|Mumbai, India
 
 ## Past events
 
 **#**|**Event**|**Topic**|**When**|**Where**
+148|Microsoft AI Community|[Bring your own data to Microsoft Teams chat bot with Azure OpenAI and LangChain](https://www.meetup.com/meetup-group-ybzunvts/events/296336026/)|05 October, 2023|Online
 147|Microsoft Power Platform Connect 2023|[Empower your Power Platform solutions with OpenAI](https://www.eventbrite.co.uk/e/microsoft-power-platform-connect-2023-bangalore-tickets-679262009957)|09 September, 2023|Bangalore, India
 146|Software Architecture Conference 2023|[Event driven architecture to process the M365 resource activities](https://softwarearchitecture.live/)|25 August, 2023|Online
 145|Microsoft Viva Days 2023|[Building tailored employee experiences with Microsoft Viva Connections and SharePoint Framework](https://www.microsoftvivadays.com/#speakers)|12 August, 2023|Online
