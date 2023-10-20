@@ -12,7 +12,7 @@ toc: true
 I’ll be speaking at the following events.
 
 **Event**|**Topic**|**When**|**Where**
-
+M365 Saturday Ahmedabad 2024|[Infuse intelligence into your Microsoft Teams apps using Azure OpenAI and LangChain](https://www.meetup.com/m365ahmedabad/events/296621704/)|06 January, 2024|Ahmedabad, India
 
 ## Past events
 
