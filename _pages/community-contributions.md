@@ -10,6 +10,8 @@ toc: true
 ## Code Contributions
 
 **#**|**Contribution**|**Topic**|**When**
+17|PnP Sample Script|[Export Microsoft Teams Direct Routing Calls](https://pnp.github.io/script-samples/teams-export-direct-routing-calls/README.html?tabs=ps)|26 October, 2023
+16|PnP Sample Script|[Export Microsoft Teams PSTN Call Logs](https://pnp.github.io/script-samples/teams-export-pstn-call-logs/README.html?tabs=ps)|26 October, 2023
 15|Microsoft Teams Development Community Samples|[Knowledge Quest Teams Bot](https://github.com/pnp/teams-dev-samples/tree/main/samples/bot-knowledge-quest)|10 July, 2023
 14|PnP Microsoft Viva Connections Adaptive Card Sample|[Public Holidays](https://github.com/pnp/sp-dev-fx-aces/tree/main/samples/ImageCard-PublicHolidays)|26 August, 2022
 13|PnP Sample Script|[Install Solution and Deploy to the SharePoint site](https://pnp.github.io/script-samples/spo-install-deploy-spfx-solution/README.html?tabs=cli-m365-ps)|14 June, 2022
