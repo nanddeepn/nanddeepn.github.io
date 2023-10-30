@@ -12,6 +12,8 @@ toc: true
 I’ll be speaking at the following events.
 
 **Event**|**Topic**|**When**|**Where**
+Global AI Conference 2023|[Bringing your own data to Microsoft Teams apps with Azure OpenAI and LangChain](https://globalai.community/events/global-ai-conference-december-2023/)|12 December, 2023 at 5 PM IST|Online
+Global AI Conference 2023|[Empower your Power Platform solutions with OpenAI](https://globalai.community/events/global-ai-conference-december-2023/)|12 December, 2023 at 5:30 PM IST|Online
 M365 Saturday Ahmedabad 2024|[Infuse intelligence into your Microsoft Teams apps using Azure OpenAI and LangChain](https://www.meetup.com/m365ahmedabad/events/296621704/)|06 January, 2024|Ahmedabad, India
 
 ## Past events
