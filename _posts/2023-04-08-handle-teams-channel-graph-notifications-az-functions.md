@@ -48,7 +48,7 @@ As per the [documentation](https://learn.microsoft.com/en-us/graph/teams-changen
 
 | **Supported resource** | **Delegated (work or school account)** | **Delegated (personal Microsoft account)** | **Application** |
 | --- | --- | --- | --- |
-| [channel](https://learn.microsoft.com/en-us/graph/api/resources/channel?WT.mc_id=M365-MVP-5003693) (/teams/getAllChannels – all channels in an organization) | Not supported | Not supported | Channel.ReadBasic.All, ChannelSettings.Read.Al |
+| [channel](https://learn.microsoft.com/en-us/graph/api/resources/channel?WT.mc_id=M365-MVP-5003693) (/teams/getAllChannels – all channels in an organization) | Not supported | Not supported | Channel.ReadBasic.All, ChannelSettings.Read.All |
 
 We will start by registering an app in Azure AD with application permission of Channel.ReadBasic.All. Note down the Application (client) ID, Directory (tenant) ID, and client secret.
 
