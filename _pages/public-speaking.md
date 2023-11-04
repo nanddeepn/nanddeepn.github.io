@@ -12,6 +12,7 @@ toc: true
 I’ll be speaking at the following events.
 
 **Event**|**Topic**|**When**|**Where**
+M365 Saturday Bangalore 2023|[Build intelligent Microsoft Teams apps with Azure OpenAI](https://www.m365event.com/)|02 December, 2023|Bangalore, India
 India Cloud Security Summit 2023|[Navigating Legal Landscapes with Microsoft Purview eDiscovery Solutions](https://www.indiacloudsecuritysummit.com/)|09 December, 2023|Online
 Global AI Conference 2023|[Bringing your own data to Microsoft Teams apps with Azure OpenAI and LangChain](https://globalai.community/events/global-ai-conference-december-2023/)|12 December, 2023 at 5 PM IST|Online
 Global AI Conference 2023|[Empower your Power Platform solutions with OpenAI](https://globalai.community/events/global-ai-conference-december-2023/)|12 December, 2023 at 5:30 PM IST|Online
