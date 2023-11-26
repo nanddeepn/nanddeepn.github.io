@@ -27,9 +27,10 @@ I am an Active contributor to [Microsoft 365 & Power Platform Community, PnP](ht
 
 
 Author of books: 
-➟ [Mastering SharePoint Framework](https://www.amazon.com/Mastering-Sharepoint-Framework-Easy-Follow/dp/938932887X/) (BPB Publications)
-➟ [Understanding Hybrid Environments in SharePoint 2019](https://www.amazon.com/Understanding-Hybrid-Environments-SharePoint-2019/dp/148426049X) (Apress)
-➟ [Up and Running on Microsoft Viva Connections](https://www.amazon.com/Running-Microsoft-Viva-Connections-Workforce-dp-1484286057/dp/1484286057/) (Apress)
+
+- [Mastering SharePoint Framework](https://www.amazon.com/Mastering-Sharepoint-Framework-Easy-Follow/dp/938932887X/) (BPB Publications)
+- [Understanding Hybrid Environments in SharePoint 2019](https://www.amazon.com/Understanding-Hybrid-Environments-SharePoint-2019/dp/148426049X) (Apress)
+- [Up and Running on Microsoft Viva Connections](https://www.amazon.com/Running-Microsoft-Viva-Connections-Workforce-dp-1484286057/dp/1484286057/) (Apress)
 
 I am organizer of [Pune Tech Community](https://www.meetup.com/pune-tech-community/), where we orchestrate a range of events focused on Microsoft technology. Additionally, I often take the stage as a speaker at industry seminars, conferences, and community gatherings, including SPS, Global Microsoft 365 Developer Bootcamp, Global Power Platform Bootcamp, Global AI Bootcamp, and more.
 
