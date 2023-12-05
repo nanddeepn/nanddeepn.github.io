@@ -12,7 +12,6 @@ toc: true
 I’ll be speaking at the following events.
 
 **Event**|**Topic**|**When**|**Where**
-M365 Saturday Bangalore 2023|[Build intelligent Microsoft Teams apps with Azure OpenAI](https://www.m365event.com/)|02 December, 2023|Bangalore, India
 India Cloud Security Summit 2023|[Navigating Legal Landscapes with Microsoft Purview eDiscovery Solutions](https://www.indiacloudsecuritysummit.com/)|09 December, 2023|Online
 Global AI Conference 2023|[Bringing your own data to Microsoft Teams apps with Azure OpenAI and LangChain](https://globalai.community/events/global-ai-conference-december-2023/)|12 December, 2023 at 5 PM IST|Online
 M365 Saturday Ahmedabad 2024|[Infuse intelligence into your Microsoft Teams apps using Azure OpenAI and LangChain](https://www.meetup.com/m365ahmedabad/events/296621704/)|06 January, 2024|Ahmedabad, India
@@ -21,6 +20,7 @@ M365 Saturday Ahmedabad 2024|[Infuse intelligence into your Microsoft Teams apps
 ## Past events
 
 **#**|**Event**|**Topic**|**When**|**Where**
+150|M365 Saturday Bangalore 2023|[Build intelligent Microsoft Teams apps with Azure OpenAI](https://www.m365event.com/)|02 December, 2023|Bangalore, India
 149|Generative AI Day|[Bring your own data to Microsoft Teams chat bot with Azure OpenAI and LangChain](https://www.meetup.com/dear-azure-and-ai-mumbai-india-meetup/events/295906499)|07 October, 2023|Mumbai, India
 148|Microsoft AI Community|[Bring your own data to Microsoft Teams chat bot with Azure OpenAI and LangChain](https://www.meetup.com/meetup-group-ybzunvts/events/296336026/)|05 October, 2023|Online
 147|Microsoft Power Platform Connect 2023|[Empower your Power Platform solutions with OpenAI](https://www.eventbrite.co.uk/e/microsoft-power-platform-connect-2023-bangalore-tickets-679262009957)|09 September, 2023|Bangalore, India
