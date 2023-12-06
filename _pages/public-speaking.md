@@ -14,6 +14,7 @@ I’ll be speaking at the following events.
 **Event**|**Topic**|**When**|**Where**
 India Cloud Security Summit 2023|[Navigating Legal Landscapes with Microsoft Purview eDiscovery Solutions](https://www.indiacloudsecuritysummit.com/)|09 December, 2023|Online
 Global AI Conference 2023|[Bringing your own data to Microsoft Teams apps with Azure OpenAI and LangChain](https://globalai.community/events/global-ai-conference-december-2023/)|12 December, 2023 at 5 PM IST|Online
+PUG DevCon 2023|[Integrating Azure OpenAI and LangChain for Empowering Microsoft Teams Apps with Your Custom Data](https://www.meetup.com/puneusergroup/events/297498720/)|16 December, 2023|Online
 M365 Saturday Ahmedabad 2024|[Infuse intelligence into your Microsoft Teams apps using Azure OpenAI and LangChain](https://www.meetup.com/m365ahmedabad/events/296621704/)|06 January, 2024|Ahmedabad, India
 6th Cloud8 virtual Summit 2024|[Building Intelligent Bots for Microsoft Teams with Azure OpenAI](https://www.cloudeight.ch/)|12 January, 2024 at 9:30 PM IST|Online
 
