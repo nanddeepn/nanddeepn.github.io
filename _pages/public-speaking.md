@@ -12,13 +12,14 @@ toc: true
 I’ll be speaking at the following events.
 
 **Event**|**Topic**|**When**|**Where**
-PUG DevCon 2023|[Integrating Azure OpenAI and LangChain for Empowering Microsoft Teams Apps with Your Custom Data](https://www.meetup.com/puneusergroup/events/297498720/)|16 December, 2023|Online
 M365 Saturday Ahmedabad 2024|[Infuse intelligence into your Microsoft Teams apps using Azure OpenAI and LangChain](https://www.meetup.com/m365ahmedabad/events/296621704/)|06 January, 2024|Ahmedabad, India
 6th Cloud8 virtual Summit 2024|[Building Intelligent Bots for Microsoft Teams with Azure OpenAI](https://www.cloudeight.ch/)|12 January, 2024 at 9:30 PM IST|Online
+Global Power Platform Bootcamp 2023 - RIYADH|[Empower your Power Platform solutions with OpenAI](https://www.powerplatformbootcamp.com/2024/location-detail/?id=633d50c5-df7e-ee11-a81c-6045bd5d6a14&city=Ryiadh)|09 March, 2024|Online
 
 ## Past events
 
 **#**|**Event**|**Topic**|**When**|**Where**
+153|PUG DevCon 2023|[Integrating Azure OpenAI and LangChain for Empowering Microsoft Teams Apps with Your Custom Data](https://www.meetup.com/puneusergroup/events/297498720/)|16 December, 2023|Pune, India
 152|Global AI Conference 2023|[Bringing your own data to Microsoft Teams apps with Azure OpenAI and LangChain](https://globalai.community/events/global-ai-conference-december-2023/)|12 December, 2023|Online
 151|India Cloud Security Summit 2023|[Navigating Legal Landscapes with Microsoft Purview eDiscovery Solutions](https://www.indiacloudsecuritysummit.com/)|09 December, 2023|Online
 150|M365 Saturday Bangalore 2023|[Build intelligent Microsoft Teams apps with Azure OpenAI](https://www.m365event.com/)|02 December, 2023|Bangalore, India
