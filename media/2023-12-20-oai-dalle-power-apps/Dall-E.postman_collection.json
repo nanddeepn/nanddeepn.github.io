@@ -1,0 +1,111 @@
+{
+	"info": {
+		"_postman_id": "27a12b63-7b6e-438f-9d4d-7f3e166c7b96",
+		"name": "Dall-E",
+		"schema": "https://schema.getpostman.com/json/collection/v2.0.0/collection.json",
+		"_exporter_id": "8237234"
+	},
+	"item": [
+		{
+			"name": "Prompt",
+			"request": {
+				"method": "POST",
+				"header": [
+					{
+						"key": "Api-Key",
+						"value": "{{apiKey}}",
+						"type": "text"
+					}
+				],
+				"body": {
+					"mode": "raw",
+					"raw": "{\r\n    \"prompt\": \"Wolf driving car on the moon\",\r\n    \"size\": \"1024x1024\",\r\n    \"n\": 1\r\n}"
+				},
+				"url": {
+					"raw": "https://contoso.openai.azure.com/openai/images/generations:submit?api-version=2023-06-01-preview",
+					"protocol": "https",
+					"host": [
+						"contoso",
+						"openai",
+						"azure",
+						"com"
+					],
+					"path": [
+						"openai",
+						"images",
+						"generations:submit"
+					],
+					"query": [
+						{
+							"key": "api-version",
+							"value": "2023-06-01-preview"
+						}
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "Get Image",
+			"request": {
+				"method": "GET",
+				"header": [
+					{
+						"key": "Api-Key",
+						"value": "{{apiKey}}",
+						"type": "text"
+					}
+				],
+				"url": {
+					"raw": "https://contoso.openai.azure.com/openai/operations/images/ad43edaf-1528-47e6-8445-f00a32e37339?api-version=2023-06-01-preview",
+					"protocol": "https",
+					"host": [
+						"contoso",
+						"openai",
+						"azure",
+						"com"
+					],
+					"path": [
+						"openai",
+						"operations",
+						"images",
+						"ad43edaf-1528-47e6-8445-f00a32e37339"
+					],
+					"query": [
+						{
+							"key": "api-version",
+							"value": "2023-06-01-preview"
+						}
+					]
+				}
+			},
+			"response": []
+		}
+	],
+	"event": [
+		{
+			"listen": "prerequest",
+			"script": {
+				"type": "text/javascript",
+				"exec": [
+					""
+				]
+			}
+		},
+		{
+			"listen": "test",
+			"script": {
+				"type": "text/javascript",
+				"exec": [
+					""
+				]
+			}
+		}
+	],
+	"variable": [
+		{
+			"key": "apiKey",
+			"value": "cb7e299acee24b1682bd03b671cb2d68"
+		}
+	]
+}
