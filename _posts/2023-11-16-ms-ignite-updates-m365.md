@@ -32,7 +32,7 @@ SharePoint Premium introduces new features such as content experiences for seaml
 
 ## Availability of Microsoft Clipchamp and app integrations for Microsoft Designer
 
-Microsoft 365 is making visual content creation easy for businesses with tools like Microsoft Clipchamp and Microsoft Designer. Clipchamp, available for Microsoft 365 Enterprise and Business users, democratizes video and image creation. Clipchamp Premium, featuring 4K exports and premium content, will be available in December 2023. Microsoft Designer, integrated into various Microsoft 365 apps, allows users to create images seamlessly within their workflow. It's accessible for Enterprise and Business users, with additional features rolling out in the coming weeks and months. The Designer app will have a preview soon, followed by general availability next year.
+Microsoft 365 is making visual content creation easy for businesses with tools like [Microsoft Clipchamp](https://clipchamp.com/en/video-editor/) and Microsoft Designer. [Clipchamp](https://clipchamp.com/), available for Microsoft 365 Enterprise and Business users, democratizes video and image creation. Clipchamp Premium, featuring 4K exports and premium content, will be available in December 2023. Microsoft Designer, integrated into various Microsoft 365 apps, allows users to create images seamlessly within their workflow. It's accessible for Enterprise and Business users, with additional features rolling out in the coming weeks and months. The Designer app will have a preview soon, followed by general availability next year.
 
 **Learn more:**
 
