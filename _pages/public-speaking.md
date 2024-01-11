@@ -13,6 +13,7 @@ I’ll be speaking at the following events.
 
 **Event**|**Topic**|**When**|**Where**
 6th Cloud8 virtual Summit 2024|[Building Intelligent Bots for Microsoft Teams with Azure OpenAI](https://www.cloudeight.ch/)|12 January, 2024 at 9:30 PM IST|Online
+Teams Nation 2024|[Bringing your own data to Microsoft Teams apps with Azure OpenAI and LangChain](https://teams-nation.com/)|21 February, 2024 at 3:30 PM to 4:00 PM IST|Online
 Global Power Platform Bootcamp 2023 - RIYADH|[Empower your Power Platform solutions with OpenAI](https://www.powerplatformbootcamp.com/2024/location-detail/?id=633d50c5-df7e-ee11-a81c-6045bd5d6a14&city=Ryiadh)|09 March, 2024|Online
 
 ## Past events
@@ -185,6 +186,8 @@ Global Power Platform Bootcamp 2023 - RIYADH|[Empower your Power Platform soluti
 ## Event Organizer
 
 **#**|**Event**|**When**|**Where**
+26|[Global Power Platform Bootcamp, Pune 2024](https://www.meetup.com/pune-tech-community/events/297043002/)|24 February, 2024|Pune, India
+25|[.NET Conf Pune 2023 (Virtual)](https://www.meetup.com/pune-tech-community/events/296373400/)|12 January, 2024|Online
 24|[Global AI Conference In-Person Workshop](https://www.meetup.com/pune-tech-community/events/297217496)|12 December, 2023|Pune, India
 23|[M365 Saturday, Pune 2023](https://www.meetup.com/pune-tech-community/events/296247574/)|28 October, 2023|Pune, India
 22|[Generative AI Day](https://www.meetup.com/dear-azure-and-ai-mumbai-india-meetup/events/295906499)|07 October, 2023|Mumbai, India
