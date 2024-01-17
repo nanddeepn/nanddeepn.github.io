@@ -178,7 +178,7 @@ Global Power Platform Bootcamp 2023 - RIYADH|[Empower your Power Platform soluti
 ## Podcasts
 
 **#**|**Event**|**Topic**|**When**|**Where**
-3|Microsoft Business Applications Podcast|Nanddeep Nachan on the MVP Show|14 September, 2023|Online
+3|[Microsoft Business Applications Podcast](https://podcast.nz365guy.com/518)|Nanddeep Nachan on the MVP Show|14 September, 2023|Online
 2|Hackathon Sample Project Interview with Garry Trinder|Knowledge Quest Teams Bot|07 September, 2023|Online
 1|Alif Tech Talks|Discussion with MVP|31 August, 2023|Online
 
