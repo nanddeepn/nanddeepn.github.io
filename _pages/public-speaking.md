@@ -14,6 +14,7 @@ I’ll be speaking at the following events.
 **Event**|**Topic**|**When**|**Where**
 Teams Nation 2024|[Bringing your own data to Microsoft Teams apps with Azure OpenAI and LangChain](https://teams-nation.com/)|21 February, 2024 at 3:30 PM to 4:00 PM IST|Online
 Global Power Platform Bootcamp 2023 - RIYADH|[Empower your Power Platform solutions with OpenAI](https://www.powerplatformbootcamp.com/2024/location-detail/?id=633d50c5-df7e-ee11-a81c-6045bd5d6a14&city=Ryiadh)|02 March, 2024 at 1:45 PM to 2:30 PM IST|Online
+Global Power Platform Bootcamp 2024 - Bangalore|[Step into the Future: Using AI and Power Platform to boost the productivity](https://www.powerplatformbootcamp.com/2024/location-detail/?id=f8ff267f-23ab-ee11-a81c-6045bd5d6a14&city=Bangalore)|02 March, 2024|Online
 
 ## Past events
 
