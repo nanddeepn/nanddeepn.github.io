@@ -179,15 +179,17 @@ Global Power Platform Bootcamp 2024 - Bangalore|[Step into the Future: Using AI 
 ## Podcasts
 
 **#**|**Event**|**Topic**|**When**|**Where**
-3|[Microsoft Business Applications Podcast](https://podcast.nz365guy.com/518)|Nanddeep Nachan on the MVP Show|14 September, 2023|Online
-2|Hackathon Sample Project Interview with Garry Trinder|Knowledge Quest Teams Bot|07 September, 2023|Online
+3|Microsoft Business Applications Podcast|[Nanddeep Nachan on the MVP Show]((https://podcast.nz365guy.com/518))|14 September, 2023|Online
+2|Hackathon Sample Project Interview with Garry Trinder|[Knowledge Quest Teams Bot](https://www.youtube.com/watch?v=h02uwVpYknE)|07 September, 2023|Online
 1|Alif Tech Talks|Discussion with MVP|31 August, 2023|Online
 
 
 ## Event Organizer
 
 **#**|**Event**|**When**|**Where**
+27|[Global AI Bootcamp, Pune 2024](https://www.meetup.com/pune-tech-community/events/298708549/)|16 March, 2024|Online
 26|[Global Power Platform Bootcamp, Pune 2024](https://www.meetup.com/pune-tech-community/events/297043002/)|24 February, 2024|Pune, India
+16|[Generative AI Day, Pune with Henk Boelman](https://www.meetup.com/pune-tech-community/events/298580954/)|03 February, 2024|Pune, India
 25|[.NET Conf Pune 2023 (Virtual)](https://www.meetup.com/pune-tech-community/events/296373400/)|12 January, 2024|Online
 24|[Global AI Conference In-Person Workshop](https://www.meetup.com/pune-tech-community/events/297217496)|12 December, 2023|Pune, India
 23|[M365 Saturday, Pune 2023](https://www.meetup.com/pune-tech-community/events/296247574/)|28 October, 2023|Pune, India
