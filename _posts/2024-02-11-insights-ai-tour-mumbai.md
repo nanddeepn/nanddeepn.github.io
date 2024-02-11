@@ -146,3 +146,4 @@ AI transformation is just beginning. Prepare yourself for this AI journey. Three
 - [AI learning hub](https://learn.microsoft.com/en-us/ai/)
 - [Explore session resources](https://envision.microsoft.com/en-US/sessions?filter=event%2FlogicalValue%3EMumbai)
 - [Building a Foundation for AI Success](https://info.microsoft.com/ww-landing-building-a-foundation-for-ai-success.html)
+
