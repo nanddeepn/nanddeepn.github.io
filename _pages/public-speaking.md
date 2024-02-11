@@ -220,6 +220,7 @@ Global Power Platform Bootcamp 2024 - Bangalore|[Step into the Future: Using AI 
 ## Other appearances
 
 **#**|**Event**|**Topic**|**When**|**Where**
+06|Microsoft AI Tour, Bangalore|[Expert at Microsoft Copilot Studio Booth](https://www.linkedin.com/posts/nanddeepnachan_had-a-fantastic-time-at-the-microsoft-activity-7161658943281262596-Y6G5)|08 February, 2024|Bangalore, India
 05|Proctor, Global Microsoft 365 Developer Bootcamp, APAC Region|[Global Microsoft 365 Developer Bootcamp, APAC Region](https://microsoft365developerbootcamp.splashthat.com/)|14, 15 October, 2020|Online
 04|Proctor, Global Microsoft 365 Developer Bootcamp, EMEA Region|[Global Microsoft 365 Developer Bootcamp, EMEA Region](https://microsoft365developerbootcamp.splashthat.com/)|13, 14 October, 2020|Online
 03|Microsoft Ignite, Ask the Expert, SME Support|[ATE-DB136: Embrace a New Way of Work with Microsoft 365](https://myignite.microsoft.com/sessions/ATE-DB136)|24 September, 2020|Online
