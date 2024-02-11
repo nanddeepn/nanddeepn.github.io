@@ -203,10 +203,8 @@ excerpt_separator: "\n\n"
 incremental: false
 
 
-# Markdown Processing
-# Jekyll 3 now only supports Kramdown for Markdown
+# Markdown Processinge
 kramdown:
-  # Use GitHub flavored markdown, including triple backtick fenced code blocks
   input: GFM
   hard_wrap: false
   auto_ids: true
@@ -215,11 +213,6 @@ kramdown:
   toc_levels: 1..6
   smart_quotes: lsquo,rsquo,ldquo,rdquo
   enable_coderay: false
-  # Jekyll 3 and GitHub Pages now only support rouge for syntax highlighting
-  syntax_highlighter: rouge
-  syntax_highlighter_opts:
-    # Use existing pygments syntax highlighting css
-    css_class: 'highlight'
 
 
 # Sass/SCSS
@@ -296,33 +289,10 @@ collections:
   posts:
     output: true
     permalink: /:collection/:path/
-  rendering:
-    output: true
-    permalink: /:collection/:path/
-  CG2019:
-    output: true
-    permalink: /:collection/:path/
-  wp2018:
-    output: true
-    permalink: /:collection/:path/
-  embedded:
-    output: true
-    permalink: /:collection/:path/
   projects:
     output: true
     permalink: /:collection/:path/
-  DS:
-    output: true
-    permalink: /:collection/:path/
-  CG2017:
-    output: true
-    permalink: /:collection/:path/
-  OOP:
-    output: true
-    permalink: /:collection/:path/
-  C:
-    output: true
-    permalink: /:collection/:path/
+
 
 # Defaults
 defaults:
@@ -340,72 +310,8 @@ defaults:
   # _portfolio
   - scope:
       path: ""
-      type: rendering
-    values:
-      layout: single
-      author_profile: true
-      share: true
-  # _portfolio
-  - scope:
-      path: ""
-      type: CG2019
-    values:
-      layout: single
-      author_profile: true
-      share: true    
-  # _portfolio
-  - scope:
-      path: ""
-      type: wp2018
-    values:
-      layout: single
-      author_profile: true
-      share: true
-  # _portfolio
-  - scope:
-      path: ""
-      type: embedded
-    values:
-      layout: single
-      author_profile: true
-      share: true
-  # _portfolio
-  - scope:
-      path: ""
       type: projects
     values:
       layout: single
       author_profile: true
       share: true
-  # _portfolio
-  - scope:
-      path: ""
-      type: DS
-    values:
-      layout: single
-      author_profile: true
-      share: true
-  # _portfolio
-  - scope:
-      path: ""
-      type: CG2017
-    values:
-      layout: single
-      author_profile: true
-      share: true 
-  # _portfolio
-  - scope:
-      path: ""
-      type: OOP
-    values:
-      layout: single
-      author_profile: true
-      share: true 
-  # _portfolio
-  - scope:
-      path: ""
-      type: C
-    values:
-      layout: single
-      author_profile: true
-      share: true 
