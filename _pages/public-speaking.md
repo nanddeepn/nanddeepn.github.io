@@ -188,6 +188,7 @@ Global Power Platform Bootcamp 2024 - Bangalore|[Step into the Future: Using AI 
 ## Event Organizer
 
 **#**|**Event**|**When**|**Where**
+28|[Global Azure Pune 2024](https://www.meetup.com/pune-tech-community/events/299269909/)|20 April, 2024|Online
 27|[Global AI Bootcamp, Pune 2024](https://www.meetup.com/pune-tech-community/events/298708549/)|16 March, 2024|Online
 26|[Global Power Platform Bootcamp, Pune 2024](https://www.meetup.com/pune-tech-community/events/297043002/)|24 February, 2024|Pune, India
 16|[Generative AI Day, Pune with Henk Boelman](https://www.meetup.com/pune-tech-community/events/298580954/)|03 February, 2024|Pune, India
