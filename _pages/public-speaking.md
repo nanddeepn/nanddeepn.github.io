@@ -12,7 +12,6 @@ toc: true
 I’ll be speaking at the following events.
 
 **Event**|**Topic**|**When**|**Where**
-Power Platform Bootcamp 2024, Delhi|[Empower your Power Platform solutions with OpenAI](https://www.powerplatformbootcamp.com/2024/location-detail/?id=b71fe49b-259e-ee11-a81c-6045bd5d6a14&city=Delhi)|23 February, 2024 at 5 PM IST|Online
 Global Power Platform Bootcamp 2023 - RIYADH|[Empower your Power Platform solutions with OpenAI](https://www.powerplatformbootcamp.com/2024/location-detail/?id=633d50c5-df7e-ee11-a81c-6045bd5d6a14&city=Ryiadh)|02 March, 2024 at 1:45 PM to 2:30 PM IST|Online
 Global Power Platform Bootcamp 2024 - Bangalore|[Step into the Future: Using AI and Power Platform to boost the productivity](https://www.powerplatformbootcamp.com/2024/location-detail/?id=f8ff267f-23ab-ee11-a81c-6045bd5d6a14&city=Bangalore)|02 March, 2024|Online
 Global Power Platform Bootcamp 2024 Thiruvanthapuram | [Enhance customer and employee experiences with Microsoft Copilot Studio](https://www.meetup.com/india-ms-tech-community/events/298820835)|09 March, 2024 at 11 AM IST|Online
@@ -21,6 +20,7 @@ Global AI Bootcamp 2024 Germany/Karlsruhe|[Build RAG based Azure OpenAI Chatbot 
 ## Past events
 
 **#**|**Event**|**Topic**|**When**|**Where**
+157|Power Platform Bootcamp 2024, Delhi|[Empower your Power Platform solutions with OpenAI](https://www.powerplatformbootcamp.com/2024/location-detail/?id=b71fe49b-259e-ee11-a81c-6045bd5d6a14&city=Delhi)|23 February, 2024|Online
 156|Teams Nation 2024|[Bringing your own data to Microsoft Teams apps with Azure OpenAI and LangChain](https://teamsnation2024.sessionize.com/session/548630)|21 February, 2024|Online
 155|6th Cloud8 virtual Summit 2024|[Building Intelligent Bots for Microsoft Teams with Azure OpenAI](https://events.teams.microsoft.com/event/4065b190-4a24-4ccb-946f-95823bca509f@07867c6b-cc7e-449c-a9f4-083bac62aad8)|12 January, 2024|Online
 154|M365 Saturday Ahmedabad 2024|[Infuse intelligence into your Microsoft Teams apps using Azure OpenAI and LangChain](https://www.meetup.com/m365ahmedabad/events/296621704/)|06 January, 2024|Ahmedabad, India
