@@ -12,7 +12,7 @@ toc: true
 I’ll be speaking at the following events.
 
 **Event**|**Topic**|**When**|**Where**
-Global Power Platform Bootcamp 2024 Thiruvanthapuram | [Enhance customer and employee experiences with Microsoft Copilot Studio](https://www.meetup.com/india-ms-tech-community/events/298820835)|09 March, 2024 at 11 AM IST|Online
+Global Power Platform Bootcamp 2024 Thiruvanthapuram | [Elevate user experiences with Microsoft Copilot Studio](https://www.meetup.com/india-ms-tech-community/events/298820835)|09 March, 2024 at 10:30 AM IST|Online
 Global AI Bootcamp 2024 Germany/Karlsruhe|[Build RAG based Azure OpenAI Chatbot for MS Teams](https://www.meetup.com/microsoft-ai-user-group-germany/events/299289328/)|22 March, 2024 at 2:45 PM to 3:15 PM IST|Online
 Microsoft Copilot and Viva Days, 2024|[Explore The Future of Coding with GitHub Copilot](https://sessionize.com/microsoft-copilot-and-viva-days-2024/)|06 April, 2024|Online
 
