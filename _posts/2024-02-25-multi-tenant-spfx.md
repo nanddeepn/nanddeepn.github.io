@@ -9,8 +9,8 @@ categories:
   - SharePoint
   - Azure
 tags:
-  - "2023"
-  - August 2023
+  - "2024"
+  - February 2024
 last_modified_at: 2024-02-25T00:00:00-00:00
 ---
 ## Overview
