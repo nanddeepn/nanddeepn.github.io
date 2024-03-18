@@ -70,7 +70,7 @@ We will now create a Postman collection of the above two requests.
 
 ![](/media/2023-12-20-oai-dalle-power-apps/06.png)
 
-The Postman collection is attached here for reference.
+The Postman collection is attached [here](/media/2023-12-20-oai-dalle-power-apps/Dall-E.postman_collection.json) for reference.
 
 
 ## Custom Connector in Power Platform
