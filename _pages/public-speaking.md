@@ -14,6 +14,7 @@ I’ll be speaking at the following events.
 **Event**|**Topic**|**When**|**Where**
 Global AI Bootcamp 2024 Germany/Karlsruhe|[Build RAG based Azure OpenAI Chatbot for MS Teams](https://www.meetup.com/microsoft-ai-user-group-germany/events/299289328/)|22 March, 2024 at 2:45 PM to 3:15 PM IST|Online
 Microsoft Copilot and Viva Days, 2024|[Explore The Future of Coding with GitHub Copilot](https://sessionize.com/microsoft-copilot-and-viva-days-2024/)|06 April, 2024|Online
+Microsoft Reactor Bengaluru|[MS Copilot expands with MS Graph connectors](https://www.meetup.com/microsoft-reactor-bengaluru/events/299791172/)|08 April, 2024|Online
 
 ## Past events
 
