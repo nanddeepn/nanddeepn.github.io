@@ -12,13 +12,13 @@ toc: true
 I’ll be speaking at the following events.
 
 **Event**|**Topic**|**When**|**Where**
-Global AI Bootcamp 2024 Germany/Karlsruhe|[Build RAG based Azure OpenAI Chatbot for MS Teams](https://www.meetup.com/microsoft-ai-user-group-germany/events/299289328/)|22 March, 2024 at 2:45 PM to 3:15 PM IST|Online
 Microsoft Copilot and Viva Days, 2024|[Explore The Future of Coding with GitHub Copilot](https://sessionize.com/microsoft-copilot-and-viva-days-2024/)|06 April, 2024|Online
 Microsoft Reactor Bengaluru|[MS Copilot expands with MS Graph connectors](https://www.meetup.com/microsoft-reactor-bengaluru/events/299791172/)|08 April, 2024|Online
 
 ## Past events
 
 **#**|**Event**|**Topic**|**When**|**Where**
+161|Global AI Bootcamp 2024 Germany/Karlsruhe|[Build RAG based Azure OpenAI Chatbot for MS Teams](https://www.meetup.com/microsoft-ai-user-group-germany/events/299289328/)|22 March, 2024|Online
 160|Global Power Platform Bootcamp 2024 Thiruvanthapuram | [Elevate user experiences with Microsoft Copilot Studio](https://www.meetup.com/india-ms-tech-community/events/298820835)|09 March, 2024|Online
 159|Global Power Platform Bootcamp 2023 - Ryiadh, Saudi Arabia|[Empower your Power Platform solutions with OpenAI](https://www.powerplatformbootcamp.com/2024/location-detail/?id=633d50c5-df7e-ee11-a81c-6045bd5d6a14&city=Ryiadh)|02 March, 2024|Online
 158|Global Power Platform Bootcamp 2024 - Bangalore|[Step into the Future: Using AI and Power Platform to boost the productivity](https://www.powerplatformbootcamp.com/2024/location-detail/?id=f8ff267f-23ab-ee11-a81c-6045bd5d6a14&city=Bangalore)|02 March, 2024|Online
