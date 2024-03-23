@@ -139,5 +139,6 @@ In this article, we have explored how to set up multiple languages, update the l
 
 ## References
 
+- [Microsoft Copilot Studio](https://www.microsoft.com/en/copilot/microsoft-copilot-studio?WT.mc_id=M365-MVP-5003693)
 - [Configure and create multilingual copilots](https://learn.microsoft.com/en-us/microsoft-copilot-studio/multilingual?WT.mc_id=M365-MVP-5003693)
 - [Supported languages](https://learn.microsoft.com/en-us/microsoft-copilot-studio/authoring-language-support?WT.mc_id=M365-MVP-5003693)
