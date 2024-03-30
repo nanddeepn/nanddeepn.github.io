@@ -12,8 +12,9 @@ toc: true
 I’ll be speaking at the following events.
 
 **Event**|**Topic**|**When**|**Where**
-Microsoft Copilot and Viva Days, 2024|[Explore The Future of Coding with GitHub Copilot](https://sessionize.com/microsoft-copilot-and-viva-days-2024/)|06 April, 2024|Online
-Microsoft Reactor Bengaluru|[MS Copilot expands with MS Graph connectors](https://www.meetup.com/microsoft-reactor-bengaluru/events/299791172/)|08 April, 2024|Online
+Microsoft Copilot and Viva Days, 2024|[Explore The Future of Coding with GitHub Copilot](https://www.mcandvivadays.com)|06 April, 2024 at 11:30 AM to 12:15 PM IST|Online
+Microsoft Reactor Bengaluru|[MS Copilot expands with MS Graph connectors](https://www.meetup.com/microsoft-reactor-bengaluru/events/299791172/)|08 April, 2024 at 6:30 to 7:30 PM IST|Online
+Global Azure 2024 Germany/Karlsruhe|[Prompts, RAG, Fine tuning your AI models? When, why, and how?](https://www.meetup.com/microsoft-ai-user-group-germany/events/299747039/)|19 April, 2024 at 3 to 3:45 PM IST|Online
 
 ## Past events
 
