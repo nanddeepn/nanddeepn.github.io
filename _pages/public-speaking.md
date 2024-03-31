@@ -15,6 +15,8 @@ I’ll be speaking at the following events.
 Microsoft Copilot and Viva Days, 2024|[Explore The Future of Coding with GitHub Copilot](https://www.mcandvivadays.com)|06 April, 2024 at 11:30 AM to 12:15 PM IST|Online
 Microsoft Reactor Bengaluru|[MS Copilot expands with MS Graph connectors](https://www.meetup.com/microsoft-reactor-bengaluru/events/299791172/)|08 April, 2024 at 6:30 to 7:30 PM IST|Online
 Global Azure 2024 Germany/Karlsruhe|[Prompts, RAG, Fine tuning your AI models? When, why, and how?](https://www.meetup.com/microsoft-ai-user-group-germany/events/299747039/)|19 April, 2024 at 3 to 3:45 PM IST|Online
+Global Copilot Summit, Pune|[Build your own Copilot with Azure AI Studio](https://www.meetup.com/pune-tech-community/events/299950033/)|20 April, 2024|Pune, India
+Global Copilot Summit, Mumbai|Extend Copilot for Microsoft 365 with plugins|11 May, 2024|Mumbai, India
 
 ## Past events
 
@@ -193,7 +195,8 @@ Global Azure 2024 Germany/Karlsruhe|[Prompts, RAG, Fine tuning your AI models? W
 ## Event Organizer
 
 **#**|**Event**|**When**|**Where**
-28|[Global Azure Pune 2024](https://www.meetup.com/pune-tech-community/events/299269909/)|20 April, 2024|Online
+29|[Global Azure Pune 2024](https://www.meetup.com/pune-tech-community/events/299269909/)|27 April, 2024|Online
+28|[Global Copilot Summit, Pune](https://www.meetup.com/pune-tech-community/events/299950033/)|20 April, 2024|Pune, India
 27|[Global AI Bootcamp, Pune 2024](https://www.meetup.com/pune-tech-community/events/298708549/)|16 March, 2024|Online
 26|[Global Power Platform Bootcamp, Pune 2024](https://www.meetup.com/pune-tech-community/events/297043002/)|24 February, 2024|Pune, India
 16|[Generative AI Day, Pune with Henk Boelman](https://www.meetup.com/pune-tech-community/events/298580954/)|03 February, 2024|Pune, India
