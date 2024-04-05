@@ -13,7 +13,7 @@ I’ll be speaking at the following events.
 
 **Event**|**Topic**|**When**|**Where**
 Microsoft Copilot and Viva Days, 2024|[Explore The Future of Coding with GitHub Copilot](https://www.mcandvivadays.com)|06 April, 2024 at 11:30 AM to 12:15 PM IST|Online
-Microsoft Reactor Bengaluru|[MS Copilot expands with MS Graph connectors](https://www.meetup.com/microsoft-reactor-bengaluru/events/299791172/)|08 April, 2024 at 6:30 to 7:30 PM IST|Online
+Microsoft Reactor Bengaluru|[MS Copilot expands with MS Graph connectors](https://www.meetup.com/microsoft-reactor-bengaluru/events/299791172/)|12 April, 2024 at 5:30 to 6:30 PM IST|Online
 Azure Global Bootcamp Cologne 2024|[Prompts, RAG, Fine tuning your AI models? When, why, and how?](https://www.meetup.com/de-DE/azure-cologne-meetup/events/299880762/)|18 April, 2024|Online
 Global Azure 2024 Germany/Karlsruhe|[Prompts, RAG, Fine tuning your AI models? When, why, and how?](https://www.meetup.com/microsoft-ai-user-group-germany/events/299747039/)|19 April, 2024 at 3 to 3:45 PM IST|Online
 Global Copilot Summit, Pune|[Build your own Copilot with Azure AI Studio](https://www.meetup.com/pune-tech-community/events/299950033/)|20 April, 2024|Pune, India
