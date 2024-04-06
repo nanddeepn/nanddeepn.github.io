@@ -17,6 +17,8 @@ Microsoft Reactor Bengaluru|[MS Copilot expands with MS Graph connectors](https:
 Azure Global Bootcamp Cologne 2024|[Prompts, RAG, Fine tuning your AI models? When, why, and how?](https://www.meetup.com/de-DE/azure-cologne-meetup/events/299880762/)|18 April, 2024|Online
 Global Azure 2024 Germany/Karlsruhe|[Prompts, RAG, Fine tuning your AI models? When, why, and how?](https://www.meetup.com/microsoft-ai-user-group-germany/events/299747039/)|19 April, 2024 at 3 to 3:45 PM IST|Online
 Global Copilot Summit, Pune|[Build your own Copilot with Azure AI Studio](https://www.meetup.com/pune-tech-community/events/299950033/)|20 April, 2024|Pune, India
+Global Copilot Summit, Hyderabad|TBD|04 May, 2024|Hyderabad, India
+Global AI Summer Bootcamp- 2024|Build your own Copilot with Azure AI Studio|04 May, 2024|Online
 Global Copilot Summit, Mumbai|Extend Copilot for Microsoft 365 with plugins|11 May, 2024|Mumbai, India
 
 ## Past events
