@@ -12,8 +12,6 @@ toc: true
 I’ll be speaking at the following events.
 
 **Event**|**Topic**|**When**|**Where**
-Azure Global Bootcamp Cologne 2024|[Prompts, RAG, Fine tuning your AI models? When, why, and how?](https://www.meetup.com/de-DE/azure-cologne-meetup/events/299880762/)|18 April, 2024 at 11 PM to 12 PM IST|Online
-Global Azure 2024 Germany/Karlsruhe|[Prompts, RAG, Fine tuning your AI models? When, why, and how?](https://www.meetup.com/microsoft-ai-user-group-germany/events/299747039/)|19 April, 2024 at 3 to 3:45 PM IST|Online
 Global Copilot Summit, Pune|[Keynote - Microsoft 365 Copilot: The future is now!](https://www.meetup.com/pune-tech-community/events/299950033/)|20 April, 2024|Pune, India
 Global AI Summer Bootcamp- 2024|Build your own Copilot with Azure AI Studio|04 May, 2024|Online
 Global Copilot Summit, Mumbai|Extend Copilot for Microsoft 365 with plugins|11 May, 2024|Mumbai, India
@@ -21,6 +19,8 @@ Global Copilot Summit, Mumbai|Extend Copilot for Microsoft 365 with plugins|11 M
 ## Past events
 
 **#**|**Event**|**Topic**|**When**|**Where**
+165|Global Azure AI/ML 2024 Germany/Karlsruhe & Singapore|[Prompts, RAG, Fine tuning your AI models? When, why, and how?](https://www.meetup.com/microsoft-ai-user-group-germany/events/299747039/)|19 April, 2024|Online
+164|Azure Global Bootcamp Cologne 2024|[Prompts, RAG, Fine tuning your AI models? When, why, and how?](https://www.meetup.com/de-DE/azure-cologne-meetup/events/299880762/)|18 April, 2024|Online
 163|Microsoft Reactor Bengaluru|[MS Copilot expands with MS Graph connectors](https://www.meetup.com/microsoft-reactor-bengaluru/events/299791172/)|12 April, 2024|Online
 162|Microsoft Copilot and Viva Days, 2024|[Explore The Future of Coding with GitHub Copilot](https://www.mcandvivadays.com)|06 April, 2024|Online
 161|Global AI Bootcamp 2024 Germany/Karlsruhe|[Build RAG based Azure OpenAI Chatbot for MS Teams](https://www.meetup.com/microsoft-ai-user-group-germany/events/299289328/)|22 March, 2024|Online
