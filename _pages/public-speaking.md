@@ -12,13 +12,13 @@ toc: true
 I’ll be speaking at the following events.
 
 **Event**|**Topic**|**When**|**Where**
-Global Copilot Summit, Pune|[Keynote - Microsoft 365 Copilot: The future is now!](https://www.meetup.com/pune-tech-community/events/299950033/)|20 April, 2024|Pune, India
 Global AI Summer Bootcamp- 2024|Build your own Copilot with Azure AI Studio|04 May, 2024|Online
 Global Copilot Summit, Mumbai|Extend Copilot for Microsoft 365 with plugins|11 May, 2024|Mumbai, India
 
 ## Past events
 
 **#**|**Event**|**Topic**|**When**|**Where**
+166|Global Copilot Summit, Pune|[Keynote - Microsoft 365 Copilot: The future is now!](https://www.meetup.com/pune-tech-community/events/299950033/)|20 April, 2024|Pune, India
 165|Global Azure AI/ML 2024 Germany/Karlsruhe & Singapore|[Prompts, RAG, Fine tuning your AI models? When, why, and how?](https://www.meetup.com/microsoft-ai-user-group-germany/events/299747039/)|19 April, 2024|Online
 164|Azure Global Bootcamp Cologne 2024|[Prompts, RAG, Fine tuning your AI models? When, why, and how?](https://www.meetup.com/de-DE/azure-cologne-meetup/events/299880762/)|18 April, 2024|Online
 163|Microsoft Reactor Bengaluru|[MS Copilot expands with MS Graph connectors](https://www.meetup.com/microsoft-reactor-bengaluru/events/299791172/)|12 April, 2024|Online
