@@ -12,8 +12,9 @@ toc: true
 I’ll be speaking at the following events.
 
 **Event**|**Topic**|**When**|**Where**
-Global AI Summer Bootcamp- 2024|Build your own Copilot with Azure AI Studio|04 May, 2024|Online
-Global Copilot Summit, Mumbai|Extend Copilot for Microsoft 365 with plugins|11 May, 2024|Mumbai, India
+Global AI Summer Bootcamp 2024|[Build your own Copilot with Azure AI Studio](https://www.linkedin.com/events/7183695553061429248/)|04 May, 2024|Online
+Global Copilot Summit, Mumbai|[Extend Copilot for Microsoft 365 with plugins](https://github.com/microsoft/global-copilot-summit#mumbai)|11 May, 2024|Mumbai, India
+Copilot Day Bootcamp|[Build SharePoint Copilot with Microsoft Copilot Studio](https://lu.ma/CopilotDayDelhi)|18 May, 2024|Online
 
 ## Past events
 
