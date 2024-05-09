@@ -201,12 +201,14 @@ Follow the below steps to fix the issue:
 3. Under **Run only users**, click **Edit**.
 4. Make sure all connections are configured with the **Use this connection** option.
 
+
+## Summary
+
+Microsoft Copilot Studio does not support SharePoint lists as a data source. This limitation can be overcome by using the approach outlined in this article considering the known limitations. 
+
+
 ## References
 
-Use a custom data source for generative answers
+- [Use a custom data source for generative answers](https://learn.microsoft.com/en-us/microsoft-copilot-studio/nlu-generative-answers-custom-data?WT.mc_id=M365-MVP-5003693)
 
-https://learn.microsoft.com/en-us/microsoft-copilot-studio/nlu-generative-answers-custom-data
-
-Use your prompt in Power Automate
-
-https://learn.microsoft.com/en-us/ai-builder/use-a-custom-prompt-in-flow
+- [Use your prompt in Power Automate](https://learn.microsoft.com/en-us/ai-builder/use-a-custom-prompt-in-flow?WT.mc_id=M365-MVP-5003693)
