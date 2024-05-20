@@ -12,11 +12,12 @@ toc: true
 I’ll be speaking at the following events.
 
 **Event**|**Topic**|**When**|**Where**
-Copilot Day Bootcamp|[Build SharePoint Copilot with Microsoft Copilot Studio](https://lu.ma/CopilotDayDelhi)|18 May, 2024|Online
+
 
 ## Past events
 
 **#**|**Event**|**Topic**|**When**|**Where**
+169|Copilot Day Bootcamp|[Build SharePoint Copilot with Microsoft Copilot Studio](https://lu.ma/CopilotDayDelhi)|18 May, 2024|Online
 168|Global Copilot Summit, Mumbai|[Extend Copilot for Microsoft 365 with plugins](https://github.com/microsoft/global-copilot-summit#mumbai)|11 May, 2024|Mumbai, India
 167|Global AI Summer Bootcamp 2024|[Build your own Copilot with Azure AI Studio](https://www.linkedin.com/events/7183695553061429248/)|04 May, 2024|Online
 166|Global Copilot Summit, Pune|[Keynote - Microsoft 365 Copilot: The future is now!](https://www.meetup.com/pune-tech-community/events/299950033/)|20 April, 2024|Pune, India
