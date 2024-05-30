@@ -17,6 +17,7 @@ I’ll be speaking at the following events.
 ## Past events
 
 **#**|**Event**|**Topic**|**When**|**Where**
+170|AI Chronicles: An Evening with Microsoft MVPs|[Harnessing the Power of Function Calling with Azure OpenAI Service](https://www.meetup.com/malaysia-ai-tech-hub/events/301275833/)|30 May, 2024|Online
 169|Copilot Day Bootcamp|[Build SharePoint Copilot with Microsoft Copilot Studio](https://lu.ma/CopilotDayDelhi)|18 May, 2024|Online
 168|Global Copilot Summit, Mumbai|[Extend Copilot for Microsoft 365 with plugins](https://github.com/microsoft/global-copilot-summit#mumbai)|11 May, 2024|Mumbai, India
 167|Global AI Summer Bootcamp 2024|[Build your own Copilot with Azure AI Studio](https://www.linkedin.com/events/7183695553061429248/)|04 May, 2024|Online
