@@ -12,7 +12,8 @@ toc: true
 I’ll be speaking at the following events.
 
 **Event**|**Topic**|**When**|**Where**
-
+Azure User Group Vadodara|[Build your own Copilot with Azure AI Studio]()|15 June, 2024 at 11 AM IST|Online
+Technical Summit 2024 EN|[Building Copilot for Microsoft 365 with Semantic Kernel](https://www.technicalsummit.de/)|15 October, 2024|Online
 
 ## Past events
 
