@@ -12,12 +12,12 @@ toc: true
 I’ll be speaking at the following events.
 
 **Event**|**Topic**|**When**|**Where**
-Azure User Group Vadodara|[Build your own Copilot with Azure AI Studio](https://www.linkedin.com/posts/activity-7206340371784642560-De7I)|15 June, 2024 at 11 AM IST|Online
 Technical Summit 2024 EN|[Building Copilot for Microsoft 365 with Semantic Kernel](https://www.technicalsummit.de/)|15 October, 2024|Online
 
 ## Past events
 
 **#**|**Event**|**Topic**|**When**|**Where**
+171|Azure User Group Vadodara|[Build your own Copilot with Azure AI Studio](https://events.teams.microsoft.com/event/e63083d2-cbcb-4e9c-b372-4b81f96e082d@e7479d55-ea32-48c2-814e-fe4ce8531b10)|15 June, 2024|Online
 170|AI Chronicles: An Evening with Microsoft MVPs|[Harnessing the Power of Function Calling with Azure OpenAI Service](https://www.meetup.com/malaysia-ai-tech-hub/events/301275833/)|30 May, 2024|Online
 169|Copilot Day Bootcamp|[Build SharePoint Copilot with Microsoft Copilot Studio](https://lu.ma/CopilotDayDelhi)|18 May, 2024|Online
 168|Global Copilot Summit, Mumbai|[Extend Copilot for Microsoft 365 with plugins](https://github.com/microsoft/global-copilot-summit#mumbai)|11 May, 2024|Mumbai, India
