@@ -10,6 +10,7 @@ toc: true
 ## Code Contributions
 
 **#**|**Contribution**|**Topic**|**When**
+20|Copilot prompts|[Track and manage pending communications](https://github.com/pnp/copilot-prompts/tree/main/samples/m365-manage-pending-emails-conversations-prompt)|14 June, 2024
 19|Microsoft Graph Connector|[Ingest REST Countries content using PowerShell](https://adoption.microsoft.com/en-us/sample-solution-gallery/sample/pnp-graph-connector-json-restcountries/)|28 November, 2023
 18|PnP Sample Script|[List apps within Teams in a tenant](https://pnp.github.io/script-samples/teams-list-installed-apps/README.html?tabs=ps)|23 November, 2023
 17|PnP Sample Script|[Export Microsoft Teams Direct Routing Calls](https://pnp.github.io/script-samples/teams-export-direct-routing-calls/README.html?tabs=ps)|26 October, 2023
