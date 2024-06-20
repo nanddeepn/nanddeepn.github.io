@@ -10,12 +10,13 @@ toc: true
 ## Code Contributions
 
 **#**|**Contribution**|**Topic**|**When**
-20|Copilot prompts|[Track and manage pending communications](https://github.com/pnp/copilot-prompts/tree/main/samples/m365-manage-pending-emails-conversations-prompt)|14 June, 2024
+21|Copilot prompts|[Track and manage pending communications](https://github.com/pnp/copilot-prompts/tree/main/samples/m365-manage-pending-emails-conversations-prompt)|14 June, 2024
+20|Microsoft Teams Development Community Samples - Copilot|[Classified Listings Copilot](https://github.com/pnp/teams-dev-samples/tree/main/samples/msgext-classified-listings-ts)|12 June, 2024
 19|Microsoft Graph Connector|[Ingest REST Countries content using PowerShell](https://adoption.microsoft.com/en-us/sample-solution-gallery/sample/pnp-graph-connector-json-restcountries/)|28 November, 2023
 18|PnP Sample Script|[List apps within Teams in a tenant](https://pnp.github.io/script-samples/teams-list-installed-apps/README.html?tabs=ps)|23 November, 2023
 17|PnP Sample Script|[Export Microsoft Teams Direct Routing Calls](https://pnp.github.io/script-samples/teams-export-direct-routing-calls/README.html?tabs=ps)|26 October, 2023
 16|PnP Sample Script|[Export Microsoft Teams PSTN Call Logs](https://pnp.github.io/script-samples/teams-export-pstn-call-logs/README.html?tabs=ps)|26 October, 2023
-15|Microsoft Teams Development Community Samples|[Knowledge Quest Teams Bot](https://github.com/pnp/teams-dev-samples/tree/main/samples/bot-knowledge-quest)|10 July, 2023
+15|Microsoft Teams Development Community Samples - Bot|[Knowledge Quest Teams Bot](https://github.com/pnp/teams-dev-samples/tree/main/samples/bot-knowledge-quest)|10 July, 2023
 14|PnP Microsoft Viva Connections Adaptive Card Sample|[Public Holidays](https://github.com/pnp/sp-dev-fx-aces/tree/main/samples/ImageCard-PublicHolidays)|26 August, 2022
 13|PnP Sample Script|[Install Solution and Deploy to the SharePoint site](https://pnp.github.io/script-samples/spo-install-deploy-spfx-solution/README.html?tabs=cli-m365-ps)|14 June, 2022
 12|Power Platform Connectors, Independent Publisher|[Sessionize (Independent Publisher)](https://docs.microsoft.com/en-us/connectors/sessionizeip/)|11 May, 2022
