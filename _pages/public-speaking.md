@@ -18,6 +18,7 @@ Technical Summit 2024 EN|[Building Copilot for Microsoft 365 with Semantic Kerne
 ## Past events
 
 **#**|**Event**|**Topic**|**When**|**Where**
+172|[Season of AI]|[Getting started with Azure AI Studio](https://www.meetup.com/pune-tech-community/events/300607880/)|22 June, 2024|Online
 171|Azure User Group Vadodara|[Build your own Copilot with Azure AI Studio](https://events.teams.microsoft.com/event/e63083d2-cbcb-4e9c-b372-4b81f96e082d@e7479d55-ea32-48c2-814e-fe4ce8531b10)|15 June, 2024|Online
 170|AI Chronicles: An Evening with Microsoft MVPs|[Harnessing the Power of Function Calling with Azure OpenAI Service](https://www.meetup.com/malaysia-ai-tech-hub/events/301275833/)|30 May, 2024|Online
 169|Copilot Day Bootcamp|[Build SharePoint Copilot with Microsoft Copilot Studio](https://lu.ma/CopilotDayDelhi)|18 May, 2024|Online
@@ -202,6 +203,7 @@ Technical Summit 2024 EN|[Building Copilot for Microsoft 365 with Semantic Kerne
 ## Event Organizer
 
 **#**|**Event**|**When**|**Where**
+30|[Season of AI](https://www.meetup.com/pune-tech-community/events/300607880/)|22 June, 2024|Online
 29|[Global Azure Pune 2024](https://www.meetup.com/pune-tech-community/events/299269909/)|27 April, 2024|Online
 28|[Global Copilot Summit, Pune](https://www.meetup.com/pune-tech-community/events/299950033/)|20 April, 2024|Pune, India
 27|[Global AI Bootcamp, Pune 2024](https://www.meetup.com/pune-tech-community/events/298708549/)|16 March, 2024|Online
