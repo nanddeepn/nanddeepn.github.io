@@ -128,3 +128,4 @@ Restricted SharePoint Search strikes a balance between openness and security. Or
 
 - [Use PowerShell Scripts for Restricted SharePoint Search](https://learn.microsoft.com/en-us/sharepoint/restricted-sharepoint-search-admin-scripts?WT.mc_id=M365-MVP-5003693)
 - [Introducing Restricted SharePoint Search to help you get started with Copilot for Microsoft 365](https://techcommunity.microsoft.com/t5/copilot-for-microsoft-365/introducing-restricted-sharepoint-search-to-help-you-get-started/ba-p/4071060?WT.mc_id=M365-MVP-5003693)
+
