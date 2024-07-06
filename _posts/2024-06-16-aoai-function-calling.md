@@ -73,7 +73,7 @@ Here's a simple breakdown of how to work with functions:
 
 ## Function calling in action
 
-Let us implement an example of a function calling as “What is the stock price of &lt;Company&gt;?”
+Let us implement an example of a function calling as "What is the stock price of &lt;Company&gt;?"
 
 Here is how ChatGPT responds:
 
