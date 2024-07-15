@@ -14,6 +14,7 @@ I’ll be speaking at the following events.
 **Event**|**Topic**|**When**|**Where**
 Power Platform Classmates Event 2024|[Build SharePoint Copilot with Microsoft Copilot Studio](https://www.powerplatformclassmates.com/events/power-platform-classmate-2024-annual-event)|27 July, 2024|Online
 Low Code/ No Code Platform Conference|[Enhance customer and employee experiences with Microsoft Copilot Studio](https://www.kohezion.com/blog/low-code-no-code-events-2024)|22 August, 2024|Online
+aMP Pune 2024|[Extend Copilot for Microsoft 365 with plugins](https://ampcommunity.online/amp-pune-24th-august-2024/)|24 August, 2024 at 2:00 PM IST|Pune, India
 Metaverse One 2024|[Extend Copilot for Microsoft 365 with plugins](https://metaverse-one.space/)|18 September, 2024 at 1:30 PM IST|Online
 Technical Summit 2024 EN|[Building Copilot for Microsoft 365 with Semantic Kernel](https://www.technicalsummit.de/)|15 October, 2024|Online
 
