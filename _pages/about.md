@@ -15,7 +15,7 @@ toc: true
 <br>
 Hello! I’m Nanddeep Nachan.
 
-I am from Pune, Maharashtra, India. Microsoft MVP (M365 Apps & Services), Microsoft Certified Trainer (MCT). I find joy in being happily wed and residing with my affectionate family, which includes my parents, a caring sister, a lovely wife, and a son.
+I am from Pune, Maharashtra, India. 5 times [Microsoft MVP](https://mvp.microsoft.com/MVP/profile/74f0ada3-3959-ea11-a812-000d3a8cc830) (M365 and AI Platform). I find joy in being happily wed and residing with my affectionate family, which includes my parents, a caring sister, a lovely wife, and a son.
 
 I came into this world in the quaint town of [Khopoli](https://en.wikipedia.org/wiki/Khopoli), nestled amidst the Sahyadri mountains. Spent my childhood at [Matheran](https://en.wikipedia.org/wiki/Matheran), a cozy little hill station. As time went on, I made my way to Mumbai for higher education and eventually settled in Pune for work.
 
