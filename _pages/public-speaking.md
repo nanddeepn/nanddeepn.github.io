@@ -24,6 +24,7 @@ Low Code/ No Code Platform Conference|[Enhance customer and employee experiences
 ## Past events
 
 **#**|**Event**|**Topic**|**When**|**Where**
+175|[UST](https://www.linkedin.com/company/ustglobal-moonraft/)|Develop Your Own Copilot with Azure AI Studio|09 August, 2024|Online
 174|Power Platform Classmates Event 2024|[Build SharePoint Copilot with Microsoft Copilot Studio](https://www.powerplatformclassmates.com/events/power-platform-classmate-2024-annual-event)|28 July, 2024|Online
 173|India Microsoft Tech Community|[Building Copilots with Semantic Kernel for Microsoft 365](https://www.meetup.com/india-ms-tech-community/events/302257274/)|26 July, 2024|Online
 172|Season of AI|[Getting started with Azure AI Studio](https://www.meetup.com/pune-tech-community/events/300607880/)|22 June, 2024|Online
