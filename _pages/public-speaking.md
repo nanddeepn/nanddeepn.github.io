@@ -12,7 +12,6 @@ toc: true
 I’ll be speaking at the following events.
 
 **Event**|**Topic**|**When**|**Where**
-PnP Community Call|[Classified Listings Copilot](https://pnp.github.io/blog/weekly-agenda/24-08-26/)|29 August, 2024|Online
 Microsoft 365 Tech Community Indore August Meeting|[Keynote: AI and Copilot in Microsoft Teams: Transforming the Way We Work Together](https://www.meetup.com/microsoft-365-tech-community-indore/events/302588940/)|31 August, 2024|Online
 Metaverse One 2024|[Extend Copilot for Microsoft 365 with plugins](https://metaverse-one.space/)|18 September, 2024|Online
 Technical Summit 2024 EN|[Building Copilot for Microsoft 365 with Semantic Kernel](https://www.technicalsummit.de/)|15 October, 2024|Online
