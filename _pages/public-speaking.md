@@ -12,7 +12,6 @@ toc: true
 I’ll be speaking at the following events.
 
 **Event**|**Topic**|**When**|**Where**
-Microsoft 365 Tech Community Indore August Meeting|[Keynote: AI and Copilot in Microsoft Teams: Transforming the Way We Work Together](https://www.meetup.com/microsoft-365-tech-community-indore/events/302588940/)|31 August, 2024|Online
 Metaverse One 2024|[Extend Copilot for Microsoft 365 with plugins](https://metaverse-one.space/)|18 September, 2024|Online
 Multicloud4U | [A Guide to Getting Started with Microsoft 365 Copilot](https://www.5thir.com/eventportal/globalevents.aspx?eid=M8bkHLiWdBZfL9LmritWhzSyloBrel)|21 September, 2024 at 10 AM IST|Online
 Technical Summit 2024 EN|[Building Copilot for Microsoft 365 with Semantic Kernel](https://www.technicalsummit.de/)|15 October, 2024|Online
@@ -21,6 +20,7 @@ Low Code/ No Code Platform Conference|[Enhance customer and employee experiences
 ## Past events
 
 **#**|**Event**|**Topic**|**When**|**Where**
+179|Microsoft 365 Tech Community Indore August Meeting|[Keynote: AI and Copilot in Microsoft Teams: Transforming the Way We Work Together](https://www.meetup.com/microsoft-365-tech-community-indore/events/302588940/)|31 August, 2024|Online
 178|aMP Pune 2024|[Extend Copilot for Microsoft 365 with plugins](https://ampcommunity.online/amp-pune-24th-august-2024/)|24 August, 2024|Pune, India
 177|Copilot Chronicles, Microsoft Reactor Bengaluru|[Building Copilot for Microsoft 365 with Teams Toolkit](https://www.meetup.com/microsoft-reactor-bengaluru/events/302527542/)|22 August, 2024|Online
 176|Azure AI Influencers Day|[Harnessing the potential of AI with Azure OpenAI](https://www.linkedin.com/feed/update/urn:li:activity:7223713032911077376/)|12 August, 2024|Pune, India
