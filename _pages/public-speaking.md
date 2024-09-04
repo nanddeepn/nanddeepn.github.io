@@ -14,6 +14,7 @@ I’ll be speaking at the following events.
 **Event**|**Topic**|**When**|**Where**
 Metaverse One 2024|[Extend Copilot for Microsoft 365 with plugins](https://metaverse-one.space/)|18 September, 2024|Online
 Multicloud4U | [A Guide to Getting Started with Microsoft 365 Copilot](https://www.5thir.com/eventportal/globalevents.aspx?eid=M8bkHLiWdBZfL9LmritWhzSyloBrel)|21 September, 2024 at 10 AM IST|Online
+M365 Saturday Coimbatore 2024|[Securely Unlocking SharePoint Insights with Microsoft 365 Copilot](https://www.tickettailor.com/events/m365saturdaycoimbatore/1357190)|05 October, 2024|Coimbatore, India
 Technical Summit 2024 EN|[Building Copilot for Microsoft 365 with Semantic Kernel](https://www.technicalsummit.de/)|15 October, 2024|Online
 Low Code/ No Code Platform Conference|[Enhance customer and employee experiences with Microsoft Copilot Studio](https://www.communitydays.org/event/2024-11-09/low-code-no-code-microsoft-power-platform-conference-2024)|09, 10 November, 2024|Online
 
