@@ -205,15 +205,25 @@ Low Code/ No Code Platform Conference|[Enhance customer and employee experiences
 
 ## Podcasts
 
-**#**|**Event**|**Topic**|**When**|**Where**
-3|Microsoft Business Applications Podcast|[Nanddeep Nachan on the MVP Show]((https://podcast.nz365guy.com/518))|14 September, 2023|Online
-2|Hackathon Sample Project Interview with Garry Trinder|[Knowledge Quest Teams Bot](https://www.youtube.com/watch?v=h02uwVpYknE)|07 September, 2023|Online
-1|Alif Tech Talks|Discussion with MVP|31 August, 2023|Online
+**#**|**Event**|**Topic**|**When**
+12|Microsoft Business Applications Podcast|[Nanddeep Nachan on the MVP Show](https://podcast.nz365guy.com/518)|14 September, 2023
+11|Hackathon Sample Project Interview with Garry Trinder|[Knowledge Quest Teams Bot](https://www.youtube.com/watch?v=h02uwVpYknE)|07 September, 2023
+10|Alif Tech Talks|[MVP Life: How to Balance Work and Community Contributions](https://www.youtube.com/watch?v=M1qmo2V2oxk)|31 August, 2023
+9|Alif Tech Talks|[Azure DevOps for SharePoint Framework: Benefits and Challenges](https://www.youtube.com/watch?v=5W5n3YdnUHI)|31 August, 2023
+8|Alif Tech Talks|[Power Apps with Azure Cognitive Services: Enhance Your Apps with AI](https://www.youtube.com/watch?v=MbWVS0X9v50)|31 August, 2023
+7|Alif Tech Talks|[Azure Security for M365 Power Platform: Best Practices and Tips](https://www.youtube.com/watch?v=OJNYl_RCpAI)|31 August, 2023
+6|Alif Tech Talks|[Azure Monitor for SharePoint Framework: How to Troubleshoot and Optimize Your Solutions](https://www.youtube.com/watch?v=pmNt-GGNpig)|31 August, 2023
+5|Alif Tech Talks|[Azure Logic Apps for M365: How to Automate and Integrate Your Business Processes](https://www.youtube.com/watch?v=dH76r5g13qo)|31 August, 2023
+4|Alif Tech Talks|[Azure Functions and Azure CDN for SharePoint Framework: How to Reduce Cost and Improve Scalability](https://www.youtube.com/watch?v=ym21bePdF6A)|31 August, 2023
+3|Alif Tech Talks|[Azure Backup & Site Recovery for Power Apps: How to Design & Implement a Disaster Recovery Strategy](https://www.youtube.com/watch?v=ehjgabAFdwQ)|31 August, 2023
+2|Alif Tech Talks|[Azure Test Plans & Application Insights for SharePoint Framework: How to Test & Validate Your Solution](https://www.youtube.com/watch?v=H9zPKJ-Z8ns)|31 August, 2023
+1|Alif Tech Talks|[The Future of M365 Power Platform and SharePoint Framework on Azure: Trends & Technologies to Watch](https://www.youtube.com/watch?v=MY5u5d5igzQ)|31 August, 2023
 
 
 ## Event Organizer
 
 **#**|**Event**|**When**|**Where**
+32|[Hands-on Workshop: Building Azure AI Applications in the cloud and locally](https://www.meetup.com/pune-tech-community/events/303345681/)|09 October, 2024|Pune, India
 31|[Microsoft 365 Productivity Day](https://www.meetup.com/pune-tech-community/events/301592687/)|27 July, 2024|Online
 30|[Season of AI](https://www.meetup.com/pune-tech-community/events/300607880/)|22 June, 2024|Online
 29|[Global Azure Pune 2024](https://www.meetup.com/pune-tech-community/events/299269909/)|27 April, 2024|Online
