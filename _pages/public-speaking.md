@@ -12,9 +12,8 @@ toc: true
 I’ll be speaking at the following events.
 
 **Event**|**Topic**|**When**|**Where**
-Metaverse One 2024|[Extend Copilot for Microsoft 365 with plugins](https://metaverse-one.space/)|18 September, 2024|Online
 Multicloud4U|[A Guide to Getting Started with Microsoft 365 Copilot](https://www.5thir.com/eventportal/globalevents.aspx?eid=M8bkHLiWdBZfL9LmritWhzSyloBrel)|21 September, 2024 at 10 AM IST|Online
-Global Microsoft Hindi (हिंदी) Conference 2024|[Addressing security and compliance challenges in Microsoft Copilot](https://events.teams.microsoft.com/event/c9663d7d-c303-4ea8-9027-d4bddab126d3@c173cb52-a46e-4302-9b95-6df32c4e0544)|21 September, 2024 at 10 AM IST|Online
+Global Microsoft Hindi (हिंदी) Conference 2024|[Addressing security and compliance challenges in Microsoft Copilot](https://events.teams.microsoft.com/event/c9663d7d-c303-4ea8-9027-d4bddab126d3@c173cb52-a46e-4302-9b95-6df32c4e0544)|21 September, 2024 at 12 PM IST|Online
 M365 Saturday Coimbatore 2024|[Securely Unlocking SharePoint Insights with Microsoft 365 Copilot](https://www.tickettailor.com/events/m365saturdaycoimbatore/1357190)|05 October, 2024|Coimbatore, India
 Technical Summit 2024 EN|[Building Copilot for Microsoft 365 with Semantic Kernel](https://www.technicalsummit.de/)|15 October, 2024|Online
 Low Code/ No Code Platform Conference|[Enhance customer and employee experiences with Microsoft Copilot Studio](https://www.communitydays.org/event/2024-11-09/low-code-no-code-microsoft-power-platform-conference-2024)|09, 10 November, 2024|Online
@@ -22,6 +21,7 @@ Low Code/ No Code Platform Conference|[Enhance customer and employee experiences
 ## Past events
 
 **#**|**Event**|**Topic**|**When**|**Where**
+180|Metaverse One 2024|[Extend Copilot for Microsoft 365 with plugins](https://metaverse-one.space/)|18 September, 2024|Online
 179|Microsoft 365 Tech Community Indore August Meeting|[Keynote: AI and Copilot in Microsoft Teams: Transforming the Way We Work Together](https://www.meetup.com/microsoft-365-tech-community-indore/events/302588940/)|31 August, 2024|Online
 178|aMP Pune 2024|[Extend Copilot for Microsoft 365 with plugins](https://ampcommunity.online/amp-pune-24th-august-2024/)|24 August, 2024|Pune, India
 177|Copilot Chronicles, Microsoft Reactor Bengaluru|[Building Copilot for Microsoft 365 with Teams Toolkit](https://www.meetup.com/microsoft-reactor-bengaluru/events/302527542/)|22 August, 2024|Online
