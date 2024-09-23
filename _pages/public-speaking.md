@@ -12,6 +12,7 @@ toc: true
 I’ll be speaking at the following events.
 
 **Event**|**Topic**|**When**|**Where**
+Pune Tech Meetup|[Shaping the future with Microsoft 365 Copilot](https://www.linkedin.com/feed/update/urn:li:activity:7243832275652513793/)|28 September, 2024 at 11 AM IST|Pune, India
 M365 Saturday Coimbatore 2024|[Securely Unlocking SharePoint Insights with Microsoft 365 Copilot](https://www.tickettailor.com/events/m365saturdaycoimbatore/1357190)|05 October, 2024|Coimbatore, India
 Technical Summit 2024 EN|[Building Copilot for Microsoft 365 with Semantic Kernel](https://www.technicalsummit.de/)|15 October, 2024|Online
 Low Code/ No Code Platform Conference|[Enhance customer and employee experiences with Microsoft Copilot Studio](https://www.communitydays.org/event/2024-11-09/low-code-no-code-microsoft-power-platform-conference-2024)|09, 10 November, 2024|Online
