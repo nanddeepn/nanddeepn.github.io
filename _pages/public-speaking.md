@@ -14,6 +14,7 @@ I’ll be speaking at the following events.
 **Event**|**Topic**|**When**|**Where**
 M365 Saturday Coimbatore 2024|[Securely Unlocking SharePoint Insights with Microsoft 365 Copilot](https://www.tickettailor.com/events/m365saturdaycoimbatore/1357190)|05 October, 2024|Coimbatore, India
 Technical Summit 2024 EN|[Building Copilot for Microsoft 365 with Semantic Kernel](https://www.technicalsummit.de/)|15 October, 2024|Online
+Power Platform Learner to Leader|[Build SharePoint Copilot with Microsoft Copilot Studio](https://www.linkedin.com/posts/power-platform-learner-to-leader_powerplatform-microsoftlearn-learnertoleader-activity-7247419498478108673-lRM9/)|26 October, 2024|Online
 Season of AI 2.0|[GitHub Copilot for TypeScript/"non-.NET"](https://reskilll.com/event/soaiNanddeepNachan)|06 November, 2024|Online
 Low Code/ No Code Platform Conference|[Enhance customer and employee experiences with Microsoft Copilot Studio](https://www.communitydays.org/event/2024-11-09/low-code-no-code-microsoft-power-platform-conference-2024)|09, 10 November, 2024|Online
 
