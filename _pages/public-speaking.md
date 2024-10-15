@@ -12,7 +12,6 @@ toc: true
 I’ll be speaking at the following events.
 
 **Event**|**Topic**|**When**|**Where**
-Technical Summit 2024 EN|[Building Copilot for Microsoft 365 with Semantic Kernel](https://www.technicalsummit.de/)|15 October, 2024|Online
 Power Platform Learner to Leader|[Build SharePoint Copilot with Microsoft Copilot Studio](https://www.linkedin.com/events/7247417851332960256/)|19 October, 2024|Online
 Season of AI 2.0|[GitHub Copilot for TypeScript](https://reskilll.com/event/soaiNanddeepNachan)|06 November, 2024|Online
 Low Code/ No Code Platform Conference|[Enhance customer and employee experiences with Microsoft Copilot Studio](https://www.communitydays.org/event/2024-11-09/low-code-no-code-microsoft-power-platform-conference-2024)|09, 10 November, 2024|Online
@@ -21,6 +20,7 @@ M365 Saturday Bangalore 2024|[Choosing the Right Path: Building Microsoft Copilo
 ## Past events
 
 **#**|**Event**|**Topic**|**When**|**Where**
+185|Technical Summit 2024 EN|[Building Copilot for Microsoft 365 with Semantic Kernel](https://www.technicalsummit.de/)|15 October, 2024|Online
 184|M365 Saturday Coimbatore 2024|[Securely Unlocking SharePoint Insights with Microsoft 365 Copilot](https://www.tickettailor.com/events/m365saturdaycoimbatore/1357190)|05 October, 2024|Coimbatore, India
 183|Pune Tech Meetup by Deqode|[Shaping the future with Microsoft 365 Copilot](https://www.linkedin.com/feed/update/urn:li:activity:7243832275652513793/)|28 September, 2024|Pune, India
 182|Global Microsoft Hindi (हिंदी) Conference 2024|[Addressing security and compliance challenges in Microsoft Copilot](https://events.teams.microsoft.com/event/c9663d7d-c303-4ea8-9027-d4bddab126d3@c173cb52-a46e-4302-9b95-6df32c4e0544)|21 September, 2024|Online
