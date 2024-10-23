@@ -12,6 +12,7 @@ toc: true
 I’ll be speaking at the following events.
 
 **Event**|**Topic**|**When**|**Where**
+Future Forward Series by KPI Ladder|[Getting started with Microsoft Copilot](https://www.linkedin.com/posts/swarnatama-ganguli_futureforwardseries-microsoftcopilot-aipoweredtool-activity-7254169795485450240-ZbwA)|25 October, 2024|Online
 Season of AI 2.0|[GitHub Copilot for TypeScript](https://reskilll.com/event/soaiNanddeepNachan)|06 November, 2024|Online
 Low Code/ No Code Platform Conference|[Enhance customer and employee experiences with Microsoft Copilot Studio](https://www.communitydays.org/event/2024-11-09/low-code-no-code-microsoft-power-platform-conference-2024)|09, 10 November, 2024|Online
 Season of AI - Season 2 - "Copilots"|[Seasons of AI](https://www.meetup.com/pune-tech-community/events/303915867/)|16 November, 2024|Online
