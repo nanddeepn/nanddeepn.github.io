@@ -18,6 +18,7 @@ Microsoft Analytics Community Conference: Fabric, Copilot, and Purview|[Addressi
 Season of AI - Season 2 - "Copilots"|[Seasons of AI](https://www.meetup.com/pune-tech-community/events/303915867/)|16 November, 2024 at 10 AM IST|Online
 M365 Saturday Bangalore 2024|[Choosing the Right Path: Building Microsoft Copilot Solutions](https://www.m365event.com/)|07 December, 2024|Bangalore, India
 
+
 ## Past events
 
 **#**|**Event**|**Topic**|**When**|**Where**
