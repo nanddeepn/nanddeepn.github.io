@@ -16,6 +16,7 @@ Season of AI 2.0|[GitHub Copilot for TypeScript](https://reskilll.com/event/soai
 Low Code/ No Code Platform Conference|[Enhance customer and employee experiences with Microsoft Copilot Studio](https://www.communitydays.org/event/2024-11-09/low-code-no-code-microsoft-power-platform-conference-2024)|10 November, 2024 at 1:30 PM IST|Online
 Microsoft Analytics Community Conference: Fabric, Copilot, and Purview|[Addressing security and compliance challenges in Microsoft Copilot](https://www.linkedin.com/events/microsoftanalyticscommunityconf7249678472086740995/)|14 November, 2024 at 9:30 PM IST|Online
 Season of AI - Season 2 - "Copilots"|[Seasons of AI](https://www.meetup.com/pune-tech-community/events/303915867/)|16 November, 2024 at 10 AM IST|Online
+.NET Conf 2024 - Cloud Experts Group|[Explore The Future of Coding with GitHub Copilot](https://www.meetup.com/cloud-experts-group/events/303914241/)|23 November, 2024|Online
 M365 Saturday Bangalore 2024|[Choosing the Right Path: Building Microsoft Copilot Solutions](https://www.m365event.com/)|07 December, 2024|Bangalore, India
 
 
