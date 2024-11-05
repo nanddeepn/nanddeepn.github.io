@@ -36,7 +36,7 @@ toc: true
 ## Community Demos
 
 **#**|**Community**|**Topic**|**When**
-09|Microsoft 365 & Power Platform Community Call|[Classified Listings Copilot](https://pnp.github.io/blog/weekly-agenda/24-08-26/)|29 August, 2024|Online
+09|Microsoft 365 & Power Platform Community Call|[Classified Listings Copilot](https://pnp.github.io/blog/weekly-agenda/24-08-26/)|29 August, 2024
 08|Microsoft 365 & Power Platform Community Call| [Knowledge Quest Teams Bot - HackTogether: Microsoft Teams Global Hack AI Winner](https://pnp.github.io/blog/weekly-agenda/23-08-28/) |29 August, 2023
 07|SharePoint PnP Viva Connections and SharePoint Framework Community Call|[Building Viva Connections ACE for public holidays](https://pnp.github.io/blog/microsoft-viva-and-spfx-community-call/2022-09-22/)|22 September, 2022
 06|Power Platform & M365 Dev Community Call | [Building Independent Publisher Power Platform Connector for Sessionize](https://pnp.github.io/blog/microsoft-365-and-power-platform-development-community-call/2022-06-09/)|09 June, 2022
