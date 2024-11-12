@@ -54,15 +54,15 @@ As of today, GraphRAG supports only text files. If you have PDF files, you can u
 
 This script iterates through all PDF files in a specified folder, extracts their text content, and saves it to a .txt file with the same name.
 
-```
-pip install PyPDF2 pdf2image pytesseract
+```python
+pip install PyPDF2 pdf2image pytesseract # One time installation
 
 import os
 from PyPDF2 import PdfReader
 from pdf2image import convert_from_path
 import pytesseract
 
-#Set the tesseract path
+# Set the tesseract path
 pytesseract.pytesseract.tesseract_cmd = r'C:\\Program Files\\Tesseract-OCR\\tesseract.exe'
 
 def pdf_to_text(pdf_path, txt_path):
@@ -110,7 +110,7 @@ To start with add you data files under `/ragtest/input` folder. For the demonstr
 
 To start using GraphRAG, you must generate a configuration file. Run below command:
 
-```
+```powershell
 graphrag init --root ./ragtest
 ```
 
