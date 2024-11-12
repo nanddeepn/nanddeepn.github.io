@@ -1,5 +1,5 @@
 ---
-title: "A Comparative Overview: Microsoft Copilot Studio vs. Azure AI Studio"
+title: "Azure AI Search on Structured and Non-Structured Content"
 date: "2024-10-25"
 share: true
 header:
