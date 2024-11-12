@@ -128,7 +128,7 @@ You can create up to five containers of container type to upload and manage cont
 The Graph APIs supports [fileStorageContainer resource type](https://learn.microsoft.com/en-us/graph/api/resources/filestoragecontainer?WT.mc_id=M365-MVP-5003693) to work with the file storage container.
 
 
-## Conclusion
+## Summary
 
 SharePoint Embedded represents a significant advancement in document management solutions, providing a secure, scalable, and flexible platform for integrating Microsoft 365's powerful features into any application. Whether for enterprise use or ISV solutions, SharePoint Embedded offers a robust and efficient way to manage and store documents within the Microsoft 365 ecosystem.
 

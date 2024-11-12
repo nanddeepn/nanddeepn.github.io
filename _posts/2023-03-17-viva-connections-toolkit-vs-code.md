@@ -92,7 +92,7 @@ The actions like the **upgrade solution** should help you upgrade your SPFx solu
 ![](/media/2023-03-17-viva-connections-toolkit-vs-code/06.png)
 
 
-## Conclusion
+## Summary
 
 Viva Connections Toolkit extension is now available in preview in Visual Studio Code to make developers' life easy to manage the SharePoint Framework (SPFx) solutions.
 

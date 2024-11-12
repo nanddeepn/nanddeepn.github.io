@@ -33,7 +33,7 @@ Looking forward for the collaboration!
    </p> 
 
     <p>
-        <label>Comments: </label>
+        <label>Message: </label>
         <textarea name="comments" required></textarea>
     </p>
 

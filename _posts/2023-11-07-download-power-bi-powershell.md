@@ -204,6 +204,6 @@ $parsed = $result | ConvertFrom-Json
 $parsed.results[0].tables[0].rows | Export-Csv .\$TableName.csv -NoTypeInformation -Encoding UTF8
 ```
 
-## Conclusion
+## Summary
 
 PowerShell, combined with the Power BI Management module, provides a convenient way to automate the process of downloading data from Power BI tables. This script serves as a starting point, and you can customize it based on your specific requirements, such as filtering data, scheduling the script as a task, or integrating it into a larger automation workflow.

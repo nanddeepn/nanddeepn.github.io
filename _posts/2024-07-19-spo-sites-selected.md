@@ -98,7 +98,7 @@ With the `Sites.Selected` permission in place for the selected SharePoint site, 
 
 And, it works this time!
 
-## Conclusion
+## Summary
 
 The `Sites.Selected` permission model in SharePoint Online provides a powerful option for administrators to control access to specific sites for registered applications. By implementing this, organizations can enhance security, ensure compliance, and streamline access management processes. As SharePoint continues to evolve, adopting granular permission models like `Sites.Selected` will be crucial for maintaining a secure and efficient collaboration environment.
 

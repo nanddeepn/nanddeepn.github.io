@@ -135,7 +135,7 @@ Implement robust security measures to safeguard the data involved in Generative 
 Establish governance frameworks and policies to regulate the responsible and ethical use of Generative AI. Define guidelines for data handling, model training, and deployment to ensure compliance with legal and ethical standards. Regularly assess and update these governance structures as technology evolves.
 
 
-## Conclusion
+## Summary
 
 AI transformation is just beginning. Prepare yourself for this AI journey. Three bullet points that stands out of AI Tour are: Unstoppable India, Unstoppable AI, and Unstoppable You.
 

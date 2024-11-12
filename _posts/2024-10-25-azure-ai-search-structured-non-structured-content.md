@@ -122,6 +122,6 @@ Unstructured content includes free-text paragraphs, clauses, or sections that do
 | **AI Enrichment** | Cognitive Skills may enhance the data (e.g., extracting key phrases). | Text Analytics and Cognitive Skills extract key terms and entities from the unstructured content. |
 | **Search and Query** | Users can search using specific fields (e.g., "Find contracts by date or client"). | Users can perform full-text searches or natural language queries (e.g., "Find termination clauses"). |
 
-## Conclusion
+## Summary
 
 This architecture leverages Azure Cognitive Services, Cognitive Search, and AI capabilities to build a scalable solution for indexing and searching through contracts in PDF format. With the ability to handle both structured and unstructured content, this solution should enable businesses to quickly retrieve contract details and answer complex queries using natural language processing.
