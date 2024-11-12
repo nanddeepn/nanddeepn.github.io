@@ -183,3 +183,8 @@ GraphRAG represents a powerful fusion of graph databases and AI, offering signif
 - [Welcome to GraphRAG](https://microsoft.github.io/graphrag/)
 - [Project GraphRAG](https://www.microsoft.com/en-us/research/project/graphrag/?WT.mc_id=M365-MVP-5003693)
 - [GraphRAG: Unlocking LLM discovery on narrative private data](https://www.microsoft.com/en-us/research/blog/graphrag-unlocking-llm-discovery-on-narrative-private-data/?WT.mc_id=M365-MVP-5003693)
+
+
+## Code Download
+
+The code developed during this article can be found [here](https://github.com/nanddeepn/code-samples/tree/master/AI/GraphRAG).
