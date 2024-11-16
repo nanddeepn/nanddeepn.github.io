@@ -4,7 +4,7 @@ title: "Public Speaking"
 
 layout: archive
 author_profile: true
-last_modified_at: 2022-06-19T15:46:43-04:00
+last_modified_at: 2024-11-16T15:46:43-04:00
 toc: true
 ---
 
@@ -12,8 +12,6 @@ toc: true
 I’ll be speaking at the following events.
 
 **Event**|**Topic**|**When**|**Where**
-Microsoft Analytics Community Conference: Fabric, Copilot, and Purview|[Addressing security and compliance challenges in Microsoft Copilot](https://www.linkedin.com/events/microsoftanalyticscommunityconf7249678472086740995/)|14 November, 2024 at 9:30 PM IST|Online
-Season of AI - Season 2 - "Copilots"|[Seasons of AI](https://www.meetup.com/pune-tech-community/events/303915867/)|16 November, 2024 at 10 AM IST|Online
 .NET Conf 2024 - Cloud Experts Group|[Explore The Future of Coding with GitHub Copilot](https://www.meetup.com/cloud-experts-group/events/303914241/)|23 November, 2024|Online
 M365 Saturday Bangalore 2024|[Choosing the Right Path: Building Microsoft Copilot Solutions](https://www.m365event.com/)|07 December, 2024|Bangalore, India
 
@@ -21,6 +19,8 @@ M365 Saturday Bangalore 2024|[Choosing the Right Path: Building Microsoft Copilo
 ## Past events
 
 **#**|**Event**|**Topic**|**When**|**Where**
+191|Season of AI - Season 2 - "Copilots"|[Seasons of AI](https://www.meetup.com/pune-tech-community/events/303915867/)|16 November, 2024|Online
+190|Microsoft Analytics Community Conference: Fabric, Copilot, and Purview|[Overcoming Security and Compliance Hurdles in Microsoft Copilot](https://app.powerbi.com/view?r=eyJrIjoiYjIzNjhjYTktYjg5My00YzQwLWI0MGMtOTNlNmYwZGFmOTM2IiwidCI6ImVhOGJkMWZkLWFjMzQtNGFlMi1iNDIxLTZjZmEyZmNmZjI0MyJ9)|14 November, 2024|Online
 189|Low Code No Code Microsoft Power Platform Conference 2024|[Enhance customer and employee experiences with Microsoft Copilot Studio](https://www.communitydays.org/event/2024-11-09/low-code-no-code-microsoft-power-platform-conference-2024)|10 November, 2024|Online
 188|Season of AI 2.0|[GitHub Copilot for TypeScript](https://reskilll.com/event/soaiNanddeepNachan)|06 November, 2024|Online
 187|Future Forward Series by KPI Ladder|[Getting started with Microsoft Copilot](https://www.linkedin.com/posts/swarnatama-ganguli_futureforwardseries-microsoftcopilot-aipoweredtool-activity-7254169795485450240-ZbwA)|25 October, 2024|Online
