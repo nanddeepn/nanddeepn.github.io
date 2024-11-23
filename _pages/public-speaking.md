@@ -12,13 +12,13 @@ toc: true
 I’ll be speaking at the following events.
 
 **Event**|**Topic**|**When**|**Where**
-.NET Conf 2024 - Cloud Experts Group|[Explore The Future of Coding with GitHub Copilot](https://www.meetup.com/cloud-experts-group/events/303914241/)|23 November, 2024|Online
 M365 Saturday Bangalore 2024|[Choosing the Right Path: Building Microsoft Copilot Solutions](https://www.m365event.com/)|07 December, 2024|Bangalore, India
 Pune DevCon 2024|[Navigating the AI Landscape: Building Copilot with Azure AI Studio vs. Microsoft Copilot Studio](https://puneusergroup.org/events/devcon2024/)|14 December, 2024|Pune, India
 
 ## Past events
 
 **#**|**Event**|**Topic**|**When**|**Where**
+192|.NET Conf 2024 - Cloud Experts Group|[Explore The Future of Coding with GitHub Copilot](https://www.meetup.com/cloud-experts-group/events/303914241/)|23 November, 2024|Online
 191|Season of AI - Season 2 - "Copilots"|[Seasons of AI](https://www.meetup.com/pune-tech-community/events/303915867/)|16 November, 2024|Online
 190|Microsoft Analytics Community Conference: Fabric, Copilot, and Purview|[Overcoming Security and Compliance Hurdles in Microsoft Copilot](https://app.powerbi.com/view?r=eyJrIjoiYjIzNjhjYTktYjg5My00YzQwLWI0MGMtOTNlNmYwZGFmOTM2IiwidCI6ImVhOGJkMWZkLWFjMzQtNGFlMi1iNDIxLTZjZmEyZmNmZjI0MyJ9)|14 November, 2024|Online
 189|Low Code No Code Microsoft Power Platform Conference 2024|[Enhance customer and employee experiences with Microsoft Copilot Studio](https://www.communitydays.org/event/2024-11-09/low-code-no-code-microsoft-power-platform-conference-2024)|10 November, 2024|Online
