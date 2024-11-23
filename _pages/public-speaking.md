@@ -14,7 +14,7 @@ I’ll be speaking at the following events.
 **Event**|**Topic**|**When**|**Where**
 .NET Conf 2024 - Cloud Experts Group|[Explore The Future of Coding with GitHub Copilot](https://www.meetup.com/cloud-experts-group/events/303914241/)|23 November, 2024|Online
 M365 Saturday Bangalore 2024|[Choosing the Right Path: Building Microsoft Copilot Solutions](https://www.m365event.com/)|07 December, 2024|Bangalore, India
-
+Pune DevCon 2024|[Navigating the AI Landscape: Building Copilot with Azure AI Studio vs. Microsoft Copilot Studio](https://puneusergroup.org/events/devcon2024/)|14 December, 2024|Pune, India
 
 ## Past events
 
