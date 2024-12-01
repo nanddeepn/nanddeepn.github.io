@@ -14,6 +14,7 @@ I’ll be speaking at the following events.
 **Event**|**Topic**|**When**|**Where**
 M365 Saturday Bangalore 2024|[Choosing the Right Path: Building Microsoft Copilot Solutions](https://www.m365event.com/)|07 December, 2024|Bangalore, India
 Pune DevCon 2024|[Navigating the AI Landscape: Building Copilot with Azure AI Studio vs. Microsoft Copilot Studio](https://puneusergroup.org/events/devcon2024/)|14 December, 2024|Pune, India
+M365 Saturday Ahmedabad 2025|[Building Smart Copilot Solutions with Declarative Agents for Microsoft 365](https://www.meetup.com/m365ahmedabad/events/303385888/)|04 January, 2025|Ahmedabad, India
 
 ## Past events
 
@@ -215,6 +216,8 @@ Pune DevCon 2024|[Navigating the AI Landscape: Building Copilot with Azure AI St
 ## Podcasts
 
 **#**|**Event**|**Topic**|**When**
+14|Microsoft Business Applications Podcast|Power Platform Show with Mark Smith|2 December, 2024
+13|MVP Show with Mark Smith|[Evolution from Java Developer to Office 365 Expert and Community Luminary](https://podcast.nz365guy.com/journey-of-a-microsoft-mvp-nanddeep-nachans-evolution-from-java-developer-to-office-365-expert-and-community-luminary/)|17 January, 2024
 12|Microsoft Business Applications Podcast|[Nanddeep Nachan on the MVP Show](https://podcast.nz365guy.com/518)|14 September, 2023
 11|Hackathon Sample Project Interview with Garry Trinder|[Knowledge Quest Teams Bot](https://www.youtube.com/watch?v=h02uwVpYknE)|07 September, 2023
 10|Alif Tech Talks|[MVP Life: How to Balance Work and Community Contributions](https://www.youtube.com/watch?v=M1qmo2V2oxk)|31 August, 2023
@@ -232,6 +235,7 @@ Pune DevCon 2024|[Navigating the AI Landscape: Building Copilot with Azure AI St
 ## Event Organizer
 
 **#**|**Event**|**When**|**Where**
+33|[M365 Saturday, Pune 2024](https://www.meetup.com/pune-tech-community/events/303604893/)|30 November, 2024|Pune, India
 32|[Hands-on Workshop: Building Azure AI Applications in the cloud and locally](https://www.meetup.com/pune-tech-community/events/303345681/)|09 October, 2024|Pune, India
 31|[Microsoft 365 Productivity Day](https://www.meetup.com/pune-tech-community/events/301592687/)|27 July, 2024|Online
 30|[Season of AI](https://www.meetup.com/pune-tech-community/events/300607880/)|22 June, 2024|Online
