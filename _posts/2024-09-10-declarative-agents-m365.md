@@ -3,8 +3,8 @@ title: "Building Declarative agents for Microsoft 365 with Teams Toolkit"
 date: "2024-09-10"
 share: true
 header:
-  image: media/2024-09-10-declarative-copilots-m365/07.png
-  teaser: media/2024-09-10-declarative-copilots-m365/07.png
+  image: media/2024-09-10-declarative-agents-m365/07.png
+  teaser: media/2024-09-10-declarative-agents-m365/07.png
 categories:
   - Microsoft 365
   - Copilot
@@ -62,21 +62,21 @@ Follow below steps to create declarative agent with Teams Toolkit:
 3. Click **Create a New App**.
 4. Select **Agent**.
 
-    ![](/media/2024-09-10-declarative-copilots-m365/01.png)
+    ![](/media/2024-09-10-declarative-agents-m365/01.png)
 
 5. Select to create a new **Declarative Agent**.
 
-    ![](/media/2024-09-10-declarative-copilots-m365/02.png)
+    ![](/media/2024-09-10-declarative-agents-m365/02.png)
 
 6. Select the option **No plugin** to create a declarative Copilot only.
 
-    ![](/media/2024-09-10-declarative-copilots-m365/03.png)
+    ![](/media/2024-09-10-declarative-agents-m365/03.png)
 
 7. Name the Copilot as **GeographyKnowledgeAgent**.
 
 The solution will be created as follows:
 
-![](/media/2024-09-10-declarative-copilots-m365/04.png)
+![](/media/2024-09-10-declarative-agents-m365/04.png)
 
 Notice that the solution only contains declarative JSON files and no code files at all. Below are the important files from the solution:
 
@@ -88,7 +88,7 @@ Notice that the solution only contains declarative JSON files and no code files 
 
 Notice that the file `appPackage\manifest.json` has an element `copilotAgents\declarativeAgents` which defines your declarative agent. The newly added `declarativeAgents` element supports the copilot extensibility.
 
-![](/media/2024-09-10-declarative-copilots-m365/05.png)
+![](/media/2024-09-10-declarative-agents-m365/05.png)
 
 **Declarative agent manifest**
 
@@ -120,16 +120,24 @@ Follow the below steps to test the Copilot
 2. Make sure you are logged-in to Microsoft 365 tenant.
 3. Click **Provision**. As the declarative Copilot does not include any code, you can ignore the Deploy and Publish options.
 
-    ![](/media/2024-09-10-declarative-copilots-m365/06.png)
+    ![](/media/2024-09-10-declarative-agents-m365/06.png)
 
 4. Open Microsoft Copilot, from right menu select the agent to start the conversation.
 
-    ![](/media/2024-09-10-declarative-copilots-m365/07.png)
+    ![](/media/2024-09-10-declarative-agents-m365/07.png)
 
 
 ## Summary
 
 Declarative agents for Microsoft 365 are a big step forward in how businesses and developers use AI. Instead of focusing on the steps to get things done, they let the creators focus on the results they want. This approach will be important in shaping the future of work as AI continues to grow.
+
+
+## Code Download
+
+The code developed during this article can be found here:
+
+[https://github.com/nanddeepn/code-samples/tree/master/Copilot/DeclarativeCopilots/GeographyKnowledgeAgent](https://github.com/nanddeepn/code-samples/tree/master/Copilot/DeclarativeCopilots/GeographyKnowledgeAgent)
+
 
 ## References
 
