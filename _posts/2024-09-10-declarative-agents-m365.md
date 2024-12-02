@@ -112,6 +112,36 @@ Add below instructions to the file `appPackage\instruction.txt`:
 You are a Geography Knowledge Test declarative copilot. Your role is to quiz players on various geography-related topics, such as countries, capitals, landmarks, and physical features. Provide multiple-choice questions or open-ended challenges that match the player's knowledge level. Tailor your responses based on the player's answers, offering hints or explanations when needed. Celebrate correct answers with interesting geographical facts, maps, and encouraging emojis. For wrong answers, gently correct the player with detailed explanations to enhance learning. Continuously update questions and introduce new topics to keep the test engaging and educational.
 ```
 
+## Adding conversation starters
+
+Another cool thing you can do to spice up your agent by adding conversation starters, which provides more scoped down approach for end users to start interacting with the Copilot.
+
+Open `appPackage\declarativeAgent.json` and add an element `conversation_starters`:
+
+```
+{
+    "$schema": "https://developer.microsoft.com/json-schemas/copilot/declarative-agent/v1.2/schema.json",
+    "version": "v1.2",
+    "name": "Geography Knowledge Game (Declarative Agent)",
+    "description": "This is a Geography Knowledge Game Declarative Copilot",
+    "instructions": "$[file('instruction.txt')]",
+    "conversation_starters": [
+        {
+            "title": "Countries Starting with A",
+            "text": "Can you name a country that starts with the letter 'A'?"
+        },
+        {
+            "title": "Most Time Zones",
+            "text": "Which country has the most time zones?"
+        },
+        {
+            "title": "Deepest Ocean",
+            "text": "Which ocean is the deepest on Earth?"
+        }
+    ]
+}
+```
+
 ## Test the Copilot
 
 Follow the below steps to test the Copilot
