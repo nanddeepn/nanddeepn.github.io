@@ -91,7 +91,7 @@ M365 Saturday Ahmedabad 2025|[Building Smart Copilot Solutions with Declarative 
 123|Global AI Developer Days, Tri-State|[Add intelligence to your M365 Apps with Azure AI](https://communitydays.org/event/2022-11-02/global-ai-developers-days-tri-state#Speakers)|02 November, 2022|Online
 122|India Cloud Security Summit 2022|[Ensuring Security and Compliance in Microsoft Teams](https://www.indiacloudsecuritysummit.com/#agenda)|29 October, 2022|Online
 121|The North American Collaboration Summit 2022|[Extending MS Teams with SharePoint Framework](http://www.collabsummit.org/schedule/)|14 October, 2022|Online
-120|**Microsoft Ignite**|[Microsoft Teams Best Practices, Tips and Tricks from our experts](https://ignite.microsoft.com/en-US/sessions/2a9ad3a7-e933-4017-9535-fe3b048ffaa0)|12 October, 2022|Online
+120|**Microsoft Ignite**|[Microsoft Teams Best Practices, Tips and Tricks from our experts](https://learn.microsoft.com/events/ignite-2022/od19-microsoft-teams-best-practices-tips-tricks-from-our-experts)|12 October, 2022|Online
 119|Microsoft Reactor Bengaluru|[Build modern employee experience with Microsoft Viva Connections](https://www.meetup.com/microsoft-reactor-bengaluru/events/288472697/)|12 October, 2022|Online
 118|Application Developers Day, Pune 2022|[Bot Development in an easy steps](https://www.meetup.com/pune-tech-community/events/288451237/)|08 October, 2022|Pune, India
 117|Teams10X|[Explore Shared Channels in MS Teams](https://teams10xfall22.sessionize.com/speaker/388554b5-f811-441c-96d9-1d9beb38074e)|29 September, 2022|Online

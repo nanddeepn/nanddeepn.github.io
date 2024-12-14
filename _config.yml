@@ -113,13 +113,13 @@ analytics:
 # Site Author
 author:
   name             : "Nanddeep Nachan"
-  avatar           : "/assets/images/profile_pic.jpg"
-  bio              : "Microsoft MVP (M365 Apps and Services) | Consultant - M365, MS Azure, Power Platform | Speaker | Author | Blogger | Trainer | CSM"
-  location         : "Pune, India"
+  avatar           : "/assets/images/profile_pic.png"
+  bio              : "Microsoft MVP (M365 and AI Platform) | MCT | TOGAF® 10 | Independent Consultant - Microsoft 365, AI, MS Azure, Power Platform | Speaker | Author | Blogger"
+  location         : "📍 Pune, India"
   email            : "NanddeepNachan@gmail.com"
   links:
     - label: "Linkedin"
-      icon: "fab fa-fw fa-linkedin"
+      icon: "fab fa-linkedin-in"
       url: "https://www.linkedin.com/in/nanddeepnachan/"
     - label: "Twitter"
       icon: "fab fa-fw fa-twitter-square"
