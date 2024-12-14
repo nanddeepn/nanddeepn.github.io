@@ -12,12 +12,12 @@ toc: true
 I’ll be speaking at the following events.
 
 **Event**|**Topic**|**When**|**Where**
-Pune DevCon 2024|[Navigating the AI Landscape: Building Copilot with Azure AI Studio vs. Microsoft Copilot Studio](https://puneusergroup.org/events/devcon2024/)|14 December, 2024|Pune, India
 M365 Saturday Ahmedabad 2025|[Building Smart Copilot Solutions with Declarative Agents for Microsoft 365](https://www.meetup.com/m365ahmedabad/events/303385888/)|04 January, 2025|Ahmedabad, India
 
 ## Past events
 
 **#**|**Event**|**Topic**|**When**|**Where**
+194|Pune DevCon 2024|[Navigating the AI Landscape: Building Copilot with Azure AI Studio vs. Microsoft Copilot Studio](https://puneusergroup.org/events/devcon2024/)|14 December, 2024|Pune, India
 193|M365 Saturday Bangalore 2024|[Choosing the Right Path: Building Microsoft Copilot Solutions](https://www.m365event.com/)|07 December, 2024|Bangalore, India
 192|.NET Conf 2024 - Cloud Experts Group|[Explore The Future of Coding with GitHub Copilot](https://www.meetup.com/cloud-experts-group/events/303914241/)|23 November, 2024|Online
 191|Season of AI - Season 2 - "Copilots"|[Seasons of AI](https://www.meetup.com/pune-tech-community/events/303915867/)|16 November, 2024|Online
