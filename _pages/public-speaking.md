@@ -14,7 +14,9 @@ I’ll be speaking at the following events.
 **Event**|**Topic**|**When**|**Where**
 M365 Saturday Ahmedabad 2025|[Building Smart Copilot Solutions with Declarative Agents for Microsoft 365](https://www.meetup.com/m365ahmedabad/events/303385888/)|04 January, 2025|Ahmedabad, India
 Global AI Days 2025 - Bremen|[Unlocking Insights with GraphRAG: A Smarter Way to Retrieve Information](https://globalai.community/bootcamp/germany-bremen/)|21 January, 2025 at 8:30 PM IST|Online
+7th Cloud8 virtual Summit 2025|[Unleashing SharePoint Insights with Microsoft 365 Copilot](https://www.cloudeight.ch/)|07 February, 2025|Online
 Global Power Platform Bootcamp 2025 - Saudi Arabia|[Navigating the Landscape: Building Copilot with Azure AI Studio vs. Microsoft Copilot Studio](https://www.powerplatformbootcamp.com/2025/location-detail/?id=41b5ff5d-047f-ef11-a4e5-000d3a0c1307&city=Riyadh)|21 February, 2025|Online
+
 
 ## Past events
 
