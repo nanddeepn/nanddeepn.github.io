@@ -12,7 +12,6 @@ toc: true
 I’ll be speaking at the following events.
 
 **Event**|**Topic**|**When**|**Where**
-M365 Saturday Ahmedabad 2025|[Building Smart Copilot Solutions with Declarative Agents for Microsoft 365](https://www.meetup.com/m365ahmedabad/events/303385888/)|04 January, 2025|Ahmedabad, India
 Global AI Days 2025 - Bremen|[Unlocking Insights with GraphRAG: A Smarter Way to Retrieve Information](https://globalai.community/bootcamp/germany-bremen/)|21 January, 2025 at 8:30 PM IST|Online
 7th Cloud8 virtual Summit 2025|[Unleashing SharePoint Insights with Microsoft 365 Copilot](https://www.cloudeight.ch/)|07 February, 2025|Online
 Global Power Platform Bootcamp 2025 - Saudi Arabia|[Navigating the Landscape: Building Copilot with Azure AI Studio vs. Microsoft Copilot Studio](https://www.powerplatformbootcamp.com/2025/location-detail/?id=41b5ff5d-047f-ef11-a4e5-000d3a0c1307&city=Riyadh)|21 February, 2025|Online
@@ -21,6 +20,7 @@ Global Power Platform Bootcamp 2025 - Saudi Arabia|[Navigating the Landscape: Bu
 ## Past events
 
 **#**|**Event**|**Topic**|**When**|**Where**
+195|M365 Saturday Ahmedabad 2025|[Building Smart Copilot Solutions with Declarative Agents for Microsoft 365](https://www.meetup.com/m365ahmedabad/events/303385888/)|04 January, 2025|Ahmedabad, India
 194|Pune DevCon 2024|[Navigating the AI Landscape: Building Copilot with Azure AI Studio vs. Microsoft Copilot Studio](https://puneusergroup.org/events/devcon2024/)|14 December, 2024|Pune, India
 193|M365 Saturday Bangalore 2024|[Choosing the Right Path: Building Microsoft Copilot Solutions](https://www.m365event.com/)|07 December, 2024|Bangalore, India
 192|.NET Conf 2024 - Cloud Experts Group|[Explore The Future of Coding with GitHub Copilot](https://www.meetup.com/cloud-experts-group/events/303914241/)|23 November, 2024|Online
