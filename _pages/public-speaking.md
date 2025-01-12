@@ -239,6 +239,8 @@ Global Power Platform Bootcamp 2025 - Saudi Arabia|[Navigating the Landscape: Bu
 ## Event Organizer
 
 **#**|**Event**|**When**|**Where**
+35|[Global AI Bootcamp, Pune 2025](https://www.meetup.com/pune-tech-community/events/304790781/)|08 March, 2025|Pune, India
+34|[Global Power Platform Bootcamp, Pune 2025](https://www.meetup.com/pune-tech-community/events/305142775/)|22 February, 2025|Pune, India
 33|[M365 Saturday, Pune 2024](https://www.meetup.com/pune-tech-community/events/303604893/)|30 November, 2024|Pune, India
 32|[Hands-on Workshop: Building Azure AI Applications in the cloud and locally](https://www.meetup.com/pune-tech-community/events/303345681/)|09 October, 2024|Pune, India
 31|[Microsoft 365 Productivity Day](https://www.meetup.com/pune-tech-community/events/301592687/)|27 July, 2024|Online
@@ -278,7 +280,8 @@ Global Power Platform Bootcamp 2025 - Saudi Arabia|[Navigating the Landscape: Bu
 ## Other appearances
 
 **#**|**Event**|**Topic**|**When**|**Where**
-06|Microsoft AI Tour, Bangalore|[Expert at Microsoft Copilot Studio Booth](https://www.linkedin.com/posts/nanddeepnachan_had-a-fantastic-time-at-the-microsoft-activity-7161658943281262596-Y6G5)|08 February, 2024|Bangalore, India
+07|Microsoft AI Tour, Bangalore 2025|[Hub Expert at Microsoft AI Foundry Booth](https://www.linkedin.com/posts/nanddeepnachan_see-you-at-the-microsoft-ai-tour-bangalore-activity-7282221924728926208-pSpG)|07 January, 2025|Bangalore, India
+06|Microsoft AI Tour, Bangalore 2024|[Hub Expert at Microsoft Copilot Studio Booth](https://www.linkedin.com/posts/nanddeepnachan_had-a-fantastic-time-at-the-microsoft-activity-7161658943281262596-Y6G5)|08 February, 2024|Bangalore, India
 05|Proctor, Global Microsoft 365 Developer Bootcamp, APAC Region|[Global Microsoft 365 Developer Bootcamp, APAC Region](https://microsoft365developerbootcamp.splashthat.com/)|14, 15 October, 2020|Online
 04|Proctor, Global Microsoft 365 Developer Bootcamp, EMEA Region|[Global Microsoft 365 Developer Bootcamp, EMEA Region](https://microsoft365developerbootcamp.splashthat.com/)|13, 14 October, 2020|Online
 03|Microsoft Ignite, Ask the Expert, SME Support|[ATE-DB136: Embrace a New Way of Work with Microsoft 365](https://myignite.microsoft.com/sessions/ATE-DB136)|24 September, 2020|Online
