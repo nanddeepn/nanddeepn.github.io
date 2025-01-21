@@ -16,6 +16,8 @@ Global AI Days 2025 - Bremen|[Unlocking Insights with GraphRAG: A Smarter Way to
 7th Cloud8 virtual Summit 2025|[Unleashing SharePoint Insights with Microsoft 365 Copilot](https://www.cloudeight.ch/)|07 February, 2025|Online
 Microsoft AI Summit 2025|[Unlocking the Potential of Declarative Agents in Microsoft 365](https://www.linkedin.com/events/7286995791464873984/)|15 February, 2025|Online
 Global Power Platform Bootcamp 2025 - Saudi Arabia|[Navigating the Landscape: Building Copilot with Azure AI Studio vs. Microsoft Copilot Studio](https://www.powerplatformbootcamp.com/2025/location-detail/?id=41b5ff5d-047f-ef11-a4e5-000d3a0c1307&city=Riyadh)|21 February, 2025|Online
+Global AI Bootcamp (Digital)|[Building Copilot Solutions with Declarative Agents for Microsoft 365]()|10 March, 2025|Online
+Workplace Ninjas Denmark|[Addressing security and compliance challenges in Microsoft Copilot](https://www.meetup.com/wpninjasdk/events/)|14 March, 2025 at 2:30 PM IST|Online
 
 
 ## Past events
