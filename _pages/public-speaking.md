@@ -12,7 +12,6 @@ toc: true
 I’ll be speaking at the following events.
 
 **Event**|**Topic**|**When**|**Where**
-Global AI Days 2025 - Bremen|[Unlocking Insights with GraphRAG: A Smarter Way to Retrieve Information](https://globalai.community/bootcamp/germany-bremen/)|21 January, 2025 at 8:30 PM IST|Online
 7th Cloud8 virtual Summit 2025|[Unleashing SharePoint Insights with Microsoft 365 Copilot](https://www.cloudeight.ch/)|07 February, 2025|Online
 Microsoft AI Summit 2025|[Unlocking the Potential of Declarative Agents in Microsoft 365](https://www.linkedin.com/events/7286995791464873984/)|15 February, 2025|Online
 Global Power Platform Bootcamp 2025 - Saudi Arabia|[Navigating the Landscape: Building Copilot with Azure AI Studio vs. Microsoft Copilot Studio](https://www.powerplatformbootcamp.com/2025/location-detail/?id=41b5ff5d-047f-ef11-a4e5-000d3a0c1307&city=Riyadh)|21 February, 2025|Online
@@ -23,6 +22,7 @@ Workplace Ninjas Denmark|[Addressing security and compliance challenges in Micro
 ## Past events
 
 **#**|**Event**|**Topic**|**When**|**Where**
+196|Global AI Days 2025 - Bremen|[Unlocking Insights with GraphRAG: A Smarter Way to Retrieve Information](https://events.teams.microsoft.com/event/2bc40f34-0fea-494f-b6e8-998e141798cc@6eb12051-85ff-48fe-9901-58e38755cb03)|21 January, 2025|Online
 195|M365 Saturday Ahmedabad 2025|[Building Smart Copilot Solutions with Declarative Agents for Microsoft 365](https://www.meetup.com/m365ahmedabad/events/303385888/)|04 January, 2025|Ahmedabad, India
 194|Pune DevCon 2024|[Navigating the AI Landscape: Building Copilot with Azure AI Studio vs. Microsoft Copilot Studio](https://puneusergroup.org/events/devcon2024/)|14 December, 2024|Pune, India
 193|M365 Saturday Bangalore 2024|[Choosing the Right Path: Building Microsoft Copilot Solutions](https://www.m365event.com/)|07 December, 2024|Bangalore, India
