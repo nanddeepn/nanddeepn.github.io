@@ -284,6 +284,7 @@ Workplace Ninjas Denmark|[Addressing security and compliance challenges in Micro
 ## Other appearances
 
 **#**|**Event**|**Topic**|**When**|**Where**
+10|AI Genius Skills MVP Proctoring|[Getting started with AI Agents](https://developer.microsoft.com/en-us/reactor/events/24597/)|11 February, 2025|Online
 09|AI Genius Skills MVP Proctoring|[Production-ready RAG with Azure AI Search](https://developer.microsoft.com/en-us/reactor/events/24595/)|04 February, 2025|Online
 08|AI Genius Skills MVP Proctoring|[Explore cutting-edge models: LLMs, SLMs and more](https://developer.microsoft.com/en-us/reactor/events/24594/)|28 January, 2025|Online
 07|Microsoft AI Tour, Bangalore 2025|[Hub Expert at Microsoft AI Foundry Booth](https://www.linkedin.com/posts/nanddeepnachan_see-you-at-the-microsoft-ai-tour-bangalore-activity-7282221924728926208-pSpG)|07 January, 2025|Bangalore, India
