@@ -22,7 +22,7 @@ Workplace Ninjas Denmark|[Addressing security and compliance challenges in Micro
 ## Past events
 
 **#**|**Event**|**Topic**|**When**|**Where**
-198|Computing Technologies 4.0, Yeshwantrao Chavan College of Engineering (YCCE), Nagpur|[Getting started with Generative AI](https://www.linkedin.com/posts/activity-7294976384689463296-iKM3?utm_source=share&utm_medium=member_desktop)|11 February, 2025|Online
+198|Computing Technologies 4.0, Yeshwantrao Chavan College of Engineering (YCCE), Nagpur|[Getting started with Generative AI](https://www.linkedin.com/posts/activity-7294976384689463296-iKM3)|11 February, 2025|Online
 197|7th Cloud8 virtual Summit 2025, cloudeight.ch|[Unleashing SharePoint Insights with Microsoft 365 Copilot](https://events.teams.microsoft.com/event/a761cdf9-3849-412a-a762-9d06bd62d63d@07867c6b-cc7e-449c-a9f4-083bac62aad8)|07 February, 2025|Online
 196|Global AI Days 2025 - Bremen|[Unlocking Insights with GraphRAG: A Smarter Way to Retrieve Information](https://events.teams.microsoft.com/event/2bc40f34-0fea-494f-b6e8-998e141798cc@6eb12051-85ff-48fe-9901-58e38755cb03)|21 January, 2025|Online
 195|M365 Saturday Ahmedabad 2025|[Building Smart Copilot Solutions with Declarative Agents for Microsoft 365](https://www.meetup.com/m365ahmedabad/events/303385888/)|04 January, 2025|Ahmedabad, India
