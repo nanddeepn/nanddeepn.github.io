@@ -1,10 +1,10 @@
-![image](https://github.com/user-attachments/assets/11a6990b-7700-45fd-8845-b55150efbeb3)---
+---
 permalink: /public-speaking/
 title: "Public Speaking"
 
 layout: archive
 author_profile: true
-last_modified_at: 2025-01-20T15:46:43-04:00
+last_modified_at: 2025-02-11T15:46:43-04:00
 toc: true
 ---
 
