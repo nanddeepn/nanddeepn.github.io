@@ -36,7 +36,6 @@ It is an example API and documentation provided by Swagger, a set of tools for w
 ## Create declarative agent with Teams Toolkit
 
 Declarative agent does not have any code as they use the power of Copilot for Microsoft 365 behind the scenes. The configuration happens through JSON based files.
-Declarative agent does not have any code as they use the power of Copilot for Microsoft 365 behind the scenes. The configuration happens through JSON based files.
 
 **Pre-requisites:**
 
