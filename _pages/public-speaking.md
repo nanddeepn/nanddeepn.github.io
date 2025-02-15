@@ -12,7 +12,6 @@ toc: true
 I’ll be speaking at the following events.
 
 **Event**|**Topic**|**When**|**Where**
-Microsoft AI Summit 2025|[Unlocking the Potential of Declarative Agents in Microsoft 365](https://www.linkedin.com/events/7286995791464873984/)|15 February, 2025 at 10:00 AM IST|Online
 Global Power Platform Bootcamp - Delhi Edition|[Building Copilot with Azure AI Foundry vs. Microsoft Copilot Studio](https://www.powerplatformbootcamp.com/2024/location-detail/?id=b71fe49b-259e-ee11-a81c-6045bd5d6a14&city=Delhi)|21 February, 2025|Online
 Global Power Platform Bootcamp 2025 - Saudi Arabia|[Navigating the Landscape: Building Copilot with Azure AI Foundry vs. Microsoft Copilot Studio](https://www.powerplatformbootcamp.com/2025/location-detail/?id=41b5ff5d-047f-ef11-a4e5-000d3a0c1307&city=Riyadh)|03 March, 2025 at 8:30 PM IST|Online
 Global AI Bootcamp (Digital)|[Building Copilot Solutions with Declarative Agents for Microsoft 365]()|10 March, 2025|Online
@@ -22,6 +21,7 @@ Workplace Ninjas Denmark|[Addressing security and compliance challenges in Micro
 ## Past events
 
 **#**|**Event**|**Topic**|**When**|**Where**
+199|Microsoft AI Summit 2025|[Unlocking the Potential of Declarative Agents in Microsoft 365](https://www.linkedin.com/events/7286995791464873984/)|15 February, 2025|Online
 198|Computing Technologies 4.0, Yeshwantrao Chavan College of Engineering (YCCE), Nagpur|[Getting started with Generative AI](https://www.linkedin.com/posts/activity-7294976384689463296-iKM3)|11 February, 2025|Online
 197|7th Cloud8 virtual Summit 2025, cloudeight.ch|[Unleashing SharePoint Insights with Microsoft 365 Copilot](https://events.teams.microsoft.com/event/a761cdf9-3849-412a-a762-9d06bd62d63d@07867c6b-cc7e-449c-a9f4-083bac62aad8)|07 February, 2025|Online
 196|Global AI Days 2025 - Bremen|[Unlocking Insights with GraphRAG: A Smarter Way to Retrieve Information](https://events.teams.microsoft.com/event/2bc40f34-0fea-494f-b6e8-998e141798cc@6eb12051-85ff-48fe-9901-58e38755cb03)|21 January, 2025|Online
