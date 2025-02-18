@@ -285,9 +285,11 @@ Workplace Ninjas Denmark|[Addressing security and compliance challenges in Micro
 ## Other appearances
 
 **#**|**Event**|**Topic**|**When**|**Where**
-10|AI Genius Skills MVP Proctoring|[Getting started with AI Agents](https://developer.microsoft.com/en-us/reactor/events/24597/)|11 February, 2025|Online
-09|AI Genius Skills MVP Proctoring|[Production-ready RAG with Azure AI Search](https://developer.microsoft.com/en-us/reactor/events/24595/)|04 February, 2025|Online
-08|AI Genius Skills MVP Proctoring|[Explore cutting-edge models: LLMs, SLMs and more](https://developer.microsoft.com/en-us/reactor/events/24594/)|28 January, 2025|Online
+
+11|AI Genius Skills, MVP Proctoring|[Building Intelligent Multi-agent Systems](https://developer.microsoft.com/en-us/reactor/events/24596/)|18 February, 2025|Online
+10|AI Genius Skills, MVP Proctoring|[Getting started with AI Agents](https://developer.microsoft.com/en-us/reactor/events/24597/)|11 February, 2025|Online
+09|AI Genius Skills, MVP Proctoring|[Production-ready RAG with Azure AI Search](https://developer.microsoft.com/en-us/reactor/events/24595/)|04 February, 2025|Online
+08|AI Genius Skills, MVP Proctoring|[Explore cutting-edge models: LLMs, SLMs and more](https://developer.microsoft.com/en-us/reactor/events/24594/)|28 January, 2025|Online
 07|Microsoft AI Tour, Bangalore 2025|[Hub Expert at Microsoft AI Foundry Booth](https://www.linkedin.com/posts/nanddeepnachan_see-you-at-the-microsoft-ai-tour-bangalore-activity-7282221924728926208-pSpG)|07 January, 2025|Bangalore, India
 06|Microsoft AI Tour, Bangalore 2024|[Hub Expert at Microsoft Copilot Studio Booth](https://www.linkedin.com/posts/nanddeepnachan_had-a-fantastic-time-at-the-microsoft-activity-7161658943281262596-Y6G5)|08 February, 2024|Bangalore, India
 05|Proctor, Global Microsoft 365 Developer Bootcamp, APAC Region|[Global Microsoft 365 Developer Bootcamp, APAC Region](https://microsoft365developerbootcamp.splashthat.com/)|14, 15 October, 2020|Online
