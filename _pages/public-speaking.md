@@ -285,7 +285,6 @@ Workplace Ninjas Denmark|[Addressing security and compliance challenges in Micro
 ## Other appearances
 
 **#**|**Event**|**Topic**|**When**|**Where**
-
 11|AI Genius Skills, MVP Proctoring|[Building Intelligent Multi-agent Systems](https://developer.microsoft.com/en-us/reactor/events/24596/)|18 February, 2025|Online
 10|AI Genius Skills, MVP Proctoring|[Getting started with AI Agents](https://developer.microsoft.com/en-us/reactor/events/24597/)|11 February, 2025|Online
 09|AI Genius Skills, MVP Proctoring|[Production-ready RAG with Azure AI Search](https://developer.microsoft.com/en-us/reactor/events/24595/)|04 February, 2025|Online
