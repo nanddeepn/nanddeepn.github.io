@@ -12,7 +12,6 @@ toc: true
 I’ll be speaking at the following events.
 
 **Event**|**Topic**|**When**|**Where**
-Global Power Platform Bootcamp - Delhi Edition|[Building Copilot with Azure AI Foundry vs. Microsoft Copilot Studio](https://www.powerplatformbootcamp.com/2024/location-detail/?id=b71fe49b-259e-ee11-a81c-6045bd5d6a14&city=Delhi)|21 February, 2025|Online
 Global Power Platform Bootcamp 2025 - Saudi Arabia|[Navigating the Landscape: Building Copilot with Azure AI Foundry vs. Microsoft Copilot Studio](https://www.powerplatformbootcamp.com/2025/location-detail/?id=41b5ff5d-047f-ef11-a4e5-000d3a0c1307&city=Riyadh)|03 March, 2025 at 8:30 PM IST|Online
 Global AI Bootcamp (Digital)|[Building Copilot Solutions with Declarative Agents for Microsoft 365]()|10 March, 2025|Online
 Workplace Ninjas Denmark|[Addressing security and compliance challenges in Microsoft Copilot](https://www.meetup.com/wpninjasdk/events/)|14 March, 2025 at 2:30 PM IST|Online
@@ -21,6 +20,7 @@ Workplace Ninjas Denmark|[Addressing security and compliance challenges in Micro
 ## Past events
 
 **#**|**Event**|**Topic**|**When**|**Where**
+200|Global Power Platform Bootcamp - Delhi Edition|[Building Copilot with Azure AI Foundry vs. Microsoft Copilot Studio](https://events.teams.microsoft.com/event/c39c4c15-9d13-459e-9069-0eeba6924f63@c173cb52-a46e-4302-9b95-6df32c4e0544)|21 February, 2025|Online
 199|Microsoft AI Summit 2025|[Unlocking the Potential of Declarative Agents in Microsoft 365](https://www.linkedin.com/events/7286995791464873984/)|15 February, 2025|Online
 198|Computing Technologies 4.0, Yeshwantrao Chavan College of Engineering (YCCE), Nagpur|[Getting started with Generative AI](https://www.linkedin.com/posts/activity-7294976384689463296-iKM3)|11 February, 2025|Online
 197|7th Cloud8 virtual Summit 2025, cloudeight.ch|[Unleashing SharePoint Insights with Microsoft 365 Copilot](https://events.teams.microsoft.com/event/a761cdf9-3849-412a-a762-9d06bd62d63d@07867c6b-cc7e-449c-a9f4-083bac62aad8)|07 February, 2025|Online
