@@ -12,6 +12,7 @@ toc: true
 I’ll be speaking at the following events.
 
 **Event**|**Topic**|**When**|**Where**
+TechWize Webinar|[Enhancing Microsoft 365 with Declarative Agents for Intelligent Automation](https://www.linkedin.com/events/7297603528842186752/)|27 February, 2025|Onlline
 Global Power Platform Bootcamp 2025 - Saudi Arabia|[Navigating the Landscape: Building Copilot with Azure AI Foundry vs. Microsoft Copilot Studio](https://www.powerplatformbootcamp.com/2025/location-detail/?id=41b5ff5d-047f-ef11-a4e5-000d3a0c1307&city=Riyadh)|03 March, 2025 at 8:30 PM IST|Online
 Global AI Bootcamp (Digital)|[Building Copilot Solutions with Declarative Agents for Microsoft 365]()|10 March, 2025|Online
 Workplace Ninjas Denmark|[Addressing security and compliance challenges in Microsoft Copilot](https://www.meetup.com/wpninjasdk/events/)|14 March, 2025 at 2:30 PM IST|Online
