@@ -285,6 +285,7 @@ Global Power Platform Bootcamp 2025 - Saudi Arabia|[Navigating the Landscape: Bu
 ## Other appearances
 
 **#**|**Event**|**Topic**|**When**|**Where**
+12|AI Genius Skills, MVP Proctoring|[Getting Started with Copilot for Azure to Deploy to the Cloud](https://developer.microsoft.com/en-us/reactor/events/24599/)|04 March, 2025|Online
 11|AI Genius Skills, MVP Proctoring|[Building Intelligent Multi-agent Systems](https://developer.microsoft.com/en-us/reactor/events/24596/)|18 February, 2025|Online
 10|AI Genius Skills, MVP Proctoring|[Getting started with AI Agents](https://developer.microsoft.com/en-us/reactor/events/24597/)|11 February, 2025|Online
 09|AI Genius Skills, MVP Proctoring|[Production-ready RAG with Azure AI Search](https://developer.microsoft.com/en-us/reactor/events/24595/)|04 February, 2025|Online
