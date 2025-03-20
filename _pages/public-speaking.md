@@ -14,7 +14,9 @@ I’ll be speaking at the following events.
 **Event**|**Topic**|**When**|**Where**
 Global AI Bootcamp (Digital) - Rescheduled|[Building Copilot Solutions with Declarative Agents for Microsoft 365]()|10 March, 2025|Online
 Global AI Bootcamp 2025 North Carolina, US (Virtual)|[Build your own agents with Semantic Kernel](https://www.meetup.com/north-carolina-ai-innovators/events/306677106/)|29 March, 2025|Online
+Global AI Bootcamp 2025 - Delhi Edition|[Explore the era of Declarative Agents for Microsoft 365]()|12 April, 2025|Online
 Global Power Platform Bootcamp 2025 - Saudi Arabia|[Navigating the Landscape: Building Copilot with Azure AI Foundry vs. Microsoft Copilot Studio](https://www.powerplatformbootcamp.com/2025/location-detail/?id=41b5ff5d-047f-ef11-a4e5-000d3a0c1307&city=Riyadh)|03 May, 2025 at 8:30 PM IST|Online
+
 
 ## Past events
 
