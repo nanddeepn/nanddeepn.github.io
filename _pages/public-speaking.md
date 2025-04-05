@@ -19,6 +19,7 @@ Global Power Platform Bootcamp 2025 - Saudi Arabia|[Navigating the Landscape: Bu
 ## Past events
 
 **#**|**Event**|**Topic**|**When**|**Where**
+203|Global AI Bootcamp 2025 - Charlotte - North Carolina (Digital)|[Build your own agents with Semantic Kernel](https://www.meetup.com/north-carolina-ai-innovators/events/307112581/)|05 April, 2025|Online
 202|Workplace Ninjas Denmark|[Addressing security and compliance challenges in Microsoft Copilot](https://www.meetup.com/wpninjasdk/events/306320912/)|14 March, 2025|Online
 201|TechWize Webinar|[Enhancing Microsoft 365 with Declarative Agents for Intelligent Automation](https://www.linkedin.com/events/7297603528842186752/)|27 February, 2025|Onlline
 200|Global Power Platform Bootcamp - Delhi Edition|[Building Copilot with Azure AI Foundry vs. Microsoft Copilot Studio](https://events.teams.microsoft.com/event/c39c4c15-9d13-459e-9069-0eeba6924f63@c173cb52-a46e-4302-9b95-6df32c4e0544)|21 February, 2025|Online
