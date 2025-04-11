@@ -12,7 +12,7 @@ toc: true
 I’ll be speaking at the following events.
 
 **Event**|**Topic**|**When**|**Where**
-Global AI Bootcamp 2025 - Delhi Edition|[Explore the era of Declarative Agents for Microsoft 365]()|12 April, 2025|Online
+Global AI Bootcamp 2025 - Delhi Edition|[Explore the era of Declarative Agents for Microsoft 365](https://events.teams.microsoft.com/event/a16f7592-99d2-40d4-bc7d-8615ef04f47a@c173cb52-a46e-4302-9b95-6df32c4e0544)|12 April, 2025|Online
 Global Power Platform Bootcamp 2025 - Saudi Arabia|[Navigating the Landscape: Building Copilot with Azure AI Foundry vs. Microsoft Copilot Studio](https://www.powerplatformbootcamp.com/2025/location-detail/?id=41b5ff5d-047f-ef11-a4e5-000d3a0c1307&city=Riyadh)|03 May, 2025 at 8:30 PM IST|Online
 
 
