@@ -12,7 +12,6 @@ toc: true
 I’ll be speaking at the following events.
 
 **Event**|**Topic**|**When**|**Where**
-
 Global Power Platform Bootcamp 2025 - Saudi Arabia|[Navigating the Landscape: Building Copilot with Azure AI Foundry vs. Microsoft Copilot Studio](https://www.powerplatformbootcamp.com/2025/location-detail/?id=41b5ff5d-047f-ef11-a4e5-000d3a0c1307&city=Riyadh)|03 May, 2025 at 8:30 PM IST|Online
 
 
