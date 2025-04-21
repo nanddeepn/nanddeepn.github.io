@@ -15,6 +15,31 @@ toc: true
     </tr>
     <tr>
         <td width="50%">
+            <p>Udemy Course: A Complete Guide to SharePoint Framework (SPFx)</p>
+            <a href="https://www.udemy.com/course/complete-guide-to-spfx/?referralCode=86DE6B942CA999ECE222">
+                <img src="https://img-c.udemycdn.com/course/750x422/6374115_0dc8_5.jpg" width="336" height="550" frameborder="0" />
+            </a>
+            <p>Published on 10 April, 2025</p>
+        </td>
+        <td>
+            Are you ready to elevate your SharePoint development skills? This comprehensive course is designed to take you from beginner to pro in building modern, scalable, and user-friendly solutions using the SharePoint Framework (SPFx).
+            <br/>
+            What You'll Learn:
+            <ul>
+                <li>Hands-On Projects: Build real-world SPFx solutions step-by-step.</li>
+                <li>Code Samples: Get access to reusable code and templates to accelerate your development.</li>
+                <li>Practical Insights: Learn from an experienced instructor with a wealth of industry knowledge.</li>
+                <li>Supportive Learning Environment: Engage in Q&A, discussions, and community activities to deepen your understanding.</li>
+            </ul>
+            <ul>
+                <li>
+                    <a href="https://www.udemy.com/course/complete-guide-to-spfx/?referralCode=86DE6B942CA999ECE222" target="_blank">Buy at Udemy.com</a>
+                </li>
+            </ul>
+        </td>
+    </tr> 
+    <tr>
+        <td width="50%">
             <iframe type="text/html" width="336" height="550" frameborder="0" allowfullscreen style="max-width:100%" src="https://read.amazon.in/kp/card?asin=B0BDJX2JFZ&preview=newtab"></iframe>
             <p>Published on 13 September, 2022</p>
         </td>
@@ -31,7 +56,7 @@ toc: true
             </ul>
             <ul>
                 <li>
-                    <a href="https://www.amazon.com/Running-Microsoft-Viva-Connections-Workforce-dp-1484286057/dp/1484286057/" target="_blank">Buy at Amazon.com</a>                    
+                    <a href="https://www.amazon.com/Running-Microsoft-Viva-Connections-Workforce-dp-1484286057/dp/1484286057/" target="_blank">Buy at Amazon.com</a>
                 </li>
                 <li>
                     <a href="https://www.amazon.in/Running-Microsoft-Viva-Connections-Workforce-ebook/dp/B0BDJX2JFZ/" target="_blank">Buy at Amazon India</a>
@@ -42,9 +67,9 @@ toc: true
                 <li>
                     <a href="https://www.apress.com/gp/book/9781484286067" target="_blank">Buy at Apress</a>
                 </li>
-            </ul>            
+            </ul>
         </td>
-    </tr>    
+    </tr>
     <tr>
         <td width="50%">
             <iframe type="text/html" width="336" height="550" frameborder="0" allowfullscreen style="max-width:100%" src="https://read.amazon.in/kp/card?asin=B08GZT5Z64&preview=newtab&linkCode=kpe&ref_=cm_sw_r_kb_dp_W1KvFbED4RB3X" ></iframe>
@@ -64,7 +89,7 @@ toc: true
             </ul>
             <ul>
                 <li>
-                    <a href="https://www.amazon.com/Understanding-Hybrid-Environments-SharePoint-2019/dp/148426049X" target="_blank">Buy at Amazon.com</a>                    
+                    <a href="https://www.amazon.com/Understanding-Hybrid-Environments-SharePoint-2019/dp/148426049X" target="_blank">Buy at Amazon.com</a>
                 </li>
                 <li>
                     <a href="https://www.amazon.in/Understanding-Hybrid-Environments-SharePoint-2019/dp/148426049X" target="_blank">Buy at Amazon India</a>
@@ -75,7 +100,7 @@ toc: true
                 <li>
                     <a href="https://www.apress.com/gp/book/9781484260494" target="_blank">Buy at Apress</a>
                 </li>
-            </ul>            
+            </ul>
         </td>
     </tr>
     <tr>
@@ -99,12 +124,12 @@ toc: true
             </ul>
             <ul>
                 <li>
-                    <a href="https://www.amazon.com/Mastering-Sharepoint-Framework-Easy-Follow/dp/938932887X/" target="_blank">Buy at Amazon.com</a>                    
+                    <a href="https://www.amazon.com/Mastering-Sharepoint-Framework-Easy-Follow/dp/938932887X/" target="_blank">Buy at Amazon.com</a>
                 </li>
                 <li>
                     <a href="https://www.amazon.in/Mastering-Sharepoint-Framework-Easy-Follow/dp/938932887X" target="_blank">Buy at Amazon India</a>
                 </li>
-            </ul>            
+            </ul>
         </td>
     </tr>
 </table>
