@@ -1,6 +1,6 @@
 ---
 title: "Building AI Agents with Semantic Kernel"
-date: "2025-03-22"
+date: "2025-04-16"
 share: true
 header:
   image: media/2025-04-16-ai-agents-sk/01.png
