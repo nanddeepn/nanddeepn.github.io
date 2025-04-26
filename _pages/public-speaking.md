@@ -18,6 +18,7 @@ Global Power Platform Bootcamp 2025 - Saudi Arabia|[Navigating the Landscape: Bu
 ## Past events
 
 **#**|**Event**|**Topic**|**When**|**Where**
+205|Copilot Developer Camp - Pune (In-Person)|[Custom Engine Agents - Build Agents for Microsoft 365 Copilot](https://www.meetup.com/pune-tech-community/events/307106017/)|26 April, 2025|Pune, India
 204|Global AI Bootcamp 2025 - Delhi Edition|[Explore the era of Declarative Agents for Microsoft 365](https://events.teams.microsoft.com/event/a16f7592-99d2-40d4-bc7d-8615ef04f47a@c173cb52-a46e-4302-9b95-6df32c4e0544)|12 April, 2025|Online
 203|Global AI Bootcamp 2025 - Charlotte - North Carolina (Digital)|[Build your own agents with Semantic Kernel](https://www.meetup.com/north-carolina-ai-innovators/events/307112581/)|05 April, 2025|Online
 202|Workplace Ninjas Denmark|[Addressing security and compliance challenges in Microsoft Copilot](https://www.meetup.com/wpninjasdk/events/306320912/)|14 March, 2025|Online
@@ -246,6 +247,8 @@ Global Power Platform Bootcamp 2025 - Saudi Arabia|[Navigating the Landscape: Bu
 ## Event Organizer
 
 **#**|**Event**|**When**|**Where**
+37|[Global Azure 2025 - Pune (Virtual)](https://www.meetup.com/pune-tech-community/events/306720823/)|10 May, 2025|Online
+36|[Copilot Developer Camp - Pune (In-Person)](https://www.meetup.com/pune-tech-community/events/307106017/)|26 April, 2025|Pune, India
 35|[Global AI Bootcamp, Pune 2025](https://www.meetup.com/pune-tech-community/events/304790781/)|08 March, 2025|Pune, India
 34|[Global Power Platform Bootcamp, Pune 2025](https://www.meetup.com/pune-tech-community/events/305142775/)|22 February, 2025|Pune, India
 33|[M365 Saturday, Pune 2024](https://www.meetup.com/pune-tech-community/events/303604893/)|30 November, 2024|Pune, India
