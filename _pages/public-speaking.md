@@ -13,6 +13,7 @@ I’ll be speaking at the following events.
 
 **Event**|**Topic**|**When**|**Where**
 Microsoft Analytics Conference: Microsoft Fabric, AI Power Platform Copilot|[Designing Intelligent Copilot Solutions with Declarative Agents for Microsoft 365](https://www.linkedin.com/events/7292155773525049344/)|10 May, 2025 at 8:00 PM IST|Online
+Canadian Cloud Summit 2025|[Explore Declarative Agents for Microsoft 365](https://www.communitydays.org/event/2025-06-19/canadian-cloud-summit-june-2025#speakers)|19 June, 2025
 
 ## Past events
 
