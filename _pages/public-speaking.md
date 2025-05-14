@@ -12,12 +12,12 @@ toc: true
 I’ll be speaking at the following events.
 
 **Event**|**Topic**|**When**|**Where**
-Microsoft Analytics Conference: Microsoft Fabric, AI Power Platform Copilot|[Designing Intelligent Copilot Solutions with Declarative Agents for Microsoft 365](https://www.linkedin.com/events/7292155773525049344/)|10 May, 2025 at 8:00 PM IST|Online
 Canadian Cloud Summit 2025|[Explore Declarative Agents for Microsoft 365](https://www.communitydays.org/event/2025-06-19/canadian-cloud-summit-june-2025#speakers)|19 June, 2025
 
 ## Past events
 
 **#**|**Event**|**Topic**|**When**|**Where**
+207|Microsoft Analytics Conference: Microsoft Fabric, AI Power Platform Copilot|[Designing Intelligent Copilot Solutions with Declarative Agents for Microsoft 365](https://www.linkedin.com/events/7292155773525049344/)|10 May, 2025|Online
 206|Global Power Platform Bootcamp 2025 - Saudi Arabia|[Navigating the Landscape: Building Copilot with Azure AI Foundry vs. Microsoft Copilot Studio](https://www.powerplatformbootcamp.com/2025/location-detail/?id=41b5ff5d-047f-ef11-a4e5-000d3a0c1307&city=Riyadh)|03 May, 2025|Online
 205|Copilot Developer Camp - Pune (In-Person)|[Custom Engine Agents - Build Agents for Microsoft 365 Copilot](https://www.meetup.com/pune-tech-community/events/307106017/)|26 April, 2025|Pune, India
 204|Global AI Bootcamp 2025 - Delhi Edition|[Explore the era of Declarative Agents for Microsoft 365](https://events.teams.microsoft.com/event/a16f7592-99d2-40d4-bc7d-8615ef04f47a@c173cb52-a46e-4302-9b95-6df32c4e0544)|12 April, 2025|Online
