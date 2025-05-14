@@ -12,7 +12,7 @@ toc: true
 I’ll be speaking at the following events.
 
 **Event**|**Topic**|**When**|**Where**
-Canadian Cloud Summit 2025|[Explore Declarative Agents for Microsoft 365](https://www.communitydays.org/event/2025-06-19/canadian-cloud-summit-june-2025#speakers)|19 June, 2025
+Canadian Cloud Summit 2025|[Explore Declarative Agents for Microsoft 365](https://www.communitydays.org/event/2025-06-19/canadian-cloud-summit-june-2025#speakers)|19 June, 2025|Online
 
 ## Past events
 
