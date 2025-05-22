@@ -135,7 +135,7 @@ This is the most powerful option. You use Azure and OpenAI models (like GPT-4) t
 
 ---
 
-## Summary
+## Conclusion
 
 ### Which One Should You Use?
 
