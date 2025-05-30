@@ -12,7 +12,8 @@ toc: true
 I’ll be speaking at the following events.
 
 **Event**|**Topic**|**When**|**Where**
-Canadian Cloud Summit 2025|[Explore Declarative Agents for Microsoft 365](https://www.communitydays.org/event/2025-06-19/canadian-cloud-summit-june-2025#speakers)|19 June, 2025|Online
+Canadian Cloud Summit 2025|[Explore Declarative Agents for Microsoft 365](https://www.communitydays.org/event/2025-06-19/canadian-cloud-summit-june-2025#speakers)|19 June, 2025 at 8:30 PM IST|Online
+India Cloud Security Summit 2025|[Simplifying Cybersecurity with Microsoft Security Copilot](https://sessionize.com/india-cloud-security-summit-2025/)|12 July, 2025|Online
 
 ## Past events
 
