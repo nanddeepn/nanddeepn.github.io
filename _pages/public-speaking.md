@@ -12,11 +12,14 @@ toc: true
 I’ll be speaking at the following events.
 
 **Event**|**Topic**|**When**|**Where**
-India Cloud Security Summit 2025|[Simplifying Cybersecurity with Microsoft Security Copilot](https://sessionize.com/india-cloud-security-summit-2025/)|12 July, 2025|Online
+Singapore Microsoft Azure, M365 & Power Platform|[Building Smart Copilot Solutions with Declarative Agents for Microsoft 365](https://www.meetup.com/mssgug/)|25 September, 2025 at 8:00 PM SGT|Online 
+The AI-Native Workplace Summit 2025|[Designing Intelligent Copilot Solutions With Declarative Agents In Microsoft 365](https://ainativeworkplace.com/)|24 September, 2025|Online
+
 
 ## Past events
 
 **#**|**Event**|**Topic**|**When**|**Where**
+209|India Cloud Security Summit 2025|[Simplifying Cybersecurity with Microsoft Security Copilot](https://www.indiacloudsecuritysummit.com/)|12 July, 2025|Online
 208|Canadian Cloud Summit 2025|[Explore Declarative Agents for Microsoft 365](https://www.communitydays.org/event/2025-06-19/canadian-cloud-summit-june-2025#speakers)|19 June, 2025|Online
 207|Microsoft Analytics Conference: Microsoft Fabric, AI Power Platform Copilot|[Designing Intelligent Copilot Solutions with Declarative Agents for Microsoft 365](https://www.linkedin.com/events/7292155773525049344/)|10 May, 2025|Online
 206|Global Power Platform Bootcamp 2025 - Saudi Arabia|[Navigating the Landscape: Building Copilot with Azure AI Foundry vs. Microsoft Copilot Studio](https://www.powerplatformbootcamp.com/2025/location-detail/?id=41b5ff5d-047f-ef11-a4e5-000d3a0c1307&city=Riyadh)|03 May, 2025|Online
