@@ -164,3 +164,4 @@ For most enterprises, a **hybrid approach** works best: buy what fits out of the
 - [Copilot Studio: Extend the capabilities of your agent](https://learn.microsoft.com/en-us/microsoft-copilot-studio/copilot-connectors-in-copilot-studio?WT.mc_id=M365-MVP-5003693)
 - [Microsoft Graph Connectors](https://learn.microsoft.com/en-us/microsoftsearch/connectors-overview?WT.mc_id=M365-MVP-5003693)
 - [Teams Message Extensions](https://learn.microsoft.com/en-us/microsoftteams/platform/messaging-extensions/what-are-messaging-extensions?WT.mc_id=M365-MVP-5003693)  
+
