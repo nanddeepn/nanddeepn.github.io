@@ -12,6 +12,8 @@ toc: true
 I’ll be speaking at the following events.
 
 **Event**|**Topic**|**When**|**Where**
+Data & AI Virtual Season – Vol. 2|[Building Agents with Microsoft 365 Agents SDK](https://www.linkedin.com/events/dataanalyticgrouppresents-data-7356039395315011588/)|23 August 2025|Online
+wedoAI 2025|[Develop your own agents using Semantic Kernel](https://wedoai.ie/wall.html)|28 August 2025|Online
 The AI-Native Workplace Summit 2025|[Designing Intelligent Copilot Solutions With Declarative Agents In Microsoft 365](https://ai-nativeworkplace.sessionize.com/session/947442)|24 September, 2025 at 2:30 PM IST|Online
 Singapore Microsoft Azure, M365 & Power Platform|[Building Smart Copilot Solutions with Declarative Agents for Microsoft 365](https://www.meetup.com/mssgug/)|25 September, 2025 at 8:00 PM SGT|Online 
 
