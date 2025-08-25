@@ -12,8 +12,8 @@ toc: true
 I’ll be speaking at the following events.
 
 **Event**|**Topic**|**When**|**Where**
-Data & AI Virtual Season – Vol. 2|[Building Agents with Microsoft 365 Agents SDK](https://www.linkedin.com/events/dataanalyticgrouppresents-data-7356039395315011588/)|23 August 2025|Online
-wedoAI 2025|[Develop your own agents using Semantic Kernel](https://wedoai.ie/wall.html)|28 August 2025|Online
+wedoAI 2025|[Develop your own agents using Semantic Kernel](https://wedoai.ie/wall.html)|28 August, 2025|Online
+AI Maitri - Indore 2025|[Building Your Own Copilot: From Microsoft 365 to Custom Agents](https://www.communitydays.org/event/2025-09-06/ai-maitri-indore-2025)|6 September, 2025|Online 
 The AI-Native Workplace Summit 2025|[Designing Intelligent Copilot Solutions With Declarative Agents In Microsoft 365](https://ai-nativeworkplace.sessionize.com/session/947442)|24 September, 2025 at 2:30 PM IST|Online
 Singapore Microsoft Azure, M365 & Power Platform|[Building Smart Copilot Solutions with Declarative Agents for Microsoft 365](https://www.meetup.com/mssgug/)|25 September, 2025 at 8:00 PM SGT|Online 
 
@@ -22,6 +22,7 @@ Singapore Microsoft Azure, M365 & Power Platform|[Building Smart Copilot Solutio
 ## Past events
 
 **#**|**Event**|**Topic**|**When**|**Where**
+210|Data & AI Virtual Season – Vol. 2|[Building Agents with Microsoft 365 Agents SDK](https://www.linkedin.com/events/dataanalyticgrouppresents-data-7356039395315011588/)|23 August, 2025|Online
 209|India Cloud Security Summit 2025|[Simplifying Cybersecurity with Microsoft Security Copilot](https://www.indiacloudsecuritysummit.com/)|12 July, 2025|Online
 208|Canadian Cloud Summit 2025|[Explore Declarative Agents for Microsoft 365](https://www.communitydays.org/event/2025-06-19/canadian-cloud-summit-june-2025#speakers)|19 June, 2025|Online
 207|Microsoft Analytics Conference: Microsoft Fabric, AI Power Platform Copilot|[Designing Intelligent Copilot Solutions with Declarative Agents for Microsoft 365](https://www.linkedin.com/events/7292155773525049344/)|10 May, 2025|Online
