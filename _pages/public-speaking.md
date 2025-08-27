@@ -13,7 +13,8 @@ I’ll be speaking at the following events.
 
 **Event**|**Topic**|**When**|**Where**
 wedoAI 2025|[Develop your own agents using Semantic Kernel](https://wedoai.ie/wall.html)|28 August, 2025|Online
-AI Maitri - Indore 2025|[Building Your Own Copilot: From Microsoft 365 to Custom Agents](https://www.communitydays.org/event/2025-09-06/ai-maitri-indore-2025)|6 September, 2025|Online 
+AI Maitri - Indore 2025|[Building Your Own Copilot: From Microsoft 365 to Custom Agents](https://www.communitydays.org/event/2025-09-06/ai-maitri-indore-2025)|6 September, 2025|Online
+Global Microsoft Hindi (हिंदी) Conference|[From Idea to Agent: Developing with Microsoft 365 Agents SDK](https://sessionize.com/global-microsoft-hindi-hindii-conferenc8090/)|13 September, 2025 at 3 PM IST|Online
 The AI-Native Workplace Summit 2025|[Designing Intelligent Copilot Solutions With Declarative Agents In Microsoft 365](https://ai-nativeworkplace.sessionize.com/session/947442)|24 September, 2025 at 2:30 PM IST|Online
 Singapore Microsoft Azure, M365 & Power Platform|[Building Smart Copilot Solutions with Declarative Agents for Microsoft 365](https://www.meetup.com/mssgug/)|25 September, 2025 at 8:00 PM SGT|Online 
 
