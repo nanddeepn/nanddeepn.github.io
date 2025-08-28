@@ -19,6 +19,9 @@
   }
 }
 
+// Hide discuss ads
+iframe[src*="ads-iframe"] { display: none; }
+
 .page {
   @include breakpoint($large) {
     float: right;
