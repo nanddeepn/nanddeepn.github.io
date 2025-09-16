@@ -12,7 +12,7 @@ toc: true
 I’ll be speaking at the following events.
 
 **Event**|**Topic**|**When**|**Where**
-Global Microsoft Hindi (हिंदी) Conference|[From Idea to Agent: Developing with Microsoft 365 Agents SDK](https://global-microsoft-hindi-hindii-conferenc8090.sessionize.com/schedule)|13 September, 2025 at 3 PM IST|Online
+VS Code Dev Days - Brighton|[Reimagining DevOps with GitHub Copilot Agents](https://www.meetup.com/devops-github-conf-brighton/events/310385643/)|17 September, 2025 at 11:15 PM IST|Online
 The AI-Native Workplace Summit 2025|[Designing Intelligent Copilot Solutions With Declarative Agents In Microsoft 365](https://ai-nativeworkplace.sessionize.com/session/947442)|24 September, 2025 at 2:30 PM IST|Online
 Singapore Microsoft Azure, M365 & Power Platform|[Building Smart Copilot Solutions with Declarative Agents for Microsoft 365](https://www.meetup.com/mssgug/)|25 September, 2025 at 8:00 PM SGT|Online 
 
@@ -21,6 +21,7 @@ Singapore Microsoft Azure, M365 & Power Platform|[Building Smart Copilot Solutio
 ## Past events
 
 **#**|**Event**|**Topic**|**When**|**Where**
+213|Global Microsoft Hindi (हिंदी) Conference|[From Idea to Agent: Developing with Microsoft 365 Agents SDK](https://global-microsoft-hindi-hindii-conferenc8090.sessionize.com/schedule)|13 September, 2025|Online
 212|AI Maitri - Indore 2025|[Building Your Own Copilot: From Microsoft 365 to Custom Agents](https://www.communitydays.org/event/2025-09-06/ai-maitri-indore-2025)|06 September, 2025|Online
 211|wedoAI 2025|[Develop your own agents using Semantic Kernel](https://wedoai.ie/wall.html)|28 August, 2025|Online
 210|Data & AI Virtual Season – Vol. 2|[Building Agents with Microsoft 365 Agents SDK](https://www.linkedin.com/events/dataanalyticgrouppresents-data-7356039395315011588/)|23 August, 2025|Online
