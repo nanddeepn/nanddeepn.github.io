@@ -10,6 +10,7 @@ toc: true
 ## Code Contributions
 
 **#**|**Contribution**|**Topic**|**When**
+22|PnP Sample Script|[Delete Empty Folders in SharePoint Document Library](https://pnp.github.io/script-samples/spo-delete-empty-folders/README.html?tabs=pnpps)|02 September, 2025
 21|Copilot prompts|[Track and manage pending communications](https://github.com/pnp/copilot-prompts/tree/main/samples/m365-manage-pending-emails-conversations-prompt)|14 June, 2024
 20|Microsoft Teams Development Community Samples - Copilot|[Classified Listings Copilot](https://github.com/pnp/teams-dev-samples/tree/main/samples/msgext-classified-listings-ts)|12 June, 2024
 19|Microsoft Graph Connector|[Ingest REST Countries content using PowerShell](https://adoption.microsoft.com/en-us/sample-solution-gallery/sample/pnp-graph-connector-json-restcountries/)|28 November, 2023
