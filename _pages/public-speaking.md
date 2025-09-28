@@ -12,14 +12,15 @@ toc: true
 I’ll be speaking at the following events.
 
 **Event**|**Topic**|**When**|**Where**
-The AI-Native Workplace Summit 2025|[Designing Intelligent Copilot Solutions With Declarative Agents In Microsoft 365](https://ai-nativeworkplace.sessionize.com/session/947442)|24 September, 2025 at 2:30 PM IST|Online
-Singapore Microsoft Azure, M365 & Power Platform|[Building Smart Copilot Solutions with Declarative Agents for Microsoft 365](https://www.meetup.com/mssgug/)|25 September, 2025 at 8:00 PM SGT|Online 
-VS Code Dev Days, Pune|[GitHub Copilot Agent mode in Action](https://www.meetup.com/pune-tech-community/events/310369406/)|27 September, 2025|Pune, India
-
+India MCT Marathon|[TBD](https://techmilap.com/events/68c669973e27095ab1a90504)|11 October, 2025|Online
+Singapore Microsoft Azure, M365 & Power Platform|[Building Smart Copilot Solutions with Declarative Agents for Microsoft 365](https://www.meetup.com/mssgug/)|13 November, 2025 at 8:00 PM SGT|Online 
+Dynamics User Group (DUG)|[Microsoft 365 Agents: Build, Buy, or Extend](https://www.meetup.com/dugcentralnj/)|14 November, 2025|Online 
 
 ## Past events
 
 **#**|**Event**|**Topic**|**When**|**Where**
+216|VS Code Dev Days, Pune|[GitHub Copilot Agent mode in Action](https://www.meetup.com/pune-tech-community/events/310369406/)|27 September, 2025|Pune, India
+215|The AI-Native Workplace Summit 2025|[Designing Intelligent Copilot Solutions With Declarative Agents In Microsoft 365](https://ai-nativeworkplace.sessionize.com/session/947442)|24 September, 2025 at 2:30 PM IST|Online
 214|VS Code Dev Days - Brighton|[Reimagining DevOps with GitHub Copilot Agents](https://www.meetup.com/devops-github-conf-brighton/events/310385643/)|17 September, 2025|Online
 213|Global Microsoft Hindi (हिंदी) Conference|[From Idea to Agent: Developing with Microsoft 365 Agents SDK](https://global-microsoft-hindi-hindii-conferenc8090.sessionize.com/schedule)|13 September, 2025|Online
 212|AI Maitri - Indore 2025|[Building Your Own Copilot: From Microsoft 365 to Custom Agents](https://www.communitydays.org/event/2025-09-06/ai-maitri-indore-2025)|06 September, 2025|Online
@@ -258,6 +259,8 @@ VS Code Dev Days, Pune|[GitHub Copilot Agent mode in Action](https://www.meetup.
 ## Event Organizer
 
 **#**|**Event**|**When**|**Where**
+39|[AgentCon Pune](https://www.meetup.com/pune-tech-community/events/310905207/)|12 October, 2025|Pune, India
+38|[VS Code Dev Days, Pune](https://www.meetup.com/pune-tech-community/events/310369406/)|27 September, 2025|Pune, India
 37|[Global Azure 2025 - Pune (Virtual)](https://www.meetup.com/pune-tech-community/events/306720823/)|10 May, 2025|Online
 36|[Copilot Developer Camp - Pune (In-Person)](https://www.meetup.com/pune-tech-community/events/307106017/)|26 April, 2025|Pune, India
 35|[Global AI Bootcamp, Pune 2025](https://www.meetup.com/pune-tech-community/events/304790781/)|08 March, 2025|Pune, India
