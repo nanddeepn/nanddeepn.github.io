@@ -12,7 +12,7 @@ toc: true
 I’ll be speaking at the following events.
 
 **Event**|**Topic**|**When**|**Where**
-India MCT Marathon|[Developing Agents with Microsoft 365 Agents SDK](https://techmilap.com/events/68c669973e27095ab1a90504)|11 October, 2025|Online
+India MCT Marathon|[Developing Agents with Microsoft 365 Agents SDK](https://techmilap.com/events/68c669973e27095ab1a90504)|11 October, 2025 at 3 PM IST|Online
 Singapore Microsoft Azure, M365 & Power Platform|[Building Smart Copilot Solutions with Declarative Agents for Microsoft 365](https://www.meetup.com/mssgug/)|13 November, 2025 at 8:00 PM SGT|Online 
 Dynamics User Group (DUG)|[Microsoft 365 Agents: Build, Buy, or Extend](https://www.meetup.com/dugcentralnj/)|14 November, 2025|Online 
 
