@@ -209,7 +209,7 @@ While agents (or Copilot) handle user queries, reasoning, insights, and navigati
 ## References
 
 - [Get started with Knowledge Agent](https://learn.microsoft.com/en-in/sharepoint/knowledge-agent-get-started?WT.mc_id=M365-MVP-5003693)
-- [Introducing Knowledge Agent in SharePoint](https://techcommunity.microsoft.com/blog/spblog/introducing-knowledge-agent-in-sharepoint/4454154)
+- [Introducing Knowledge Agent in SharePoint](https://techcommunity.microsoft.com/blog/spblog/introducing-knowledge-agent-in-sharepoint/4454154?WT.mc_id=M365-MVP-5003693)
 
 
 ### Disclaimer
