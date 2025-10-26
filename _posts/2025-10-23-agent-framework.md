@@ -39,7 +39,7 @@ Agents built using this framework can interact with users, call APIs, access ent
 
 ## Key Components
 
-| Component | Description |
+| Component  | Description  |
 |------------|--------------|
 | **Agent Runtime** | Execution environment for managing state, goals, and tool access of agents. |
 | **Agent SDK** | Provides templates, connectors, and configuration tools for building agents. |
