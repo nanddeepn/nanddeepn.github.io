@@ -12,8 +12,8 @@ toc: true
 I will be speaking at the following events:
 
 **Event**|**Topic**|**When**|**Where**
-
-
+Copilot Developer Camp|[Build Custom Engine Agents using Microsoft 365 Agents SDK](https://www.meetup.com/pune-tech-community/events/311883572/)|29 November, 2025|Pune, India
+Pune DevCon 2025|[Your Path to Building Agents for Microsoft 365](https://www.meetup.com/puneusergroup/events/312106192/)|20 December, 2025|Pune, India
 
 ## Past events
 
