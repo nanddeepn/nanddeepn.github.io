@@ -62,7 +62,7 @@ Pune DevCon 2025|[Your Path to Building Agents for Microsoft 365](https://www.me
 178|aMP Pune 2024|[Extend Copilot for Microsoft 365 with plugins](https://ampcommunity.online/amp-pune-24th-august-2024/)|24 August, 2024|Pune, India
 177|Copilot Chronicles, Microsoft Reactor Bengaluru|[Building Copilot for Microsoft 365 with Teams Toolkit](https://www.meetup.com/microsoft-reactor-bengaluru/events/302527542/)|22 August, 2024|Online
 176|Azure AI Influencers Day|[Harnessing the potential of AI with Azure OpenAI](https://www.linkedin.com/feed/update/urn:li:activity:7223713032911077376/)|12 August, 2024|Pune, India
-175|[UST](https://www.linkedin.com/company/ustglobal-moonraft/)|Develop Your Own Copilot with Azure AI Studio|09 August, 2024|Online
+175|UST|[Develop Your Own Copilot with Azure AI Studio](https://www.linkedin.com/company/ustglobal-moonraft/)|09 August, 2024|Online
 174|Power Platform Classmates Event 2024|[Build SharePoint Copilot with Microsoft Copilot Studio](https://www.powerplatformclassmates.com/events/power-platform-classmate-2024-annual-event)|28 July, 2024|Online
 173|India Microsoft Tech Community|[Building Copilots with Semantic Kernel for Microsoft 365](https://www.meetup.com/india-ms-tech-community/events/302257274/)|26 July, 2024|Online
 172|Season of AI|[Getting started with Azure AI Studio](https://www.meetup.com/pune-tech-community/events/300607880/)|22 June, 2024|Online
@@ -261,6 +261,7 @@ Pune DevCon 2025|[Your Path to Building Agents for Microsoft 365](https://www.me
 ## Event Organizer
 
 **#**|**Event**|**When**|**Where**
+40|[Copilot Developer Camp](https://www.meetup.com/pune-tech-community/events/311883572/)|29 November, 2025|Pune, India
 39|[AgentCon Pune](https://www.meetup.com/pune-tech-community/events/310905207/)|12 October, 2025|Pune, India
 38|[VS Code Dev Days, Pune](https://www.meetup.com/pune-tech-community/events/310369406/)|27 September, 2025|Pune, India
 37|[Global Azure 2025 - Pune (Virtual)](https://www.meetup.com/pune-tech-community/events/306720823/)|10 May, 2025|Online
