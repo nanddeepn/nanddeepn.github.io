@@ -13,8 +13,7 @@ I will be speaking at the following events:
 
 **Event**|**Topic**|**When**|**Where**
 Pune DevCon 2025|[Your Path to Building Agents for Microsoft 365](https://www.puneusergroup.org/events/devcon2025/)|20 December, 2025|Pune, India
-M365 Saturday Ahmedabad 2026|[Supercharging SharePoint with AI: Agents, Copilot APIs, and Azure AI Foundry](https://www.meetup.com/m365ahmedabad/events/311912589/)|03 January, 2026|Ahmedabad, India
-M365 Con|[From Models to Agents: Engineering Custom Engine Agents in Microsoft Foundry](https://m365con.net/talks/from-models-to-agents-engineering-custom-engine-agents-in-microsoft-foundry/)|23 January, 2026 at 2:30 PM IST|Online
+
 
 ## Past events
 
