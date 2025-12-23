@@ -157,7 +157,7 @@ By preparing early, reviewing existing projects, and embracing modern JavaScript
 
 ## References
 
-- [SPFx 1.22 Release Notes - Microsoft Learn](https://learn.microsoft.com/en-us/sharepoint/dev/spfx/release-1.22)
-- [SPFx Toolchain: Transitioning to Heft - Microsoft Learn](https://learn.microsoft.com/en-us/sharepoint/dev/spfx/toolchain/sharepoint-framework-toolchain-rushstack-heft)
+- [SPFx 1.22 Release Notes - Microsoft Learn](https://learn.microsoft.com/en-us/sharepoint/dev/spfx/release-1.22?WT.mc_id=M365-MVP-5003693)
+- [SPFx Toolchain: Transitioning to Heft - Microsoft Learn](https://learn.microsoft.com/en-us/sharepoint/dev/spfx/toolchain/sharepoint-framework-toolchain-rushstack-heft?WT.mc_id=M365-MVP-5003693)
 - [RushStack Official Site](https://rushstack.io)
 - [Heft Overview](https://heft.rushstack.io/)
