@@ -12,13 +12,13 @@ toc: true
 I will be speaking at the following events:
 
 **Event**|**Topic**|**When**|**Where**
-Pune DevCon 2025|[Your Path to Building Agents for Microsoft 365](https://www.puneusergroup.org/events/devcon2025/)|20 December, 2025|Pune, India
 M365 Saturday Ahmedabad 2026|[Supercharging SharePoint with AI: Agents, Copilot APIs, and Azure AI Foundry](https://www.meetup.com/m365ahmedabad/events/311912589/)|03 January, 2026|Ahmedabad, India
 M365 Con|[From Models to Agents: Engineering Custom Engine Agents in Microsoft Foundry](https://m365con.net/talks/from-models-to-agents-engineering-custom-engine-agents-in-microsoft-foundry/)|23 January, 2026 at 2:30 PM IST|Online
 
 ## Past events
 
 **#**|**Event**|**Topic**|**When**|**Where**
+222|Pune DevCon 2025|[Your Path to Building Agents for Microsoft 365](https://www.puneusergroup.org/events/devcon2025/)|20 December, 2025|Pune, India
 221|Global Microsoft Analytics Community Conference 3|[Implementing agents with Microsoft Agent Framework](https://app.powerbi.com/view?r=eyJrIjoiZWVjMTYzYjctM2FmYi00YjA2LWJhZGEtNzE0MTM0YTFhYTI2IiwidCI6ImMyY2E1ZGZkLTI3YjgtNGIxOS05ZmJhLTc2OWJmYTBkNjY2NyJ9)|14 December, 2025|Online
 220|Copilot Developer Camp|[Build Custom Engine Agents using Microsoft 365 Agents SDK](https://www.meetup.com/pune-tech-community/events/311883572/)|29 November, 2025|Pune, India
 219|Dynamics User Group (DUG)|[Microsoft 365 Agents: Build, Buy, or Extend](https://www.meetup.com/dugcentralnj/events/311737128/)|14 November, 2025|Online
