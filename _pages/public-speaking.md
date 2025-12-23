@@ -21,7 +21,7 @@ M365 Con|[From Models to Agents: Engineering Custom Engine Agents in Microsoft F
 222|Pune DevCon 2025|[Your Path to Building Agents for Microsoft 365](https://www.puneusergroup.org/events/devcon2025/)|20 December, 2025|Pune, India
 221|Global Microsoft Analytics Community Conference 3|[Implementing agents with Microsoft Agent Framework](https://app.powerbi.com/view?r=eyJrIjoiZWVjMTYzYjctM2FmYi00YjA2LWJhZGEtNzE0MTM0YTFhYTI2IiwidCI6ImMyY2E1ZGZkLTI3YjgtNGIxOS05ZmJhLTc2OWJmYTBkNjY2NyJ9)|14 December, 2025|Online
 220|Copilot Developer Camp|[Build Custom Engine Agents using Microsoft 365 Agents SDK](https://www.meetup.com/pune-tech-community/events/311883572/)|29 November, 2025|Pune, India
-219|Dynamics User Group (DUG)|[Microsoft 365 Agents: Build, Buy, or Extend](https://www.meetup.com/dugcentralnj/events/311737128/)|14 November, 2025|Online
+219|Dynamics User Group (DUG): New Jersey|[Microsoft 365 Agents: Build, Buy, or Extend](https://www.meetup.com/dugcentralnj/events/311737128/)|14 November, 2025|Online
 218|Singapore Microsoft Azure, M365 & Power Platform|[Building Smart Copilot Solutions with Declarative Agents for Microsoft 365](https://www.meetup.com/mssgug/events/311370544/)|13 November, 2025|Online
 217|India MCT Marathon|[Developing Agents with Microsoft 365 Agents SDK](https://techmilap.com/events/68c669973e27095ab1a90504)|11 October, 2025|Online
 216|VS Code Dev Days, Pune|[GitHub Copilot Agent mode in Action](https://www.meetup.com/pune-tech-community/events/310369406/)|27 September, 2025|Pune, India
