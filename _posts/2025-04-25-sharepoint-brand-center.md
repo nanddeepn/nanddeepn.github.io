@@ -58,7 +58,7 @@ Rather than handling site theming and branding individually at each site level, 
 ### Step 1: Activate "Brand center" in Microsoft 365 admin center
 
 1. Go to [Microsoft 365 Admin Center](https://admin.microsoft.com)
-2. Click on **Sites > Active sites**
+2. Click on **Settings > Org settings**
 3. Select **Brand center**
 
     ![](/media/2025-04-25-sharepoint-brand-center/01.png)
