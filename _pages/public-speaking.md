@@ -12,7 +12,8 @@ toc: true
 I will be speaking at the following events:
 
 **Event**|**Topic**|**When**|**Where**
-Made for Dev by Global AI|[API to Agent: Surface Your Custom Business Functions in Microsoft 365](https://github.com/GlobalAICommunity/made-for-dev)|13 February 2026, 06:00 PM IST|Online
+Made for Dev by Global AI|[API to Agent: Surface Your Custom Business Functions in Microsoft 365](https://github.com/GlobalAICommunity/made-for-dev)|13 February, 2026 at 06:00 PM IST|Online
+Global Power Platform Bootcamp 2026 – Data Analytic Group|[Governing AI Agents in the Power Platform](https://www.meetup.com/dataanalyticgroup/events/313221984/)|28 February, 2026|Online
 
 ## Past events
 
