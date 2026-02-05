@@ -12,7 +12,7 @@ toc: true
 I will be speaking at the following events:
 
 **Event**|**Topic**|**When**|**Where**
-Made for Dev by Global AI|[API to Agent: Surface Your Custom Business Functions in Microsoft 365](https://github.com/GlobalAICommunity/made-for-dev)|03 February 2026, 10:30 AM IST|Online
+Made for Dev by Global AI|[API to Agent: Surface Your Custom Business Functions in Microsoft 365](https://github.com/GlobalAICommunity/made-for-dev)|13 February 2026, 06:00 PM IST|Online
 
 ## Past events
 
