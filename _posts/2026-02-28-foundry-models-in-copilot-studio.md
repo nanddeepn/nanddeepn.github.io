@@ -15,27 +15,25 @@ last_modified_at: 2026-02-28T00:00:00-00:00
 ---
 ## Introduction
 
-If you want your Copilot Studio agent to use a **specific AI model** (for example a model you deployed in **Azure AI Foundry**), you don't need to build a custom connector or call an API manually for many scenarios. Copilot Studio now supports **"Bring your own model for your prompts"**-a native way to connect **Azure AI Foundry models** and use them directly inside **Prompt tools / prompt actions**.
+If you want your Copilot Studio agent to use a **specific AI model** (for example a model you deployed in **Microsoft Foundry**), you don't need to build a custom connector or call an API manually for many scenarios. Copilot Studio now supports **"Bring your own model for your prompts"**-a native way to connect **Microsoft Foundry models** and use them directly inside **Prompt tools / prompt actions**.
 
-This article explains the correct flow (as per the Microsoft documentation you shared), how to configure it, what it supports/doesn't support, and how to use it in real agent scenarios.
 
 ## What "Bring Your Own Model for Prompts" Actually Means
 
 Copilot Studio has a **Prompt tool** (prompt action). When you create a prompt, you can select which model should run that prompt.
 
 - By default, you see **managed models**.
-- With this feature, you can **connect models from Azure AI Foundry / Model catalog** and pick them in the prompt's **Model** dropdown.
+- With this feature, you can **connect models from Microsoft Foundry / Model catalog** and pick them in the prompt's **Model** dropdown.
 
-So the key point is:
-
-**You're not replacing the whole agent's brain globally.**  
-You're choosing **which model runs a specific prompt action** inside your agent.
+> [!NOTE]  
+> **You're not replacing the whole agent's brain globally.**  
+> You're choosing **which model runs a specific prompt action** inside your agent.
 
 ## Key Capabilities
 
-**1) Large model choice via Azure AI Foundry Model Catalog**
+**1) Large model choice via Microsoft Foundry Model Catalog**
 
-Microsoft highlights access to models such as GPT 4.5, Llama, DeepSeek, and "1,800+ more" through Azure AI Foundry's model catalog-available to use in Copilot Studio prompts through this integration.
+Microsoft highlights access to models such as GPT 4.5, Llama, DeepSeek, and 11,000+ more through Microsoft Foundry's model catalog-available to use in Copilot Studio prompts through this integration.
 
 **2) Prompt can be added as a tool or inside a topic**
 
@@ -48,7 +46,7 @@ You can add a prompt:
 
 At the time of the documentation update, it **currently supports models with chat completion type**.
 
-## Step-by-Step: Use Azure AI Foundry Model in a Copilot Studio Prompt
+## Step-by-Step: Use Microsoft Foundry Model in a Copilot Studio Prompt
 
 **Step 1: Create (or open) an agent in Copilot Studio**
 
@@ -62,16 +60,16 @@ In Copilot Studio:
 - Give your prompt a name
 - Add instructions either by writing your own prompt OR letting Copilot suggest one and selecting "Keep it".
 
-**Step 3: Connect an Azure AI Foundry model to the prompt**
+**Step 3: Connect an Microsoft Foundry model to the prompt**
 
 On the right panel (next to prompt instructions):
 
 - Open the **Model** dropdown
-- Select the **plus (+)** to connect a model from **Azure AI Foundry**
-- In the "Connect a model from Azure AI Foundry" screen, enter:
+- Select the **plus (+)** to connect a model from **Microsoft Foundry**
+- In the "Connect a model from Microsoft Foundry" screen, enter:
   - **Model deployment name**
   - **Base model name**
-- Important: these must match **exactly as they appear in Azure AI Foundry**
+- Important: these must match **exactly as they appear in Microsoft Foundry**
 - Select **Connect**
 
 **Step 4: Use the model in your agent**
@@ -86,7 +84,7 @@ Microsoft clearly states: **Anytime this prompt runs, it always uses the selecte
 
 ## Working with Images and Documents (When Relevant)
 
-If your prompt includes **image input**, Copilot Studio will only show Azure AI Foundry models that support image/document usage. Microsoft lists examples like Phi vision models and GPT-4o/GPT-4.5-preview among those that work with images.
+If your prompt includes **image input**, Copilot Studio will only show Microsoft Foundry models that support image/document usage. Microsoft lists examples like Phi vision models and GPT-4o/GPT-4.5-preview among those that work with images.
 
 (If your use case is purely text, you can ignore this and just focus on chat-completion models.)
 
@@ -94,11 +92,11 @@ If your prompt includes **image input**, Copilot Studio will only show Azure AI 
 
 **1) It uses a Connector**
 
-Azure AI Foundry models are "connected by connectors."
+Microsoft Foundry models are "connected by connectors."
 
 **2) Control with Power Platform Admin Center policies**
 
-You can manage governance for this connector in **Power Platform admin center → Policies**, under the connector name **"Azure AI Foundry"**. Microsoft calls out that you can add a **specific data policy (DLP)** for these models (and manage it alongside tenant data policies).
+You can manage governance for this connector in **Power Platform admin center → Policies**, under the connector name **"Microsoft Foundry"**. Microsoft calls out that you can add a **specific data policy (DLP)** for these models (and manage it alongside tenant data policies).
 
 **3) Connections are visible like other Power Platform connections**
 
@@ -106,7 +104,7 @@ Each model connection a maker sets up is also available as a **connection** (sim
 
 **4) Responsible AI (RAI)**
 
-Microsoft recommends applying **Responsible AI (RAI) policies** for the models you use and managing that in Azure AI Foundry.
+Microsoft recommends applying **Responsible AI (RAI) policies** for the models you use and managing that in Microsoft Foundry.
 
 ## Design Pattern: How to Structure Prompts When You Bring Your Own Model
 
@@ -147,10 +145,10 @@ Because Foundry models are connected via a connector and can be governed via DLP
 
 ## Summary
 
-Microsoft Copilot Studio now allows organizations to bring their own Azure AI Foundry models directly into prompt actions, giving enterprises greater control over which AI model powers each specific task inside an agent.
+Microsoft Copilot Studio now allows organizations to bring their own Microsoft Foundry models directly into prompt actions, giving enterprises greater control over which AI model powers each specific task inside an agent.
 
-Instead of relying only on default managed models, makers can connect a model deployed in Azure AI Foundry by selecting it in the Model dropdown within a Prompt tool, entering the correct deployment and base model names, and using it immediately inside agent flows. Every time that prompt runs, it consistently uses the selected model—enabling predictable behavior and controlled AI design.
+Instead of relying only on default managed models, makers can connect a model deployed in Microsoft Foundry by selecting it in the Model dropdown within a Prompt tool, entering the correct deployment and base model names, and using it immediately inside agent flows. Every time that prompt runs, it consistently uses the selected model—enabling predictable behavior and controlled AI design.
 
 ## References
 
-- Microsoft Learn: "Bring your own model for your prompts" (Copilot Studio)
+- [Microsoft Learn: Bring your own model for your prompts](https://learn.microsoft.com/en-us/microsoft-copilot-studio/bring-your-own-model-prompts?WT.mc_id=M365-MVP-5003693)
