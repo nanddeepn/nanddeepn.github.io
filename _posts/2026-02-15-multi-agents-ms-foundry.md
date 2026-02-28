@@ -10,7 +10,7 @@ categories:
   - AI
 tags:
   - "2026"
-  - January 2026
+  - February 2026
 last_modified_at: 2026-02-15T00:00:00-00:00
 ---
 ##  Introduction
