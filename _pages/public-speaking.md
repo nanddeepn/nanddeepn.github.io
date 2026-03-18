@@ -13,7 +13,6 @@ I will be speaking at the following events:
 
 **Event**|**Topic**|**When**|**Where**
 GSDC|[Implementing agents for Microsoft 365](https://www.gsdcouncil.org/)|20 March, 2026 at 7 PM IST|Online
-GeoPITS|[Implementing Multi-Agents with Microsoft Foundry](https://www.geopits.com/webinar/implementing-multi-agents-with-microsoft-foundry)|21 March, 2026 at 5 PM IST|Online
 
 ## Past events
 
