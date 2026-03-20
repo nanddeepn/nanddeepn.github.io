@@ -12,7 +12,7 @@ toc: true
 I will be speaking at the following events:
 
 **Event**|**Topic**|**When**|**Where**
-GSDC|[Implementing agents for Microsoft 365](https://www.gsdcouncil.org/)|20 March, 2026 at 7 PM IST|Online
+GSDC|[Implementing agents for Microsoft 365](https://www.linkedin.com/posts/gsd-council_gsdc-microsoft365-aiagents-activity-7439241564025077760-GYbD/)|20 March, 2026 at 7 PM IST|Online
 
 ## Past events
 
