@@ -12,11 +12,12 @@ toc: true
 I will be speaking at the following events:
 
 **Event**|**Topic**|**When**|**Where**
-GSDC|[Implementing agents for Microsoft 365](https://www.linkedin.com/posts/gsd-council_gsdc-microsoft365-aiagents-activity-7439241564025077760-GYbD/)|20 March, 2026 at 7 PM IST|Online
+
 
 ## Past events
 
 **#**|**Event**|**Topic**|**When**|**Where**
+227|GSDC|[Implementing agents for Microsoft 365](https://www.linkedin.com/posts/gsd-council_gsdc-microsoft365-aiagents-activity-7439241564025077760-GYbD/)|20 March, 2026|Online
 226|Global Power Platform Bootcamp 2026 – Data Analytic Group|[Governing AI Agents in the Power Platform](https://www.meetup.com/dataanalyticgroup/events/313221984/)|28 February, 2026|Online
 225|Global Power Platform Bootcamp - Delhi Edition 2026|[Governing AI Agents in the Power Platform]()|20 February, 2026|Online
 224|M365 Con|[From Models to Agents: Engineering Custom Engine Agents in Microsoft Foundry](https://www.linkedin.com/pulse/review-from-models-agents-engineering-custom-engine-microsoft-bsa0e/)|23 January, 2026|Online
