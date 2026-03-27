@@ -366,6 +366,4 @@ With proper deployment, governance, and high-quality data sources, organizations
 
 ## References
 
-- Microsoft Learn - Deploy and configure community agents in Viva Engage
-- Microsoft Learn - AI technology in Viva Engage
-- Microsoft 365 Copilot Documentation
+- [Set up and manage agents in communities in Viva Engage](https://learn.microsoft.com/en-us/viva/engage/ai-technology-with-viva-engage/agents-community-network-deployment-config?WT.mc_id=M365-MVP-5003693)
