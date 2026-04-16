@@ -12,7 +12,7 @@ toc: true
 I will be speaking at the following events:
 
 **Event**|**Topic**|**When**|**Where**
-
+PowerAIThon 2026|[Building Multi-Agent Systems with Microsoft Foundry](https://sessionize.com/global-ai-bootcamp-delhi-edition-cop3283/)|09 May, 2026|Online
 
 ## Past events
 
