@@ -19,6 +19,7 @@ Global Microsoft Analytics Community Conference 4|[Architecting Intelligent Syst
 ## Past events
 
 **#**|**Event**|**Topic**|**When**|**Where**
+228|AgentCamp, Pune 2026 (In-Person)|[Multi-Agent Systems with Microsoft Foundry, Copilot Studio, and A2A](https://www.meetup.com/pune-tech-community/events/313665954/)|25 April, 2026|Pune, India
 227|GSDC|[Implementing agents for Microsoft 365](https://www.linkedin.com/posts/gsd-council_gsdc-microsoft365-aiagents-activity-7439241564025077760-GYbD/)|20 March, 2026|Online
 226|Global Power Platform Bootcamp 2026 – Data Analytic Group|[Governing AI Agents in the Power Platform](https://www.meetup.com/dataanalyticgroup/events/313221984/)|28 February, 2026|Online
 225|Global Power Platform Bootcamp - Delhi Edition 2026|[Governing AI Agents in the Power Platform]()|20 February, 2026|Online
@@ -270,6 +271,7 @@ Global Microsoft Analytics Community Conference 4|[Architecting Intelligent Syst
 ## Event Organizer
 
 **#**|**Event**|**When**|**Where**
+45|[AgentCamp, Pune 2026 (In-Person)](https://www.meetup.com/pune-tech-community/events/313665954/)|25 April, 2026|Pune, India
 44|[Women in Technology](https://www.meetup.com/pune-tech-community/events/312712047/)|07 March, 2026|Online
 43|[SharePoint at 25: A Legacy of Collaboration](https://www.meetup.com/pune-tech-community/events/312712121/)|28 February, 2026|Online
 42|[Global Power Platform & Agent Bootcamp, Pune 2026](https://www.meetup.com/pune-tech-community/events/312521804/)|21 February, 2026|Pune, India
