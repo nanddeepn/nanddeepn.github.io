@@ -13,8 +13,7 @@ I will be speaking at the following events:
 
 **Event**|**Topic**|**When**|**Where**
 PowerAIThon 2026|[Building Multi-Agent Systems with Microsoft Foundry](https://www.linkedin.com/feed/update/urn:li:activity:7454075143615713281/)|09 May, 2026|Online
-Global Microsoft Analytics Community Conference 4|[Building AI Agent Workflows with Microsoft Foundry](https://sessionize.com/global-microsoft-analytics-community-con4/)|09 May, 2026|Online
-Global Microsoft Analytics Community Conference 4|[Architecting Intelligent Systems with Connected Agents in Microsoft Foundry](https://sessionize.com/global-microsoft-analytics-community-con4/)|09 May, 2026|Online
+Global Microsoft Analytics Community Conference 4|[Designing Multi-Agent Solutions on Microsoft Foundry](https://www.linkedin.com/feed/update/urn:li:activity:7457106950565253120/)|10 May, 2026|Online
 
 ## Past events
 
