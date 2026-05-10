@@ -12,12 +12,14 @@ toc: true
 I will be speaking at the following events:
 
 **Event**|**Topic**|**When**|**Where**
-PowerAIThon 2026|[Building Multi-Agent Systems with Microsoft Foundry](https://www.linkedin.com/feed/update/urn:li:activity:7454075143615713281/)|09 May, 2026|Online
-Global Microsoft Analytics Community Conference 4|[Designing Multi-Agent Solutions on Microsoft Foundry](https://www.linkedin.com/feed/update/urn:li:activity:7457106950565253120/)|10 May, 2026|Online
+GitHub Copilot Dev Days, Pune | [GitHub Copilot: Your AI Companion for Every Workflow](https://www.meetup.com/pune-tech-community/events/313290776/)|16 May, 2026|Pune, India
+Microsoft 365 UK (M365UK) User Group|[Building Multi-Agent Systems with Microsoft Foundry & Copilot Studio](https://www.meetup.com/m365uk/events/)|10 June, 2026|Online
 
 ## Past events
 
 **#**|**Event**|**Topic**|**When**|**Where**
+230| Global Microsoft Analytics Community Conference 4|[Designing Multi-Agent Solutions on Microsoft Foundry](https://www.linkedin.com/feed/update/urn:li:activity:7457106950565253120/)|10 May, 2026|Online
+229|PowerAIThon 2026|[Building Multi-Agent Systems with Microsoft Foundry](https://www.linkedin.com/feed/update/urn:li:activity:7454075143615713281/)|09 May, 2026|Online
 228|AgentCamp, Pune 2026 (In-Person)|[Multi-Agent Systems with Microsoft Foundry, Copilot Studio, and A2A](https://www.meetup.com/pune-tech-community/events/313665954/)|25 April, 2026|Pune, India
 227|GSDC|[Implementing agents for Microsoft 365](https://www.linkedin.com/posts/gsd-council_gsdc-microsoft365-aiagents-activity-7439241564025077760-GYbD/)|20 March, 2026|Online
 226|Global Power Platform Bootcamp 2026 – Data Analytic Group|[Governing AI Agents in the Power Platform](https://www.meetup.com/dataanalyticgroup/events/313221984/)|28 February, 2026|Online
