@@ -272,6 +272,7 @@ Microsoft 365 UK (M365UK) User Group|[Building Multi-Agent Systems with Microsof
 ## Event Organizer
 
 **#**|**Event**|**When**|**Where**
+46|[GitHub Copilot Dev Days, Pune](https://www.meetup.com/pune-tech-community/events/313290776/)|16 May, 2026|Pune, India
 45|[AgentCamp, Pune 2026 (In-Person)](https://www.meetup.com/pune-tech-community/events/313665954/)|25 April, 2026|Pune, India
 44|[Women in Technology](https://www.meetup.com/pune-tech-community/events/312712047/)|07 March, 2026|Online
 43|[SharePoint at 25: A Legacy of Collaboration](https://www.meetup.com/pune-tech-community/events/312712121/)|28 February, 2026|Online
