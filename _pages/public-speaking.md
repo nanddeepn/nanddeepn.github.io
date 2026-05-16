@@ -12,12 +12,12 @@ toc: true
 I will be speaking at the following events:
 
 **Event**|**Topic**|**When**|**Where**
-GitHub Copilot Dev Days, Pune | [GitHub Copilot: Your AI Companion for Every Workflow](https://www.meetup.com/pune-tech-community/events/313290776/)|16 May, 2026|Pune, India
 Microsoft 365 UK (M365UK) User Group|[Building Multi-Agent Systems with Microsoft Foundry & Copilot Studio](https://www.meetup.com/m365uk/events/)|10 June, 2026|Online
 
 ## Past events
 
 **#**|**Event**|**Topic**|**When**|**Where**
+231|GitHub Copilot Dev Days, Pune | [GitHub Copilot: Your AI Companion for Every Workflow](https://www.meetup.com/pune-tech-community/events/313290776/)|16 May, 2026|Pune, India
 230| Global Microsoft Analytics Community Conference 4|[Designing Multi-Agent Solutions on Microsoft Foundry](https://www.linkedin.com/feed/update/urn:li:activity:7457106950565253120/)|10 May, 2026|Online
 229|PowerAIThon 2026|[Building Multi-Agent Systems with Microsoft Foundry](https://www.linkedin.com/feed/update/urn:li:activity:7454075143615713281/)|09 May, 2026|Online
 228|AgentCamp, Pune 2026 (In-Person)|[Multi-Agent Systems with Microsoft Foundry, Copilot Studio, and A2A](https://www.meetup.com/pune-tech-community/events/313665954/)|25 April, 2026|Pune, India
