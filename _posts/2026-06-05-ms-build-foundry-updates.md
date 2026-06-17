@@ -1,10 +1,10 @@
 ---
 title: "Microsoft Build 2026: How Microsoft Foundry Is Powering the Next Generation of AI Agents"
-date: "2026-05-30"
+date: "2026-06-05"
 share: true
 header:
-  image: media/2026-07-05-ms-build-foundry-updates/01.png
-  teaser: media/2026-07-05-ms-build-foundry-updates/01.png
+  image: media/2026-06-05-ms-build-foundry-updates/01.png
+  teaser: media/2026-06-05-ms-build-foundry-updates/01.png
 categories:
   - Microsoft Foundry
   - AI
@@ -12,7 +12,7 @@ tags:
   - "2026"
   - June 2026
   - "AI 2026-27"
-last_modified_at: 2026-05-07T00:00:00-00:00
+last_modified_at: 2026-06-05T00:00:00-00:00
 ---
 ## Introduction
 
