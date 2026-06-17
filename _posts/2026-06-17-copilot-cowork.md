@@ -6,7 +6,7 @@ header:
   image: media/2026-06-17-copilot-cowork/01.png
   teaser: media/2026-06-17-copilot-cowork/01.png
 categories:
-  - Microsoft Foundry
+  - Microsoft 365
   - AI
 tags:
   - "2026"
@@ -132,3 +132,10 @@ Copilot Cowork operates within existing Microsoft 365 security boundaries, lever
 Copilot Cowork represents Microsoft's vision of the next generation of AI-powered productivity. By combining multi-model intelligence, Work IQ, Microsoft 365 integration, and governed automation, Cowork transforms AI from an assistant into a true digital coworker capable of delivering business outcomes.
 
 **Copilot helped you create work. Copilot Cowork helps you complete work.**
+
+## References
+
+- [Copilot Cowork overview](https://learn.microsoft.com/en-us/microsoft-365/copilot/cowork/?WT.mc_id=M365-MVP-5003693)
+- [Get started with Copilot Cowork](https://learn.microsoft.com/en-us/microsoft-365/copilot/cowork/get-started?WT.mc_id=M365-MVP-5003693)
+- [Choose a model for Copilot Cowork](https://learn.microsoft.com/en-us/microsoft-365/copilot/cowork/cowork-models?WT.mc_id=M365-MVP-5003693)
+- [Copilot Cowork is now generally available](https://www.microsoft.com/en-us/microsoft-365/blog/2026/06/16/copilot-cowork-is-now-generally-available/?WT.mc_id=M365-MVP-5003693)
