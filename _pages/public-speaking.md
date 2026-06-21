@@ -1,4 +1,4 @@
----
+<img width="2587" height="175" alt="image" src="https://github.com/user-attachments/assets/7db26e0b-ddec-42b1-820d-0a758eff7b84" />---
 permalink: /public-speaking/
 title: "Public Speaking"
 
@@ -12,7 +12,8 @@ toc: true
 I will be speaking at the following events:
 
 **Event**|**Topic**|**When**|**Where**
-Microsoft 365 UK (M365UK) User Group|[Building Multi-Agent Systems with Microsoft Foundry & Copilot Studio](https://www.meetup.com/m365uk/events/)|10 June, 2026|Online
+Fabric Day, Pune|[Empowering Enterprise AI Agents with IQ and Microsoft Foundry](https://www.meetup.com/india-microsoft-fabric-user-group/events/315049974/)|28 June, 2026|Pune, India
+Microsoft Build //localhost: Gurugram|[Building Intelligent Agents with Azure AI Foundry and IQ](https://www.5thir.com/conference/conference.aspx?cf=a2cd2dc6963349d791452d2657d81c30)|30 June, 2026|Online
 
 ## Past events
 
