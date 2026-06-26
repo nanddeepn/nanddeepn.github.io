@@ -1,4 +1,4 @@
-<img width="2587" height="175" alt="image" src="https://github.com/user-attachments/assets/7db26e0b-ddec-42b1-820d-0a758eff7b84" />---
+---
 permalink: /public-speaking/
 title: "Public Speaking"
 
