@@ -12,12 +12,14 @@ toc: true
 I will be speaking at the following events:
 
 **Event**|**Topic**|**When**|**Where**
-Fabric Day, Pune|[Empowering Enterprise AI Agents with IQ and Microsoft Foundry](https://www.meetup.com/india-microsoft-fabric-user-group/events/315049974/)|28 June, 2026|Pune, India
-Microsoft Build localhost: Gurugram|[Building Intelligent Agents with Azure AI Foundry and IQ](https://www.5thir.com/conference/conference.aspx?cf=a2cd2dc6963349d791452d2657d81c30)|30 June, 2026|Online
+
+
 
 ## Past events
 
 **#**|**Event**|**Topic**|**When**|**Where**
+233|Microsoft Build localhost: Gurugram|[Building Intelligent Agents with Azure AI Foundry and IQ](https://www.5thir.com/conference/conference.aspx?cf=a2cd2dc6963349d791452d2657d81c30)|30 June, 2026|Online
+232|Global Fabric Day, Pune|[Empowering Enterprise AI Agents with IQ and Microsoft Foundry](https://www.meetup.com/india-microsoft-fabric-user-group/events/315049974/)|28 June, 2026|Pune, India
 231|GitHub Copilot Dev Days, Pune | [GitHub Copilot: Your AI Companion for Every Workflow](https://www.meetup.com/pune-tech-community/events/313290776/)|16 May, 2026|Pune, India
 230| Global Microsoft Analytics Community Conference 4|[Designing Multi-Agent Solutions on Microsoft Foundry](https://www.linkedin.com/feed/update/urn:li:activity:7457106950565253120/)|10 May, 2026|Online
 229|PowerAIThon 2026|[Building Multi-Agent Systems with Microsoft Foundry](https://www.linkedin.com/feed/update/urn:li:activity:7454075143615713281/)|09 May, 2026|Online
