@@ -12,7 +12,7 @@ toc: true
 I will be speaking at the following events:
 
 **Event**|**Topic**|**When**|**Where**
-
+The AI-Native Workplace Summit 2026|[Leading at the Frontier: Building an AI-Ready Organization](https://ainativeworkplace.com/)|16 September, 2026|Online
 
 
 ## Past events
