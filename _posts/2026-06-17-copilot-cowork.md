@@ -11,7 +11,7 @@ categories:
 tags:
   - "2026"
   - June 2026
-  - "AI 2026-27"
+  - "M365 2026-27"
 last_modified_at: 2026-06-17T00:00:00-00:00
 ---
 ## Introduction

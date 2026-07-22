@@ -408,7 +408,7 @@ Microsoft Foundry orchestrates these intelligence sources, enabling AI agents to
 ## References
 
 - [Microsoft Build 2026 - BRK240 Build context aware agents from data to decisions](https://github.com/microsoft/Build26-BRK240-build-context-aware-agents-from-data-to-decisions)
-- [Microsoft IQ | Unified Enterprise Intelligence for AI](https://www.microsoft.com/en-us/ai/microsoft-iq?WT.mc_id=M365-MVP-5003693)
+- [Microsoft IQ - Unified Enterprise Intelligence for AI](https://www.microsoft.com/en-us/ai/microsoft-iq?WT.mc_id=M365-MVP-5003693)
 - [Microsoft IQ documentation](https://learn.microsoft.com/en-us/microsoft-iq/?WT.mc_id=M365-MVP-5003693)
 - [Fabric IQ](https://learn.microsoft.com/en-us/fabric/iq/overview?WT.mc_id=M365-MVP-5003693)
 - [Foundry IQ](https://learn.microsoft.com/en-us/azure/foundry/agents/concepts/what-is-foundry-iq/?WT.mc_id=M365-MVP-5003693)
