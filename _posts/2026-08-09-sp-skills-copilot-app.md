@@ -245,15 +245,11 @@ A support manager might ask:
 
 The experience could organize information around:
 
-**Open Tickets**
-
-**Critical Tickets**
-
-**SLA Breaches**
-
-**Tickets by Engineer**
-
-**Tickets by Category**
+- Open Tickets
+- Critical Tickets
+- SLA Breaches
+- Tickets by Engineer
+- Tickets by Category
 
 Users could then continue conversationally:
 
@@ -355,18 +351,16 @@ Instead of opening the list, employees could ask:
 
 A richer experience could organize the records by:
 
-**Pending**
-
-**Approved**
-
-**Rejected**
+- Pending
+- Approved
+- Rejected
 
 and provide summary information such as:
 
-**Total submitted:** ₹42,500  
-**Pending:** ₹8,200  
-**Approved:** ₹31,300  
-**Rejected:** ₹3,000
+- **Total submitted:** ₹42,500  
+- **Pending:** ₹8,200  
+- **Approved:** ₹31,300  
+- **Rejected:** ₹3,000
 
 The employee could continue:
 
@@ -545,17 +539,12 @@ Documents could include:
 
 AI-generated metadata could extract:
 
-**Vendor**
-
-**Contract Value**
-
-**Expiration Date**
-
-**Region**
-
-**Contract Type**
-
-**Risk Level**
+- Vendor
+- Contract Value
+- Expiration Date
+- Region
+- Contract Type
+- Risk Level
 
 SharePoint's autofill-column capability can create metadata columns based on file content, allowing information to be filtered, grouped, and managed without requiring users to manually enter every field.
 
