@@ -204,7 +204,7 @@ body:hover .visually-hidden button {
   .fab,
   .far,
   .fal {
-    color: $text-color;
+    color: var(--mm-text, #{$text-color});
   }
 
   .fa-behance,
@@ -331,7 +331,7 @@ body:hover .visually-hidden button {
   position: relative;
   width: $navicon-width;
   height: $navicon-height;
-  background: $primary-color;
+  background: var(--mm-primary, #{$primary-color});
   margin: auto;
   -webkit-transition: 0.3s;
   transition: 0.3s;
@@ -343,7 +343,7 @@ body:hover .visually-hidden button {
     left: 0;
     width: $navicon-width;
     height: $navicon-height;
-    background: $primary-color;
+    background: var(--mm-primary, #{$primary-color});
     -webkit-transition: 0.3s;
     transition: 0.3s;
   }
@@ -462,7 +462,7 @@ body:hover .visually-hidden button {
   min-height: 0;
   z-index: 9999;
   background: #fff;
-  border: 1px solid $border-color;
+  border: 1px solid var(--mm-border, #{$border-color});
   border-radius: $border-radius;
   box-shadow: $box-shadow;
 
@@ -477,7 +477,7 @@ body:hover .visually-hidden button {
 
   &__actions {
     padding: 0.5em 1em;
-    border-top: 1px solid $border-color;
+    border-top: 1px solid var(--mm-border, #{$border-color});
   }
 }
 

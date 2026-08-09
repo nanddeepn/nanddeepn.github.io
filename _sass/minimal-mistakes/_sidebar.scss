@@ -8,7 +8,7 @@
 
 .sidebar {
   // width: calc(350px - 1em);
-	background: #fff;
+	background: var(--mm-bg, #fff);
   box-shadow: 2px -2px 7px #ccc;
   margin-top: 20px;
   padding: 0 10px;
@@ -142,7 +142,7 @@
 
     @include breakpoint($large) {
       padding: 5px;
-      border: 1px solid $border-color;
+      border: 1px solid var(--mm-border, #{$border-color});
     }
   }
 }
@@ -228,9 +228,9 @@
   margin-top: 15px;
   padding: 10px;
   list-style-type: none;
-  border: 1px solid $border-color;
+  border: 1px solid var(--mm-border, #{$border-color});
   border-radius: $border-radius;
-  background: $background-color;
+  background: var(--mm-bg, #{$background-color});
   z-index: -1;
   box-shadow: 0 2px 4px 0 rgba(#000, 0.16), 0 2px 10px 0 rgba(#000, 0.12);
   cursor: default;
@@ -259,7 +259,7 @@
     width: 0;
     border-style: solid;
     border-width: 0 10px 10px;
-    border-color: $border-color transparent;
+    border-color: var(--mm-border, #{$border-color}) transparent;
     z-index: 0;
 
     @include breakpoint($large) {
@@ -276,7 +276,7 @@
     width: 0;
     border-style: solid;
     border-width: 0 10px 10px;
-    border-color: $background-color transparent;
+    border-color: var(--mm-bg, #{$background-color}) transparent;
     z-index: 1;
 
     @include breakpoint($large) {

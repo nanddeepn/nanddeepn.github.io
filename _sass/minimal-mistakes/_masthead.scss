@@ -131,7 +131,7 @@ p.site-maindescription,
   border-radius: 0;
   top: 0;
   left: 0;
-  background: #fff;
+  background: var(--mm-bg, #fff);
   -webkit-box-shadow: 0px 0px 5px rgba(0, 0, 0, 0.38);
   -moz-box-shadow: 0px 0px 5px rgba(0, 0, 0, 0.38);
   box-shadow: 0px 0px 5px rgba(0, 0, 0, 0.38);
@@ -142,8 +142,8 @@ p.site-maindescription,
 }
 
 nav.header-nav {
-  border-top: 1px dashed #ccc;
-  border-bottom: 1px dashed #ccc;
+  border-top: 1px dashed var(--mm-border, #ccc);
+  border-bottom: 1px dashed var(--mm-border, #ccc);
 }
 
 .container {
@@ -296,7 +296,7 @@ nav.header-nav {
 }
 /*navigation*/
 .header-nav {
-  border-top: 1px solid #e5e5e5;
+  border-top: 1px solid var(--mm-border, #e5e5e5);
 }
 .header-nav .menu {
   margin: 0;
@@ -310,7 +310,7 @@ nav.header-nav {
   line-height: 78px;
   font-size: 14px;
   text-transform: uppercase;
-  color: #222222;
+  color: var(--mm-text, #222222);
   padding: 0 24px;
   letter-spacing: 0;
   display: block;
@@ -614,7 +614,7 @@ nav.header-nav {
     display: block;
     width: 15px;
     height: 2px;
-    background: #000000;
+    background: var(--mm-text, #000000);
   }
   .cssmenu .menu-button::before {
     content: "";
@@ -625,8 +625,8 @@ nav.header-nav {
     display: block;
     width: 15px;
     height: 12px;
-    border-top: 2px solid #000000;
-    border-bottom: 2px solid #000000;
+    border-top: 2px solid var(--mm-text, #000000);
+    border-bottom: 2px solid var(--mm-text, #000000);
   }
   .cssmenu .submenu-button {
     position: absolute;
@@ -647,7 +647,7 @@ nav.header-nav {
     display: block;
     width: 1px;
     height: 11px;
-    background: #000000;
+    background: var(--mm-text, #000000);
     z-index: 99;
   }
   .cssmenu .submenu-button::before {
@@ -658,7 +658,7 @@ nav.header-nav {
     display: block;
     width: 11px;
     height: 1px;
-    background: #000000;
+    background: var(--mm-text, #000000);
     z-index: 99;
   }
   .cssmenu .submenu-button.submenu-opened:after {

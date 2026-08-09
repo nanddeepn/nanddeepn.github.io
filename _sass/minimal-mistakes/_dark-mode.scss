@@ -1,0 +1,92 @@
+/* ==========================================================================
+   DARK MODE
+   Runtime light/dark toggle via `data-theme` attribute on <html>,
+   implemented with CSS custom properties layered on top of the active skin.
+   ========================================================================== */
+
+// Light theme = whatever skin is currently active (variables already resolved)
+:root {
+  --mm-bg: #{$background-color};
+  --mm-text: #{$text-color};
+  --mm-muted: #{$muted-text-color};
+  --mm-border: #{$border-color};
+  --mm-code-bg: #{$code-background-color};
+  --mm-form-bg: #{$form-background-color};
+  --mm-link: #{$link-color};
+  --mm-link-hover: #{$link-color-hover};
+  --mm-link-visited: #{$link-color-visited};
+  --mm-primary: #{$primary-color};
+}
+
+// Dark palette, modeled after the theme's built-in "dark" skin
+$dark-mode-bg: #252a34;
+$dark-mode-text: #eaeaea;
+$dark-mode-primary: #00adb5;
+$dark-mode-border: mix(#fff, $dark-mode-bg, 20%);
+$dark-mode-code-bg: mix(#000, $dark-mode-bg, 15%);
+$dark-mode-form-bg: mix(#000, $dark-mode-bg, 15%);
+$dark-mode-muted: mix(#000, $dark-mode-text, 35%);
+$dark-mode-link: mix($dark-mode-primary, $dark-mode-text, 40%);
+$dark-mode-link-hover: mix(#fff, $dark-mode-link, 25%);
+$dark-mode-link-visited: mix(#000, $dark-mode-link, 25%);
+
+html[data-theme="dark"] {
+  --mm-bg: #{$dark-mode-bg};
+  --mm-text: #{$dark-mode-text};
+  --mm-muted: #{$dark-mode-muted};
+  --mm-border: #{$dark-mode-border};
+  --mm-code-bg: #{$dark-mode-code-bg};
+  --mm-form-bg: #{$dark-mode-form-bg};
+  --mm-link: #{$dark-mode-link};
+  --mm-link-hover: #{$dark-mode-link-hover};
+  --mm-link-visited: #{$dark-mode-link-visited};
+  --mm-primary: #{$dark-mode-primary};
+}
+
+html,
+body {
+  transition: background-color 0.25s ease, color 0.25s ease, border-color 0.25s ease;
+}
+
+/* Theme toggle button (placed in the masthead) */
+.theme-toggle {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-left: 0.5rem;
+  margin-right: 0.5rem;
+  height: $nav-toggle-height;
+  border: 0;
+  outline: none;
+  color: #fff;
+  background-color: transparent;
+  cursor: pointer;
+  -webkit-transition: 0.2s;
+  transition: 0.2s;
+
+  &:hover {
+    color: mix(#000, $primary-color, 25%);
+  }
+
+  .icon {
+    width: 1.1em;
+    height: 1.1em;
+    fill: currentColor;
+  }
+
+  .icon--moon {
+    display: none;
+  }
+}
+
+html[data-theme="dark"] .theme-toggle {
+  .icon--sun {
+    display: none;
+  }
+
+  .icon--moon {
+    display: block;
+  }
+}

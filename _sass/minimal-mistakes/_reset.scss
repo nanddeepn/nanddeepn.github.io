@@ -7,7 +7,7 @@
 html {
   /* apply a natural box layout model to all elements */
   box-sizing: border-box;
-  background-color: $background-color;
+  background-color: var(--mm-bg, #{$background-color});
   font-size: 16px;
 
   @include breakpoint($medium) {
@@ -75,7 +75,7 @@ audio:not([controls]) {
 }
 
 a {
-  color: $link-color;
+  color: var(--mm-link, #{$link-color});
 }
 
 /* Apply focus state */

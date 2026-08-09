@@ -120,13 +120,13 @@
 }
 
 .archive__item-title .ais-Highlight {
-  color: $primary-color;
+  color: var(--mm-primary, #{$primary-color});
   font-style: normal;
   text-decoration: underline;
 }
 
 .archive__item-excerpt .ais-Highlight {
-  color: $primary-color;
+  color: var(--mm-primary, #{$primary-color});
   font-style: normal;
   font-weight: bold;
 }
