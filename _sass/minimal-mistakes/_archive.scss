@@ -451,3 +451,81 @@
       }
     }
   }
+
+  /*
+     Home page tiles (modern cards)
+     ========================================================================== */
+
+  .home__tiles {
+    &.grid__wrapper {
+      /* card grid handles its own layout, don't offset for the sidebar */
+      margin-right: 0;
+    }
+
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(220px, 1fr));
+    gap: 1.5em;
+    margin-bottom: 2em;
+
+    @include breakpoint($large) {
+      /* guarantee at least 4 cards per row once the sidebar appears */
+      grid-template-columns: repeat(4, 1fr);
+    }
+
+    .grid__item {
+      /* undo the legacy float/span grid, CSS grid handles placement */
+      float: none;
+      clear: none;
+      width: auto;
+      margin: 0;
+    }
+
+    .archive__item {
+      display: flex;
+      height: 100%;
+      flex-direction: column;
+      background: var(--mm-bg, #fff);
+      border: 1px solid var(--mm-border, #{$border-color});
+      border-radius: $border-radius * 2;
+      overflow: hidden;
+      box-shadow: 0 1px 3px rgba(0, 0, 0, 0.08);
+      transition: $global-transition, box-shadow 0.2s ease-in-out;
+
+      &:hover {
+        transform: translateY(-4px);
+        box-shadow: 0 12px 24px rgba(0, 0, 0, 0.14);
+        border-color: var(--mm-primary, #{$primary-color});
+      }
+    }
+
+    .archive__item-teaser {
+      height: 180px;
+      margin: 0;
+      border-radius: 0;
+
+      img {
+        height: 100%;
+        object-fit: inherit;
+        transition: transform 0.35s ease-in-out;
+      }
+    }
+
+    .archive__item:hover .archive__item-teaser img {
+      transform: scale(1.06);
+    }
+
+    .archive__item-title {
+      margin: 0.75em 1.25em 0.25em;
+      font-size: $type-size-5;
+
+      a[rel="permalink"]::before {
+        /* keep the click target scoped to the card, not the whole grid row */
+        position: absolute;
+      }
+    }
+
+    .page__meta {
+      margin: 0 1.25em 1.25em;
+      opacity: 0.75;
+    }
+  }

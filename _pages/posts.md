@@ -1,7 +1,7 @@
 ---
 title: Home
 layout: collection
-permalink: //
+permalink: /posts-grid/
 collection: posts
 entries_layout: grid
 classes: wide
