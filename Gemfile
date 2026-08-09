@@ -2,6 +2,10 @@ source "https://rubygems.org"
 gemspec
 
 gem 'tzinfo-data', platforms: [:mingw, :mswin, :x64_mingw]
+gem "bigdecimal", "~> 4.1"
+gem "csv"
+
+# bundle install
 
 # bundle update
 # bundle exec jekyll serve
