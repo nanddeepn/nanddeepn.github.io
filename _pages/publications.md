@@ -15,6 +15,35 @@ toc: true
     </tr>
     <tr>
         <td width="50%">
+            <p>Udemy Course: AB-730: AI Business Professional - Microsoft 365 Copilot</p>
+            <a href="https://www.udemy.com/course/complete-guide-to-spfx/?referralCode=86DE6B942CA999ECE222">
+                <img src="https://img-c.udemycdn.com/course/480x270/7281461_4b46_2.jpg" width="336" height="550" frameborder="0" />
+            </a>
+            <p>Published on 09 August, 2026</p>
+        </td>
+        <td>
+            Master Generative AI, Microsoft 365 Copilot, prompting, responsible AI, and prepare confidently for the AB-730 exam.
+            <br/>
+            What You'll Learn:
+            <ul>
+                <li>Prepare for the Microsoft AB-730: AI Business Professional certification exam using exam-aligned concepts and scenarios.</li>
+                <li>Evaluate AI-generated responses and recognize potential issues such as inaccurate information, bias, and inappropriate content.</li>
+                <li>Understand how Microsoft 365 Copilot works with organizational data, Microsoft Graph, and Microsoft 365 applications.</li>
+                <li>Apply responsible AI principles when using generative AI and Copilot in a business environment.</li>
+                <li>Identify appropriate AI and Microsoft 365 Copilot use cases for different business roles and organizational needs.</li>
+                <li>Write effective prompts and apply prompting techniques to get relevant, accurate, and useful responses from AI.</li>
+                <li>Use Microsoft 365 Copilot to improve productivity across everyday tasks, workflows, and business activities.</li>
+                <li>Explain the fundamentals of generative AI and how it can create value in common business scenarios.</li>
+            </ul>
+            <ul>
+                <li>
+                    <a href="https://www.udemy.com/course/ab-730-microsoft-copilot/" target="_blank">Buy at Udemy.com</a>
+                </li>
+            </ul>
+        </td>
+    </tr>
+    <tr>
+        <td width="50%">
             <p>Udemy Course: A Complete Guide to SharePoint Framework (SPFx)</p>
             <a href="https://www.udemy.com/course/complete-guide-to-spfx/?referralCode=86DE6B942CA999ECE222">
                 <img src="https://img-c.udemycdn.com/course/750x422/6374115_0dc8_5.jpg" width="336" height="550" frameborder="0" />
@@ -33,7 +62,7 @@ toc: true
             </ul>
             <ul>
                 <li>
-                    <a href="https://www.udemy.com/course/complete-guide-to-spfx/?referralCode=86DE6B942CA999ECE222" target="_blank">Buy at Udemy.com</a>
+                    <a href="https://www.udemy.com/course/complete-guide-to-spfx/" target="_blank">Buy at Udemy.com</a>
                 </li>
             </ul>
         </td>
