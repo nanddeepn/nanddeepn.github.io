@@ -126,7 +126,7 @@ Comprehensive video courses designed to help you master Microsoft technologies t
   </div>
   <div class="publication-content">
     <h3>AB-730: AI Business Professional - Microsoft 365 Copilot</h3>
-    <span class="publication-date">August 2026</span>
+    <span class="publication-date">09 August, 2026</span>
     <p class="publication-description">
       Master Generative AI, Microsoft 365 Copilot, prompting, responsible AI, and prepare confidently for the AB-730 exam.
     </p>
@@ -155,7 +155,7 @@ Comprehensive video courses designed to help you master Microsoft technologies t
   </div>
   <div class="publication-content">
     <h3>A Complete Guide to SharePoint Framework (SPFx)</h3>
-    <span class="publication-date">April 2025</span>
+    <span class="publication-date">10 April, 2025</span>
     <p class="publication-description">
       Elevate your SharePoint development skills with this comprehensive course designed to take you from beginner to pro in building modern, scalable, and user-friendly solutions using the SharePoint Framework.
     </p>
@@ -169,7 +169,7 @@ Comprehensive video courses designed to help you master Microsoft technologies t
       </ul>
     </div>
     <div class="purchase-links">
-      <a href="https://www.udemy.com/course/complete-guide-to-spfx/?referralCode=86DE6B942CA999ECE222" target="_blank">Enroll on Udemy</a>
+      <a href="https://www.udemy.com/course/complete-guide-to-spfx/" target="_blank">Enroll on Udemy</a>
     </div>
   </div>
 </div>
@@ -187,7 +187,7 @@ Technical books published with leading publishers, providing in-depth coverage o
   </div>
   <div class="publication-content">
     <h3>Running Microsoft Viva Connections</h3>
-    <span class="publication-date">September 2022</span>
+    <span class="publication-date">13 September, 2022</span>
     <p class="publication-description">
       Leverage the collaboration capabilities of Microsoft Viva Connections as an employee experience platform to build a gateway to your digital workplace.
     </p>
@@ -216,7 +216,7 @@ Technical books published with leading publishers, providing in-depth coverage o
   </div>
   <div class="publication-content">
     <h3>Understanding Hybrid Environments in SharePoint 2019</h3>
-    <span class="publication-date">August 2020</span>
+    <span class="publication-date">30 August, 2020</span>
     <p class="publication-description">
       Design and develop hybrid scenarios with SharePoint Online and SharePoint Server 2019. Build hybrid environments from scratch, covering basic to advanced scenarios.
     </p>
@@ -246,7 +246,7 @@ Technical books published with leading publishers, providing in-depth coverage o
   </div>
   <div class="publication-content">
     <h3>Mastering SharePoint Framework</h3>
-    <span class="publication-date">November 2019</span>
+    <span class="publication-date">27 November, 2019</span>
     <p class="publication-description">
       A step-by-step guide to acquire knowledge of the SharePoint Framework (SPFx), build it from scratch, and gradually move towards developing practical examples.
     </p>
