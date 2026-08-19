@@ -322,6 +322,15 @@ Catch me at these upcoming events! I'd love to connect and discuss the latest in
       </tr>
    </thead>
    <tbody>
+     <tr>
+         <td>The Azure and AI Show</td>
+         <td>
+            <a href="https://www.linkedin.com/events/7495564058511884289/"
+               >Building Smarter AI Agents with Microsoft IQ</a>
+         </td>
+         <td>22 August, 2026</td>
+         <td><span class="location-badge location-online">Online</span></td>
+      </tr>
       <tr>
          <td>The AI-Native Workplace Summit 2026</td>
          <td>
