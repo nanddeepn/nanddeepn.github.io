@@ -323,12 +323,12 @@ Catch me at these upcoming events! I'd love to connect and discuss the latest in
    </thead>
    <tbody>
      <tr>
-         <td>The Azure and AI Show</td>
+         <td>Global Microsoft Hindi (हिंदी) Conference 2026</td>
          <td>
-            <a href="https://www.linkedin.com/events/7495564058511884289/"
-               >Building Smarter AI Agents with Microsoft IQ</a>
+            <a href="https://sessionize.com/global-microsoft-hindi-hindii-conferenc213/"
+               >The Power of Prompts in SharePoint: Building AI, Agents, and Intelligent Experiences</a>
          </td>
-         <td>22 August, 2026</td>
+         <td>12 September, 2026</td>
          <td><span class="location-badge location-online">Online</span></td>
       </tr>
       <tr>
@@ -362,6 +362,16 @@ A comprehensive list of all conferences, user groups, and community events where
       </tr>
    </thead>
    <tbody>
+     <tr>
+         <td><span class="event-number">234</span></td>
+         <td>The Azure and AI Show</td>
+         <td>
+            <a href="https://www.linkedin.com/events/7495564058511884289/"
+               >Building Smarter AI Agents with Microsoft IQ</a>
+         </td>
+         <td>22 August, 2026</td>
+         <td><span class="location-badge location-online">Online</span></td>
+      </tr>
       <tr>
          <td><span class="event-number">233</span></td>
          <td>Microsoft Build localhost: Gurugram</td>
