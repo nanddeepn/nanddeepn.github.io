@@ -321,16 +321,7 @@ Catch me at these upcoming events! I'd love to connect and discuss the latest in
          <th style="width: 120px">Location</th>
       </tr>
    </thead>
-   <tbody>
-     <tr>
-         <td>Global Microsoft Hindi (हिंदी) Conference 2026</td>
-         <td>
-            <a href="https://sessionize.com/global-microsoft-hindi-hindii-conferenc213/"
-               >The Power of Prompts in SharePoint: Building AI, Agents, and Intelligent Experiences</a>
-         </td>
-         <td>12 September, 2026</td>
-         <td><span class="location-badge location-online">Online</span></td>
-      </tr>
+   <tbody>     
       <tr>
          <td>The AI-Native Workplace Summit 2026</td>
          <td>
@@ -362,6 +353,16 @@ A comprehensive list of all conferences, user groups, and community events where
       </tr>
    </thead>
    <tbody>
+     <tr>
+         <td><span class="event-number">235</span></td>
+         <td>Global Microsoft Hindi (हिंदी) Conference 2026</td>
+         <td>
+            <a href="https://global-microsoft-hindi-hindii-conferenc213.sessionize.com/session/1306964"
+               >The Power of Prompts in SharePoint: Building AI, Agents, and Intelligent Experiences</a>
+         </td>
+         <td>12 September, 2026</td>
+         <td><span class="location-badge location-online">Online</span></td>
+      </tr>
      <tr>
          <td><span class="event-number">234</span></td>
          <td>The Azure and AI Show</td>
