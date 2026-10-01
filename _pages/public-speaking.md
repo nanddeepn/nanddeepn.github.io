@@ -323,13 +323,12 @@ Catch me at these upcoming events! I'd love to connect and discuss the latest in
    </thead>
    <tbody>     
       <tr>
-         <td>The AI-Native Workplace Summit 2026</td>
+         <td>MMAUG 30-Day AI and DevOps Fundamentals Bootcamp</td>
          <td>
-            <a href="https://ainativeworkplace.com/"
-               >Leading at the Frontier: Building an AI-Ready Organization</a
-            >
+            <a href="https://mmaug.com/bootcamp"
+               >Exploring Specialized Agents in Microsoft 365 Copilot</a>
          </td>
-         <td>16 September, 2026</td>
+         <td>20 October, 2026</td>
          <td><span class="location-badge location-online">Online</span></td>
       </tr>
    </tbody>
@@ -353,6 +352,16 @@ A comprehensive list of all conferences, user groups, and community events where
       </tr>
    </thead>
    <tbody>
+     <tr>
+         <td><span class="event-number">236</span></td>
+         <td>The AI-Native Workplace Summit 2026</td>
+         <td>
+            <a href="https://ainativeworkplace.com/"
+               >Leading at the Frontier: Building an AI-Ready Organization</a>
+         </td>
+         <td>16 September, 2026</td>
+         <td><span class="location-badge location-online">Online</span></td>
+      </tr>
      <tr>
          <td><span class="event-number">235</span></td>
          <td>Global Microsoft Hindi (हिंदी) Conference 2026</td>
