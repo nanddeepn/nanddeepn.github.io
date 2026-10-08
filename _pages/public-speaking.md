@@ -323,6 +323,15 @@ Catch me at these upcoming events! I'd love to connect and discuss the latest in
    </thead>
    <tbody>     
       <tr>
+         <td>Podcast</td>
+         <td>
+            <a href="https://www.linkedin.com/newsletters/chai-community-code-7466729856148398080/"
+               >ChAI, Community & Code</a>
+         </td>
+         <td>31 October, 2026</td>
+         <td><span class="location-badge location-online">Online</span></td>
+      </tr>
+      <tr>
          <td>MMAUG 30-Day AI and DevOps Fundamentals Bootcamp</td>
          <td>
             <a href="https://mmaug.com/bootcamp"
