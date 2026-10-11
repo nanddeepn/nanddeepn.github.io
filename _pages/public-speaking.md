@@ -340,6 +340,15 @@ Catch me at these upcoming events! I'd love to connect and discuss the latest in
          <td>20 October, 2026</td>
          <td><span class="location-badge location-online">Online</span></td>
       </tr>
+       <tr>
+           <td>M365 Con 27 - The Microsoft Community Convention</td>
+           <td>
+              <a href="https://m365con.net/talks/mcp-microsoft-foundry-connecting-ai-agents-to-the-enterprise/"
+                 >MCP + Microsoft Foundry: Connecting AI Agents to the Enterprise</a>
+           </td>
+           <td>22 January, 2027</td>
+           <td><span class="location-badge location-online">Online</span></td>
+        </tr>
    </tbody>
 </table>
 
