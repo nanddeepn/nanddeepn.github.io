@@ -321,7 +321,25 @@ Catch me at these upcoming events! I'd love to connect and discuss the latest in
          <th style="width: 120px">Location</th>
       </tr>
    </thead>
-   <tbody>     
+   <tbody>
+     <tr>
+         <td>MMAUG 30-Day AI and DevOps Fundamentals Bootcamp</td>
+         <td>
+            <a href="https://mmaug.com/bootcamp"
+               >Exploring Specialized Agents in Microsoft 365 Copilot</a>
+         </td>
+         <td>20 October, 2026</td>
+         <td><span class="location-badge location-online">Online</span></td>
+      </tr>
+      <tr>
+         <td>Agentic AI Summit 2026</td>
+         <td>
+            <a href="https://innovationtechcommunity.com/events/agentic-ai-summit-2026"
+               >Build a Secure Multi-Tool AI Agent with Microsoft Foundry, APIs, and MCP</a>
+         </td>
+         <td>24 October, 2026</td>
+         <td><span class="location-badge location-online">Online</span></td>
+      </tr>
       <tr>
          <td>Podcast</td>
          <td>
@@ -331,15 +349,7 @@ Catch me at these upcoming events! I'd love to connect and discuss the latest in
          <td>31 October, 2026</td>
          <td><span class="location-badge location-online">Online</span></td>
       </tr>
-      <tr>
-         <td>MMAUG 30-Day AI and DevOps Fundamentals Bootcamp</td>
-         <td>
-            <a href="https://mmaug.com/bootcamp"
-               >Exploring Specialized Agents in Microsoft 365 Copilot</a>
-         </td>
-         <td>20 October, 2026</td>
-         <td><span class="location-badge location-online">Online</span></td>
-      </tr>
+      
        <tr>
            <td>M365 Con 27 - The Microsoft Community Convention</td>
            <td>
