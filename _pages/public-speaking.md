@@ -349,7 +349,15 @@ Catch me at these upcoming events! I'd love to connect and discuss the latest in
          <td>31 October, 2026</td>
          <td><span class="location-badge location-online">Online</span></td>
       </tr>
-      
+      <tr>
+         <td>Microsoft 365 Live 2026</td>
+         <td>
+            <a href="https://microsoft365live.github.io/26/"
+               >The Power of Prompts in SharePoint for Building Smarter AI & Agents</a>
+         </td>
+         <td>04 November, 2026</td>
+         <td><span class="location-badge location-online">Online</span></td>
+      </tr>
        <tr>
            <td>M365 Con 27 - The Microsoft Community Convention</td>
            <td>
