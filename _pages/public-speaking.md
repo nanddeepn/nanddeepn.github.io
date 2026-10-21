@@ -321,16 +321,7 @@ Catch me at these upcoming events! I'd love to connect and discuss the latest in
          <th style="width: 120px">Location</th>
       </tr>
    </thead>
-   <tbody>
-     <tr>
-         <td>MMAUG 30-Day AI and DevOps Fundamentals Bootcamp</td>
-         <td>
-            <a href="https://mmaug.com/bootcamp"
-               >Exploring Specialized Agents in Microsoft 365 Copilot</a>
-         </td>
-         <td>20 October, 2026</td>
-         <td><span class="location-badge location-online">Online</span></td>
-      </tr>
+   <tbody>     
       <tr>
          <td>Agentic AI Summit 2026</td>
          <td>
@@ -388,6 +379,16 @@ A comprehensive list of all conferences, user groups, and community events where
       </tr>
    </thead>
    <tbody>
+     <tr>
+         <td><span class="event-number">237</span></td>
+         <td>MMAUG 30-Day AI and DevOps Fundamentals Bootcamp</td>
+         <td>
+            <a href="https://mmaug.com/bootcamp"
+               >Exploring Specialized Agents in Microsoft 365 Copilot</a>
+         </td>
+         <td>20 October, 2026</td>
+         <td><span class="location-badge location-online">Online</span></td>
+     </tr>
      <tr>
          <td><span class="event-number">236</span></td>
          <td>The AI-Native Workplace Summit 2026</td>
