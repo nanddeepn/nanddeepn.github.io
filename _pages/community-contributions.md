@@ -152,6 +152,17 @@ Open source samples, scripts, web parts, and connectors shared with the communit
       </tr>
    </thead>
    <tbody>
+     <tr>
+         <td><span class="contrib-number">23</span></td>
+         <td>PnP SPFx Copilot Component</td>
+         <td>
+            <a
+               href="https://github.com/pnp/spfx-copilot-components/tree/main/samples/viva-engage-explorer"
+               >Viva Engage Community Explorer</a
+            >
+         </td>
+         <td>16 October, 2026</td>
+      </tr>
       <tr>
          <td><span class="contrib-number">22</span></td>
          <td>PnP Sample Script</td>
