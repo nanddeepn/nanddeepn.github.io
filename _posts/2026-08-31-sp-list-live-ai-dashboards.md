@@ -1538,4 +1538,4 @@ That turns SharePoint from simply a place where business data lives into a platf
 ## References
 
 - [What's New in Copilot in SharePoint: August 2026](https://techcommunity.microsoft.com/blog/spblog/whats-new-in-copilot-in-sharepoint-august-2026/4535421?WT.mc_id=M365-MVP-5003693)
-- [Microsoft Learn — Get started with Copilot in SharePoint (preview)](https://learn.microsoft.com/en-us/sharepoint/copilot-in-sharepoint-get-started?utm_source=chatgpt.com?WT.mc_id=M365-MVP-5003693)
+- [Microsoft Learn — Get started with Copilot in SharePoint (preview)](https://learn.microsoft.com/en-us/sharepoint/copilot-in-sharepoint-get-started?WT.mc_id=M365-MVP-5003693)
