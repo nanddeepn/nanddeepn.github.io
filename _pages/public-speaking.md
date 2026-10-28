@@ -323,15 +323,6 @@ Catch me at these upcoming events! I'd love to connect and discuss the latest in
    </thead>
    <tbody>
       <tr>
-         <td>Podcast</td>
-         <td>
-            <a href="https://www.linkedin.com/newsletters/chai-community-code-7466729856148398080/"
-               >ChAI, Community & Code</a>
-         </td>
-         <td>31 October, 2026</td>
-         <td><span class="location-badge location-online">Online</span></td>
-      </tr>
-      <tr>
          <td>Microsoft 365 Live 2026</td>
          <td>
             <a href="https://microsoft365live.github.io/26/"
@@ -340,6 +331,15 @@ Catch me at these upcoming events! I'd love to connect and discuss the latest in
          <td>04 November, 2026</td>
          <td><span class="location-badge location-online">Online</span></td>
       </tr>
+      <tr>
+         <td>Podcast</td>
+         <td>
+            <a href="https://www.linkedin.com/newsletters/chai-community-code-7466729856148398080/"
+               >ChAI, Community & Code</a>
+         </td>
+         <td>14 November, 2026</td>
+         <td><span class="location-badge location-online">Online</span></td>
+       </tr>
        <tr>
            <td>M365 Con 27 - The Microsoft Community Convention</td>
            <td>
