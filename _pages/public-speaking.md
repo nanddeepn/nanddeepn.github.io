@@ -321,16 +321,7 @@ Catch me at these upcoming events! I'd love to connect and discuss the latest in
          <th style="width: 120px">Location</th>
       </tr>
    </thead>
-   <tbody>
-      <tr>
-         <td>Microsoft 365 Live 2026</td>
-         <td>
-            <a href="https://microsoft365live.github.io/26/"
-               >The Power of Prompts in SharePoint for Building Smarter AI & Agents</a>
-         </td>
-         <td>04 November, 2026</td>
-         <td><span class="location-badge location-online">Online</span></td>
-      </tr>
+   <tbody>      
       <tr>
          <td>Podcast</td>
          <td>
@@ -370,6 +361,16 @@ A comprehensive list of all conferences, user groups, and community events where
       </tr>
    </thead>
    <tbody>
+     <tr>
+         <td><span class="event-number">239</span></td>
+         <td>Microsoft 365 Live 2026</td>
+         <td>
+            <a href="https://microsoft365live2026.sessionize.com/session/1351495"
+               >The Power of Prompts in SharePoint for Building Smarter AI & Agents</a>
+         </td>
+         <td>07 November, 2026</td>
+         <td><span class="location-badge location-online">Online</span></td>
+      </tr>
      <tr>
          <td><span class="event-number">238</span></td>
          <td>Agentic AI Summit 2026</td>
