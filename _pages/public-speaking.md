@@ -323,12 +323,12 @@ Catch me at these upcoming events! I'd love to connect and discuss the latest in
    </thead>
    <tbody>      
       <tr>
-         <td>Podcast</td>
+         <td>Microsoft Global AI & Analytics Community Conference 5</td>
          <td>
-            <a href="https://www.linkedin.com/newsletters/chai-community-code-7466729856148398080/"
-               >ChAI, Community & Code</a>
+            <a href="https://techmilap.com/explore/6ad09e811ba1eb3a3c9827d0"
+               >TBD</a>
          </td>
-         <td>14 November, 2026</td>
+         <td>05 December, 2026</td>
          <td><span class="location-badge location-online">Online</span></td>
        </tr>
        <tr>
@@ -3293,6 +3293,14 @@ A comprehensive list of all conferences, user groups, and community events where
 Featured on various podcasts discussing Microsoft technologies, community contributions, and career insights. 
 {: .notice--info}
 
+<div class="podcast-card">
+   <div class="podcast-number">15</div>
+   <div class="podcast-content">
+      <div class="podcast-show">ChAI, Community & Code</div>
+      <div class="podcast-topic">Show with Aroh Shukla</div>
+   </div>
+   <div class="podcast-date">14 November, 2026</div>
+</div>
 <div class="podcast-card">
    <div class="podcast-number">14</div>
    <div class="podcast-content">
