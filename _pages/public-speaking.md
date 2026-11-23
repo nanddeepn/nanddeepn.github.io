@@ -321,23 +321,23 @@ Catch me at these upcoming events! I'd love to connect and discuss the latest in
          <th style="width: 120px">Location</th>
       </tr>
    </thead>
-   <tbody>
+   <tbody>     
+     <tr>
+       <td>Microsoft Global AI & Analytics Community Conference 5</td>
+       <td>
+          <a href="https://techmilap.com/explore/6ad09e811ba1eb3a3c9827d0"
+             >Unlocking Enterprise Intelligence with Microsoft IQ and Foundry Agents</a>
+       </td>
+       <td>05 December, 2026</td>
+       <td><span class="location-badge location-online">Online</span></td>
+     </tr>
      <tr>
        <td>AI Agents Conference</td>
        <td>
           <a href="https://aiagentsconference.live/speaker/nanddeep-nachan"
              >Agents Without Borders: Cross-Platform Agent Communication with A2A</a>
        </td>
-       <td>23 November, 2026</td>
-       <td><span class="location-badge location-online">Online</span></td>
-     </tr>
-     <tr>
-       <td>Microsoft Global AI & Analytics Community Conference 5</td>
-       <td>
-          <a href="https://techmilap.com/explore/6ad09e811ba1eb3a3c9827d0"
-             >TBD</a>
-       </td>
-       <td>05 December, 2026</td>
+       <td>01 December, 2026</td>
        <td><span class="location-badge location-online">Online</span></td>
      </tr>
      <tr>
