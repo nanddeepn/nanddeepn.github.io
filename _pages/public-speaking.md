@@ -337,7 +337,7 @@ Catch me at these upcoming events! I'd love to connect and discuss the latest in
           <a href="https://techmilap.com/explore/6ad09e811ba1eb3a3c9827d0"
              >Unlocking Enterprise Intelligence with Microsoft IQ and Foundry Agents</a>
        </td>
-       <td>05 December, 2026</td>
+       <td>06 December, 2026</td>
        <td><span class="location-badge location-online">Online</span></td>
      </tr>     
      <tr>
