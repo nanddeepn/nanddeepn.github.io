@@ -339,7 +339,16 @@ Catch me at these upcoming events! I'd love to connect and discuss the latest in
        </td>
        <td>06 December, 2026</td>
        <td><span class="location-badge location-online">Online</span></td>
-     </tr>     
+     </tr>
+     <tr>
+       <td>Pune DevCon 2026</td>
+       <td>
+          <a href="https://www.puneusergroup.org/events/devcon2026/#agenda"
+             >Unlock the Power of AI & Agents in SharePoint</a>
+       </td>
+       <td>12 December, 2026</td>
+       <td><span class="location-badge location-online">Online</span></td>
+     </tr>
      <tr>
          <td>M365 Con 27 - The Microsoft Community Convention</td>
          <td>
